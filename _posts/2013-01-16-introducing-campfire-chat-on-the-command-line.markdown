@@ -1,16 +1,17 @@
 ---
-layout: post
-title: "Introducing TermCamp, a Campfire command line client"
-date: 2013-01-16 20:47
+layout:     post
+title:      "Introducing TermCamp, a Campfire command line client"
+subtitle:   "Campfire in your terminal with bells and notifiers"
+date:       2013-01-16 20:47
 categories: [cli,node]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/shuksan.jpg"
 ---
 
 [TermCamp][tc] is a new command line client for [37 Signals][37] [Campfire Chat][fire].
 It's written for [node][nd], and looks like this:
 
--- img /assets/images/posts/termcamp-sample.png [574] [377] [Sample TermCamp] --
+![Sample TermCamp](/img/posts/termcamp-sample.png)
 
 It's got a nice collection of features that make it a remarkably complete client:
 
@@ -28,11 +29,6 @@ client is perfect for that use case.
 
 
 You can [clone or fork the project][tc] on GitHub.
-
-<a href="https://github.com/bengl/node-termcamp" id="github">
-  <img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" />
-</a>
-
 
 [tc]: https://github.com/bengl/node-termcamp
 [nd]: http://nodejs.org/

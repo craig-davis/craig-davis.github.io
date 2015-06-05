@@ -1,30 +1,37 @@
 ---
-layout: post
-title: "jQuery Animated Border: jquery.animatedborders.js"
-date: 2013-01-03 18:11
-comments: false
-categories: jQuery
-tags: [jQuery,javascript,plugins,ui]
+layout:     post
+title:      "jQuery Animated Border: jquery.animatedborders.js"
+subtitle:   "Draw attention to an element with a lightweight effect"
+date:       2013-01-03 18:11
+tags:       [jQuery,javascript,plugins,ui]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/laptop.jpg"
 ---
-
-<script src="/assets/javascript/jquery.animatedborder.js" type="text/javascript"></script>
+<style>
+.alpha { clear: both; }
+.alpha, .bravo, .charlie, .delta {
+    width: 104px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    background: #ffffff;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+</style>
+<script src="http://there4development.com/assets/javascript/jquery.animatedborder.js" type="text/javascript"></script>
 <script type="text/javascript">
-
 $(function() {
   $('div.alpha').animatedBorder({size : 1, color : 'red'});
-
   $('div.bravo').click(function(){
     $(this).animatedBorder();
     return false;
   });
-
   $('div.charlie').animatedBorder({size : 6, color : '#FFCC66'});
-
   $('div.delta').animatedBorder({size: 2, color: '#4E7CB1', hover: true});
 });
-
 </script>
 
 Animated borders for any block level element. This plugin creates an animated
@@ -34,7 +41,7 @@ border with configurable thickness and color.
 ## Download
 
 * <a href="https://github.com/there4/jquery-animatedborder/zipball/master">jquery.animatedborder.zip</a> <small>Master</small>
-* <a href="stripe.gif">stripe.gif</a> <small>transparent white, 4x4 check</small>
+* <a href="https://github.com/there4/jquery-animatedborder/blob/master/css/stripe.gif">stripe.gif</a> <small>transparent white, 4x4 check</small>
 
 ## Examples
 
@@ -50,19 +57,24 @@ border with configurable thickness and color.
 The animated border method toggles animated borders on an element. To apply
 animated borders to an elements:
 
-    $('div.alpha').animatedBorder({size : 1, color : 'red'});
+{% highlight javascript %}
+$('div.alpha').animatedBorder({size : 1, color : 'red'});
+{% endhighlight %}
 
 Apply it again to remove the borders:
 
-    $('div.alpha').animatedBorder();
+{% highlight javascript %}
+$('div.alpha').animatedBorder();
+{% endhighlight %}
 
 The plugin accepts a configuration object. You can specify a background color,
 and the size of the border.
-
-    options = {
-      size: 2,
-      color: '#6699CC'
-    }
+{% highlight javascript %}
+options = {
+    size: 2,
+    color: '#6699CC'
+}
+{% endhighlight %}
 
 ## Known Issues
 
@@ -72,12 +84,6 @@ and the size of the border.
   page for the illusion to work. If you had a page with surrounding elements under the border, or you had
   a non white background, you should create a new animated gif with blocks that are transparent and the
   desired border color.
-
-
-
-<a href="https://github.com/there4/jquery-animatedborder" id="github">
-  <img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" />
-</a>
 
 
 

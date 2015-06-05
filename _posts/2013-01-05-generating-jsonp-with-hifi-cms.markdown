@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Generating JSONP with HiFi CMS"
+subtitle: "Using HiFi CMS as a remote data source"
 date: 2013-01-05 09:13
 comments: true
 tags: [javascript,backbonejs,hifi-cms]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/efgh.jpg"
 ---
 
 I've been using [HiFi CMS][hifi] in a variety of projects lately. I'm weary of
@@ -35,10 +36,13 @@ jsonp in our application.
   how to skate article and render it with the __jsonp__ template.
 
 __HiFi Developer Editor:__
--- img /assets/images/posts/hifi-jsonp.png [231] [316] [HiFi Templates with JSONP output] --
+![HiFi Templates with JSONP output](/img/posts/hifi-jsonp.png)
 
 Here's the content of the index.jsonp template:
--- gist 4462076 index.jsonp --
+
+{% highlight html %}
+{{hifi.http.get.jsonCallback}}({"title":"{{ this.title|e('js') }}","content":"{{ this.content|e('js') }}"});
+{% endhighlight %}
 
 I've used this with [BackboneJS][bb] to fetch help text from a
 support article. We're extending this model with the url to the article
@@ -46,7 +50,46 @@ and a default title.  Note in the `index.jsonp` file that we've used `jsonCallba
 as the parameter for the callback function name. This then means that our
 ajax request looks like this:
 
--- gist 4462137 jsonp.js --
+{% highlight javascript %}
+//
+// Backbone JSONP Model Abstract
+// =============================================================================
+//
+// * Author: [Craig Davis](craig@there4development.com)
+// * Since: 1/4/2013
+// -----------------------------------------------------------------------------
+//
+define([
+  "jquery",
+  "underscore",
+  "Backbone"
+],
+function(
+  $, _, Backbone
+) {
+
+  return Backbone.Model.extend({
+
+    sync: function(method, model, options) {
+
+      var params = _.extend({
+        type:        "GET",
+        url:         _.isFunction(this.url) ? this.url() : this.url,
+        async:       false,
+        jsonp:       "jsonCallback",
+        contentType: "application/json",
+        dataType:    "jsonp",
+        processData: false
+      }, options);
+
+      return $.ajax(params);
+    }
+  });
+
+});
+
+/* End of file jsonp.js */
+{% endhighlight %}
 
 Now we've got a model that allows us to fetch blog posts from our hosted CMS,
 while allowing us to continue to host the content on the primary site as well.

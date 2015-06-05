@@ -1,10 +1,11 @@
 ---
-layout: post
-title: "Unit Testing Slim PHP Framework applications with PHPUnit"
-date: 2013-10-13 11:45
-tags: [php, slim, phpunit]
+layout:     post
+title:      "Unit Testing Slim PHP Framework applications with PHPUnit"
+subtitle:   "Integration testing Slim without a webserver"
+date:       2013-10-13 11:45
+tags:       [php, slim, phpunit]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/driftwood.jpg"
 ---
 
 [Slim][slim] is a great PHP framework with a small footprint and everything you need to build fast applications. I've found it particularly well suited to delivering data to [BackboneJS][bb] applications.
@@ -15,7 +16,7 @@ However, I haven't found a great deal of information about integration and unit 
 
 Here's [a test][version_test] for a very simple endpoint that returns the version from the application config. We're asserting that Slim responded with a `200` and that the version matches what we expect.
 
-```php
+{% highlight php startinline %}
 class VersionTest extends Slim_Framework_TestCase {
     public function testVersion() {
         $this->get('/version');
@@ -23,7 +24,7 @@ class VersionTest extends Slim_Framework_TestCase {
         $this->assertEquals($this->app->config('version'), $this->response->body());
     }
 }
-```
+{% endhighlight %}
 
 ## Concepts
 
@@ -49,59 +50,6 @@ When phpunit runs, it looks for the phpunit.xml file in our root. This file spec
 
 With these methods, you can run end to end tests on SlimPHP routes without a webserver. The tests run entirely within a mock environment, and will be fast and efficient.
 
-## The Bootstrap
-
-You can see the [full bootstrap][bootstrap] at gitub. Here's some extra comments about what's going on:
-
-Before each unit test method is run, we make a fresh environment for Slim
-    public function setup() {
-
-Initialize our app, this should mimic your production setup. During an integration test, the system under test should be as nearly identical to production as possible. Here's the creation of our application:
-
-    $app = new \Slim\Slim(array(
-      'version' => '0.0.0',
-      'debug'   => false,
-      'mode'    => 'testing'
-    ));
-
-Include our application routes file.
-    require __DIR__ . '/../app/app.php';
-
-This one may not be the exact spirit of PHPUnit, but I find that it's a convienent way of accessing our application while it's under test. We add a reference to the application onto our phpunit instance.
-    $this->app = $app;
-
-End our test method setup
-    }
-
-Now, we add a way to PHPUnit to trigger our routes by adding a new function called `request()`. This is a generic method for all HTTP methods, and we'll use to make shorthand methods for `get()`, `post()`, etc.
-    public function request($method, $path, $options = array())
-    {
-
-Some slim actions are going to print to STDOUT. We'll use output buffering to trap this so that we can inspect output and run the application quietly.
-    ob_start();
-
-This is the heart of this approach, creating a mock environment for Slim. This lets us run the unit tests without a webserver, without curl, without anything other than PHPUnit. This sets up the environment as if the application was running under a webserver:
-    \Slim\Environment::mock(array_merge(array(
-        'REQUEST_METHOD' => $method,
-        'PATH_INFO'      => $path,
-        'SERVER_NAME'    => 'local.dev',
-    ), $options));
-
-These are strictly for shorthand access in test methods. It allows us to do things like `$this->assertEquals(200, $this->response->status());`.
-    $this->request  = $this->app->request();
-    $this->response = $this->app->response();
-
-Execute our slim application within our testing environment. This fires the routes that were setup in the environment mocking.
-    $this->app->run();
-
-Return the application output. Also available in `response->body()`
-    return ob_get_clean();
-
-End the request mocking.
-    }
-
-This `request()` allows us to write shorthand methods and easily run Slim routes.
-
 ## Unit Testing vs. Integration Testing
 
 Unit tests should test an individual part of code. The system under test should be as small as possible. You would unit test an individual method. Integration testing exercises an entire system. Most of this example is about integration testing. We are running tests that work Slim from initial instantiation to the final delivery of data. With integration tests, we're treating the entire application as a unit, setting up a particular initial environment and then executing the `run()` command and finally inspecting the results to ensure that they match our expectations.
@@ -112,11 +60,6 @@ See the [ZenTest][zen_test] for an example of mocking with SlimPHP dependency in
 The [FileStoreTest][file_test] uses a mock for the authentication class. Notice that the file store route doesn't use that class directly, but instead it is used by the application authenticator method. We're using the app dependency injection container to swap out the real object for a mock version. This approach allows us to control authentication results from within our test harness.
 
 You can read more about dependency injection in the [SlimDocs on DI][di], and more about mock objects in the [PHPUnit docs][php_mock].
-
-
-<a href="https://github.com/there4/slim-unit-testing-example" id="github">
-  <img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" />
-</a>
 
 [bootstrap]: https://github.com/there4/slim-unit-testing-example/blob/master/tests/bootstrap.php
 [app]: https://github.com/there4/slim-unit-testing-example

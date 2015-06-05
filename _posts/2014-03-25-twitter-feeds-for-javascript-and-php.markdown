@@ -5,7 +5,7 @@ subtitle:   "Using Yahoo Pipes to Combine and Filter SS Feeds"
 date:       2014-03-25 09:36
 tags:       [php, javascript, twitter, pipes]
 author:     "Craig Davis"
-header-img: "img/kobelco.jpg"
+header-img: "img/headers/kobelco.jpg"
 ---
 
 I've found that my GitHub activity page has been a great resource for discovering new projects. In particular, finding the right people to follow has been key. As an experiment, I've created two new twitter accounts to expose some of this.
@@ -16,7 +16,7 @@ I've created two new accounts and GitHub and two matching ones on Twitter, [one 
 
 These accounts each generate two RSS feeds. I use [Yahoo Pipes][pipes] to combine and filter these feeds. You can see how this currently works:
 
-![Filtering and Combining](/images/pipes-workflow.png "Yahoo Pipes")
+![Filtering and Combining](/img/posts/pipes-workflow.png "Yahoo Pipes")
 
 The output feed is then given to [Ifttt.com][ifttt] to post to Twitter.
 

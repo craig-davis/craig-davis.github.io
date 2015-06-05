@@ -1,10 +1,11 @@
 ---
-layout: post
-title: "Partial API Mocking in Backbone JavaScript"
-date: 2013-03-29 07:34
-tags: [backbone, js, ajax]
+layout:     post
+title:      "Partial API Mocking in Backbone JavaScript"
+subtitle:   "Faster development with JSON contracts"
+date:       2013-03-29 07:34
+tags:       [backbone, js, ajax]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/klx.jpg"
 ---
 
 This project allows a [BackboneJS][bb] application to use fixture data in the UI
@@ -38,11 +39,6 @@ they didn't communicate with the api. Development with this allows you ignore
 the fact that you're using mock data.
 
 [Check out the repo][gh] for examples and implementation.
-
-
-<a href="https://github.com/there4/partial-api-mock" id="github">
-  <img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
-</a>
 
 [bb]: http://backbonejs.org/
 [ember]: http://emberjs.com/
