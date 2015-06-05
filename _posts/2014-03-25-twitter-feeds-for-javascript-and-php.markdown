@@ -1,11 +1,11 @@
 ---
-layout: post
-title: "Twitter Feeds for JavaScript and PHP"
-subtitle: "A simple subtitle"
-date: 2014-03-25 09:36
-tags: [php, javascript, twitter, pipes]
+layout:     post
+title:      "Twitter Feeds for JavaScript and PHP"
+subtitle:   "Using Yahoo Pipes to Combine and Filter SS Feeds"
+date:       2014-03-25 09:36
+tags:       [php, javascript, twitter, pipes]
 author:     "Craig Davis"
-header-img: "img/twitter-pipes.png"
+header-img: "img/kobelco.jpg"
 ---
 
 I've found that my GitHub activity page has been a great resource for discovering new projects. In particular, finding the right people to follow has been key. As an experiment, I've created two new twitter accounts to expose some of this.
