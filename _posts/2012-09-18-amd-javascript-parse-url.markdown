@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "AMD Javascript Parse URL"
-comments: true
-tags: [backbone, js]
+layout:     post
+title:      "AMD Javascript Parse URL"
+comments:   true
+tags:       [backbone, js]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/vienna.jpg"
 ---
 
 I recently had need to parse a url provided by an api. I looked at a resource such as
