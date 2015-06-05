@@ -1,0 +1,16 @@
+# Site settings
+title: Craig Davis
+header-img: img/notebook.jpeg
+email: cadavis@gmail.com
+description: "Craig Davis - Code, Bikes, Photos"
+baseurl:
+url: "http://there.io"
+twitter_username: There4Dev
+github_username:  craig-davis
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
