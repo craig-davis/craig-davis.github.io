@@ -428,3 +428,8 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+dl.projects dd {
+  margin-bottom: .5em;
+  margin-left: 1em;
+  font-size: 90%;
+}
