@@ -21,27 +21,9 @@ header-img: "img/headers/laptop.jpg"
     font-family: Helvetica, sans-serif;
 }
 </style>
-<script src="http://there4development.com/assets/javascript/jquery.animatedborder.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(function() {
-  $('div.alpha').animatedBorder({size : 1, color : 'red'});
-  $('div.bravo').click(function(){
-    $(this).animatedBorder();
-    return false;
-  });
-  $('div.charlie').animatedBorder({size : 6, color : '#FFCC66'});
-  $('div.delta').animatedBorder({size: 2, color: '#4E7CB1', hover: true});
-});
-</script>
 
 Animated borders for any block level element. This plugin creates an animated
 border with configurable thickness and color.
-
-
-## Download
-
-* <a href="https://github.com/there4/jquery-animatedborder/zipball/master">jquery.animatedborder.zip</a> <small>Master</small>
-* <a href="https://github.com/there4/jquery-animatedborder/blob/master/css/stripe.gif">stripe.gif</a> <small>transparent white, 4x4 check</small>
 
 ## Examples
 
@@ -51,6 +33,11 @@ border with configurable thickness and color.
   <div class="charlie">Fat Border</div>
   <div class="delta">Hover Triggered</div>
 </div>
+
+## Download
+
+* <a href="https://github.com/there4/jquery-animatedborder/zipball/master">jquery.animatedborder.zip</a> <small>Master</small>
+* <a href="https://github.com/there4/jquery-animatedborder/blob/master/css/stripe.gif">stripe.gif</a> <small>transparent white, 4x4 check</small>
 
 ## Instructions
 

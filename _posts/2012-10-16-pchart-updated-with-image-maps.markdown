@@ -1,18 +1,12 @@
 ---
-layout: post
-title: "pChart updated with image maps"
-date: 2012-10-16 09:20
-comments: false
-tags: [php, jQuery]
+layout:     post
+title:      "pChart updated with image maps"
+subtitle:   "Server side generated charting"
+date:       2012-10-16 09:20
+tags:       [php, jQuery]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/iowa.jpg"
 ---
 
 Please see the project page at GitHub
 for [pChart Image Map](https://github.com/there4/pchart-map).
-
-
-<a href="https://github.com/there4/pchart-map" id="github">
-  <img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" />
-</a>
-

@@ -9,5 +9,4 @@ author:     "Craig Davis"
 header-img: ""
 ---
 
-{% gistnocache 4218777 jsthb.js%}
 

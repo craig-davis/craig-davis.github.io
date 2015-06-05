@@ -4,6 +4,30 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+.animatedBorder {
+  position: relative;
+}
+.animatedBorderSprite {
+  position: absolute;
+  margin: 0;
+  background: url(/img/posts/stripe.gif);
+}
+.animatedBorderSprite-top {
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-topright: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.animatedBorderSprite-bottom {
+  -webkit-border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;

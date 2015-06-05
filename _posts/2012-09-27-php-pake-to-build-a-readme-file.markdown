@@ -1,11 +1,11 @@
 ---
-layout: post
-title: "PHP Pake to build a README file"
-date: 2012-09-27 15:51
-comments: true
-tags: [php, pake]
+layout:     post
+title:      "PHP Pake to build a README file"
+subtitle:   "Add command line help output to a README"
+date:       2012-09-27 15:51
+tags:       [php, pake]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/deck.jpg"
 ---
 
 I've been putting together the new [FogBugz Client](http://there4.github.com/fogbugz-php-cli/)

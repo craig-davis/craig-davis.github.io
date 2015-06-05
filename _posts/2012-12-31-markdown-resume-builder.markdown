@@ -1,10 +1,11 @@
 ---
-layout: post
-title: "Markdown Resume Builder"
-date: 2012-12-31 16:39
-tags: [php,pdf,html,cli]
+layout:     post
+title:      "Markdown Resume Builder"
+subtitle:   "A tidy resume built with Markdown tools"
+date:       2012-12-31 16:39
+tags:       [php,pdf,html,cli]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/placitas.jpg"
 ---
 
 [Markdown Resume Generator][project] is a project that I developed in [PHP][php]
@@ -14,6 +15,8 @@ viewport. You'll start by making a simple markdown text file, and you'll
 end up with two files, pixel perfect and ready to print and publish.
 
 You can [markup your resume][sample_md] with very simple headings and lists:
+
+
     ### Skills {#skills}
 
     * Web Design
@@ -25,8 +28,9 @@ You can [markup your resume][sample_md] with very simple headings and lists:
     * Project Direction
       : Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
 
+
 And after processing get a very nice output:
--- img /assets/images/posts/resume-sample.png [477] [395] [Sample Resume Output] --
+![Sample Resume Output](/img/posts/resume-sample.png)
 
 If there is enough interest in the project, I hope to add another template or
 two, and some additional documentation.
@@ -38,10 +42,6 @@ For the pdf output, the project leverages
 You can view the project on it's
 [Markdown Resume Project Page][project]. If you've got questions, feel free to
 [open an issue][issues]
-
-<a href="https://github.com/there4/markdown-resume" id="github">
-  <img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" />
-</a>
 
 [project]: http://there4development.com/markdown-resume
 [issues]: http://there4development.com/markdown-resume/issues
