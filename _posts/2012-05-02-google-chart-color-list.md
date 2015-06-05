@@ -1,13 +1,41 @@
 ---
-layout: post
-title: "Google Chart Color List"
-description: ""
-tags: [css, ux]
+layout:     post
+title:      "Google Chart Color List"
+subtitle:   "Carefully curated and complimentary colors fo charting"
+tags:       [css, ux]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/butterflies.jpg"
 ---
 
-<ul class="sampleColor" style="margin: 1em 0;">
+<style>
+.sampleColor {
+  margin: 1em 0 0;
+  list-style: none;
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+  color: #222;
+}
+.sampleColor li {
+  display: inline-block;
+  width: 105px;
+}
+.sampleColor span {
+  display: inline-block;
+  height: 15px;
+  width: 18px;
+  margin: 0 .5em 0 0;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  background: url(/img/posts/color-sample.png) bottom left repeat-x;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+</style>
+
+## Charting Colors
+
+<ul class="sampleColor">
   <li><span style="background-color:#3366CC"></span>#3366CC</li>
   <li><span style="background-color:#DC3912"></span>#DC3912</li>
   <li><span style="background-color:#FF9900"></span>#FF9900</li>
@@ -34,6 +62,8 @@ This is the list of the first 20 colors from the [Google Chart][glc] Color list.
 It's a great collection of unique and distinct saturated colors for use in
 charts and graphs.
 
---gistnocache 2579834 chart_colors.txt--
+## Plain Text
+
+{% gist 2579834 chart_colors.txt %}
 
 [glc]: https://developers.google.com/chart/

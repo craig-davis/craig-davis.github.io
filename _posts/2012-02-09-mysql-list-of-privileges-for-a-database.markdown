@@ -1,9 +1,10 @@
 ---
-layout: post
-title: "MySQL list of privileges for a database"
-category: mysql
+layout:     post
+title:      "MySQL list of privileges for a database"
+subtitle:   "Security auditing a MySQL database"
+category:   mysql
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/iowa-river.jpg"
 ---
 
 If you've ever needed to audit a MySQL database for privileges, you know that

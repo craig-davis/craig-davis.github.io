@@ -4,7 +4,7 @@ title: "iOS HTML Application Configuration"
 description: ""
 tags: [ux, ios]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/hanging-rock.jpg"
 ---
 
 The following settings will make a website added to the iOS homepage look and

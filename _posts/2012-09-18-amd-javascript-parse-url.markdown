@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "AMD Javascript Parse URL"
-comments:   true
+subtitle:   "Using the DOM to parse a url with JavaScript"
 tags:       [backbone, js]
 author:     "Craig Davis"
 header-img: "img/headers/vienna.jpg"

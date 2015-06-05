@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "FogBugz GeckoBoard Widgets"
-description: ""
-tags: [fogbugz, geckoboard]
+layout:     post
+title:      "FogBugz GeckoBoard Widgets"
+subtitle:   "Charting current projects and critical cases"
+tags:       [fogbugz, geckoboard]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/banked-turn.jpg"
 ---
 
 I've just released a new project to render [FogBugz][fb] Widgets on [Geckoboard][gb].
@@ -17,11 +17,6 @@ This will power widgets that can deliver:
 * A list of what each developer is working on
 * A list of cases by filter id
 * Stacked bar graph of current critical, high, and normal cases by count.
-
-
-<a href="https://github.com/there4/fogbugz-geckoboard" id="github">
-  <img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" />
-</a>
 
 
 [fb]: http://www.fogcreek.com/fogbugz/

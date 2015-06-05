@@ -1,22 +1,15 @@
 ---
-layout: post
-title: "FogBugz Command Line Client"
-description: ""
-tags: [fogbugz, php, cli]
+layout:     post
+title:      "FogBugz Command Line Client"
+subtitle:   "Time tracking and case updating from the terminal"
+tags:       [fogbugz, php]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/snowcat.jpg"
 ---
 
-We use [FogBugz][fb] for *everything* at work and it's a great tool. However, they've
-discontinued their command line application for it. While I may be a web tech
-developer, I spend most of my time on the command line. Being able to __track time__,
-__read case activity__ from the command line, and __leave notes__ on cases saves me a great deal
-of time, and greatly reduces the cognitive load of task switching.
+[FogBugz][fb] is a great tool. However, they've discontinued their command line application for it. While I may be a web tech developer, I spend most of my time on the command line. Being able to __track time__, __read case activity__ from the command line, and __leave notes__ on cases saves me a great deal of time, and greatly reduces the cognitive load of task switching.
 
-This is a command line tool for managing your FogBugz cases. You'll be able to
-__start and stop work__ on cases, __reassign__ cases, __close cases__ and
-lots more. We've built it to our particular needs, so if it's missing anything,
-please feel free to [fork it][fbcli] and send me a pull request.
+This is a command line tool for managing your FogBugz cases. You'll be able to __start and stop work__ on cases, __reassign__ cases, __close cases__ and lots more. We've built it to our particular needs, so if it's missing anything, please feel free to [fork it][fbcli] and send me a pull request.
 
 ## Time tracking and adding notes:
 
@@ -56,11 +49,6 @@ please feel free to [fork it][fbcli] and send me a pull request.
 
 Please see the [FogBugz Command Line Client project page][fbcli] for more
 documentation and __installation information__.
-
-
-<a href="https://github.com/there4/fogbugz-php-cli" id="github">
-  <img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" />
-</a>
 
 
 [fb]: http://www.fogcreek.com/fogbugz/

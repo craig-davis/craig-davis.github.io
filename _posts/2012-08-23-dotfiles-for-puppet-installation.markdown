@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "Dotfiles for Puppet Installation"
-comments: true
-tags: [vagrant, puppet]
+layout:     post
+title:      "Dotfiles for Puppet Installation"
+sustitle:   "Take your bash preferences with you!"
+tags:       [vagrant, puppet]
 author:     "Craig Davis"
-header-img: ""
+header-img: "img/headers/northfork.jpg"
 ---
 
 I take my dotfiles with me everywhere I go. With this file in my [Vagrant][vagrant]
