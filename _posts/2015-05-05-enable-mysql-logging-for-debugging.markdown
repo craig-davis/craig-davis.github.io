@@ -8,8 +8,7 @@ author:     "Craig Davis"
 header-img: "img/headers/dodge.jpg"
 ---
 
-Starting wityh MySQL 5.1 you can enable and disable logs at runtime. This allows you to tail the general and slow query log from the command line and keep an eye on things.
-
+Starting with MySQL 5.1 you can enable and disable logs at runtime. This allows you to tail the general and slow query log from the command line and keep an eye on things. This can be especially useful when running with an ORM and want to see the final queries as executed.
 
 # Enable Logging
 
@@ -36,3 +35,9 @@ show variables like '%log%';
 {% endhighlight %}
 
 And then you can run something like: `tail -f /var/log/syslog`
+
+# Tips and Tricks
+
+Remember that the log files will grow rapidly and that this should not be used in production. It will grow rapidly, and it will be a security issue.
+
+If you were enterprising, you could certainly wrap this into a bash command&hellip; More to come.
