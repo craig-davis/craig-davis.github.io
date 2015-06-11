@@ -36,8 +36,10 @@ show variables like '%log%';
 
 And then you can run something like: `tail -f /var/log/syslog`
 
-# Tips and Tricks
+# Mytail : MySQL Logging Made Easy
 
-Remember that the log files will grow rapidly and that this should not be used in production. In addition, these files are a security concern.
+I've wrapped up this into [an easy to use command](https://gist.github.com/craig-davis/48be6978d55122677dec). This bash script `mytail` will enable the logs, tail them, and then when you exit with `ctrl+c` will disable the logs once again.
 
-If you were enterprising, you could certainly wrap this into a bash command&hellip; More to come.
+In addition, if you have a `.grc.sql.conf` file and `grc` installed from [garabik/grc](https://github.com/garabik/grc) the log will be colorized.
+
+{% gist 48be6978d55122677dec mytail %}
