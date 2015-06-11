@@ -433,3 +433,6 @@ dl.projects dd {
   margin-left: 1em;
   font-size: 90%;
 }
+.gist .line-number {
+  line-height: 1.45em;
+}
