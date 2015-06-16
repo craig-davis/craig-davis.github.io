@@ -1,10 +1,10 @@
-- slug: javascript
+javascript:
   name: JavaScript
-- slug: php
+php:
   name: PHP
-- slug: mysql
+mysql:
   name: MySQL
-- slug: ux
+ux:
   name: UX
-- slug: css
+css:
   name: CSS
