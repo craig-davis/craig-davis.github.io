@@ -2,7 +2,7 @@
 layout:     post
 title:      "FogBugz GeckoBoard Widgets"
 subtitle:   "Charting current projects and critical cases"
-tags:       [fogbugz, geckoboard]
+tags:       []
 author:     "Craig Davis"
 header-img: "img/headers/banked-turn.jpg"
 ---

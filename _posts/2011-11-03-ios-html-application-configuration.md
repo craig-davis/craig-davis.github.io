@@ -2,7 +2,7 @@
 layout: post
 title: "iOS HTML Application Configuration"
 description: ""
-tags: [ux, ios]
+tags: [ux]
 author:     "Craig Davis"
 header-img: "img/headers/hanging-rock.jpg"
 ---

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Get more exercise during the programming workday"
 subtitle:   "If sitting kills, surely this will help"
-tags:       [hg, habits]
+tags:       []
 author:     "Craig Davis"
 header-img: "img/headers/tent-rocks.jpg"
 ---

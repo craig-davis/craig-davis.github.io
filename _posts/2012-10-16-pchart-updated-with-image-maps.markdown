@@ -3,7 +3,7 @@ layout:     post
 title:      "pChart updated with image maps"
 subtitle:   "Server side generated charting"
 date:       2012-10-16 09:20
-tags:       [php, jQuery]
+tags:       [php]
 author:     "Craig Davis"
 header-img: "img/headers/iowa.jpg"
 ---

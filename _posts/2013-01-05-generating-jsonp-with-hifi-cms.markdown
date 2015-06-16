@@ -4,7 +4,7 @@ title: "Generating JSONP with HiFi CMS"
 subtitle: "Using HiFi CMS as a remote data source"
 date: 2013-01-05 09:13
 comments: true
-tags: [javascript,backbonejs,hifi-cms]
+tags: [javascript]
 author:     "Craig Davis"
 header-img: "img/headers/efgh.jpg"
 ---

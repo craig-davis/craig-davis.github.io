@@ -2,7 +2,7 @@
 layout:     post
 title:      "Dotfiles for Puppet Installation"
 sustitle:   "Take your bash preferences with you!"
-tags:       [vagrant, puppet]
+tags:       []
 author:     "Craig Davis"
 header-img: "img/headers/northfork.jpg"
 ---

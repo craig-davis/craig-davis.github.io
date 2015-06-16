@@ -2,7 +2,7 @@
 layout:     post
 title:      "MySQL list of privileges for a database"
 subtitle:   "Security auditing a MySQL database"
-category:   mysql
+tags:       [mysql]
 author:     "Craig Davis"
 header-img: "img/headers/iowa-river.jpg"
 ---

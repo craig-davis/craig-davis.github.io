@@ -2,7 +2,7 @@
 layout:     post
 title:      "Handlebars Helpers for Debugging and Pluralization"
 subtitle:   "Template scope debugging made easy"
-tags:       [js, handlebars]
+tags:       [javascript]
 author:     "Craig Davis"
 header-img: "img/headers/hinterglemm.jpg"
 ---

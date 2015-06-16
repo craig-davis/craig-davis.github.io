@@ -2,7 +2,7 @@
 layout:     post
 title:      "FogBugz Command Line Client"
 subtitle:   "Time tracking and case updating from the terminal"
-tags:       [fogbugz, php]
+tags:       [php]
 author:     "Craig Davis"
 header-img: "img/headers/snowcat.jpg"
 ---

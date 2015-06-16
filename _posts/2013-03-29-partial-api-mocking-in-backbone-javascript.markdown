@@ -3,7 +3,7 @@ layout:     post
 title:      "Partial API Mocking in Backbone JavaScript"
 subtitle:   "Faster development with JSON contracts"
 date:       2013-03-29 07:34
-tags:       [backbone, js, ajax]
+tags:       [javascript]
 author:     "Craig Davis"
 header-img: "img/headers/klx.jpg"
 ---

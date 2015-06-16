@@ -3,7 +3,7 @@ layout:     post
 title:      "Unit Testing Slim PHP Framework applications with PHPUnit"
 subtitle:   "Integration testing Slim without a webserver"
 date:       2013-10-13 11:45
-tags:       [php, slim, phpunit]
+tags:       [php]
 author:     "Craig Davis"
 header-img: "img/headers/driftwood.jpg"
 ---

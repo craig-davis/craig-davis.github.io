@@ -3,7 +3,7 @@ layout:     post
 title:      "jQuery Animated Border: jquery.animatedborders.js"
 subtitle:   "Draw attention to an element with a lightweight effect"
 date:       2013-01-03 18:11
-tags:       [jQuery,javascript,plugins,ui]
+tags:       [javascript]
 author:     "Craig Davis"
 header-img: "img/headers/laptop.jpg"
 ---
