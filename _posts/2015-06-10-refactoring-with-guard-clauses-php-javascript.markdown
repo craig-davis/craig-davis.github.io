@@ -86,6 +86,52 @@ By moving our primary goal of the method to the main body of the function, we've
 
 ## Actual Code Example
 
+While this is a fictitious example, this code is somewhat believable. With a little reasoning, you can examine this code and see how it could have grown into being in the current state that it's in.
+
+In the following example a post is editable if:
+
+* The user is an editor or an administrator
+* The user is the author and the post was written in the last thirty days.
+
+### Original Code
+
 {% highlight php startinline %}
-// Actual code, coming soon.
+class Post
+{
+    public function canEdit($user)
+    {
+        $canEdit = false;
+        if (($user->getRole() == 3 && $this->getEditorId() == $user->getId()) || $user->getRole() > 5 || ($this->getAuthorId() == $user->getId() && $this->getCreatedOn < time() - 2592000)) {
+            $canEdit = true;
+        }
+        return $canEdit;
+    }
+}
+{% endhighlight %}
+
+### Refactored Code, Step One.
+
+(Draft, discussion to come.)
+
+{% highlight php startinline %}
+class Post
+{
+    public function canEdit($user)
+    {
+        $isEditor = $user->getRole() == 3 && $this->getEditorId() == $user->getId();
+        $isAdmin  = $user->getRole() > 5;
+        $isAuthor = $this->getAuthorId() == $user->getId();
+        $isTooOld = $this->getCreatedOn < time() - 2592000;
+
+        if ($isEditor || $isAdmin) {
+            return true;
+        }
+
+        if ($isAuthor && !$isTooOld) {
+            return true;
+        }
+
+        return false;
+    }
+}
 {% endhighlight %}
