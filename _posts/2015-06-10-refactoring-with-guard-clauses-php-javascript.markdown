@@ -14,15 +14,15 @@ A single exit point for a function can lead to increased complexity.
 
 ### 1. Code with Traditional If/Else
 {% highlight php startinline %}
-function checkAlarm() {
-    $return = false;
-    if (isArmed()) {
-        $return =  systemCheck();
+function calculateSalePrice($item, $discount = 100) {
+    $price = false;
+    if ($discount == 100) {
+        $price = $item->getPrice();
     }
     else {
-        $return =  rescheduleAlarmCheck();
+        $price = calculateDiscountedPrice($item->getPrice, $discount);
     }
-    return $return;
+    return $price;
 }
 {% endhighlight %}
 
@@ -35,12 +35,12 @@ This code is nearly fifty percent boilerplate code.
 
 ### 2. Code with If/Else and Early Return
 {% highlight php startinline %}
-function checkAlarm() {
-    if (isArmed()) {
-        return systemCheck();
+function calculateSalePrice($item, $discount = 100) {
+    if ($discount == 100) {
+        return $item->getPrice();
     }
     else {
-        return rescheduleAlarmCheck();
+         return calculateDiscountedPrice($item->getPrice, $discount);
     }
 }
 {% endhighlight %}
@@ -53,11 +53,11 @@ You must use a certain amount of mental math to invert the condition to determin
 
 ### 3. Code Without Else
 {% highlight php startinline %}
-function checkAlarm() {
-    if (isArmed()) {
-        return systemCheck();
+function calculateSalePrice($item, $discount = 100) {
+    if ($discount == 100) {
+        return $item->getPrice();
     }
-    return rescheduleAlarmCheck();
+    return calculateDiscountedPrice($item->getPrice, $discount);
 }
 {% endhighlight %}
 
@@ -70,11 +70,11 @@ While we have greatly reduced the amount of boilerplate from example 1, we've en
 
 ### 4. Code Without Else with an Inverted Control
 {% highlight php startinline %}
-function checkAlarm() {
-    if (!isArmed()) {
-        return rescheduleAlarmCheck();
+function calculateSalePrice($item, $discount = 100) {
+    if ($discount !== 100) {
+        return calculateDiscountedPrice($item->getPrice, $discount);
     }
-    return systemCheck();
+    return $item->getPrice();
 }
 {% endhighlight %}
 
