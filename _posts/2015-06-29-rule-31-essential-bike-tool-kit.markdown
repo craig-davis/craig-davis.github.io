@@ -54,7 +54,7 @@ Go Ride!
 - [Flexible Fabric Band-Aids](http://amzn.to/1dsKwPu)<br>
   Perfect for knuckles or briar cuts
 - [Victorinox Swiss Army Pocket Knife](http://amzn.to/1CEATnn)<br>
-  In order to make this fit, you may need to file off the keychain ring attachment. The scissors, knife, nailfile, and tweezers are great. I've file my tweezer down to have a point instead of square. It's great for splinters and cactus needles.
+  In order to make this fit, you may need to file off the keychain ring attachment. The scissors, knife, nailfile, and tweezers are great. I've filed my tweezer down to have a point instead of square. It's great for splinters and cactus needles.
 - 50 Cents<br>
   For an air machine at a gas station - if things have gone really, really wrong. I have a story.
 - 20 dollar bill (not pictured)<br>
@@ -62,17 +62,19 @@ Go Ride!
 - [Presta to Schrader Bicycle Bike Valve Adaptor](http://amzn.to/1dsKEOY)<br>
   Just in case you have to borrow a pump or use one from a service station. Be careful though, they can fill a tire **very** fast.
 - 9 and 10 speed SRAM Powerlink connectors<br>
-  I usually carry ones for all my bike, 8, 9, 10. Lately, I've added an 11 as well. I've saved my rides by fixing friends broken chains with these than my own.
+  I usually carry ones for all my bikes, 8, 9, 10. Lately, I've added an 11 as well. I've saved more rides by fixing friends broken chains with these than my own.
 
 ### In the Patch Kit Container
 - [Park Tool Glue Patch Kit](http://amzn.to/1Jtb55J)<br>
-  For long rides, the glue ups are better. Consider them to be permanent patches. This also gives you a nice little container to stash two other items:
+  For long rides, the glue ups are better. Consider them to be permanent patches. This also gives you a nice little container to stash other tire items:
 - Extra Sandpaper<br>
   I cut a small piece to use to roughen a tube before patching. The rubber cement comes with the patch kit.
 - [NoTubes Core Remover Tool](http://amzn.to/1QZskQ8)<br>
-  Used to remove the core so that you can add sealant to a tire. This lets you carry regular tubes with removable valve cores as a backup tube. I even carry a backup tube when I'm on a bike with tubeless tires.
+  Used to remove the tire valve core so that you can add sealant to a tire. This lets you carry regular tubes with removable valve cores as a backup tube. I even carry a backup tube when I'm on a bike with tubeless tires.
 - [Skabs Glueless Patch Kit](http://amzn.to/1GL33yP)<br>
   These are a temporary patch, and often a quick fix for a dash home. Very convienent, and nice for groups rides where you want to get moving again, and can deal with a proper patch when you get home.
+
+If you have any suggestions or comments, [let me know](https://twitter.com/There4Dev)!
 
 
 **Long Live Long Rides**
