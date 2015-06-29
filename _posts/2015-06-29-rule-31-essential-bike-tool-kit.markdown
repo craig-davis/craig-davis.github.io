@@ -8,6 +8,12 @@ author:     "Craig Davis"
 header-img: "img/headers/rule-31.jpg"
 ---
 
+<style>
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+</style>
+
 ## The Essential Bike Tool Kit
 
 I carry more tools than most, but this is it. This is the ultimate bike tool kit. After years of experimenting, flatting, and fiddling with tools, I've found this to be the stripped down and simplest single jersey pocket toolkit that can address almost any issue.
