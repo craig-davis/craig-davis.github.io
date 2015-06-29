@@ -43,7 +43,7 @@ Go Ride!
   I only carry two of the three pack. Practice and see what you can leave at home. I rubber band these to the pump to keep things organized.
 - [Topeak Micro Rocket Pump](http://amzn.to/1GL24i9)<br>
   I usually use CO<sub>2</sub> first, but I like to have a backup pump just in case things go really wrong or the second flat happens.
-- [Planet Bike Red Zeppelin CO2 Bike Tire Inflator](http://amzn.to/1JjXz1k)<br>
+- [Planet Bike Red Zeppelin CO<sub>2</sub> Bike Tire Inflator](http://amzn.to/1JjXz1k)<br>
   A great little inflator that lets you use a portion of a bottle to top off a tire.
 - [Scotch Electrical Tape](http://amzn.to/1LydGuB)
   Buy the good tape, it's worth it for the durability and strength. Take about half or more of the tape off the roll, and then use a knife to cut the cardboard out of the center of the roll and then flatten it. Remember how MacGyver carried Duct Tape? Like that.
