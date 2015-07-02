@@ -1,11 +1,12 @@
 ---
-layout:     post
-title:      "The Essential Bike Tool Kit"
-subtitle:   "Rule 31 - All tools must fit in your jersey pocket"
-date:       2015-06-29
-tags:       [bike]
-author:     "Craig Davis"
-header-img: "img/headers/rule-31.jpg"
+layout:      post
+title:       "The Essential Bike Tool Kit"
+subtitle:    "Rule 31 - All tools must fit in your jersey pocket"
+description: "This is the ultimate bike tool kit for fixing flats and trailside repairs."
+date:        2015-06-29
+tags:        [bike]
+author:      "Craig Davis"
+header-img:  "img/headers/rule-31.jpg"
 ---
 
 <style>
