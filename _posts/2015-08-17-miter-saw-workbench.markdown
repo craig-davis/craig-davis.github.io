@@ -82,7 +82,7 @@ summary: |
     Brought to you by #shadetreewoodworking. Questions or comments? Let me know!
 ---
 
-Inspired by the [Paulk Workbenches][paulk], I built a new miter saw station from scrap plywood from a previous project. I had two 18" x 8 foot sections of &frac34;" Maple Plywood and I created plans to use this efficiently. As a result, you could build this from a single sheet of plywood.
+Inspired by the [Paulk Workbenches][paulk], I built a new miter saw station from scrap plywood from a previous project. I had two 18 inch x 8 foot sections of &frac34;" Maple Plywood and I created plans to use this efficiently. As a result, you could build this from a single sheet of plywood.
 
 I created this using a [Kreg RipCut Jig][ripcut], and the cut plan that I generated reflects this. With this jig instead of a tablesaw, it's best to nibble away from the large sheet instead of breaking it down initially. If you have access to a tablesaw, then I might suggest he Paulk plans. They look quite nice.
 
