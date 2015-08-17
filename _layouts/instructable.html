@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="instructable">
+{% if page.steps %}
+{% for step in page.steps %}
+    <h3>{{ forloop.index }}. {{ step.title }}</h3>
+    <div class="instructable-step">
+    {{ if step.img }}
+        <figure>
+            <img src="{{ step.img }}" alt="Step {{ forloop.index }}">
+            {{ if step.caption }}<figcaption>{{ step.caption }}</figcaption>{{ endif }}
+        </figure>
+    {{ endif }}
+    {{ if step.instruction }}<p>{{ step.instruction | markdownify }}</p>{{ endif }}
+  </div>
+{% endfor %}
+{% else %}
+    <p>This tutorial has no steps!</p>
+{% endif %}
+</div>
+
+{{ if page.summary }}{{ page.summary }}{{ endif }}

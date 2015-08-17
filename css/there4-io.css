@@ -87,6 +87,7 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -440,4 +441,38 @@ dl.projects dd {
 }
 .gist .line-number {
   line-height: 1.45em;
+}
+
+a.post-tag {
+  color: #404040;
+  text-decoration: none;
+  background: #efefef;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 2px 3px;
+}
+a.post-tag:hover {
+  color: #404040;
+  background: #e2e2e2;
+}
+a.post-tag:active {
+  color: #404040;
+  background: #e2e2ff;
+}
+.instructable h3 {
+  clear: both;
+}
+figure {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+figure img {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+figure figcaption {
+  font-style: italic;
+  font-size: 80%;
+  text-align: center;
 }
