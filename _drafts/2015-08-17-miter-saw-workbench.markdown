@@ -10,6 +10,7 @@ header-img:  "img/headers/miter-saw.jpg"
 steps:
   - title: The Plan
     img: /img/posts/miter-saw-workbench/IMG_0145.jpg
+    imglink: /img/posts/miter-saw-workbench/miter-plan-fullsize.jpg
     caption: The design and cut plan
     instruction: |
         This is the basic design and important measurements. Your measurements will be different based on the saw. The runner height + your saw deck gives you the height from the top of the bottom platform surface to the top of the work surface. Be careful to measure your plywood! This was built from maple ply that was actually &frac34;. Many plywoods measure between a sixteenth and a thirty-second under. When in doubt, make the box a little tall and then shim the saw upwards.
@@ -40,9 +41,45 @@ steps:
     img: /img/posts/miter-saw-workbench/IMG_0346.jpg
     caption: Pre-drilling all the joinery will save lots of time
     instruction:
-        The ribs each get four pocket holes to attach them to the front and rear plates. These can all be drilled before assembly. Remember to drill them on the uglier side of the plywood. You can see some plywood tearout in this photo that will be hidden after assembly.
+        The ribs each get four pocket holes to attach them to the front and rear plates. These can all be drilled before assembly. Remember to drill them on the uglier side of the plywood. You can see some plywood tearout in this photo that will be hidden after assembly. Assemble the boxes as normal with pocket screws. First assemble the ribs on the end to the face plate with glue and screws, and then in the left box add the internal rib. Once you've built the box attach it to the top work surface with more pocket screws.
+  - title: Cut the ribs to clear the runners
+    img: /img/posts/miter-saw-workbench/IMG_0351.jpg
+    caption: Carefully mark the ribs
+    instruction: |
+        Drop the box into place, and carefully mark the position of the runners on the ribs. Then, using a saw of your choice, cut out the openings for the runner. I have really enjoyed my [pull saw](http://www.irwin.com/tools/handsaws/double-edge-saw) lately.
+  - title: Box in place on the runners
+    img: /img/posts/miter-saw-workbench/IMG_0353.jpg
+    caption: The ribs have been cut to clear the runners
+    instruction: With the runners trimmed, you can now finally fully seat the box into their permanent location.
+  - title: Storage space in the left box
+    img: /img/posts/miter-saw-workbench/IMG_0355.jpg
+    instruction: I've left out a rib in the left hand box to allow for a little more storage space. Here you can see my favorite saw in a spot to stash it.
+  - title: Attach the boxes to the platform
+    img: /img/posts/miter-saw-workbench/IMG_0360.jpg
+    caption: Attach the box with pin nails and glue
+    instruction: The right and left boxes are attached with glue, pin nails, and held with clamps.
+  - title: Add ribs to support the saw shelf
+    img: /img/posts/miter-saw-workbench/IMG_0363.jpg
+    caption: Ribs for supporting the saw shelf
+    instruction: These ribs add a little extra support for the shelf that the saw sits on. These are attached with glue and pocket screws. Note that these can be cut long initially, and then trimmed to fit one the left and right boxes are in place.
+  - title: Add the shelf
+    img: /img/posts/miter-saw-workbench/IMG_0372.jpg
+    instruction: After you've added the short supports for the shelf, you can then trim it and put it into place.
+  - title: Test fit the saw
+    img: /img/posts/miter-saw-workbench/IMG_0375.jpg
+    instruction: Test fit the saw and trim the overhang of the opening until it's snug. Add shims under the saw if needed. We'll attach it later. If you've ended up with the deck of the saw too high, make a new shelf out of &frac12;" plywood and shim until the saw is the correct height.
+  - title: Position the saw to be exactly square
+    img: /img/posts/miter-saw-workbench/IMG_0366.jpg
+    instruction: Use a square to check from the front edge of the work surface to the front edge of the saw. Check both sides and adjust until the saw is perfectly square This will make sure that the saw is sitting square in the center opening.
+  - title: Drill locating pins
+    img: /img/posts/miter-saw-workbench/IMG_0367.jpg
+    instruction: Drill through the bolt holes in the saw to locate it. With this saw, I can use &frac14;" bolts. Flip the board over and use t-nuts appropriate for your bolts in the back side of your holes. A dab of epoxy will help hold them in place. This will make it easy to secure the saw when you're using it. Once you've sorted that, you can attach the shelf to the short runners with screws - no glue this time.
+  - title: The completed project
+    img: /img/posts/miter-saw-workbench/IMG_0377.jpg
+    caption: The finished project
+    instruction: You'll note that I haven't built a fence for this. I'm short on space here, and want to be able to flip this over and use it as a workbench. The frame of this is very flat and stable, and so this is a valuable work surface! If this was dedicated only to the miter, I'd certainly add a fence.
 summary: |
-    Brought to you by #shadetreewoodworking.
+    Brought to you by #shadetreewoodworking. Questions or comments? Let me know!
 ---
 
 Inspired by the [Paulk Workbenches][paulk], I built a new miter saw station from scrap plywood from a previous project. I had to 18" x 8 foot sections of &frac34;" Maple Plywood and I created plans to use this efficiently. As a result, you could build this from a single sheet of plywood.

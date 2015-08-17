@@ -9,13 +9,13 @@ layout: page
 {% for step in page.steps %}
     <h3>{{ forloop.index }}. {{ step.title }}</h3>
     <div class="instructable-step">
-    {{ if step.img }}
+    {% if step.img %}
         <figure>
-            <img src="{{ step.img }}" alt="Step {{ forloop.index }}">
-            {{ if step.caption }}<figcaption>{{ step.caption }}</figcaption>{{ endif }}
+            {% if step.imglink %}<a href="{{ step.imglink }}">{% endif %}<img src="{{ step.img }}" alt="Step {{ forloop.index }}">{% if step.imglink %}</a>{% endif %}
+            {% if step.caption %}<figcaption>{{ step.caption }}</figcaption>{% endif %}
         </figure>
-    {{ endif }}
-    {{ if step.instruction }}<p>{{ step.instruction | markdownify }}</p>{{ endif }}
+    {% endif %}
+    {% if step.instruction %}<p>{{ step.instruction | markdownify }}</p>{% endif %}
   </div>
 {% endfor %}
 {% else %}
@@ -24,4 +24,4 @@ layout: page
 </div>
 
 
-<p style="clear: both">{{ if page.summary }}{{ page.summary }}{{ endif }}</p>
+<p style="clear: both">{% if page.summary %}{{ page.summary }}{% endif %}</p>
