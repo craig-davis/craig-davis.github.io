@@ -20,6 +20,12 @@ p {
 	}
 }
 
+ul {
+    a {
+        text-decoration: underline;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -81,10 +87,11 @@ hr.small {
 	.nav {
 		li {
 			a {
-				text-transform: uppercase;
+				text-transform:  uppercase;
 				font-size: 12px;
 				font-weight: 800;
 				letter-spacing: 1px;
+                text-decoration: none;
 			}
 		}
 	}
@@ -487,4 +494,49 @@ dl.projects {
 // Fix the line number height issue
 .gist .line-number {
   line-height: 1.45em;
+}
+
+a.post-tag {
+  color: #404040;
+  text-decoration: none;
+  background: #efefef;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 2px 3px;
+}
+a.post-tag:hover {
+  color: #404040;
+  background: #e2e2e2;
+}
+a.post-tag:active {
+  color: #404040;
+  background: #e2e2ff;
+}
+.instructable h3 {
+  clear: both;
+}
+.instructable-step figure {
+    width: 50%;
+}
+@media (max-width: 767px) {
+  .instructable-step figure {
+    width: 100%;
+  }
+}
+figure {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+figure img {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+figure figcaption {
+  font-style: italic;
+  font-size: 80%;
+  text-align: center;
+}
+.main-content p:first-of-type {
+    margin-top: 0;
 }

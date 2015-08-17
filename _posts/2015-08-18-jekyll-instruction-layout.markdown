@@ -1,26 +1,26 @@
 ---
 layout:      post
-title:       "Jekyll Layout for Instruction Pages"
-subtitle:    "Using Liquid and Frontmatter to make an instruction page"
-description: "Make a Jekyll blog post with a simple instruction format"
+title:       "Jekyll Layout for Tutorial Pages"
+subtitle:    "Using Liquid and front matter to make an tutorial page"
+description: "Make a Jekyll blog post with a simple tutorial format"
 date:        2015-08-18
 tags:        [ux]
 author:      "Craig Davis"
 header-img:  "img/headers/lake-sammish.jpg"
 ---
 
-Liquid is uniquely perfect for making an Instructable style page without writing html. In this blog post, I'll show you how to add content to a frontmatter array and have a nicely formatted tutorial page generated.
+Liquid is uniquely perfect for making an Instructable style page without writing html. In this blog post, I'll show you how to add content to a front matter array and have a nicely formatted tutorial page generated.
 
 ### 1. Create a new layout for the tutorial page
 
-Create `_layouts/tutorial.html` in your [Jekyll](http://jekyllrb.com/) site. We will pull our tutorial items from an array on the `_posts` file. The array will be located in the frontmatter, and so the `steps` array is available to the layout as `page.steps`. Each tutorial step has several items:
+Create `_layouts/tutorial.html` in your [Jekyll](http://jekyllrb.com/) site. We will pull our tutorial items from an array on the `_posts` file. The array will be located in the front matter, and so the `steps` array is available to the layout as `page.steps`. Each tutorial step has several items:
 
 1. Image
 1. Image caption
 1. Image link to fullsize
 1. Instructions
 
-This is going to use a new array placed into the frontmatter of a post to display each step in the tutorial. This means that instead of writing html, you can just make an array of steps!
+This is going to use a new array placed into the front matter of a post to display each step in the tutorial. This means that instead of writing html, you can just make an array of steps!
 
 {% highlight liquid %}
 {% raw %}
@@ -55,7 +55,7 @@ layout: post
 
 ### 2. Use this layout in a new post
 
-Update the frontmatter of a post to use this new template:
+Update the front matter of a post to use this new template:
 {% highlight liquid %}
 {% raw %}
 ---
@@ -64,7 +64,7 @@ layout: tutorial
 {% endraw %}
 {% endhighlight %}
 
-### 3. Add the new tutorial to the frontmatter
+### 3. Add the new tutorial to the front matter
 
 You can see [a full example in my Miter Saw post](https://raw.githubusercontent.com/craig-davis/craig-davis.github.io/master/_posts/2015-08-17-miter-saw-workbench.markdown). Note that in the second array element, the `>` operator allows us to make a multi-line assignment.
 
