@@ -31,7 +31,7 @@ steps:
     img: /img/posts/miter-saw-workbench/IMG_0341.jpg
     caption: These long plates are still quite strong
     instruction: |
-        Use a jig saw to connect the two hole saw cuts together. You can see the cutouts on the ground in ths photo. Take your time and draw a line connecting tangent to the two holes that you've cut. It will help you cut a straight line with the jigsaw.
+        Use a jig saw to connect the two hole saw cuts together. You can see the cutouts on the ground in ths photo. Take your time and draw a line connecting the edges of the two holes that you've cut. It will help you cut a straight line with the jigsaw.
   - title: Sanding, lots of sanding
     img: /img/posts/miter-saw-workbench/IMG_0343.jpg
     caption: Sanding will prevent splinters later in life!
@@ -46,7 +46,7 @@ steps:
     img: /img/posts/miter-saw-workbench/IMG_0351.jpg
     caption: Carefully mark the ribs
     instruction: |
-        Drop the box into place, and carefully mark the position of the runners on the ribs. Then, using a saw of your choice, cut out the openings for the runner. I have really enjoyed my [pull saw](http://www.irwin.com/tools/handsaws/double-edge-saw) lately.
+        Drop the box into place, and carefully mark the position of the runners on the ribs. Then, using a saw of your choice cut out the openings for the runner. I have really enjoyed my [pull saw](http://www.irwin.com/tools/handsaws/double-edge-saw) lately.
   - title: Box in place on the runners
     img: /img/posts/miter-saw-workbench/IMG_0353.jpg
     caption: The ribs have been cut to clear the runners
@@ -61,7 +61,7 @@ steps:
   - title: Add ribs to support the saw shelf
     img: /img/posts/miter-saw-workbench/IMG_0363.jpg
     caption: Ribs for supporting the saw shelf
-    instruction: These ribs add a little extra support for the shelf that the saw sits on. These are attached with glue and pocket screws. Note that these can be cut long initially, and then trimmed to fit one the left and right boxes are in place.
+    instruction: These ribs add a little extra support for the shelf that the saw sits on. These are attached with glue and pocket screws. Note that these can be cut long initially, and then trimmed to fit once the left and right boxes are in place.
   - title: Add the shelf
     img: /img/posts/miter-saw-workbench/IMG_0372.jpg
     instruction: After you've added the short supports for the shelf, you can then trim it and put it into place.
