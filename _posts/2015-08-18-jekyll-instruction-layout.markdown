@@ -1,7 +1,7 @@
 ---
 layout:      post
 title:       "Jekyll Layout for Tutorial Pages"
-subtitle:    "Using Liquid and front matter to make an tutorial page"
+subtitle:    "Using Liquid and front matter to make a tutorial page"
 description: "Make a Jekyll blog post with a simple tutorial format"
 date:        2015-08-18
 tags:        [ux]
@@ -17,7 +17,7 @@ Create `_layouts/tutorial.html` in your [Jekyll](http://jekyllrb.com/) site. We 
 
 1. Image
 1. Image caption
-1. Image link to fullsize
+1. Image link to full size
 1. Instructions
 
 This is going to use a new array placed into the front matter of a post to display each step in the tutorial. This means that instead of writing html, you can just make an array of steps!
