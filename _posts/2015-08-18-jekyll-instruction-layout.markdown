@@ -9,16 +9,16 @@ author:      "Craig Davis"
 header-img:  "img/headers/lake-sammish.jpg"
 ---
 
-Liquid is uniquely perfect for making an Instructable style page without writing html. In this blog post, I'll show you how to add content to a front matter array and have a nicely formatted tutorial page generated.
+Liquid is uniquely perfect for making an Instructable style page without writing html. In this blog post, I'll show you how to create a tutorial page with steps, where each step is simply a list in the front matter without any html markup. We'll create a nicely formatted tutorial page with a new `_layout` file.
 
 ### 1. Create a new layout for the tutorial page
 
-Create `_layouts/tutorial.html` in your [Jekyll](http://jekyllrb.com/) site. We will pull our tutorial items from an array on the `_posts` file. The array will be located in the front matter, and so the `steps` array is available to the layout as `page.steps`. Each tutorial step has several items:
+Create `_layouts/tutorial.html` in your [Jekyll](http://jekyllrb.com/) site. This tutorial will be placed into the `post` parent layout. We will pull our tutorial items from an array in the `_posts` file. An array named `steps` will be located in the front matter and will be available to the layout as `page.steps`. Each tutorial step has several elements:
 
-1. Image
-1. Image caption
-1. Image link to full size
-1. Instructions
+1. Image `img`
+1. Image caption `caption`
+1. Image link to full size `imglink`
+1. Instructions `instructions`
 
 This is going to use a new array placed into the front matter of a post to display each step in the tutorial. This means that instead of writing html, you can just make an array of steps!
 
@@ -84,6 +84,8 @@ steps:
 {% endhighlight %}
 
 ### 4. Add some new styles to format the tutorial
+
+We've used the `figure` element and we'll style it to float according to a media query so that it's to the left on large screens and above the instruction on small screens.
 
 *Please note that there is an extra space in the media rule because of a bug in jekyll-mentions*.
 
