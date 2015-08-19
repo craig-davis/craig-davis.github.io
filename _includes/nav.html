@@ -18,6 +18,9 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
+                <li>
+                    <a href="http://photos.there4.io/">Photos</a>
+                </li>
                 {% for page in site.pages %}{% if page.title %}{% if page.url != '/404.html' %}{% unless page.url contains 'tags' %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
