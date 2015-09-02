@@ -15,6 +15,10 @@ header-img:  "img/headers/washington-road.jpg"
 1. Go back to the main screen and click 'Reload XML'.
 1. Select the key remapping
 
+![](/img/posts/osx-media-keys/enable-key-mapping.png)
+![](/img/posts/osx-media-keys/open-private-xml.png)
+![](/img/posts/osx-media-keys/reload-xml.png)
+![](/img/posts/osx-media-keys/selected-remapping.png)
 
 ## Private XML
 
