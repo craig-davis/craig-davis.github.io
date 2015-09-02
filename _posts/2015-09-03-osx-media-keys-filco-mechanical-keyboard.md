@@ -68,16 +68,16 @@ Use your editor of choice to update `private.xml` with the sample below:
 </root>
 {% endhighlight %}
 
-### Reload the Config
+### 3. Reload the Config
 
 Go back to the main screen and click 'Reload XML'.
 
 ![](/img/posts/osx-media-keys/reload-xml.png)
 
-### Select the Key Remapping
+### 4. Select the Key Remapping
 ![](/img/posts/osx-media-keys/selected-remapping.png)
 
-### Play Music
+### 5. Play Music
 
 With this configuration, the Page Up/Down become volume. The End button becomes mute, and the top right three buttons become Previous, Play/Pause, and Next.
 
