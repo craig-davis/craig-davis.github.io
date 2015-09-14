@@ -88,6 +88,9 @@ I created this using a [Kreg RipCut Jig][ripcut], and the cut plan that I genera
 
 The structure is made rigid by two runners that run the entire length of the platform board, and the sides and ribs are cut to the correct height for the saw so that the deck of the saw is flush with the working surfaces. The joinery is glue and [Kreg Pocket Screws][pocket].
 
+This particular bench has been built to fit my [Dewalt DW715][dw715]. However, with a little measuring and alteration, this could easily be changed to fit any other miter saw.
+
 [paulk]: http://www.paulkhomes.com/order-plans.html
 [ripcut]: http://amzn.to/1ioE6Et
 [pocket]: http://amzn.to/1ioEa7j
+[dw715]: http://amzn.to/1K7YDnx
