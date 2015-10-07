@@ -47,7 +47,7 @@ You can view the project on it's
 [issues]: http://there4development.com/markdown-resume/issues
 [md]: http://daringfireball.net/projects/markdown
 [php]: http://www.php.net
-[sample_md]: https://raw.github.com/there4/markdown-resume/master/resume/sample.md
+[sample_md]: https://raw.github.com/there4/markdown-resume/master/examples/source/sample.md
 [wkhtmltopdf]: https://code.google.com/p/wkhtmltopdf
 [pdf_installer]: https://github.com/pdfkit/pdfkit/wiki/Installing-WKHTMLTOPDF
 [brew]: http://mxcl.github.com/homebrew
