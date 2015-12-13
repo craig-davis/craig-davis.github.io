@@ -3,7 +3,7 @@ layout:      post
 title:       "Maintaining and Using Your Bash History"
 subtitle:    "Tips and tricks for using your bash history more productively"
 description: "Tips and tricks for using your bash history more productively"
-date:        2015-09-14
+date:        2015-11-20
 tags:        []
 author:      "Craig Davis"
 header-img:  "img/headers/sunrise.jpg"
