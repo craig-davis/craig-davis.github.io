@@ -495,3 +495,15 @@ figure figcaption {
 .main-content p:first-of-type {
   margin-top: 0;
 }
+
+.photo-icon {
+  display: inline-block;
+  background: none;
+  border: none;
+  width: 46px;
+  margin: 0 5px 11px;
+}
+
+.photo h2 {
+  margin-bottom: -3px !important;
+}
