@@ -54,7 +54,7 @@
     anchor.innerHTML = '<span></span>';
 
     [].forEach.call($('h2,h3,h4,h5,h6'), function (el) {
-      if (el.className === 'post-title' || el.className == 'subheading' || el.classname = 'post-subtitle') {
+      if (el.className == 'post-title' || el.className == 'subheading' || el.classname == 'post-subtitle') {
         return;
       }
       if (!el.id) {
