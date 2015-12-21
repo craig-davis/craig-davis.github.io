@@ -507,3 +507,7 @@ figure figcaption {
 .photo h2 {
   margin-bottom: -3px !important;
 }
+
+dl {}
+dt {}
+dd { margin: 0 0 1em 1em; }
