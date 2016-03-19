@@ -68,7 +68,7 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [kreg-90-clamp]: http://amzn.to/1nXVu4N "Amazon: Kreg right angle clamp"
 [kreg-saw-jig]: http://amzn.to/22uHbUT "Amazon: Kreg saw guide"
 [spring-clamps]: http://amzn.to/1nXW3M3 "Amazon: Simple spring clamps"
-[simple-clamp]: http://amzn.to/1nXWi9R "Amazon: Small bar clamps"
+[simple-clamps]: http://amzn.to/1nXWi9R "Amazon: Small bar clamps"
 [pipe-clamp]: http://amzn.to/1nXWtlw "Amazon: Pipe clamps"
 [drill]: http://amzn.to/1nXXASe "Amazon: Drill"
 [impact-driver]: http://amzn.to/1nXY0bc "Amazon: Impact Driver"
