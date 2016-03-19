@@ -49,10 +49,11 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [adjustable-wrench]: http://amzn.to/1RrBbdX "Amazon: Craftsman adjustable wrenches"
 [metric-combination]: http://amzn.to/1RrBSUs "Amazon: Craftsman combination wrenches"
 [standard-combination]: http://amzn.to/1RW8AYv "Amazon: Craftsman combination wrenches"
-[crosscut-saw]:
-[rip-saw]:
-[japanese-backsaw]:
-[hacksaw]:
+[crosscut-saw]: http://amzn.to/1RWaKr6 "Amazon: Crosscut saw"
+[rip-saw]: http://amzn.to/1nXQPQv "Amazon: Rip saw"
+[japanese-backsaw]: http://amzn.to/1RrEAJx "Amazon: Japanese backsaw"
+[flexible-backsaw]: http://amzn.to/22uDq1R "Amazon: Flexible backsaw"
+[hacksaw]: http://amzn.to/1nXR5yL "Amazon: Lenox Hacksaw"
 [brad-point-bits]:
 [spade-point-bits]:
 [bench-planes]:
@@ -168,16 +169,16 @@ This is a basic set of hand tools. These aren't all used directly, but may be us
 Saws. There's four basic saws that are worth having. Others will debate that there are far more. Actually, make that 7 - no. Well, start with these four.
 
 [Crosscut saw (12 pt.)][crosscut-saw]
-: <figure><img src="/img/posts/woodworking-tools/crosscut-saw.jpg"/><figcaption></figcaption></figure> A twelve point per inch crosscut saw is great for quickly trimming 2x4s and other lumber
+: <figure><img src="/img/posts/woodworking-tools/crosscut-saw.jpg"/><figcaption></figcaption></figure> A [twelve point per inch crosscut saw][crosscut-saw] is great for quickly trimming 2x4s and other lumber
 
 [Rip saw (6 1/2 or 7 1/2 pt.)][rip-saw]
-: <figure><img src="/img/posts/woodworking-tools/rip-saw.jpg"/><figcaption></figcaption></figure> This is a saw used to cut with the direction of the wood grain. The teeth are set at a different angle, and while you can rip with a crosscut saw, it's worth having both. The teeth are cut to act more like a chisel, and so won't hunt around and follow grain the way that a crosscut saw would. You'll get straighter cuts.
+: <figure><img src="/img/posts/woodworking-tools/rip-saw.jpg"/><figcaption></figcaption></figure> [This is a saw][rip-saw] used to cut with the direction of the wood grain. The teeth are set at a different angle, and while you can rip with a crosscut saw, it's worth having both. The teeth are shaped to act more like a chisel, and so the saw won't hunt around and follow grain the way that a crosscut saw would. You'll get straighter cuts, though it is more of a specialty item, and the cost generally reflects that.
 
 [Japanese backsaw][japanese-backsaw]
-: <figure><img src="/img/posts/woodworking-tools/japanese-backsaw.jpg"/><figcaption></figcaption></figure> A dozuki is a saw that cuts on the pull stroke and has a stiffened blade. It's ideal for hand cut dovetails and other finishing work. A flexible backsaw is great for flush trimming.
+: <figure><img src="/img/posts/woodworking-tools/japanese-backsaw.jpg"/><figcaption>I didn't know how much I needed this!</figcaption></figure> [A dozuki][japanese-backsaw] is a saw that cuts on the pull stroke and has a stiffened blade. It's ideal for hand cut dovetails and other finishing work. [A flexible backsaw][flexible-backsaw] is great for flush trimming. The Irwin saw can be found at Lowe's and is a great general purpose tool. You'll be surprised how often you grab it for trimming and tuning.
 
 [Hacksaw][hacksaw]
-: <figure><img src="/img/posts/woodworking-tools/hacksaw.jpg"/><figcaption></figcaption></figure> At some point, you're going to have to cut a bolt to length or some bar stock for a project. This is the tool for that.
+: <figure><img src="/img/posts/woodworking-tools/hacksaw.jpg"/><figcaption>I've had good luck with Lenox tools</figcaption></figure> At some point, you're going to have to cut a bolt to length or some bar stock for a project. [This is the tool for that][hacksaw]. Once again, I've had good luck with Lenox tools. They've got good fit and finish and have been quite durable.
 
 
 ## Shaping
@@ -249,7 +250,6 @@ Saw, drill, jigsaw will take you far. A sander is included with the finishing to
 
 [Router (1 hp, 1/4" collet) Purchase bits as needed; bead, chamfer, cove, straight, round-over, rabbet.][trim-router]
 : <figure><img src="/img/posts/woodworking-tools/trim-router.jpg"/><figcaption></figcaption></figure> A 1/4" collet will hold most of the bits you'll want for rabbetting drawers and frames. Purchase the bits as you need them, but you can start with a roundover and a flush cutting bit. You can clean up a lot of backyard building inaccuracy with a flush cutting bit.
-
 
 
 ## Sanding and Finishing
