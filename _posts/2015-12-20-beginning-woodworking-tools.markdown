@@ -62,21 +62,23 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [block-plane]: http://amzn.to/22pKEHQ "Amazon: Block plane"
 [wood-chisels]: http://amzn.to/22uFB5n "Amazon: Wood Chisels"
 [files]: http://amzn.to/1nXUcXm "Amazon: Assorted files"
-[kreg-jig]:
-[kreg-clamps]:
-[kreg-90-clamp]:
-[kreg-saw-jig]:
-[spring-clamps]:
-[simple-clamps]:
-[pipe-clamps]:
-[drill]:
-[impact-driver]:
-[jig-saw]:
-[circular-saw]:
-[trim-router]:
-[random-orbit-sander]:
-[belt-sander]:
-[sandpaper]:
+[rasp]: http://amzn.to/22uG9sa "Amazon: wood rasp"
+[kreg-jig]: http://amzn.to/1RrHI8f "Amazon: Kreg jig"
+[kreg-clamp]: http://amzn.to/22uGZF7 "Amazon: Kreg clamp"
+[kreg-90-clamp]: http://amzn.to/1nXVu4N "Amazon: Kreg right angle clamp"
+[kreg-saw-jig]: http://amzn.to/22uHbUT "Amazon: Kreg saw guide"
+[spring-clamps]: http://amzn.to/1nXW3M3 "Amazon: Simple spring clamps"
+[simple-clamp]: http://amzn.to/1nXWi9R "Amazon: Small bar clamps"
+[pipe-clamp]: http://amzn.to/1nXWtlw "Amazon: Pipe clamps"
+[drill]: http://amzn.to/1nXXASe "Amazon: Drill"
+[impact-driver]: http://amzn.to/1nXY0bc "Amazon: Impact Driver"
+[jig-saw]: http://amzn.to/1nXYldV "Amazon: Jig saw"
+[circular-saw]: http://amzn.to/22pMTuN "Amazon: Circular saw"
+[worm-drive-saw]: http://amzn.to/22uKf3w "Amazon: Worm drive circular saw"
+[trim-router]: http://amzn.to/22uKpI8 "Amazon: Trim Router"
+[random-orbit-sander]: http://amzn.to/22uIiUB "Amazon: Random orbit sander"
+[belt-sander]: http://amzn.to/1nXWWEl "Amazon: Belt sander"
+[sandpaper]: http://amzn.to/22uITpl "Amazon: Sandpaper"
 
 ## Safety
 
@@ -201,7 +203,7 @@ Wood and metal shaping tools. These will let you remove material efficiently.
 : <figure><img src="/img/posts/woodworking-tools/wood-chisels.jpg"/><figcaption>Keep them sharp, and keep them protected. Never leave them loose rolling around in a toolbox. A sharp tool is a safe tool.</figcaption></figure> [An assortment of wood chisels][wood-chisels] from 1/4" to 1" will be helpful. They'll be useful in everything from mortising for a door to making tenons to cleaning up dovetails. Don't use them for anything else - no scraping and no paint can opening! (We have a tool for that!)
 
 [Files][files]
-: <figure><img src="/img/posts/woodworking-tools/files.jpg"/><figcaption>Start with a sheap set, get nicer ones as they wear out.</figcaption></figure> [A few files will be really handy][files], a small triangular file for detail work, and a few mill files will be great for everything from sharpening a lawnmower blade to deburring a bolt that you trimmed with your hacksaw. These aren't like sandpaper! They cut only in one direction, and should be lifted off the surface in between cuts.
+: <figure><img src="/img/posts/woodworking-tools/files.jpg"/><figcaption>Start with a sheap set, get nicer ones as they wear out.</figcaption></figure> [A few files will be really handy][files], a small triangular file for detail work, and a few mill files will be great for everything from sharpening a lawnmower blade to deburring a bolt that you trimmed with your hacksaw. These aren't like sandpaper! They cut only in one direction, and should be lifted off the surface in between cuts. If you need to remove a lot of wood, consider [a rasp][rasp].
 
 
 ## Kreg Jigs
@@ -209,16 +211,16 @@ Wood and metal shaping tools. These will let you remove material efficiently.
 These will change the way that you view quick projects. The Kreg Pockethole jig allows you to quickly and easily join two piece of wood at a 90 or 180 degree angle. This can make face frames and basic box construction go quicker than you could ever imagine. It'll never be as pretty as fancy joints, but without a table saw, this will open up an entire new set of projects.
 
 [Simple kit][kreg-jig]
-: <figure><img src="/img/posts/woodworking-tools/kreg-jig.jpg"/><figcaption></figcaption></figure> The two hole or even the mini jig are a great place to start
+: <figure><img src="/img/posts/woodworking-tools/kreg-mini.jpg"/><figcaption></figcaption></figure> The two hole or even [the mini jig][kreg-jig] are a great place to start.
 
-[Regular clamp][kreg-clamps]
-: <figure><img src="/img/posts/woodworking-tools/kreg-clamps.jpg"/><figcaption></figcaption></figure> Most kits come with a flat clamp, but if not, this an absolute requirement. It allows you to hold the jig in position, and face frames flat as you add the screw.
+[Regular clamp][kreg-clamp]
+: <figure><img src="/img/posts/woodworking-tools/kreg-clamp.jpg"/><figcaption></figcaption></figure> Most kits come with a flat clamp, but if not, [this an absolute requirement][kreg-clamp]. It allows you to hold the jig in position, and face frames flat as you add the screw.
 
 [90 degree clamp][kreg-90-clamp]
-: <figure><img src="/img/posts/woodworking-tools/kreg-90-clamp.jpg"/><figcaption></figcaption></figure> Go ahead and get one, you'll like having it. It makes holding two board at 90 degrees really easy, and make box and drawer construction go quickly.
+: <figure><img src="/img/posts/woodworking-tools/kreg-90-clamp.jpg"/><figcaption></figcaption></figure> Go ahead and get one, you'll like having it. It makes holding two board at 90 degrees really easy. The [right angle Kreg jig clamp][kreg-90-clamp] will make box and drawer construction go quickly.
 
-[Saw jig][kreg-saw-jig]
-: <figure><img src="/img/posts/woodworking-tools/kreg-saw-jig.jpg"/><figcaption></figcaption></figure> The circular saw jig will get you over the blues of not having a table saw. I use mine a lot. However, it requires that you think about teh cut plan for the project very differently. If you're cutting plywood, you'll want to nibble away at it instead of breaking it down into smaller pieces.
+[Saw Guide][kreg-saw-jig]
+: <figure><img src="/img/posts/woodworking-tools/kreg-saw-jig.jpg"/><figcaption>This is the next best thing to having a table saw for making repeatable, accurate cuts. You'll just need to change how you approach breaking down sheet goods a little bit.</figcaption></figure> [The Kreg circular saw guide][kreg-saw-jig] will get you over the blues of not having a table saw. I use mine a lot. However, it requires that you think about teh cut plan for the project very differently. If you're cutting plywood, you'll want to nibble away at it instead of breaking it down into smaller pieces.
 
 
 ## Clamps
@@ -226,13 +228,13 @@ These will change the way that you view quick projects. The Kreg Pockethole jig 
 You can never have too many. Stock up when there is a sale, and scrounge estate sales and Craigslist for more. You can start with spring
 
 [Spring Clamps][spring-clamps]
-: <figure><img src="/img/posts/woodworking-tools/spring-clamps.jpg"/><figcaption></figcaption></figure> Cheap and simple, these are great for laminating boards and small glue-ups.
+: <figure><img src="/img/posts/woodworking-tools/spring-clamps.jpg"/><figcaption>Bessey makes nice clamps.</figcaption></figure> Cheap and simple, [these are great][spring-clamps] for laminating boards and small glue-ups.
 
 [Simple Clamps][simple-clamps]
-: <figure><img src="/img/posts/woodworking-tools/simple-clamps.jpg"/><figcaption></figcaption></figure> Two foot bar clamps, with the trigger are great for holding smaller workpieces.
+: <figure><img src="/img/posts/woodworking-tools/simple-clamps.jpg"/><figcaption></figcaption></figure> [Small bar clamps][simple-clamps], with the trigger are great for holding smaller workpieces.
 
-[Pipe clamps][pipe-clamps]
-: <figure><img src="/img/posts/woodworking-tools/pipe-clamps.jpg"/><figcaption></figcaption></figure> Cheap and durable, a set of four 5' bar clamps will help with larger projects. A simple bed headboard for instance.
+[Pipe clamps][pipe-clamp]
+: <figure><img src="/img/posts/woodworking-tools/pipe-clamp.jpg"/><figcaption></figcaption></figure> [Cheap and durable][pipe-clamp], a set of four 5' bar clamps will help with larger projects. These would be great for making your first headboard for a bed, or keeping a coffee table square during glue-up. You'll add your own pipe to these to make them into whatever length you need. Very versatile and easy to use. Be careful to not mar your surfaces with them.
 
 
 ## Power Tools
@@ -240,30 +242,31 @@ You can never have too many. Stock up when there is a sale, and scrounge estate 
 Saw, drill, jigsaw will take you far. A sander is included with the finishing tools.
 
 [Drill][drill]
-: <figure><img src="/img/posts/woodworking-tools/drill.jpg"/><figcaption></figcaption></figure> A high quality drill is an absolute must. An 18 volt drill will have more than enough power to drive larger bits.
+: <figure><img src="/img/posts/woodworking-tools/drill.jpg"/><figcaption></figcaption>Quick charging, light, and a long battery life make this DeWalt a great choice.</figure> A high quality drill is an absolute must. An 18 volt drill will have more than enough power to drive larger bits, but I like this [20V from DeWalt][drill] for its compact size and light weight. A drill with a heavy battery can make it hard to tell how hard you are driving screws, which is very important when using pocket hole joinery.
 
 [Impact driver][impact-driver]
-: <figure><img src="/img/posts/woodworking-tools/impact-driver.jpg"/><figcaption></figcaption></figure> This is an optional tool, but if you're driving a lot of screws, installing a deck, or a lot of drywall, then an impact driver is a brilliant tool to own. They don't strip screws and can make short work of things.
+: <figure><img src="/img/posts/woodworking-tools/impact-driver.jpg"/><figcaption>Brrraaaaaapppp!</figcaption></figure> This is an optional tool, but if you're driving a lot of screws, installing a deck, or a lot of drywall, then an impact driver is a brilliant tool to own. They don't strip screws and stay engaged with a screw much better. If you're going to purchase one, it's best to buy [the combination pack of drill and driver][impact-driver] so that you have compatible batteries and charging systems.
 
 [Jig Saw][jig-saw]
-: <figure><img src="/img/posts/woodworking-tools/jig-saw.jpg"/><figcaption></figcaption></figure> Go ahead and spend a little more on a nice one. This is a tool that will bridge the gap from now until you have a bandsaw, and will always be a great tool for odd jobs.
+: <figure><img src="/img/posts/woodworking-tools/jig-saw.jpg"/><figcaption>Buy an assortment of blades, having the right blade is crucial to getting good results.</figcaption></figure> Go ahead and spend a little more on a nice one. This is [a tool that will bridge the gap][jig-saw] from now until you have a bandsaw, and will always be a great tool for odd jobs. I like this DeWalt saw because it has a nice orbital action for cutting and no need for tools to change blades.
 
 [Circular saw][circular-saw]
-: <figure><img src="/img/posts/woodworking-tools/circular-saw.jpg"/><figcaption></figcaption></figure> A 7 1/4 inch saw is a carpentry must. A worm drive is a great tool if you're framing, but can be heavy and a little hard to deal with if you plan to use it with a Kreg jig or a cutting guide.
+: <figure><img src="/img/posts/woodworking-tools/circular-saw.jpg"/><figcaption>Buy good blades, and the right blade for the material that you are cutting!</figcaption></figure> A 7 1/4 inch saw is a carpentry must. [A worm drive saw][worm-drive-saw] is a great tool if you're framing, but can be heavy and a little hard to deal with if you plan to use it with a Kreg jig or a cutting guide. [This DeWalt saw is a great place to start][circular-saw], it's got a brake and is pretty lightweight. It works well with a guide.
 
-[Router (1 hp, 1/4" collet) Purchase bits as needed; bead, chamfer, cove, straight, round-over, rabbet.][trim-router]
-: <figure><img src="/img/posts/woodworking-tools/trim-router.jpg"/><figcaption></figcaption></figure> A 1/4" collet will hold most of the bits you'll want for rabbetting drawers and frames. Purchase the bits as you need them, but you can start with a roundover and a flush cutting bit. You can clean up a lot of backyard building inaccuracy with a flush cutting bit.
+[Router (1 hp, 1/4" collet)][trim-router]
+: <figure><img src="/img/posts/woodworking-tools/router.jpg"/><figcaption>You can get new bits for your projects. Start with a rabbeting bit and straight and flush cutting, and then chamfer, bead, cove, and round-over.</figcaption></figure> A 1/4" collet will hold most of the bits you'll want for rabbetting drawers and frames. Purchase the bits as you need them. You can clean up a lot of backyard building inaccuracy with a flush cutting bit. For instance, if you've attached a sheet of plywood to a board, and the board isn't _quite_ straight, a flush cutting bit will make the edges match. You could accomplish the same thing with a sander, but a router will leave a crisp edge. You'll want a larger plunge router at some point, but this will give you all that you need for finishing edges, adding detail, and rabbetting for drawers, frames, and cabinet backs.
 
 
 ## Sanding and Finishing
 
 [Random orbit sander][random-orbit-sander]
-: <figure><img src="/img/posts/woodworking-tools/random-orbit-sander.jpg"/><figcaption></figcaption></figure> A five inch sander is a great start. The difference in a nice piece and a hack job is the quality of the finish. A nice sander will help that.
+: <figure><img src="/img/posts/woodworking-tools/random-orbit-sander.jpg"/><figcaption></figcaption></figure> A five inch sander is a great start. [This one from DeWalt][random-orbit-sander] is darn near perfect. The difference in a nice piece and a hack job is the quality of the finish. A nice sander will help that.
 
 [Belt sander][belt-sander]
-: <figure><img src="/img/posts/woodworking-tools/belt-sander.jpg"/><figcaption></figcaption></figure> A second tier tool, but great to have.
+: <figure><img src="/img/posts/woodworking-tools/belt-sander.jpg"/><figcaption>Not a requirement, but great to have for dimensioning stock if you don't have a planer or jointer.</figcaption></figure> This is a little expensive to include on this list, but it can be a great tool to own. [A belt sander][belt-sander] can take the place of a planer and to some extend a jointer. It can be very useful in flattening boards as well as for shaping. Stick to the random orbit sander for finishing tasks though!
 
 [Assorted sandpaper][sandpaper]
-: <figure><img src="/img/posts/woodworking-tools/sandpaper.jpg"/><figcaption></figcaption></figure> <a href="http://www.finehomebuilding.com/item/12862/folding-trick-makes-sandpaper-last-longer">Learn how to fold your sandpaper</a>!
+: <figure><img src="/img/posts/woodworking-tools/sandpaper.jpg"/><figcaption></figcaption></figure> You'll get a lot more life out of your sandpaper if you <a href="http://www.finehomebuilding.com/item/12862/folding-trick-makes-sandpaper-last-longer">learn how to fold it correctly</a>! I like the [3M Sandpaper][sandpaper], the tacky back makes it work well on sanding blocks, and it doesn't seem to pack-up or wear down as fast as other brands.
 
 
+<hr style="clear: both">
