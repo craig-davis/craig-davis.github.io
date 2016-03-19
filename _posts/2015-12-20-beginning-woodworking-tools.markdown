@@ -37,16 +37,18 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [sliding-bevel]: http://amzn.to/22ute9r "Amazon: Swanson Sliding Bevel"
 [measuring-tape]: http://amzn.to/22utXYj "Amazon: Fractional measuring tape"
 [folding-rule]: http://amzn.to/1Rrx2qi "Amazon: Lufkin folding ruler"
-[rubber-mallet]:
-[hammer]:
-[screwdrivers]:
-[paint-can-operer]:
-[razor-knife]:
-[slip-joint-pliers]:
-[needle-nose-pliers]:
-[diagonal-cutters]:
-[adjustable-wrench]:
-[box-wrenches]:
+[rubber-mallet]: http://amzn.to/22uxeqz "Amazon: Non-marking mallet"
+[hammer]: http://amzn.to/22uxk1p "Amazon: Plumb hammer"
+[screwdrivers]: http://amzn.to/1RrzzAL "Amazon: Craftsman screwdrivers"
+[paint-can-opener]: http://amzn.to/1RrzJIh "Amazon: Pain can opener"
+[razor-knife]: http://amzn.to/22uydqE "Amazon: Lennox razor knife"
+[razor-blades]: http://amzn.to/1nXM7lF "Amazon: Irwin Blue Blades"
+[slip-joint-pliers]: http://amzn.to/1RrAh13 "Amazon: Craftsman slip join pliers"
+[needle-nose-pliers]: http://amzn.to/1RrAEsh "Amazon: Craftsman needle nose pliers"
+[diagonal-cutters]: http://amzn.to/22uzcqZ "Amazon: Craftsman diagonal cutters"
+[adjustable-wrench]: http://amzn.to/1RrBbdX "Amazon: Craftsman adjustable wrenches"
+[metric-combination]: http://amzn.to/1RrBSUs "Amazon: Craftsman combination wrenches"
+[standard-combination]: http://amzn.to/1RW8AYv "Amazon: Craftsman combination wrenches"
 [crosscut-saw]:
 [rip-saw]:
 [japanese-backsaw]:
@@ -134,31 +136,31 @@ This is a basic set of hand tools. These aren't all used directly, but may be us
 : <figure><img src="/img/posts/woodworking-tools/rubber-mallet.jpg"/><figcaption></figcaption></figure> A non-marking source of motivation. Useful for knocking together glue ups, or taking apart dry fit pieces. Oh, and sealing paint cans, but keep it clean!
 
 [Hammer][hammer]
-: <figure><img src="/img/posts/woodworking-tools/hammer.jpg"/><figcaption></figcaption></figure> A sixteen ounce claw hammer is the right place to start. A simple fiberglass handle will do.
+: <figure><img src="/img/posts/woodworking-tools/hammer.jpg"/><figcaption>A great starter. Then a <a href="http://amzn.to/1nXL5pV">Stiletto</a> for framing and a <a href="http://amzn.to/1Mi43my">Dead On</a> for mayhem.</figcaption></figure> A sixteen ounce claw hammer is the right place to start. A simple fiberglass handle will do.
 
 [Screwdrivers][screwdrivers]
-: <figure><img src="/img/posts/woodworking-tools/screwdrivers.jpg"/><figcaption></figcaption></figure> Get an assortment of screwdrivers. Buy good screwdrivers, the higher quality metal won't round as many screws and you'll have better results.
+: <figure><img src="/img/posts/woodworking-tools/screwdrivers.jpg"/><figcaption>You may as well get a good set.</figcaption></figure> Get an assortment of screwdrivers. Buy good screwdrivers, the higher quality metal won't round as many screws and you'll have better results.
 
 [Paint can opener][paint-can-opener]
 : <figure><img src="/img/posts/woodworking-tools/paint-can-opener.jpg"/><figcaption></figcaption></figure> This is very different than a screwdriver! They are cheap and will extend the life of your favorite standard screwdriver.
 
 [Razor knife][razor-knife]
-: <figure><img src="/img/posts/woodworking-tools/razor-knife.jpg"/><figcaption></figcaption></figure> A sharp knife is a safe knife. A sharp knife needs less
+: <figure><img src="/img/posts/woodworking-tools/razor-knife.jpg"/><figcaption></figcaption></figure> A sharp knife is a safe knife. A sharp knife needs less force and so you're much less likely to slip while cutting and injure yourself. Buy the [Lennox Gold Knife][razor-knife] and the [Irwin Blue blades][razor-blades]. The Lennox is well made and durable. The Blue blades bend and don't shatter.
 
 [Slip-joint pliers][slip-joint-pliers]
-: <figure><img src="/img/posts/woodworking-tools/slip-joint-pliers.jpg"/><figcaption></figcaption></figure> Please, don't use these on nuts or bolts.
+: <figure><img src="/img/posts/woodworking-tools/slip-joint-pliers.jpg"/><figcaption>Please, don't use these on nuts or bolts.</figcaption></figure> Craftsman makes nice hand tools. This set of [8 inch slip joint pliers][slip-joint-pliers] is versatile - from tristing wires to dealing with stuck parts to getting a solid grip on loose parts. They have a wire cutter that is decently sharp as well. You could certainly buy the Klein or the Channelock, or find a pack with multiple, but this is all you really need.
 
 [Needle-nose pliers][needle-nose-pliers]
-: <figure><img src="/img/posts/woodworking-tools/needle-nose-pliers.jpg"/><figcaption></figcaption></figure> Useful for everything from driving a heavy duty needle or fishing hook to dealing with small fasteners.
+: <figure><img src="/img/posts/woodworking-tools/needle-nose-pliers.jpg"/><figcaption></figcaption></figure> [Useful for everything][needle-nose-pliers] from driving a heavy duty needle or fishing hook to dealing with small fasteners. As with all Craftsman, they have a great warranty.
 
 [Diagonal cutters][diagonal-cutters]
-: <figure><img src="/img/posts/woodworking-tools/diagonal-cutters.jpg"/><figcaption></figcaption></figure> Wire cutters that are also useful for zip ties, wire ties, and home electrical work
+: <figure><img src="/img/posts/woodworking-tools/diagonal-cutters.jpg"/><figcaption></figcaption></figure> [Wire cutters][diagonal-cutters] that are also useful for zip ties, wire ties, and home electrical work.
 
 [Adjustable wrench][adjustable-wrench]
-: <figure><img src="/img/posts/woodworking-tools/adjustable-wrench.jpg"/><figcaption></figcaption></figure> You wouldn't think it, but there's a correct direction to use an adjustable wrench. Always use it so that it's turning towards the movable jaw. This keeps the movable jaw being forced towards the wrench body, and you won't strip as many bolt heads. But again, this is a tool of convenience - if you've got the socket or end wrench in your toolbox, use it.
+: <figure><img src="/img/posts/woodworking-tools/adjustable-wrench.jpg"/><figcaption></figcaption></figure> You wouldn't think it, but [there's a correct direction to use an adjustable wrench](https://www.youtube.com/watch?v=KHKFy0J75Mo). Always use it so that it's turning towards the movable jaw. This keeps the movable jaw being forced towards the wrench body, and you won't strip as many bolt heads. But again, this is a tool of convenience - if you've got the socket or end wrench in your toolbox, use it. I like the Irwin wrenches that I have, but once again, [Craftsman makes a nice set][adjustable-wrench].
 
-[Box end wrenches][box-wrenches]
-: <figure><img src="/img/posts/woodworking-tools/box-wrenches.jpg"/><figcaption></figcaption></figure> A set of both metric and standard wrenches. You'll need these for everything. Since this is a woodworking list, I'm going to leave a socket set off of this list.
+[Combination wrenches][standard-combination]
+: <figure><img src="/img/posts/woodworking-tools/combination-wrenches.jpg"/><figcaption></figcaption></figure> A set of both [metric][metric-combination] and [standard wrenches][standard-combination]. You'll use these a lot. Since this is a woodworking list, I'm going to leave a socket set off of this list. For the weekend hobbist, there is no real need to buy a full polish set. A full polish set feels nicer in your hands, and cleans up better -- but for most people, it doesn't really matter.
 
 
 ## Cutting
