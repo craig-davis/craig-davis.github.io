@@ -242,7 +242,7 @@ You can never have too many. Stock up when there is a sale, and scrounge estate 
 Saw, drill, jigsaw will take you far. A sander is included with the finishing tools.
 
 [Drill][drill]
-: <figure><img src="/img/posts/woodworking-tools/drill.jpg"/><figcaption></figcaption>Quick charging, light, and a long battery life make this DeWalt a great choice.</figure> A high quality drill is an absolute must. An 18 volt drill will have more than enough power to drive larger bits, but I like this [20V from DeWalt][drill] for its compact size and light weight. A drill with a heavy battery can make it hard to tell how hard you are driving screws, which is very important when using pocket hole joinery.
+: <figure><img src="/img/posts/woodworking-tools/drill.jpg"/><figcaption>Quick charging, light, and a long battery life make this DeWalt a great choice.</figcaption></figure> A high quality drill is an absolute must. An 18 volt drill will have more than enough power to drive larger bits, but I like this [20V from DeWalt][drill] for its compact size and light weight. A drill with a heavy battery can make it hard to tell how hard you are driving screws, which is very important when using pocket hole joinery.
 
 [Impact driver][impact-driver]
 : <figure><img src="/img/posts/woodworking-tools/impact-driver.jpg"/><figcaption>Brrraaaaaapppp!</figcaption></figure> This is an optional tool, but if you're driving a lot of screws, installing a deck, or a lot of drywall, then an impact driver is a brilliant tool to own. They don't strip screws and stay engaged with a screw much better. If you're going to purchase one, it's best to buy [the combination pack of drill and driver][impact-driver] so that you have compatible batteries and charging systems.
