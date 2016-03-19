@@ -37,6 +37,40 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [sliding-bevel]: http://amzn.to/22ute9r "Amazon: Swanson Sliding Bevel"
 [measuring-tape]: http://amzn.to/22utXYj "Amazon: Fractional measuring tape"
 [folding-rule]: http://amzn.to/1Rrx2qi "Amazon: Lufkin folding ruler"
+[rubber-mallet]:
+[hammer]:
+[screwdrivers]:
+[paint-can-operer]:
+[razor-knife]:
+[slip-joint-pliers]:
+[needle-nose-pliers]:
+[diagonal-cutters]:
+[adjustable-wrench]:
+[box-wrenches]:
+[crosscut-saw]:
+[rip-saw]:
+[japanese-backsaw]:
+[hacksaw]:
+[brad-point-bits]:
+[spade-point-bits]:
+[bench-planes]:
+[wood-chisels]:
+[files]:
+[kreg-jig]:
+[kreg-clamps]:
+[kreg-90-clamp]:
+[kreg-saw-jig]:
+[spring-clamps]:
+[simple-clamps]:
+[pipe-clamps]:
+[drill]:
+[impact-driver]:
+[jig-saw]:
+[circular-saw]:
+[trim-router]:
+[random-orbit-sander]:
+[belt-sander]:
+[sandpaper]:
 
 ## Safety
 
@@ -95,139 +129,136 @@ Measure twice, cut once. Even better, learn to never measure - but that's anothe
 
 This is a basic set of hand tools. These aren't all used directly, but may be useful in adjusting tools, dealing with miscellaneous fasteners, and other DIY projects.
 
-<dl>
-    <dt>Rubber mallet</dt>
-    <dd>A non-marking source of motivation. Useful for knocking together glue ups, or taking apart dry fit pieces. Oh, and sealing paint cans, but keep it clean!</dd>
 
-    <dt>Hammer</dt>
-    <dd>A sixteen ounce claw hammer is the right place to start. A simple fiberglass handle will do.</dd>
+[Rubber mallet][rubber-mallet]
+: <figure><img src="/img/posts/woodworking-tools/rubber-mallet.jpg"/><figcaption></figcaption></figure> A non-marking source of motivation. Useful for knocking together glue ups, or taking apart dry fit pieces. Oh, and sealing paint cans, but keep it clean!
 
-    <dt>Screwdrivers</dt>
-    <dd>Get an assortment of screwdrivers. Buy good screwdrivers, the higher quality metal won't round as many screws and you'll have better results.</dd>
+[Hammer][hammer]
+: <figure><img src="/img/posts/woodworking-tools/hammer.jpg"/><figcaption></figcaption></figure> A sixteen ounce claw hammer is the right place to start. A simple fiberglass handle will do.
 
-    <dt>Paint can opener</dt>
-    <dd>This is very different than a screwdriver! They are cheap and will extend the life of your favorite standard screwdriver.</dd>
+[Screwdrivers][screwdrivers]
+: <figure><img src="/img/posts/woodworking-tools/screwdrivers.jpg"/><figcaption></figcaption></figure> Get an assortment of screwdrivers. Buy good screwdrivers, the higher quality metal won't round as many screws and you'll have better results.
 
-    <dt>Razor knife</dt>
-    <dd>A sharp knife is a safe knife. A sharp knife needs less </dd>
+[Paint can opener][paint-can-opener]
+: <figure><img src="/img/posts/woodworking-tools/paint-can-opener.jpg"/><figcaption></figcaption></figure> This is very different than a screwdriver! They are cheap and will extend the life of your favorite standard screwdriver.
 
-    <dt>Slip-joint pliers</dt>
-    <dd>Please, don't use these on nuts or bolts.</dd>
+[Razor knife][razor-knife]
+: <figure><img src="/img/posts/woodworking-tools/razor-knife.jpg"/><figcaption></figcaption></figure> A sharp knife is a safe knife. A sharp knife needs less
 
-    <dt>Needle-nose pliers</dt>
-    <dd>Useful for everything from driving a heavy duty needle or fishing hook to dealing with small fasteners.</dd>
+[Slip-joint pliers][slip-joint-pliers]
+: <figure><img src="/img/posts/woodworking-tools/slip-joint-pliers.jpg"/><figcaption></figcaption></figure> Please, don't use these on nuts or bolts.
 
-    <dt>Diagonal cutters</dt>
-    <dd>Wire cutters that are also useful for zip ties, wire ties, and home electrical work</dd>
+[Needle-nose pliers][needle-nose-pliers]
+: <figure><img src="/img/posts/woodworking-tools/needle-nose-pliers.jpg"/><figcaption></figcaption></figure> Useful for everything from driving a heavy duty needle or fishing hook to dealing with small fasteners.
 
-    <dt>Adjustable wrench</dt>
-    <dd>You wouldn't think it, but there's a correct direction to use an adjustable wrench. Always use it so that it's turning towards the movable jaw. This keeps the movable jaw being forced towards the wrench body, and you won't strip as many bolt heads. But again, this is a tool of convenience - if you've got the socket or end wrench in your toolbox, use it.</dd>
-</dl>
+[Diagonal cutters][diagonal-cutters]
+: <figure><img src="/img/posts/woodworking-tools/diagonal-cutters.jpg"/><figcaption></figcaption></figure> Wire cutters that are also useful for zip ties, wire ties, and home electrical work
+
+[Adjustable wrench][adjustable-wrench]
+: <figure><img src="/img/posts/woodworking-tools/adjustable-wrench.jpg"/><figcaption></figcaption></figure> You wouldn't think it, but there's a correct direction to use an adjustable wrench. Always use it so that it's turning towards the movable jaw. This keeps the movable jaw being forced towards the wrench body, and you won't strip as many bolt heads. But again, this is a tool of convenience - if you've got the socket or end wrench in your toolbox, use it.
+
+[Box end wrenches][box-wrenches]
+: <figure><img src="/img/posts/woodworking-tools/box-wrenches.jpg"/><figcaption></figcaption></figure> A set of both metric and standard wrenches. You'll need these for everything. Since this is a woodworking list, I'm going to leave a socket set off of this list.
+
 
 ## Cutting
 
 Saws. There's four basic saws that are worth having. Others will debate that there are far more. Actually, make that 7 - no. Well, start with these four.
 
-<dl>
-    <dt>Crosscut saw (12 pt.)</dt>
-    <dd>A twelve point per inch crosscut saw is great for quickly trimming 2x4s and other lumber</dd>
+[Crosscut saw (12 pt.)][crosscut-saw]
+: <figure><img src="/img/posts/woodworking-tools/crosscut-saw.jpg"/><figcaption></figcaption></figure> A twelve point per inch crosscut saw is great for quickly trimming 2x4s and other lumber
 
-    <dt>Rip saw (6 1/2 or 7 1/2 pt.)</dt>
-    <dd>This is a saw used to cut with the direction of the wood grain. The teeth are set at a different angle, and while you can rip with a crosscut saw, it's worth having both. The teeth are cut to act more like a chisel, and so won't hunt around and follow grain the way that a crosscut saw would. You'll get straighter cuts.</dd>
+[Rip saw (6 1/2 or 7 1/2 pt.)][rip-saw]
+: <figure><img src="/img/posts/woodworking-tools/rip-saw.jpg"/><figcaption></figcaption></figure> This is a saw used to cut with the direction of the wood grain. The teeth are set at a different angle, and while you can rip with a crosscut saw, it's worth having both. The teeth are cut to act more like a chisel, and so won't hunt around and follow grain the way that a crosscut saw would. You'll get straighter cuts.
 
-    <dt>Japanese backsaw</dt>
-    <dd>A dozuki is a saw that cuts on the pull stroke and has a stiffened blade. It's ideal for hand cut dovetails and other finishing work. A flexible backsaw is great for flush trimming.</dd>
+[Japanese backsaw][japanese-backsaw]
+: <figure><img src="/img/posts/woodworking-tools/japanese-backsaw.jpg"/><figcaption></figcaption></figure> A dozuki is a saw that cuts on the pull stroke and has a stiffened blade. It's ideal for hand cut dovetails and other finishing work. A flexible backsaw is great for flush trimming.
 
-    <dt>Hacksaw</dt>
-    <dd>At some point, you're going to have to cut a bolt to length or some bar stock for a project. This is the tool for that.</dd>
-</dl>
+[Hacksaw][hacksaw]
+: <figure><img src="/img/posts/woodworking-tools/hacksaw.jpg"/><figcaption></figcaption></figure> At some point, you're going to have to cut a bolt to length or some bar stock for a project. This is the tool for that.
+
 
 ## Shaping
 
 Wood and metal shaping tools. These will let you remove material efficiently.
 
-<dl>
-    <dt>Brad-point drill bits</dt>
-    <dd>The go-to drill bit for wood. An assortment of these is a must. Keep them sharp, don't overheat them, and don't leave them to rattle around in a toolbox. They get dull that way. As you add more, learn about split points and rake angles for various materials.</dd>
+[Brad-point drill bits][brad-point-bits]
+: <figure><img src="/img/posts/woodworking-tools/brad-point-bits.jpg"/><figcaption></figcaption></figure> The go-to drill bit for wood. An assortment of these is a must. Keep them sharp, don't overheat them, and don't leave them to rattle around in a toolbox. They get dull that way. As you add more, learn about split points and rake angles for various materials.
 
-    <dt>Spade drill bits</dt>
-    <dd>Large and flat, these cut large holes when you don't care about the roundness of the hole or the finish. Home electrical wiring and making some large holes are the name here. For anything else, you'll want to start investing in Forstner bits and then hole saws for large sized holes.</dd>
+[Spade drill bits][spade-point-bits]
+: <figure><img src="/img/posts/woodworking-tools/spade-point-bits.jpg"/><figcaption></figcaption></figure> Large and flat, these cut large holes when you don't care about the roundness of the hole or the finish. Home electrical wiring and making some large holes are the name here. For anything else, you'll want to start investing in Forstner bits and then hole saws for large sized holes.
 
-    <dt>Bench planes</dt>
-    <dd>A smoothing plane and a small block plane can be used to deal with a door that has swelled, a drawer that doesn't fit, and can be used to flatten and square all manner of boards.</dd>
+[Bench planes][bench-planes]
+: <figure><img src="/img/posts/woodworking-tools/bench-planes.jpg"/><figcaption></figcaption></figure> A smoothing plane and a small block plane can be used to deal with a door that has swelled, a drawer that doesn't fit, and can be used to flatten and square all manner of boards.
 
-    <dt>Wood chisels</dt>
-    <dd>An assortment of wood chisels from 1/4" to 1" will be helpful. They'll be useful in everything from mortising for a door to making tenons to cleaning up dovetails. Don't use them for anything else - no scraping and no paint can opening! (We have a tool for that!)</dd>
+[Wood chisels][wood-chisels]
+: <figure><img src="/img/posts/woodworking-tools/wood-chisels.jpg"/><figcaption></figcaption></figure> An assortment of wood chisels from 1/4" to 1" will be helpful. They'll be useful in everything from mortising for a door to making tenons to cleaning up dovetails. Don't use them for anything else - no scraping and no paint can opening! (We have a tool for that!)
 
-    <dt>File</dt>
-    <dd>A few files will be really handy, a small triangular file for detail work, and a few mill files will be great for everything from sharpening a lawnmower blade to deburring a bolt that you trimmed with your hacksaw.</dd>
-</dl>
+[File][files]
+: <figure><img src="/img/posts/woodworking-tools/files.jpg"/><figcaption></figcaption></figure> A few files will be really handy, a small triangular file for detail work, and a few mill files will be great for everything from sharpening a lawnmower blade to deburring a bolt that you trimmed with your hacksaw.
+
 
 ## Kreg Jigs
 
 These will change the way that you view quick projects. The Kreg Pockethole jig allows you to quickly and easily join two piece of wood at a 90 or 180 degree angle. This can make face frames and basic box construction go quicker than you could ever imagine. It'll never be as pretty as fancy joints, but without a table saw, this will open up an entire new set of projects.
 
-<dl>
-    <dt>Simple kit</dt>
-    <dd>The two hole or even the mini jig are a great place to start</dd>
+[Simple kit][kreg-jig]
+: <figure><img src="/img/posts/woodworking-tools/kreg-jig.jpg"/><figcaption></figcaption></figure> The two hole or even the mini jig are a great place to start
 
-    <dt>Regular clamp</dt>
-    <dd>Most kits come with a flat clamp, but if not, this an absolute requirement. It allows you to hold the jig in position, and face frames flat as you add the screw.</dd>
+[Regular clamp][kreg-clamps]
+: <figure><img src="/img/posts/woodworking-tools/kreg-clamps.jpg"/><figcaption></figcaption></figure> Most kits come with a flat clamp, but if not, this an absolute requirement. It allows you to hold the jig in position, and face frames flat as you add the screw.
 
-    <dt>90 degree clamp</dt>
-    <dd>Go ahead and get one, you'll like having it. It makes holding two board at 90 degrees really easy, and make box and drawer construction go quickly.</dd>
+[90 degree clamp][kreg-90-clamp]
+: <figure><img src="/img/posts/woodworking-tools/kreg-90-clamp.jpg"/><figcaption></figcaption></figure> Go ahead and get one, you'll like having it. It makes holding two board at 90 degrees really easy, and make box and drawer construction go quickly.
 
-    <dt>Saw jig</dt>
-    <dd>The circular saw jig will get you over the blues of not having a table saw. I use mine a lot. However, it requires that you think about teh cut plan for the project very differently. If you're cutting plywood, you'll want to nibble away at it instead of breaking it down into smaller pieces.</dd>
-</dl>
+[Saw jig][kreg-saw-jig]
+: <figure><img src="/img/posts/woodworking-tools/kreg-saw-jig.jpg"/><figcaption></figcaption></figure> The circular saw jig will get you over the blues of not having a table saw. I use mine a lot. However, it requires that you think about teh cut plan for the project very differently. If you're cutting plywood, you'll want to nibble away at it instead of breaking it down into smaller pieces.
+
 
 ## Clamps
 
 You can never have too many. Stock up when there is a sale, and scrounge estate sales and Craigslist for more. You can start with spring
 
-<dl>
-    <dt>Spring Clamps</dt>
-    <dd>Cheap and simple, these are great for laminating boards and small glue-ups.</dd>
+[Spring Clamps][spring-clamps]
+: <figure><img src="/img/posts/woodworking-tools/spring-clamps.jpg"/><figcaption></figcaption></figure> Cheap and simple, these are great for laminating boards and small glue-ups.
 
-    <dt>Simple Clamps</dt>
-    <dd>Two foot bar clamps, with the trigger are great for holding smaller workpieces.</dd>
+[Simple Clamps][simple-clamps]
+: <figure><img src="/img/posts/woodworking-tools/simple-clamps.jpg"/><figcaption></figcaption></figure> Two foot bar clamps, with the trigger are great for holding smaller workpieces.
 
-    <dt>Pipe clamps</dt>
-    <dd>Cheap and durable, a set of four 5' bar clamps will help with larger projects. A simple bed headboard for instance.</dd>
-</dl>
+[Pipe clamps][pipe-clamps]
+: <figure><img src="/img/posts/woodworking-tools/pipe-clamps.jpg"/><figcaption></figcaption></figure> Cheap and durable, a set of four 5' bar clamps will help with larger projects. A simple bed headboard for instance.
+
 
 ## Power Tools
 
 Saw, drill, jigsaw will take you far. A sander is included with the finishing tools.
 
-<dl>
-    <dt>Drill</dt>
-    <dd>A high quality drill is an absolute must. An 18 volt drill will have more than enough power to drive larger bits.</dd>
+[Drill][drill]
+: <figure><img src="/img/posts/woodworking-tools/drill.jpg"/><figcaption></figcaption></figure> A high quality drill is an absolute must. An 18 volt drill will have more than enough power to drive larger bits.
 
-    <dt>Impact driver</dt>
-    <dd>This is an optional tool, but if you're driving a lot of screws, installing a deck, or a lot of drywall, then an impact driver is a brilliant tool to own. They don't strip screws and can make short work of things.</dd>
+[Impact driver][impact-driver]
+: <figure><img src="/img/posts/woodworking-tools/impact-driver.jpg"/><figcaption></figcaption></figure> This is an optional tool, but if you're driving a lot of screws, installing a deck, or a lot of drywall, then an impact driver is a brilliant tool to own. They don't strip screws and can make short work of things.
 
-    <dt>Jig Saw</dt>
-    <dd>Go ahead and spend a little more on a nice one. This is a tool that will bridge the gap from now until you have a bandsaw, and will always be a great tool for odd jobs.</dd>
+[Jig Saw][jig-saw]
+: <figure><img src="/img/posts/woodworking-tools/jig-saw.jpg"/><figcaption></figcaption></figure> Go ahead and spend a little more on a nice one. This is a tool that will bridge the gap from now until you have a bandsaw, and will always be a great tool for odd jobs.
 
-    <dt>Circular saw</dt>
-    <dd>A 7 1/4 inch saw is a carpentry must. A worm drive is a great tool if you're framing, but can be heavy and a little hard to deal with if you plan to use it with a Kreg jig or a cutting guide.</dd>
+[Circular saw][circular-saw]
+: <figure><img src="/img/posts/woodworking-tools/circular-saw.jpg"/><figcaption></figcaption></figure> A 7 1/4 inch saw is a carpentry must. A worm drive is a great tool if you're framing, but can be heavy and a little hard to deal with if you plan to use it with a Kreg jig or a cutting guide.
 
-    <dt>Router (1 hp, 1/4" collet) Purchase bits as needed; bead, chamfer, cove, straight, round-over, rabbet.</dt>
-    <dd>A 1/4" collet will hold most of the bits you'll want for rabbetting drawers and frames. Purchase the bits as you need them, but you can start with a roundover and a flush cutting bit. You can clean up a lot of backyard building inaccuracy with a flush cutting bit.</dd>
-</dl>
+[Router (1 hp, 1/4" collet) Purchase bits as needed; bead, chamfer, cove, straight, round-over, rabbet.][trim-router]
+: <figure><img src="/img/posts/woodworking-tools/trim-router.jpg"/><figcaption></figcaption></figure> A 1/4" collet will hold most of the bits you'll want for rabbetting drawers and frames. Purchase the bits as you need them, but you can start with a roundover and a flush cutting bit. You can clean up a lot of backyard building inaccuracy with a flush cutting bit.
+
 
 
 ## Sanding and Finishing
 
-<dl>
-    <dt>Random orbit sander</dt>
-    <dd>A five inch sander is a great start. The difference in a nice piece and a hack job is the quality of the finish. A nice sander will help that.</dd>
+[Random orbit sander][random-orbit-sander]
+: <figure><img src="/img/posts/woodworking-tools/random-orbit-sander.jpg"/><figcaption></figcaption></figure> A five inch sander is a great start. The difference in a nice piece and a hack job is the quality of the finish. A nice sander will help that.
 
-    <dt>Belt sander</dt>
-    <dd>A second tier tool, but great to have.</dd>
+[Belt sander][belt-sander]
+: <figure><img src="/img/posts/woodworking-tools/belt-sander.jpg"/><figcaption></figcaption></figure> A second tier tool, but great to have.
 
-    <dt>Assorted sandpaper</dt>
-    <dd><a href="http://www.finehomebuilding.com/item/12862/folding-trick-makes-sandpaper-last-longer">Learn how to fold your sandpaper</a>!</dd>
-</dl>
+[Assorted sandpaper][sandpaper]
+: <figure><img src="/img/posts/woodworking-tools/sandpaper.jpg"/><figcaption></figcaption></figure> <a href="http://www.finehomebuilding.com/item/12862/folding-trick-makes-sandpaper-last-longer">Learn how to fold your sandpaper</a>!
+
 
