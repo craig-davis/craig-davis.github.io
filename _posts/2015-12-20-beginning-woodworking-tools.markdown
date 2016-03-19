@@ -28,6 +28,15 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [ear-plugs]: http://amzn.to/1Rrpow3 "Amazon: Soft ear plugs"
 [ear-muffs]: http://amzn.to/22umubA "Amazon: Peltor ear muffs"
 [dust-mask]: http://amzn.to/22ungp0 "Amazon: 3M dust mask with vent"
+[dust-pan]: http://amzn.to/1Rrswbm "Amazon: Rubbermade hand broom"
+[rags]: http://amzn.to/1Rrtu7q "Amazon: Shop rags"
+[boraxo-soap]: http://amzn.to/1RrtbJJ "Amazon: Borax hand soap"
+[goop-soap]: http://amzn.to/22uq5qb "Amazon: Goop hand soap"
+[mechanical-pencil]: http://amzn.to/1RruoAV "Amazon: rOtring mechanical pencil"
+[combination-square]: http://amzn.to/1R7Facc "Amazon: Irwin combination square"
+[sliding-bevel]: http://amzn.to/22ute9r "Amazon: Swanson Sliding Bevel"
+[measuring-tape]: http://amzn.to/22utXYj "Amazon: Fractional measuring tape"
+[folding-rule]: http://amzn.to/1Rrx2qi "Amazon: Lufkin folding ruler"
 
 ## Safety
 
@@ -36,7 +45,7 @@ First and foremost, protect yourself. Long term exposure to chemicals, loud nois
 And as an aside, when you've got new power tools - practice your cuts once with the tool turned off and really look at your fingers, elbows, and other body parts that are near cutting edges. Getting used to how your tools move is critical!
 
 
-[Safety glasses][safety-glasses]
+[Safety Glasses][safety-glasses]
 : <figure><img src="/img/posts/woodworking-tools/safety-glasses.jpg"/><figcaption>Bollé Safety Glasses - favorites of mine for the wrap around shape, and they fit close enough to my face keep things from bouncing off my cheeks and upwards into my eyes. Fit is more important than style!</figcaption></figure> ER doctors are remarkably good at removing splinters from your eyeballs, but [safety glasses][safety-glasses] really are a lot cheaper. Find a set that fits close to your face, particularly your cheeks to prevent anything from bouncing upwards and underneath your glasses.
 
 
@@ -54,37 +63,33 @@ And as an aside, when you've got new power tools - practice your cuts once with 
 
 A clean and organized working area is a safe area. I keep a brush handy to clean as I go. Buy a box of rags &mdash; they'll be great to have around when you're working on finishing projects.
 
-<dl>
-    <dt>Dust brush and pan</dt>
-    <dd>A small brush you can keep on your workbench. </dd>
+[Dust brush and pan][dust-pan]
+: <figure><img src="/img/posts/woodworking-tools/dust-pan.jpg"/><figcaption>A clean work area is a safe work area.</figcaption></figure> A [small brush][dust-pan] you can keep on your workbench. A clean work area gets better results. Clean work surfaces won't mar your work pieces and your finishes will turn out better as well.
 
-    <dt>Rags</dt>
-    <dd>A cheap box of rags will help in cleaning and will always be useful!</dd>
+[Rags][rags]
+: <figure><img src="/img/posts/woodworking-tools/shop-rags.jpg"/><figcaption>Cheap enough that you can thow out the really dirty ones.</figcaption></figure> [A cheap box of rags][rags] will help in cleaning and will always be useful! These aren't lint free for use in finishing, but for everything from oil changes to cleaning to applying direct and well aimed pressure to a wound after a chisel accident, these are great to have.
 
-    <dt>Hand Soap</dt>
-    <dd>Borax and GoJo are my favorite hand soaps. Borax is old, and to me smells like my Grandfathers shop.</dd>
-</dl>
+[Hand Soap][boraxo-soap]
+: <figure><img src="/img/posts/woodworking-tools/boraxo-soap.jpg"/><figcaption>And it smells like a machine shop, as a bonus.</figcaption></figure> The original [Boraxo][boraxo-soap] and [Goop][goop-soap] are my favorite hand soaps. Borax has just the right amount of grit to scrub out the cracks and crevices in your hands. Goop also works well on stubborn clothing stains, including grease.
 
 ## Measuring
 
 Measure twice, cut once. Even better, learn to never measure - but that's another post!
 
-<dl>
-    <dt>Mechanical pencil</dt>
-    <dd>Carpenters pencils are for carpentry, not for detailed projects. If you're doing trim work or building furniture then a mechanical pencil is superior. It'll have much better repeatability.</dd>
+[Mechanical pencil][mechanical-pencil]
+: <figure><img src="/img/posts/woodworking-tools/mechanical-pencil.jpg"/><figcaption>This rOtring will be an heirloom. This is a well built tool.</figcaption></figure>Carpenters pencils are for carpentry, not for detailed projects. If you're doing trim work or building furniture then [a mechanical pencil is superior][mechanical-pencil]. It'll have much better repeatability with the fine line produced by these, without any offset if the pencil rolls as you reach to make a line.
 
-    <dt>Combination square</dt>
-    <dd>An accurate combination square is essential for getting good results. Learn to use it! You'll be able to mark corners, find centerlines, gage the depth of things, make right angle lines. There are a lot of ways to use this tool.</dd>
+[Combination square][combination-square]
+: <figure><img src="/img/posts/woodworking-tools/combination-square.jpg"/><figcaption>Learn to use it well.</figcaption></figure> [An accurate combination square][combination-square] is essential for getting good results. [Learn to use it](https://www.youtube.com/watch?v=EYNswD_eEB0)! You'll be able to mark corners, find centerlines, gauge the depth of things, make right angle lines. There are a lot of ways to use this tool.
 
-    <dt>Sliding bevel</dt>
-    <dd>Remember how I mentioned it's best if you can never measure? This is one of the tools that helps with that. As often as possible take measurements from the actual angles and lengths of things instead of measuring. For instance, if you've made a cut at some angle, and now you need to make the opposite/complimentary cut, just use the gauge to measure the angle and then flip the gauge over. There's no need to bring numbers into the process.</dd>
+[Sliding bevel][sliding-bevel]
+: <figure><img src="/img/posts/woodworking-tools/sliding-bevel.jpg"/><figcaption>I like that the Swanson has nicely engraved measuring as well.</figcaption></figure> Remember how I mentioned it's best if you can never measure? [This is one of the tools that helps with that][sliding-bevel]. As often as possible take measurements from the actual angles and lengths of things instead of measuring. For instance, if you've made a cut at some angle, and now you need to make the opposite/complimentary cut, just use the gauge to measure the angle and then flip the gauge over. There's no need to bring numbers into the process.
 
-    <dt>Measuring tape</dt>
-    <dd>A good measuring tape is critical. Take a little time to learn to use it. I prefer one with fractions measured on it.</dd>
+[Measuring tape][measuring-tape]
+: <figure><img src="/img/posts/woodworking-tools/measuring-tape.jpg"/><figcaption><a href="https://www.youtube.com/watch?v=TkoCWUJt10w">Learn some measuring tricks</a> as well.</figcaption></figure> A good measuring tape is critical. Take a little time to learn to use it. I prefer one with fractions measured on it. I like the [FastCap Lefty/Righty][measuring-tape] because of the fractional measures on it. It fits in an apron pocket well, and can be read from either side.
 
-    <dt>Folding rule</dt>
-    <dd>A folding rule isn't as essential, but for repair projects it can be super useful. In particular they are a great way to measure the exact inside dimensions of something. This can often be hard to do with a regular tape measure.</dd>
-</dl>
+[Folding rule][folding-rule]
+: <figure><img src="/img/posts/woodworking-tools/folding-ruler.jpg"/><figcaption>I like that you can unfold it and lay it out in place, or tape it down flat as part of a story stick.</figcaption></figure> A folding rule isn't as essential, but for repair projects it can be super useful. In particular they are a great way to measure the exact inside dimensions of something. This can often be hard to do with a regular tape measure. With the [Lufkin Folding Ruler][folding-rule] you can use the extension to get a very accurate measure of an inside dimension. You could do the same with calipers on a small part, but this is the best tool for taking inside dimensions on something larger.
 
 ## Hand tools
 
