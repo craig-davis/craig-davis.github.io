@@ -54,11 +54,14 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [japanese-backsaw]: http://amzn.to/1RrEAJx "Amazon: Japanese backsaw"
 [flexible-backsaw]: http://amzn.to/22uDq1R "Amazon: Flexible backsaw"
 [hacksaw]: http://amzn.to/1nXR5yL "Amazon: Lenox Hacksaw"
-[brad-point-bits]:
-[spade-point-bits]:
-[bench-planes]:
-[wood-chisels]:
-[files]:
+[brad-point-bits]: http://amzn.to/1RrFwO3 "Amazon: Brad point bits"
+[spade-point-bits]: http://amzn.to/22uExi6 "Amazon: Spade point bits"
+[forstner-bits]: http://amzn.to/1RrFV3c "Amazon: Forstner bits"
+[hole-saws]: http://amzn.to/22uEYsz "Amazon: Hole saws"
+[smoothing-plane]: http://amzn.to/22uF8Aa "Amazon: Grizzly smoothing plane"
+[block-plane]: http://amzn.to/22pKEHQ "Amazon: Block plane"
+[wood-chisels]: http://amzn.to/22uFB5n "Amazon: Wood Chisels"
+[files]: http://amzn.to/1nXUcXm "Amazon: Assorted files"
 [kreg-jig]:
 [kreg-clamps]:
 [kreg-90-clamp]:
@@ -186,19 +189,19 @@ Saws. There's four basic saws that are worth having. Others will debate that the
 Wood and metal shaping tools. These will let you remove material efficiently.
 
 [Brad-point drill bits][brad-point-bits]
-: <figure><img src="/img/posts/woodworking-tools/brad-point-bits.jpg"/><figcaption></figcaption></figure> The go-to drill bit for wood. An assortment of these is a must. Keep them sharp, don't overheat them, and don't leave them to rattle around in a toolbox. They get dull that way. As you add more, learn about split points and rake angles for various materials.
+: <figure><img src="/img/posts/woodworking-tools/brad-point-bits.jpg"/><figcaption></figcaption></figure> [The go-to drill bit for wood][brad-point-bits]. An assortment of these is a must. Keep them sharp, don't overheat them, and don't leave them to rattle around in a toolbox. They get dull that way. As you add more, learn about split points and rake angles for various materials.
 
 [Spade drill bits][spade-point-bits]
-: <figure><img src="/img/posts/woodworking-tools/spade-point-bits.jpg"/><figcaption></figcaption></figure> Large and flat, these cut large holes when you don't care about the roundness of the hole or the finish. Home electrical wiring and making some large holes are the name here. For anything else, you'll want to start investing in Forstner bits and then hole saws for large sized holes.
+: <figure><img src="/img/posts/woodworking-tools/spade-point-bits.jpg"/><figcaption>These will make large, kinda sloppy holes in wood.</figcaption></figure> Large and flat, these cut large holes when you don't care about the roundness of the hole or the finish. Home electrical wiring and making some large holes are the name here. For anything else, you'll want to start [investing in Forstner bits][forstner-bits] and then [hole saws][hole-saws] for large sized holes.
 
-[Bench planes][bench-planes]
-: <figure><img src="/img/posts/woodworking-tools/bench-planes.jpg"/><figcaption></figcaption></figure> A smoothing plane and a small block plane can be used to deal with a door that has swelled, a drawer that doesn't fit, and can be used to flatten and square all manner of boards.
+[Bench planes][smoothing-plane]
+: <figure><img src="/img/posts/woodworking-tools/bench-plane.jpg"/><figcaption></figcaption></figure> A [smoothing plane][smoothing-plane] and a [small block plane][block-plane] can be used to deal with a door that has swelled, a drawer that doesn't fit, and can be used to flatten and square all manner of boards. The smoothing plane is for on the flat of a board, and the block plane is used to cut end grain. They have different cutting angles for the different tasks.
 
 [Wood chisels][wood-chisels]
-: <figure><img src="/img/posts/woodworking-tools/wood-chisels.jpg"/><figcaption></figcaption></figure> An assortment of wood chisels from 1/4" to 1" will be helpful. They'll be useful in everything from mortising for a door to making tenons to cleaning up dovetails. Don't use them for anything else - no scraping and no paint can opening! (We have a tool for that!)
+: <figure><img src="/img/posts/woodworking-tools/wood-chisels.jpg"/><figcaption>Keep them sharp, and keep them protected. Never leave them loose rolling around in a toolbox. A sharp tool is a safe tool.</figcaption></figure> [An assortment of wood chisels][wood-chisels] from 1/4" to 1" will be helpful. They'll be useful in everything from mortising for a door to making tenons to cleaning up dovetails. Don't use them for anything else - no scraping and no paint can opening! (We have a tool for that!)
 
-[File][files]
-: <figure><img src="/img/posts/woodworking-tools/files.jpg"/><figcaption></figcaption></figure> A few files will be really handy, a small triangular file for detail work, and a few mill files will be great for everything from sharpening a lawnmower blade to deburring a bolt that you trimmed with your hacksaw.
+[Files][files]
+: <figure><img src="/img/posts/woodworking-tools/files.jpg"/><figcaption>Start with a sheap set, get nicer ones as they wear out.</figcaption></figure> [A few files will be really handy][files], a small triangular file for detail work, and a few mill files will be great for everything from sharpening a lawnmower blade to deburring a bolt that you trimmed with your hacksaw. These aren't like sandpaper! They cut only in one direction, and should be lifted off the surface in between cuts.
 
 
 ## Kreg Jigs
