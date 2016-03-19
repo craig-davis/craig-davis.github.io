@@ -142,13 +142,13 @@ This is a basic set of hand tools. These aren't all used directly, but may be us
 : <figure><img src="/img/posts/woodworking-tools/rubber-mallet.jpg"/><figcaption></figcaption></figure> A non-marking source of motivation. Useful for knocking together glue ups, or taking apart dry fit pieces. Oh, and sealing paint cans, but keep it clean!
 
 [Hammer][hammer]
-: <figure><img src="/img/posts/woodworking-tools/hammer.jpg"/><figcaption>A great starter. Then a <a href="http://amzn.to/1nXL5pV">Stiletto</a> for framing and a <a href="http://amzn.to/1Mi43my">Dead On</a> for mayhem.</figcaption></figure> A sixteen ounce claw hammer is the right place to start. A simple fiberglass handle will do.
+: <figure><img src="/img/posts/woodworking-tools/hammer.jpg"/><figcaption>A great starter. Then a <a href="http://amzn.to/1nXL5pV">Stiletto</a> for framing and a <a href="http://amzn.to/1Mi43my">Dead On</a> for mayhem.</figcaption></figure> A sixteen ounce claw hammer is the right place to start. A simple fiberglass handle will do. A curved claw is a better choice for finishing work. For woodworking, you don't need a lot of heft. You need some finesse with this hammer.
 
 [Screwdrivers][screwdrivers]
-: <figure><img src="/img/posts/woodworking-tools/screwdrivers.jpg"/><figcaption>You may as well get a good set.</figcaption></figure> Get an assortment of screwdrivers. Buy good screwdrivers, the higher quality metal won't round as many screws and you'll have better results.
+: <figure><img src="/img/posts/woodworking-tools/screwdrivers.jpg"/><figcaption>You may as well get a good set.</figcaption></figure> Get an [assortment of screwdrivers][screwdrivers]. Buy good screwdrivers, the higher quality metal won't round as many screws and you'll have better results. It's worth taking a little time to learn the difference in the various Philips head styles - [there are a lot of competing standards](https://en.wikipedia.org/wiki/List_of_screw_drives#Cruciform_types), and getting good results oftens means having the right driver. Philips, Pozidriv, Frearson, and JIS often look very similar, but they aren't particularly compatible.
 
 [Paint can opener][paint-can-opener]
-: <figure><img src="/img/posts/woodworking-tools/paint-can-opener.jpg"/><figcaption></figcaption></figure> This is very different than a screwdriver! They are cheap and will extend the life of your favorite standard screwdriver.
+: <figure><img src="/img/posts/woodworking-tools/paint-can-opener.jpg"/><figcaption></figcaption></figure> This is very different than a screwdriver! [They are cheap][paint-can-opener] and will extend the life of your favorite standard screwdriver.
 
 [Razor knife][razor-knife]
 : <figure><img src="/img/posts/woodworking-tools/razor-knife.jpg"/><figcaption></figcaption></figure> A sharp knife is a safe knife. A sharp knife needs less force and so you're much less likely to slip while cutting and injure yourself. Buy the [Lennox Gold Knife][razor-knife] and the [Irwin Blue blades][razor-blades]. The Lennox is well made and durable. The Blue blades bend and don't shatter.
@@ -171,7 +171,7 @@ This is a basic set of hand tools. These aren't all used directly, but may be us
 
 ## Cutting
 
-Saws. There's four basic saws that are worth having. Others will debate that there are far more. Actually, make that 7 - no. Well, start with these four.
+Saws. There's four basic saws that are worth having. Others will debate that there are far more - Start with these four and you'll have the majority of tasks covered. (edit: Ok, so I listed 5.)
 
 [Crosscut saw (12 pt.)][crosscut-saw]
 : <figure><img src="/img/posts/woodworking-tools/crosscut-saw.jpg"/><figcaption></figcaption></figure> A [twelve point per inch crosscut saw][crosscut-saw] is great for quickly trimming 2x4s and other lumber
@@ -225,12 +225,12 @@ These will change the way that you view quick projects. The Kreg Pockethole jig 
 
 ## Clamps
 
-You can never have too many. Stock up when there is a sale, and scrounge estate sales and Craigslist for more. You can start with spring
+You can never have too many. Stock up when there is a sale, and scrounge estate sales and Craigslist for more. At some point, you'll probably want a nice set of large bar clamps. You should by a few spring clamps, and a few bar clamps. Purchase the pipe clamps as needed on a per project basis so that you end up with what you need.
 
 [Spring Clamps][spring-clamps]
 : <figure><img src="/img/posts/woodworking-tools/spring-clamps.jpg"/><figcaption>Bessey makes nice clamps.</figcaption></figure> Cheap and simple, [these are great][spring-clamps] for laminating boards and small glue-ups.
 
-[Simple Clamps][simple-clamps]
+[Small Bar Clamps][simple-clamps]
 : <figure><img src="/img/posts/woodworking-tools/simple-clamps.jpg"/><figcaption></figcaption></figure> [Small bar clamps][simple-clamps], with the trigger are great for holding smaller workpieces.
 
 [Pipe clamps][pipe-clamp]
@@ -239,7 +239,7 @@ You can never have too many. Stock up when there is a sale, and scrounge estate 
 
 ## Power Tools
 
-Saw, drill, jigsaw will take you far. A sander is included with the finishing tools.
+Saw, drill, and jigsaw will give you the basic wood shaping tools that you need for almost any DIY project. I've included a few other nice-to-have tools in this list as well. A sander is included with the finishing tools.
 
 [Drill][drill]
 : <figure><img src="/img/posts/woodworking-tools/drill.jpg"/><figcaption>Quick charging, light, and a long battery life make this DeWalt a great choice.</figcaption></figure> A high quality drill is an absolute must. An 18 volt drill will have more than enough power to drive larger bits, but I like this [20V from DeWalt][drill] for its compact size and light weight. A drill with a heavy battery can make it hard to tell how hard you are driving screws, which is very important when using pocket hole joinery.
@@ -259,8 +259,10 @@ Saw, drill, jigsaw will take you far. A sander is included with the finishing to
 
 ## Sanding and Finishing
 
+I cannot stress this enough - a good finish on a project will draw the eye away from other imperfections. The difference in a garage project and a nice project often comes down to material choice, and the number of times the piece has been sanded. Don't stop too soon!
+
 [Random orbit sander][random-orbit-sander]
-: <figure><img src="/img/posts/woodworking-tools/random-orbit-sander.jpg"/><figcaption></figcaption></figure> A five inch sander is a great start. [This one from DeWalt][random-orbit-sander] is darn near perfect. The difference in a nice piece and a hack job is the quality of the finish. A nice sander will help that.
+: <figure><img src="/img/posts/woodworking-tools/random-orbit-sander.jpg"/><figcaption></figcaption></figure> A five inch sander is a great start. [This one from DeWalt][random-orbit-sander] is darn near perfect. The difference in a nice piece and a hack job is the quality of the finish. A nice sander will help that. A random orbit sander will help prevent scratches in your finish, and can make quick work of preparing large surfaces.
 
 [Belt sander][belt-sander]
 : <figure><img src="/img/posts/woodworking-tools/belt-sander.jpg"/><figcaption>Not a requirement, but great to have for dimensioning stock if you don't have a planer or jointer.</figcaption></figure> This is a little expensive to include on this list, but it can be a great tool to own. [A belt sander][belt-sander] can take the place of a planer and to some extend a jointer. It can be very useful in flattening boards as well as for shaping. Stick to the random orbit sander for finishing tasks though!
