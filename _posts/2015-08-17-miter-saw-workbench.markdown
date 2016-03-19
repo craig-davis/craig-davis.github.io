@@ -91,6 +91,6 @@ The structure is made rigid by two runners that run the entire length of the pla
 This particular bench has been built to fit my [Dewalt DW715][dw715]. However, with a little measuring and alteration, this could easily be changed to fit any other miter saw.
 
 [paulk]: http://www.paulkhomes.com/order-plans.html
-[ripcut]: http://amzn.to/1ioE6Et
-[pocket]: http://amzn.to/1ioEa7j
-[dw715]: http://amzn.to/1K7YDnx
+[ripcut]: http://amzn.to/1nXg0Cx
+[pocket]: http://amzn.to/1nXg5q0
+[dw715]: http://amzn.to/1R7eg49

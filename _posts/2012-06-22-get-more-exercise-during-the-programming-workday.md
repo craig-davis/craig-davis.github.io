@@ -21,8 +21,8 @@ for an exercise eat time I commit.
 
 If you've got space (or if you're in a home office), you can add a few basic supplies that will offer you some additional options:
 
-* [TheraBand Latex-Free Resistance Bands](http://amzn.to/1VVYeMd) - tie these to something solid and do [some rotator cuff exercises](https://www.youtube.com/watch?v=esmEnVa8Mbk).
-* [Foam Roller](http://amzn.to/1OnUiBJ) to work on your [upper back posture](www.youtube.com/watch?v=Mh_YxQB2E7E)
+* [TheraBand Latex-Free Resistance Bands](http://amzn.to/1nXgfgW) - tie these to something solid and do [some rotator cuff exercises](https://www.youtube.com/watch?v=esmEnVa8Mbk).
+* [Foam Roller](http://amzn.to/1nXgk4e) to work on your [upper back posture](www.youtube.com/watch?v=Mh_YxQB2E7E)
 
 [hg]: https://mercurial.selenic.com/
 [hook]: http://hgbook.red-bean.com/read/handling-repository-events-with-hooks.html
