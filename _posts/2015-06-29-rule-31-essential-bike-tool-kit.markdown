@@ -36,21 +36,21 @@ Go Ride!
 ![Bike Emergency Tools](/img/posts/rule-31/bike-emergency-tools.jpg)
 
 ### The Contents of My Bike Tool Kit
-- [Vaultz Mesh Storage Bags](http://amzn.to/1ONzu4C)<br>
+- [Vaultz Mesh Storage Bags](http://amzn.to/1nXgKrg)<br>
   A lightweight bag with a nice diagonal zipper. These come in a three pack, and you can use the small or the medium one.
-- [Crank Brothers Multi-17 Multi-Tool](http://amzn.to/1VVW1QY)<br>
+- [Crank Brothers Multi-17 Multi-Tool](http://amzn.to/1nXgMPW)<br>
   A great little tool with all the essentials. The chain breaker on this one is nice, and the 8mm allen key is great for pedals
-- [Park Tool Tire Levers](http://amzn.to/1iGJmDp)<br>
+- [Park Tool Tire Levers](http://amzn.to/1R7f4pT)<br>
   I only carry two of the three pack. Practice and see what you can leave at home. I rubber band these to the pump to keep things organized.
-- [Topeak Micro Rocket Pump](http://amzn.to/1iGJmmO)<br>
+- [Topeak Micro Rocket Pump](http://amzn.to/1R7f9d4)<br>
   I usually use CO<sub>2</sub> first, but I like to have a backup pump just in case things go really wrong or the second flat happens.
-- [Planet Bike Red Zeppelin CO<sub>2</sub> Bike Tire Inflator](http://amzn.to/1iGJouN)<br>
+- [Planet Bike Red Zeppelin CO<sub>2</sub> Bike Tire Inflator](http://amzn.to/1nXgUz5)<br>
   A great little inflator that lets you use a portion of a bottle to top off a tire.
-- [Scotch Electrical Tape](http://amzn.to/1iGJq67)
+- [Scotch Electrical Tape](http://amzn.to/1nXgZ5O)
   Buy the good tape, it's worth it for the durability and strength. Take about half or more of the tape off the roll, and then use a knife to cut the cardboard out of the center of the roll and then flatten it. Remember how MacGyver carried Duct Tape? Like that.
-- [Stan's Tire Sealant 2oz. Bottle](http://amzn.to/1iGJqCU)<br>
+- [Stan's Tire Sealant 2oz. Bottle](http://amzn.to/1nXh0H0)<br>
   The secret here is that these bottles are reusable. Don't lose the small sealing insert when you use the bottle and you can refill the bottle when you get home. Stans is good stuff, but I've recently swapped to [Orange Seal](http://amzn.to/1Kpn8AW). So my small Stans Bottles are refilled with it.
-- [Park Tool Glue Patch Kit](http://amzn.to/1VVW7rM)<br>
+- [Park Tool Glue Patch Kit](http://amzn.to/1nXh4Gz)<br>
   The one in the photo is different, but I generally prefer the Park Tool patch kit. These glue ups take a moment longer to apply but on a long ride are a better bet. You'll see below that I stash some Skabs glueless patches into this container.
 - Altoids Mini Tin for holding small items<br>
   I have a bunch of these little tins, they are great for holding small items.
@@ -58,27 +58,27 @@ Go Ride!
 ![Bike Tire Patch Kit](/img/posts/rule-31/bike-patch-kit.jpg)
 
 ### In the Altoids Tin
-- [Flexible Fabric Band-Aids](http://amzn.to/1VVWt1D)<br>
+- [Flexible Fabric Band-Aids](http://amzn.to/1Rr5Jwa)<br>
   Perfect for knuckles or briar cuts
-- [Victorinox Swiss Army Pocket Knife](http://amzn.to/1iGJLWe)<br>
+- [Victorinox Swiss Army Pocket Knife](http://amzn.to/1nXhaxW)<br>
   In order to make this fit, you may need to file off the keychain ring attachment. The scissors, knife, nailfile, and tweezers are great. I've filed my tweezer down to have a point instead of square. It's great for splinters and cactus needles.
 - 50 Cents<br>
   For an air machine at a gas station - if things have gone really, really wrong. I have a story.
 - 20 dollar bill (not pictured)<br>
   Fold it up, put it in the bottom, and never spend it. It'll be ready for emergency snacks or bribing a friendly pickup truck driver.
-- [Presta to Schrader Bicycle Bike Valve Adaptor](http://amzn.to/1XZJUVb)<br>
+- [Presta to Schrader Bicycle Bike Valve Adaptor](http://amzn.to/1nXhbCa)<br>
   Just in case you have to borrow a pump or use one from a service station. Be careful though, they can fill a tire **very** fast.
 - 9 and 10 speed SRAM Powerlink connectors<br>
   I usually carry ones for all my bikes, 8, 9, 10. Lately, I've added an 11 as well. I've saved more rides by fixing friends broken chains with these than my own.
 
 ### In the Patch Kit Container
-- [Park Tool Glue Patch Kit](http://amzn.to/1VVWylX)<br>
+- [Park Tool Glue Patch Kit](http://amzn.to/1R7fxIx)<br>
   For long rides, the glue ups are better. Consider them to be permanent patches. This also gives you a nice little container to stash other tire items:
 - Extra Sandpaper<br>
   I cut a small piece to use to roughen a tube before patching. The rubber cement comes with the patch kit.
-- [NoTubes Core Remover Tool](http://amzn.to/1ONAANQ)<br>
+- [NoTubes Core Remover Tool](http://amzn.to/1nXhixm)<br>
   Used to remove the tire valve core so that you can add sealant to a tire. This lets you carry regular tubes with removable valve cores as a backup tube. I even carry a backup tube when I'm on a bike with tubeless tires.
-- [Skabs Glueless Patch Kit](http://amzn.to/1ONABl5)<br>
+- [Skabs Glueless Patch Kit](http://amzn.to/1nXhhtp)<br>
   These are a temporary patch, and often a quick fix for a dash home. Very convienent, and nice for groups rides where you want to get moving again, and can deal with a proper patch when you get home.
 
 If you have any suggestions or comments, [let me know](https://twitter.com/There4Dev)!
