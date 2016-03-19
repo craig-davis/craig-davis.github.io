@@ -23,30 +23,40 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 * [Power Tools](#power-tools)
 * [Sanding and Finishing](#sanding-and-finishing)
 
+
+[safety-glasses]: http://amzn.to/1nXmPUM "Amazon: Bolle Safety Glasses"
+[ear-plugs]: http://amzn.to/1Rrpow3 "Amazon: Soft ear plugs"
+[ear-muffs]: http://amzn.to/22umubA "Amazon: Peltor ear muffs"
+[dust-mask]: http://amzn.to/22ungp0 "Amazon: 3M dust mask with vent"
+
 ## Safety
 
 First and foremost, protect yourself. Long term exposure to chemicals, loud noises, and short term exposure to sharp tools can cause a lot of damage. Be safe!
 
-And as an aside, when you've got new tools - practice your cuts once with the tool off and really look at your fingers, elbows, and other body parts that are near cutting edges. Getting used to how your tools and move is critical!
+And as an aside, when you've got new power tools - practice your cuts once with the tool turned off and really look at your fingers, elbows, and other body parts that are near cutting edges. Getting used to how your tools move is critical!
 
-<dl>
-    <dt>Safety glasses</dt>
-    <dd>ER doctors are remarkably good at removing splinters from your eyeballs, but safety glass really are a lot cheaper. Find a set that fits close to your face, particularly your cheeks to prevent anything from bouncing upwards and underneath your glasses.</dd>
 
-    <dt>Ear plugs and Ear protection</dt>
-    <dd>Tools are loud and <strong>will</strong> cause permanent damage. Ear plugs offer better protection, but can be a hassle if you're working with other people. Purchase both, and for really loud projects, use both together!</dd>
+[Safety glasses][safety-glasses]
+: <figure><img src="/img/posts/woodworking-tools/safety-glasses.jpg"/><figcaption>Bollé Safety Glasses - favorites of mine for the wrap around shape, and they fit close enough to my face keep things from bouncing off my cheeks and upwards into my eyes. Fit is more important than style!</figcaption></figure> ER doctors are remarkably good at removing splinters from your eyeballs, but [safety glasses][safety-glasses] really are a lot cheaper. Find a set that fits close to your face, particularly your cheeks to prevent anything from bouncing upwards and underneath your glasses.
 
-    <dt>N99 Dust mask</dt>
-    <dd>Buy the good ones with the vents to exhale. Dust can carry any number of bad things, and N99 masks will offer some protection from welding, soldering, and paint fumes as well. Please always remember that plywood and engineered wood products have a wide variety of glues and bonding chemicals in them that are bad news for your lungs, and always wear a mask and when sanding and applying finishes.</dd>
-</dl>
+
+[Ear plugs][ear-plugs]
+: <figure><img src="/img/posts/woodworking-tools/ear-plugs.jpg"/><figcaption>These are soft and work really well. You might also want to try an <a href="http://www.earplugstore.com/unfoamtrialp1.html">assortment pack</a> to find the ones that fit your ears the best.</figcaption></figure>Tools are loud and <strong>will</strong> cause permanent damage. [Ear plugs offer better protection][ear-plugs], but can be a hassle if you're working with other people. It's really important to [learn how to insert them properly](https://youtu.be/2SYU17iVXRo?t=19)! I didn't learn this until I had problems with my earplugs touching the inside of my motorcycle helmet.
+
+[Ear muffs][ear-muffs]
+: <figure><img src="/img/posts/woodworking-tools/ear-muffs.jpg"/><figcaption>You can find these in different DB ratings. This pair is smaller and comfortable, but is only a 95 rating. A 98 will be a bit bulkier.</figcaption></figure> [This set of Peltor 95s][ear-muffs] are slim and work well in environments where you'll want to take your protection on and off.  Especially when working with other people. If you're working in a very noisy environment, wear both the plugs and the muffs. You only get one set of ears.
+
+
+[N95 Dust mask][dust-mask]
+: <figure><img src="/img/posts/woodworking-tools/dust-mask.jpg"/><figcaption>I use these for everything from lawn mowing to woodworking. Any dusty environment will be easier with a good mask. For really nasty things, don't be afraid to go <a href="http://amzn.to/1Rrrps0">Full Vader</a></figcaption></figure> [Buy the good ones with the vents to exhale][dust-mask]. Dust can carry any number of bad things, and N95 masks will offer some protection from welding, soldering, and paint fumes as well. Please always remember that plywood and engineered wood products have a wide variety of glues and bonding chemicals in them that are bad news for your lungs, and always wear a mask and when sanding and applying finishes.
 
 ## Cleaning
 
-A clean and organized working area is a safe area. I keep a brush handy to clean as I go. Buy a box of rags &emdash; they'll be great to have around when you're working on finishing projects.
+A clean and organized working area is a safe area. I keep a brush handy to clean as I go. Buy a box of rags &mdash; they'll be great to have around when you're working on finishing projects.
 
 <dl>
     <dt>Dust brush and pan</dt>
-    <dd>A small brush you can keep on your workbench</dd>
+    <dd>A small brush you can keep on your workbench. </dd>
 
     <dt>Rags</dt>
     <dd>A cheap box of rags will help in cleaning and will always be useful!</dd>
@@ -215,3 +225,4 @@ Saw, drill, jigsaw will take you far. A sander is included with the finishing to
     <dt>Assorted sandpaper</dt>
     <dd><a href="http://www.finehomebuilding.com/item/12862/folding-trick-makes-sandpaper-last-longer">Learn how to fold your sandpaper</a>!</dd>
 </dl>
+

@@ -36,6 +36,10 @@ h6 {
 	font-weight: 800;
 }
 
+h2 {
+  clear: both;
+}
+
 h4 + p {
     margin-top: 0;
 }
@@ -45,7 +49,7 @@ div.highlight + h4 {
 }
 
 a {
-	color: @gray-dark;
+  text-decoration: underline;
 	&:hover,
 	&:focus {
 		color: @brand-primary;
@@ -250,6 +254,7 @@ hr.small {
 
 .post-preview {
 	> a {
+    text-decoration: none;
 		color: @gray-dark;
 		&:hover,
 		&:focus {
@@ -539,4 +544,38 @@ figure figcaption {
 }
 .main-content p:first-of-type {
     margin-top: 0;
+}
+
+
+.photo-icon {
+  display: inline-block;
+  background: none;
+  border: none;
+  width: 46px;
+  margin: 0 5px 11px;
+}
+
+.photo h2 {
+  margin-bottom: -3px !important;
+}
+
+dl {}
+dt {
+  clear: both;
+}
+dd {
+  margin: 0 0 1em 1em;
+  figure {
+    margin: 6px;
+    float:right;
+    width: 300px;
+    img {
+      width: 300px;
+      border: none;
+      padding: 0;
+    }
+    figcaption {
+      font-size: 12px;
+    }
+  }
 }
