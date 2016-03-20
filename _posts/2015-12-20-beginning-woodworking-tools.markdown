@@ -51,6 +51,7 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [standard-combination]: http://amzn.to/1RW8AYv "Amazon: Craftsman combination wrenches"
 [crosscut-saw]: http://amzn.to/1RWaKr6 "Amazon: Crosscut saw"
 [rip-saw]: http://amzn.to/1nXQPQv "Amazon: Rip saw"
+[paste-wax]: http://amzn.to/1R6F9GP "Amazon: Paste wax"
 [japanese-backsaw]: http://amzn.to/1RrEAJx "Amazon: Japanese backsaw"
 [flexible-backsaw]: http://amzn.to/22uDq1R "Amazon: Flexible backsaw"
 [hacksaw]: http://amzn.to/1nXR5yL "Amazon: Lenox Hacksaw"
@@ -166,15 +167,14 @@ This is a basic set of hand tools. These aren't all used directly, but may be us
 : <figure><img src="/img/posts/woodworking-tools/adjustable-wrench.jpg"/><figcaption></figcaption></figure> You wouldn't think it, but [there's a correct direction to use an adjustable wrench](https://www.youtube.com/watch?v=KHKFy0J75Mo). Always use it so that it's turning towards the movable jaw. This keeps the movable jaw being forced towards the wrench body, and you won't strip as many bolt heads. But again, this is a tool of convenience - if you've got the socket or end wrench in your toolbox, use it. I like the Irwin wrenches that I have, but once again, [Craftsman makes a nice set][adjustable-wrench].
 
 [Combination wrenches][standard-combination]
-: <figure><img src="/img/posts/woodworking-tools/combination-wrenches.jpg"/><figcaption></figcaption></figure> A set of both [metric][metric-combination] and [standard wrenches][standard-combination]. You'll use these a lot. Since this is a woodworking list, I'm going to leave a socket set off of this list. For the weekend hobbist, there is no real need to buy a full polish set. A full polish set feels nicer in your hands, and cleans up better -- but for most people, it doesn't really matter.
-
+: <figure><img src="/img/posts/woodworking-tools/combination-wrenches.jpg"/><figcaption></figcaption></figure> A set of both [metric][metric-combination] and [standard wrenches][standard-combination]. You'll use these a lot. Since this is a woodworking list, I'm going to leave a socket set off of this list. For the weekend hobbist, there is no real need to buy a full polish set. A full polish set feels nicer in your hands, and cleans up better -- but for most people, it doesn't really matter. [Paint the size markings](https://www.youtube.com/watch?v=GINGxCBvPZs) in them to help keep them sorted.
 
 ## Cutting
 
 Saws. There's four basic saws that are worth having. Others will debate that there are far more - Start with these four and you'll have the majority of tasks covered. (edit: Ok, so I listed 5.)
 
 [Crosscut saw (12 pt.)][crosscut-saw]
-: <figure><img src="/img/posts/woodworking-tools/crosscut-saw.jpg"/><figcaption></figcaption></figure> A [twelve point per inch crosscut saw][crosscut-saw] is great for quickly trimming 2x4s and other lumber
+: <figure><img src="/img/posts/woodworking-tools/crosscut-saw.jpg"/><figcaption></figcaption></figure> A [twelve point per inch crosscut saw][crosscut-saw] is great for quickly trimming 2x4s and other lumber. This is a versatile saw that you'll reach for. With a little practice, you can make straight cuts that don't take much longer than using a circular saw. Keep it sharp, and keep the faces of it clean. An occasional wipe down with some brake cleaner or other solvent will help keep it from getting gummy. You can wipe the faces down with a little [paste wax][paste-wax] to keep the saw moving smoothly through wood.
 
 [Rip saw (6 1/2 or 7 1/2 pt.)][rip-saw]
 : <figure><img src="/img/posts/woodworking-tools/rip-saw.jpg"/><figcaption></figcaption></figure> [This is a saw][rip-saw] used to cut with the direction of the wood grain. The teeth are set at a different angle, and while you can rip with a crosscut saw, it's worth having both. The teeth are shaped to act more like a chisel, and so the saw won't hunt around and follow grain the way that a crosscut saw would. You'll get straighter cuts, though it is more of a specialty item, and the cost generally reflects that.
@@ -191,7 +191,7 @@ Saws. There's four basic saws that are worth having. Others will debate that the
 Wood and metal shaping tools. These will let you remove material efficiently.
 
 [Brad-point drill bits][brad-point-bits]
-: <figure><img src="/img/posts/woodworking-tools/brad-point-bits.jpg"/><figcaption></figcaption></figure> [The go-to drill bit for wood][brad-point-bits]. An assortment of these is a must. Keep them sharp, don't overheat them, and don't leave them to rattle around in a toolbox. They get dull that way. As you add more, learn about split points and rake angles for various materials.
+: <figure><img src="/img/posts/woodworking-tools/brad-point-bits.jpg"/><figcaption></figcaption></figure> [The go-to drill bit for wood][brad-point-bits]. An assortment of these is a must. Keep them sharp, don't overheat them, and don't leave them to rattle around in a toolbox. They get dull that way. As you add more, learn about [split points](http://www.mmsonline.com/articles/choose-the-best-drill-point-geometry) and [rake angles](https://en.wikipedia.org/wiki/Rake_angle) for various materials.
 
 [Spade drill bits][spade-point-bits]
 : <figure><img src="/img/posts/woodworking-tools/spade-point-bits.jpg"/><figcaption>These will make large, kinda sloppy holes in wood.</figcaption></figure> Large and flat, these cut large holes when you don't care about the roundness of the hole or the finish. Home electrical wiring and making some large holes are the name here. For anything else, you'll want to start [investing in Forstner bits][forstner-bits] and then [hole saws][hole-saws] for large sized holes.
@@ -211,16 +211,16 @@ Wood and metal shaping tools. These will let you remove material efficiently.
 These will change the way that you view quick projects. The Kreg Pockethole jig allows you to quickly and easily join two piece of wood at a 90 or 180 degree angle. This can make face frames and basic box construction go quicker than you could ever imagine. It'll never be as pretty as fancy joints, but without a table saw, this will open up an entire new set of projects.
 
 [Simple kit][kreg-jig]
-: <figure><img src="/img/posts/woodworking-tools/kreg-mini.jpg"/><figcaption></figcaption></figure> The two hole or even [the mini jig][kreg-jig] are a great place to start.
+: <figure><img src="/img/posts/woodworking-tools/kreg-mini.jpg"/><figcaption>This turns plywood into tinker toys.</figcaption></figure> The two hole or even [the mini jig][kreg-jig] are a great place to start. Learning to adjust the drill can be a little tricky, be sure to read the owners manual. You'll need special screws for this, and be sure to match the fine thread screws with hardwood and the corse thread screws with softwoods and plywood.
 
 [Regular clamp][kreg-clamp]
-: <figure><img src="/img/posts/woodworking-tools/kreg-clamp.jpg"/><figcaption></figcaption></figure> Most kits come with a flat clamp, but if not, [this an absolute requirement][kreg-clamp]. It allows you to hold the jig in position, and face frames flat as you add the screw.
+: <figure><img src="/img/posts/woodworking-tools/kreg-clamp.jpg"/><figcaption>You'll use this for face frames and flat joinery.</figcaption></figure> Most kits come with a flat clamp, but if not, [this an absolute requirement][kreg-clamp]. It allows you to hold the jig in position, and face frames flat as you add the screw.
 
 [90 degree clamp][kreg-90-clamp]
-: <figure><img src="/img/posts/woodworking-tools/kreg-90-clamp.jpg"/><figcaption></figcaption></figure> Go ahead and get one, you'll like having it. It makes holding two board at 90 degrees really easy. The [right angle Kreg jig clamp][kreg-90-clamp] will make box and drawer construction go quickly.
+: <figure><img src="/img/posts/woodworking-tools/kreg-90-clamp.jpg"/><figcaption>You can make tables and boxes incredibly quickly with this right angle clamp.</figcaption></figure> Go ahead and get one, you'll like having it. It makes holding two board at 90 degrees really easy. The [right angle Kreg jig clamp][kreg-90-clamp] will make box and drawer construction go quickly.
 
 [Saw Guide][kreg-saw-jig]
-: <figure><img src="/img/posts/woodworking-tools/kreg-saw-jig.jpg"/><figcaption>This is the next best thing to having a table saw for making repeatable, accurate cuts. You'll just need to change how you approach breaking down sheet goods a little bit.</figcaption></figure> [The Kreg circular saw guide][kreg-saw-jig] will get you over the blues of not having a table saw. I use mine a lot. However, it requires that you think about teh cut plan for the project very differently. If you're cutting plywood, you'll want to nibble away at it instead of breaking it down into smaller pieces.
+: <figure><img src="/img/posts/woodworking-tools/kreg-saw-jig.jpg"/><figcaption>This is the next best thing to having a table saw for making repeatable, accurate cuts. You'll just need to change how you approach breaking down sheet goods a little bit.</figcaption></figure> [The Kreg circular saw guide][kreg-saw-jig] will get you over the blues of not having a table saw. I use mine a lot. However, it requires that you think about teh cut plan for the project very differently. If you're cutting plywood, you'll want to nibble away at it instead of breaking it down into smaller pieces. It takes a little fiddling to get setup, but once setup, I've gotten repeat cuts accurate to better than a 64<sup>th</sup> with it.
 
 
 ## Clamps
@@ -254,7 +254,7 @@ Saw, drill, and jigsaw will give you the basic wood shaping tools that you need 
 : <figure><img src="/img/posts/woodworking-tools/circular-saw.jpg"/><figcaption>Buy good blades, and the right blade for the material that you are cutting!</figcaption></figure> A 7 1/4 inch saw is a carpentry must. [A worm drive saw][worm-drive-saw] is a great tool if you're framing, but can be heavy and a little hard to deal with if you plan to use it with a Kreg jig or a cutting guide. [This DeWalt saw is a great place to start][circular-saw], it's got a brake and is pretty lightweight. It works well with a guide.
 
 [Router (1 hp, 1/4" collet)][trim-router]
-: <figure><img src="/img/posts/woodworking-tools/router.jpg"/><figcaption>You can get new bits for your projects. Start with a rabbeting bit and straight and flush cutting, and then chamfer, bead, cove, and round-over.</figcaption></figure> A 1/4" collet will hold most of the bits you'll want for rabbetting drawers and frames. Purchase the bits as you need them. You can clean up a lot of backyard building inaccuracy with a flush cutting bit. For instance, if you've attached a sheet of plywood to a board, and the board isn't _quite_ straight, a flush cutting bit will make the edges match. You could accomplish the same thing with a sander, but a router will leave a crisp edge. You'll want a larger plunge router at some point, but this will give you all that you need for finishing edges, adding detail, and rabbetting for drawers, frames, and cabinet backs.
+: <figure><img src="/img/posts/woodworking-tools/router.jpg"/><figcaption>You can get new bits for your projects. Start with a rabbeting bit and straight and flush cutting, and then chamfer, bead, cove, and round-over.</figcaption></figure> A 1/4" collet will hold most of the bits you'll want for rabbetting drawers and frames. Purchase the bits as you need them. You can clean up a lot of backyard building inaccuracy with a flush cutting bit. For instance, if you've attached a sheet of plywood to a board, and the board isn't _quite_ straight, a flush cutting bit will make the edges match. You could accomplish the same thing with a sander, but a router will leave a crisp edge. You'll want a larger plunge router at some point, but this will give you all that you need for finishing edges, adding detail, and rabbetting for drawers, frames, and cabinet backs. I've really enjoyed my [Makita Trim Router][trim-router], it's a sturdy little unit and has given me good results.
 
 
 ## Sanding and Finishing
