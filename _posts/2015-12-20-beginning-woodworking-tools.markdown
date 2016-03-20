@@ -41,7 +41,7 @@ I grew up in my grandfathers woodworking shop, and have worked with tools my who
 [hammer]: http://amzn.to/22uxk1p "Amazon: Plumb hammer"
 [screwdrivers]: http://amzn.to/1RrzzAL "Amazon: Craftsman screwdrivers"
 [paint-can-opener]: http://amzn.to/1RrzJIh "Amazon: Pain can opener"
-[razor-knife]: http://amzn.to/22uydqE "Amazon: Lennox razor knife"
+[razor-knife]: http://amzn.to/22uydqE "Amazon: Lenox razor knife"
 [razor-blades]: http://amzn.to/1nXM7lF "Amazon: Irwin Blue Blades"
 [slip-joint-pliers]: http://amzn.to/1RrAh13 "Amazon: Craftsman slip join pliers"
 [needle-nose-pliers]: http://amzn.to/1RrAEsh "Amazon: Craftsman needle nose pliers"
@@ -149,19 +149,19 @@ This is a basic set of hand tools. These aren't all used directly, but may be us
 : <figure><img src="/img/posts/woodworking-tools/screwdrivers.jpg"/><figcaption>You may as well get a good set.</figcaption></figure> Get an [assortment of screwdrivers][screwdrivers]. Buy good screwdrivers, the higher quality metal won't round as many screws and you'll have better results. It's worth taking a little time to learn the difference in the various Philips head styles - [there are a lot of competing standards](https://en.wikipedia.org/wiki/List_of_screw_drives#Cruciform_types), and getting good results oftens means having the right driver. Philips, Pozidriv, Frearson, and JIS often look very similar, but they aren't particularly compatible.
 
 [Paint can opener][paint-can-opener]
-: <figure><img src="/img/posts/woodworking-tools/paint-can-opener.jpg"/><figcaption></figcaption></figure> This is very different than a screwdriver! [They are cheap][paint-can-opener] and will extend the life of your favorite standard screwdriver.
+: <figure><img src="/img/posts/woodworking-tools/paint-can-opener.jpg"/><figcaption>Don't use your house key either.</figcaption></figure> This is very different than a screwdriver! [They are cheap][paint-can-opener] and will extend the life of your favorite standard screwdriver.
 
 [Razor knife][razor-knife]
-: <figure><img src="/img/posts/woodworking-tools/razor-knife.jpg"/><figcaption></figcaption></figure> A sharp knife is a safe knife. A sharp knife needs less force and so you're much less likely to slip while cutting and injure yourself. Buy the [Lennox Gold Knife][razor-knife] and the [Irwin Blue blades][razor-blades]. The Lennox is well made and durable. The Blue blades bend and don't shatter.
+: <figure><img src="/img/posts/woodworking-tools/razor-knife.jpg"/><figcaption>You can change the blades of this one without tools, a handy feature.</figcaption></figure> A sharp knife is a safe knife. A sharp knife needs less force and so you're much less likely to slip while cutting and injure yourself. Buy the [Lenox Gold Knife][razor-knife] and the [Irwin Blue blades][razor-blades]. The Lenox is well made and durable. The Blue blades bend and don't shatter.
 
 [Slip-joint pliers][slip-joint-pliers]
 : <figure><img src="/img/posts/woodworking-tools/slip-joint-pliers.jpg"/><figcaption>Please, don't use these on nuts or bolts.</figcaption></figure> Craftsman makes nice hand tools. This set of [8 inch slip joint pliers][slip-joint-pliers] is versatile - from tristing wires to dealing with stuck parts to getting a solid grip on loose parts. They have a wire cutter that is decently sharp as well. You could certainly buy the Klein or the Channelock, or find a pack with multiple, but this is all you really need.
 
 [Needle-nose pliers][needle-nose-pliers]
-: <figure><img src="/img/posts/woodworking-tools/needle-nose-pliers.jpg"/><figcaption></figcaption></figure> [Useful for everything][needle-nose-pliers] from driving a heavy duty needle or fishing hook to dealing with small fasteners. As with all Craftsman, they have a great warranty.
+: <figure><img src="/img/posts/woodworking-tools/needle-nose-pliers.jpg"/><figcaption>I seem to twist florist wire with mine fairly often. Never understimate how useful a roll of that stuff will be.</figcaption></figure> [Useful for everything][needle-nose-pliers] from driving a heavy duty needle or fishing hook to dealing with small fasteners. As with all Craftsman, they have a great warranty.
 
 [Diagonal cutters][diagonal-cutters]
-: <figure><img src="/img/posts/woodworking-tools/diagonal-cutters.jpg"/><figcaption></figcaption></figure> [Wire cutters][diagonal-cutters] that are also useful for zip ties, wire ties, and home electrical work.
+: <figure><img src="/img/posts/woodworking-tools/diagonal-cutters.jpg"/><figcaption></figcaption></figure> [Wire cutters][diagonal-cutters] that are also useful for zip ties, wire ties, and home electrical work. Instead of shearing like scissors, they indent the wire to separate it. With a little practice, you can strip wire with them as well.
 
 [Adjustable wrench][adjustable-wrench]
 : <figure><img src="/img/posts/woodworking-tools/adjustable-wrench.jpg"/><figcaption></figcaption></figure> You wouldn't think it, but [there's a correct direction to use an adjustable wrench](https://www.youtube.com/watch?v=KHKFy0J75Mo). Always use it so that it's turning towards the movable jaw. This keeps the movable jaw being forced towards the wrench body, and you won't strip as many bolt heads. But again, this is a tool of convenience - if you've got the socket or end wrench in your toolbox, use it. I like the Irwin wrenches that I have, but once again, [Craftsman makes a nice set][adjustable-wrench].
@@ -191,7 +191,7 @@ Saws. There's four basic saws that are worth having. Others will debate that the
 Wood and metal shaping tools. These will let you remove material efficiently.
 
 [Brad-point drill bits][brad-point-bits]
-: <figure><img src="/img/posts/woodworking-tools/brad-point-bits.jpg"/><figcaption></figcaption></figure> [The go-to drill bit for wood][brad-point-bits]. An assortment of these is a must. Keep them sharp, don't overheat them, and don't leave them to rattle around in a toolbox. They get dull that way. As you add more, learn about [split points](http://www.mmsonline.com/articles/choose-the-best-drill-point-geometry) and [rake angles](https://en.wikipedia.org/wiki/Rake_angle) for various materials.
+: <figure><img src="/img/posts/woodworking-tools/brad-point-bits.jpg"/><figcaption>This list is long, I wish he'd get to the point.</figcaption></figure> [The go-to drill bit for wood][brad-point-bits]. An assortment of these is a must. Keep them sharp, don't overheat them, and don't leave them to rattle around in a toolbox. They get dull that way. As you add more, learn about [split points](http://www.mmsonline.com/articles/choose-the-best-drill-point-geometry) and [rake angles](https://en.wikipedia.org/wiki/Rake_angle) for various materials.
 
 [Spade drill bits][spade-point-bits]
 : <figure><img src="/img/posts/woodworking-tools/spade-point-bits.jpg"/><figcaption>These will make large, kinda sloppy holes in wood.</figcaption></figure> Large and flat, these cut large holes when you don't care about the roundness of the hole or the finish. Home electrical wiring and making some large holes are the name here. For anything else, you'll want to start [investing in Forstner bits][forstner-bits] and then [hole saws][hole-saws] for large sized holes.
@@ -231,7 +231,7 @@ You can never have too many. Stock up when there is a sale, and scrounge estate 
 : <figure><img src="/img/posts/woodworking-tools/spring-clamps.jpg"/><figcaption>Bessey makes nice clamps.</figcaption></figure> Cheap and simple, [these are great][spring-clamps] for laminating boards and small glue-ups.
 
 [Small Bar Clamps][simple-clamps]
-: <figure><img src="/img/posts/woodworking-tools/simple-clamps.jpg"/><figcaption></figcaption></figure> [Small bar clamps][simple-clamps], with the trigger are great for holding smaller workpieces.
+: <figure><img src="/img/posts/woodworking-tools/simple-clamps.jpg"/><figcaption>I use these to hold things during drilling and cutting as much as for anything else.</figcaption></figure> [Small bar clamps][simple-clamps], with the trigger are great for holding smaller workpieces.
 
 [Pipe clamps][pipe-clamp]
 : <figure><img src="/img/posts/woodworking-tools/pipe-clamp.jpg"/><figcaption></figcaption></figure> [Cheap and durable][pipe-clamp], a set of four 5' bar clamps will help with larger projects. These would be great for making your first headboard for a bed, or keeping a coffee table square during glue-up. You'll add your own pipe to these to make them into whatever length you need. Very versatile and easy to use. Be careful to not mar your surfaces with them.
@@ -262,7 +262,7 @@ Saw, drill, and jigsaw will give you the basic wood shaping tools that you need 
 I cannot stress this enough - a good finish on a project will draw the eye away from other imperfections. The difference in a garage project and a nice project often comes down to material choice, and the number of times the piece has been sanded. Don't stop too soon!
 
 [Random orbit sander][random-orbit-sander]
-: <figure><img src="/img/posts/woodworking-tools/random-orbit-sander.jpg"/><figcaption></figcaption></figure> A five inch sander is a great start. [This one from DeWalt][random-orbit-sander] is darn near perfect. The difference in a nice piece and a hack job is the quality of the finish. A nice sander will help that. A random orbit sander will help prevent scratches in your finish, and can make quick work of preparing large surfaces.
+: <figure><img src="/img/posts/woodworking-tools/random-orbit-sander.jpg"/><figcaption>The swirling pattern won't leave gouges in your surface.</figcaption></figure> A five inch sander is a great start. [This one from DeWalt][random-orbit-sander] is darn near perfect. The difference in a nice piece and a hack job is the quality of the finish. A nice sander will help that. A random orbit sander will help prevent scratches in your finish, and can make quick work of preparing large surfaces.
 
 [Belt sander][belt-sander]
 : <figure><img src="/img/posts/woodworking-tools/belt-sander.jpg"/><figcaption>Not a requirement, but great to have for dimensioning stock if you don't have a planer or jointer.</figcaption></figure> This is a little expensive to include on this list, but it can be a great tool to own. [A belt sander][belt-sander] can take the place of a planer and to some extend a jointer. It can be very useful in flattening boards as well as for shaping. Stick to the random orbit sander for finishing tasks though!
