@@ -9,7 +9,7 @@ author:      "Craig Davis"
 header-img:  "img/headers/filco-keyboard.jpg"
 ---
 
-I really enjoy my [Filco mechanical keyboard](http://amzn.to/1nXfUuA), and highly recommend one to anyone with a desk. However, moving from an Apple keyboard can take a little getting used to. In particular, you may miss your dedicated media keys.
+I really enjoy my [Filco mechanical keyboard](http://amzn.to/1nXfUuA "Amazon Affliate Link"), and highly recommend one to anyone with a desk. However, moving from an Apple keyboard can take a little getting used to. In particular, you may miss your dedicated media keys.
 
 I've remapped my keyboard with media controls, and I've added them out of the way so that I can keep my function keys in their primary mode for hotkey use.
 

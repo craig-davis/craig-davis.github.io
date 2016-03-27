@@ -24,6 +24,8 @@ Here's the kit when assembled and ready to ride:
 
 This kit has the essentials for tire repair, common bike issues, and a couple extra bits for weirder roadside emergencies. My goal is make sure that this can still fit in a single jersey pocket. I ride with this in the middle pocket, my phone and a credit card and a spare tube in my left pocket, and my food in my right pocket.
 
+The links within this post are affiliate links to purchase these items. All of these tools and items are part of my faily riding, and I truly believe them to be the best.
+
 ## Rule 31
 
 [Rule 31](http://www.velominati.com/the-rules/#31): Spare tubes, multi-tools and repair kits should be stored in jersey pockets.

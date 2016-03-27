@@ -139,7 +139,9 @@ science:
 
 I've collected some of my favorite non-fiction books for this list. Most of these are popular science books that cover some topic in a presentable way that make them ideal for casual reading. None of these books need note-taking, and none of them are meant to be definitive texts on any subject. Many of these I read in high school, and many of them were very influential to me personally. All are books that I've recommended to friends in the past - so consider this a thumbs-up for the entire list.
 
-If you do read any of these, drop me a note and let me know if you enjoyed them! You can find me on Twitter at <a href="https://twitter.com/There4Dev">@there4dev</a>
+The links within this post are affiliate links to purchase these books. All of these are books that I've read, enjoyed, and have a place on my book shelf. Many of these I've purchased additional copies of and given as gifts!
+
+If you do read any of these, drop me a note and let me know if you enjoyed them! You can find me on Twitter at [@there4dev](https://twitter.com/There4Dev)
 
 ## Table of Contents
 <ul>

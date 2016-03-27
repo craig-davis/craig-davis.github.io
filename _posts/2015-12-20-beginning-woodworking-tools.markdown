@@ -10,6 +10,8 @@ header-img: "img/headers/diy-tools.jpg"
 
 I grew up in my grandfathers woodworking shop, and have worked with tools my whole life. I don't have my own shop yet, and so I've collected just enough tools for projects over the last 15 years that fit into a couple of bins. This collection of tools will give you the basic tools for DIY projects and furniture. With this set of tools you'll only be limited by your imagination.
 
+The links within this post are affiliate links to purchase these items. All of these tools and items are tools I've used, and I truly believe them to be high quality tools that are perfect for starting out in woodworking.
+
 ## Table of Contents
 
 * [Safety](#safety)
