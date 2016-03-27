@@ -30,7 +30,7 @@ science:
     amazon: http://amzn.to/1SdQH7s
     caption: A surprisingly emotional story of mathematics
     review: |
-        Another from Singh, this book studies the history of the pursuit of the last theorem of Pierre de Fermat. He posed a simple mathematical equation that remained unsolved for 350 years. I hesitate to call this a page-turner, for after all, it is a math book - but... the historical detail, the fascinating characters, and sometimes deeply emotional turmoil of those who spent their lives in devotion to this knowlege is compelling reading. Singh delivers a detailed history of the problem, a quick history of mathematics, and one man's work to push the boundaries to solve this problem. It's a captivating tale.
+        Another from Singh, this book studies the history of the pursuit of the last theorem of Pierre de Fermat. He posed a simple mathematical equation that remained unsolved for 350 years. I hesitate to call this a page-turner, for after all, it is a math book - but... the historical detail, the fascinating characters, and sometimes deeply emotional turmoil of those who spent their lives in devotion to this knowledge is compelling reading. Singh delivers a detailed history of the problem, a quick history of mathematics, and one man's work to push the boundaries to solve this problem. It's a captivating tale.
   - title: "Zero: The Biography of a Dangerous Idea"
     author: Charles Seife
     year: 2000
@@ -44,7 +44,7 @@ science:
     year: 2001
     img: emc2.jpg
     amazon: http://amzn.to/1UQbIuY
-    caption: A structured explaination of each part of the equation
+    caption: A structured explanation of each part of the equation
     review: |
         This books presents the most famous equation in two parts. One section explores each of the symbols in the equation. This builds up an understanding of the parts and how they relate to one another. In the second section, Bodanis explores the equation in context. From the creation of the atomic bomb, to our understanding of special relativity, to presenting a bit of a primer on modern cosmology. This book is an well constructed mix of history, theory, and science.
   - title: "To Engineer Is Human: The Role of Failure in Successful Design"
@@ -62,7 +62,7 @@ science:
     amazon: http://amzn.to/21MB3oL
     caption: A exploration of common culture
     review: |
-        In this book Petroski researches how some of our most ubiquitous artifacts of modern living came to be. Our forks have four tines - and this is a story worth reading about. Each of the everyday items that he introduces has been exhaustively researched, and then told as a story with care to the creators and people that influenced the history of the object. The book is a little repetetive in it's approach to some items, but overall it's an interesting way to reframe so many of the items in our daily lives.
+        In this book Petroski researches how some of our most ubiquitous artifacts of modern living came to be. Our forks have four tines - and this is a story worth reading about. Each of the everyday items that he introduces has been exhaustively researched, and then told as a story with care to the creators and people that influenced the history of the object. The book is a little repetitive in it's approach to some items, but overall it's an interesting way to re-frame so many of the items in our daily lives.
   - title: "The Pencil: A History of Design and Circumstance"
     author: Henry Petroski
     year: 1992
@@ -86,7 +86,7 @@ science:
     amazon: http://amzn.to/1PxB2hy
     caption: The fundamentals of engineering, with accessible wit
     review: |
-        You may have noticed a trend in this list - engineering presented with history and humor. This book is certainly in the same category. Gordon presents the concepts of suspension bridges, dams, bat wings, and all manner of engineering with a bit of whimsy and humor to accompany historical background. With minimal math, and lots of real world examples, this book is a great overview of modern engineering and is a very accesible book.
+        You may have noticed a trend in this list - engineering presented with history and humor. This book is certainly in the same category. Gordon presents the concepts of suspension bridges, dams, bat wings, and all manner of engineering with a bit of whimsy and humor to accompany historical background. With minimal math, and lots of real world examples, this book is a great overview of modern engineering and is a very accessible book.
   - title: "Pinball Effect: How Renaissance Water Gardens Made the Carburetor Possible"
     author: James Burke
     year: 1997
@@ -94,7 +94,7 @@ science:
     amazon: http://amzn.to/1VOlkWO
     caption: How established ideas lead to new discovery
     review: |
-        If you neer saw the TV series from James Burke called [Connections](https://en.wikipedia.org/wiki/Connections_(TV_series)) - you must. Burke is the undisputed master of serendipity and history. The Pinball Effect continues this tradition with an examination of the interconnectedness of history. This book is a sometimes frenetic look at how the modern day came to be.
+        If you never saw the TV series from James Burke called [Connections](https://en.wikipedia.org/wiki/Connections_(TV_series)) - you must. Burke is the undisputed master of serendipity and history. The Pinball Effect continues this tradition with an examination of the interconnectedness of history. This book is a sometimes frenetic look at how the modern day came to be.
   - title: Circles
     author: James Burke
     year: 2009
@@ -110,7 +110,7 @@ science:
     amazon: http://amzn.to/1UQbLqN
     caption: An examination of how societies fail
     review: |
-        Ever the distopian, I'm leaving [Guns, Germs, and Steel](http://amzn.to/1TbITrW) off this list, instead favoring this book from Diamond. In this book, he probes the cause of civilization collapse. There is much to be learned from the recurring theme of environment catastrophe, and the book could lead some readers to be a little distraught out our future. The book is consistent and well researched, and is an enjoyable book to read.
+        Ever the dystopian, I'm leaving [Guns, Germs, and Steel](http://amzn.to/1TbITrW) off this list, and instead favoring this book from Diamond. In this book, he probes the cause of civilization collapse. There is much to be learned from the recurring theme of environment catastrophe, and the book could lead some readers to be a little distraught out our future. The book is consistent and well researched, and is an enjoyable book to read.
   - title: The Immortal Life of Henrietta Lacks
     author: Rebecca Skloot
     year: 2011
@@ -126,7 +126,7 @@ science:
     amazon: http://amzn.to/1RlVAPv
     caption: Death is not the end
     review: |
-        You won't belive me when I try to explain how funny this book is. It's a book about dead bodies - the stories our bodies could tell after we're no longer using them. She deftly explains the contributions of cadavers to medicine, organ transplants, and how our death has changed through history. This is a bizarre and wonderful book that you may be prompted to read in one sitting.
+        You won't believe me when I try to explain how funny this book is. It's a book about dead bodies - the stories our bodies could tell after we're no longer using them. She deftly explains the contributions of cadavers to medicine, organ transplants, and how our death has changed through history. This is a bizarre and wonderful book that you may be prompted to read in one sitting.
   - title: The Man Who Mistook His Wife for a Hat and Other Clinical Tales
     author: Oliver Sacks
     year: 1998
