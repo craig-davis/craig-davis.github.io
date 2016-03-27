@@ -172,6 +172,4 @@ If you do read any of these, drop me a note and let me know if you enjoyed them!
 {% endif %}
 </div>
 
-<hr style="clear: both;">
-
 Again, if you read any of these, <a href="https://twitter.com/There4Dev">please let me know</a>!
