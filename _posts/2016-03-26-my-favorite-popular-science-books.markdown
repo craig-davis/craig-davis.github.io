@@ -46,7 +46,23 @@ science:
     amazon: http://amzn.to/1UQbIuY
     caption: A structured explaination of each part of the equation
     review: |
-        a review
+        This books presents the most famous equation in two parts. One section explores each of the symbols in the equation. This builds up an understanding of the parts and how they relate to one another. In the second section, Bodanis explores the equation in context. From the creation of the atomic bomb, to our understanding of special relativity, to presenting a bit of a primer on modern cosmology. This book is an well constructed mix of history, theory, and science.
+  - title: "To Engineer Is Human: The Role of Failure in Successful Design"
+    author: Henry Petroski
+    year: 1992
+    img: to-engineer-is-human.jpg
+    amazon: http://amzn.to/1UQaRug
+    caption: A study in design failures
+    review: |
+        We are all engineers. Whether we're just stacking dishes so that they don't fall over, building a dog house from scrap wood, or designing a nuclear reactor - we all are familiar with the failure modes of our constructions. In this book, Petroski takes us through historical failures with both forensic engineering and an eye for human details. This is an accessible book that anyone can read - given at least a passing interest in Civil Engineering.
+  - title: "The Evolution of Useful Things: How Everyday Artifacts-From Forks and Pins to Paper Clips and Zippers-Came to be as They are"
+    author: Henry Petroski
+    year: 1994
+    img: evolution-of-useful-things.jpg
+    amazon: http://amzn.to/21MB3oL
+    caption: A exploration of common culture
+    review: |
+        In this book Petroski researches how some of our most ubiquitous artifacts of modern living came to be. Our forks have four tines - and this is a story worth reading about. Each of the everyday items that he introduces has been exhaustively researched, and then told as a story with care to the creators and people that influenced the history of the object. The book is a little repetetive in it's approach to some items, but overall it's an interesting way to reframe so many of the items in our daily lives.
   - title: "The Pencil: A History of Design and Circumstance"
     author: Henry Petroski
     year: 1992
@@ -54,23 +70,7 @@ science:
     amazon: http://amzn.to/1VOl5Le
     caption: The pencil, studied through history in minute and fascinating detail
     review: |
-        a review
-  - title: The Evolution of Useful Things
-    author: Henry Petroski
-    year: 1994
-    img: evolution-of-useful-things.jpg
-    amazon: http://amzn.to/21MB3oL
-    caption: A exploration of common culture
-    review: |
-        a review
-  - title: To Engineer Is Human
-    author: Henry Petroski
-    year: 1992
-    img: to-engineer-is-human.jpg
-    amazon: http://amzn.to/1UQaRug
-    caption: A study in design failures
-    review: |
-        a review
+        Petroski traces the origin of the pencil in wonderfully excruciating detail. The historical research and detail is stunning. This book traces the history of the pencil from it's beginning in ancient Greece to the modern pencil. Each component of the pencil is examined in detail, and is presented as the culmination of generations of engineering design, discovery, advancement, and persistence. This books presents the pencil as a reference for the rise of modern manufacturing, and uses it as a way to explore the rise of the technology needed to create the seemingly simple pencil. This book really requires that you be interested in minutiae and perhaps should not be your first Petroski book. That said, it's one that I really enjoyed.
   - title: The Design of Everyday Things
     author: Don Norman
     year: 2013
@@ -78,7 +78,7 @@ science:
     amazon: http://amzn.to/1RlVRC8
     caption: The source of my issues with poorly designed doors
     review: |
-        a review
+        Have you ever tried to pull a door that only operates as a push? Have you ever been unsure which way to insert a ticket into a machine? This books works through the basics of design in discoverability, affordance, signifiers, feedback, and constraints. Norman changed the field with this book, and it's a valuable resources for learning to think in terms of use. This is a classic, and I highly recommend it.
   - title: "Structures: Or Why Things Don't Fall Down"
     author: J.e. Gordon
     year: 2003
@@ -86,15 +86,15 @@ science:
     amazon: http://amzn.to/1PxB2hy
     caption: The fundamentals of engineering, with accessible wit
     review: |
-        a review
-  - title: Pinball Effect
+        You may have noticed a trend in this list - engineering presented with history and humor. This book is certainly in the same category. Gordon presents the concepts of suspension bridges, dams, bat wings, and all manner of engineering with a bit of whimsy and humor to accompany historical background. With minimal math, and lots of real world examples, this book is a great overview of modern engineering and is a very accesible book.
+  - title: "Pinball Effect: How Renaissance Water Gardens Made the Carburetor Possible"
     author: James Burke
     year: 1997
     img: pinball-effect.jpg
     amazon: http://amzn.to/1VOlkWO
     caption: How established ideas lead to new discovery
     review: |
-        a review
+        If you neer saw the TV series from James Burke called [Connections](https://en.wikipedia.org/wiki/Connections_(TV_series)) - you must. Burke is the undisputed master of serendipity and history. The Pinball Effect continues this tradition with an examination of the interconnectedness of history. This book is a sometimes frenetic look at how the modern day came to be.
   - title: Circles
     author: James Burke
     year: 2009
@@ -102,7 +102,7 @@ science:
     amazon: http://amzn.to/21MBvDF
     caption: Short essays on science, technology, and history
     review: |
-        a review
+        This is a collection of essays from James Burke originally published in __Scientific American__. I can recommend any of books as well, but this collection of essays is great for reading in short snippets over a few months, lest they become a bit repetitive. They have the clever tone of his TV show, boiled down to easy to read short essays.
   - title: Collapse
     author: Jared Diamond
     year: 2011
@@ -110,15 +110,15 @@ science:
     amazon: http://amzn.to/1UQbLqN
     caption: An examination of how societies fail
     review: |
-        a review
+        Ever the distopian, I'm leaving [Guns, Germs, and Steel](http://amzn.to/1TbITrW) off this list, instead favoring this book from Diamond. In this book, he probes the cause of civilization collapse. There is much to be learned from the recurring theme of environment catastrophe, and the book could lead some readers to be a little distraught out our future. The book is consistent and well researched, and is an enjoyable book to read.
   - title: The Immortal Life of Henrietta Lacks
     author: Rebecca Skloot
     year: 2011
     img: henrietta-lacks.jpg
     amazon: http://amzn.to/1UQbynm
-    caption: The story of the HeLa cells
+    caption: A heartbreaking story of medical ethics
     review: |
-        a review
+        This is the story of the creation of the HeLa line of human cells. They are an extraordinary resource for medical research that came from a biopsy taken from Henrietta Lacks, a poor black tobacco farmer. This book examines the troubled history of race and ethics in medicine while simultaneously exploring the relationships within the family of Henrietta Lacks
   - title: "Stiff: The Curious Lives of Human Cadavers"
     author: Mary Roach
     year: 2004
@@ -126,7 +126,7 @@ science:
     amazon: http://amzn.to/1RlVAPv
     caption: Death is not the end
     review: |
-        a review
+        You won't belive me when I try to explain how funny this book is. It's a book about dead bodies - the stories our bodies could tell after we're no longer using them. She deftly explains the contributions of cadavers to medicine, organ transplants, and how our death has changed through history. This is a bizarre and wonderful book that you may be prompted to read in one sitting.
   - title: The Man Who Mistook His Wife for a Hat and Other Clinical Tales
     author: Oliver Sacks
     year: 1998
@@ -134,11 +134,10 @@ science:
     amazon: http://amzn.to/1VOlVaU
     caption: Brilliant and entertaining clinical writing
     review: |
-        a review
+        This is a classic introduction to the clinical writing of Oliver Sacks. This is a collection of case studies that demonstrate the vagaries of the human condition. Sometimes heartbreakingly sad, other times quite funny, this book shows his critical attention to detail, and should serve as an entry point into his other writings.
 ---
 
-I've collected some of my favorite non-fiction books. Most of these are popular science books that present some topic in a presentable way that make them ideal for casual reading. None of these books need note-taking, and none of them are meant to be definitive texts on any subject. Many of these I read in high school, and many of them were very influential to me personally. All of them are books that I've recommended to friends in the past - so consider this a thumbs-up for the entire list.
-
+I've collected some of my favorite non-fiction books for this list. Most of these are popular science books that cover some topic in a presentable way that make them ideal for casual reading. None of these books need note-taking, and none of them are meant to be definitive texts on any subject. Many of these I read in high school, and many of them were very influential to me personally. All are books that I've recommended to friends in the past - so consider this a thumbs-up for the entire list.
 
 If you do read any of these, drop me a note and let me know if you enjoyed them! You can find me on Twitter at <a href="https://twitter.com/There4Dev">@there4dev</a>
 
@@ -175,4 +174,4 @@ If you do read any of these, drop me a note and let me know if you enjoyed them!
 
 <hr style="clear: both;">
 
-Summary
+Again, if you read any of these, <a href="https://twitter.com/There4Dev">please let me know</a>!
