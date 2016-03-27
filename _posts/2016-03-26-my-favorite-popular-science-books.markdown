@@ -50,7 +50,7 @@ science:
   - title: "The Pencil: A History of Design and Circumstance"
     author: Henry Petroski
     year: 1992
-    img: chaos.jpg
+    img: the-pencil.jpg
     amazon: http://amzn.to/1VOl5Le
     caption: The pencil, studied through history in minute and fascinating detail
     review: |
@@ -137,13 +137,17 @@ science:
         a review
 ---
 
+I've collected some of my favorite non-fiction books. Most of these are popular science books that present some topic in a presentable way that make them ideal for casual reading. None of these books need note-taking, and none of them are meant to be definitive texts on any subject. Many of these I read in high school, and many of them were very influential to me personally. All of them are books that I've recommended to friends in the past - so consider this a thumbs-up for the entire list.
+
+
+If you do read any of these, drop me a note and let me know if you enjoyed them! You can find me on Twitter at <a href="https://twitter.com/There4Dev">@there4dev</a>
+
 ## Table of Contents
 <ul>
 {% for book in page.science %}
     <li><a href="#{{ book.title | slugify }}">{{ book.title }}</a></li>
 {% endfor %}
 </ul>
-
 <hr>
 
 ## Popular Science and Math Books
