@@ -82,3 +82,5 @@ Go back to the main screen and click 'Reload XML'.
 With this configuration, the Page Up/Down become volume. The End button becomes mute, and the top right three buttons become Previous, Play/Pause, and Next.
 
 You can easily choose other mappings, and it's pretty straightforward if you use [the reference file of key codes](https://github.com/tekezo/Karabiner/blob/version_10.8.0/src/bridge/generator/keycode/data/KeyCode.data) that is available.
+
+{% include disclosure.html %}

@@ -270,5 +270,6 @@ I cannot stress this enough - a good finish on a project will draw the eye away 
 [Assorted sandpaper][sandpaper]
 : <figure><img src="/img/posts/woodworking-tools/sandpaper.jpg"/><figcaption></figcaption></figure> You'll get a lot more life out of your sandpaper if you <a href="http://www.finehomebuilding.com/item/12862/folding-trick-makes-sandpaper-last-longer">learn how to fold it correctly</a>! I like the [3M Sandpaper][sandpaper], the tacky back makes it work well on sanding blocks, and it doesn't seem to pack-up or wear down as fast as other brands.
 
-
 <hr style="clear: both">
+
+{% include disclosure.html %}

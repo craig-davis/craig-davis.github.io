@@ -85,3 +85,5 @@ If you have any suggestions or comments, [let me know](https://twitter.com/There
 
 
 **Long Live Long Rides**
+
+{% include disclosure.html %}
