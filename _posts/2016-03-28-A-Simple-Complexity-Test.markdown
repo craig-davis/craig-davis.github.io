@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "A Simple Complexity Test"
-subtitle:   "How bad is it, anyway?"
+subtitle:   "Quickly understanding a new code project and planning refactoring"
 date:       2016-03-28
 tags:       [php, javascript]
 author:     "Craig Davis"
