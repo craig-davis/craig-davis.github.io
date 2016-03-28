@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "About"
-subtitle: ""
-header-img: "img/headers/whistler.jpg"
+subtitle: "Hello, Privacy Policy, Affiliate Links"
+header-img: "img/headers/taos.jpg"
 ---
 
-## Craig Davis
+I'm a husband, a software engineer, a hobby woodworker, a (sometimes) competitive cyclist. I volunteer with ski and bike patrol and also with search and rescue.
 
-I'm a software engineer. This is my blog.
+At work, I really enjoy pursuing the craft of development. I worry about cyclomatic complexity and evangelize maintainability and durability. I write a lot of PHP, and it's really not the same as it was 5 years ago.
 
 ## Privacy Policy
 
