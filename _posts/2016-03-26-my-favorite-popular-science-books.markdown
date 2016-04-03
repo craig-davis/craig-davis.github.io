@@ -3,7 +3,7 @@ layout:     post
 title:      "Reading List: Popular Science Books"
 subtitle:   "A collection of thought provoking and interesting science books for casual reading."
 date:       2016-03-26
-tags:       []
+tags:       [reading]
 author:     "Craig Davis"
 header-img: "img/headers/popular-science.jpg"
 science:
