@@ -1,7 +1,7 @@
 ---
 layout:     photo
 title:      "Sheep Shearing in New Mexico"
-subtitle:   "Helping out with shearing and vacinating sheep"
+subtitle:   "Helping out with shearing and vaccinating sheep"
 date:       2016-04-02
 tags:       [photos]
 author:     "Craig Davis"
