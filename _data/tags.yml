@@ -1,5 +1,7 @@
 javascript:
   name: JavaScript
+photos:
+  name: Photos
 php:
   name: PHP
 mysql:

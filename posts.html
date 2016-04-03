@@ -5,11 +5,46 @@ subtitle: "A complete list of all my posts"
 header-img:  "img/headers/skiers.jpg"
 ---
 
-<h3>Posts</h3>
+<h2>Professional Tags</h2>
 <ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
+    <li><a href="tags/css/">CSS</a></li>
+    <li><a href="tags/javascript/">JavaScript</a></li>
+    <li><a href="tags/mysql/">MySQL</a></li>
+    <li><a href="tags/php/">PHP</a></li>
+    <li><a href="tags/ux/">UX</a></li>
 </ul>
+
+<h2>Personal Tags</h2>
+<ul>
+    <li><a href="tags/bike/">Bikes</a></li>
+    <li><a href="tags/photos/">Photos</a></li>
+    <li><a href="tags/woodworking/">Woodworking</a></li>
+</ul>
+
+
+<h2>All Posts</h2>
+{% for post in site.posts  %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+    <h3 id="{{ this_year }}-ref">{{this_year}}</h3>
+    <ul>
+    {% endif %}
+
+    {% if post.photourl %}
+        <li><img src="/img/camera.png" class="photo-icon small"> <a href="{{ post.photourl }}">{{ post.title }}</a></li>
+    {% else%}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+
+    {% if forloop.last %}
+    </ul>
+    {% else %}
+        {% if this_year != next_year %}
+        </ul>
+        <h3 id="{{ next_year }}-ref">{{next_year}}</h3>
+        <ul>
+        {% endif %}
+    {% endif %}
+{% endfor %}

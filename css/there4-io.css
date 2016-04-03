@@ -517,6 +517,12 @@ figure figcaption {
 .photo h2 {
   margin-bottom: -3px !important;
 }
+.photo-icon.small {
+  width: 25px;
+  margin: 0;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
 dt {
   clear: both;
 }
