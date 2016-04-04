@@ -22,15 +22,7 @@ books:
     amazon: http://amzn.to/1TtZ97L
     caption: A love affair - from jewelry to industrial and computer application.
     review: |
-        Review
-  - title: "Coal: A Human History "
-    author: Barbara Freese
-    year: 2004
-    img: coal.jpg
-    amazon: http://amzn.to/1RVNpM5
-    caption: From Romans to modern power plants - the story of coal.
-    review: |
-        Review
+        Diamond and Gold are both written by Matthew Hart. This book travels the world from deep mines in China to the London Gold Exchange. It covers the challenges faced by the early gold miners that drove westward expansion in the United States, and the gold value fluctuations after the 2008 financial crisis. This book is written a bit like a travel book that examines the geology, geopolitics, and economics of gold.
   - title: "Diamond: A Journey to the Heart of an Obsession"
     author: Matthew Hart
     year: 2002
@@ -38,7 +30,15 @@ books:
     amazon: http://amzn.to/1RVNHmb
     caption: Wealth, prestige and love? Or war, mostly lies and war.
     review: |
-        Review
+        Another globe-trotting story from Matthew Hart, this book is meticulously researched. The book covers the diamond mines of Africa and the enormously powerful De Beers cartel, and the Canadian diamond mines that are pushing their monopoly. I especially recommend this book if you aren't familiar with the De Beers cartel and the power that they hold over the global market, and the marketing engine that they created to make diamonds valuable through vanity and greed. Hart is an industry insider, and he brings a great wealth of knowledge to the subject, and makes this an entertaining book.
+  - title: "Coal: A Human History "
+    author: Barbara Freese
+    year: 2004
+    img: coal.jpg
+    amazon: http://amzn.to/1RVNpM5
+    caption: From Romans to modern power plants - the story of coal.
+    review: |
+        This book in particular studies the use of coal in the United Kingdom, the United States, and China. From early use as heating and cooking to modern day power plants, coal has been a cheap and transportable source of energy. It was essential in the industrial revolution for metal smelting before the modern electric kiln (which may still be powered by coal power plants). Coal heat and coal power has also made much of the world livable that would other be inhospitable. This book is a little chatty at times, but as with others in the genre is carefully researched and presented well.
   - title: "Mauve: How One Man Invented a Color That Changed the World"
     author: Simon Garfield
     year: 2002
@@ -115,13 +115,14 @@ books:
 
 ---
 [petroski]: http://amzn.to/25ETsbL "Amazon: Henry Petroski"
-[salt]: http://amzn.to/1RGV8rZ "Amazon: Salt, A World History"
+[salt]: https://en.wikipedia.org/wiki/Salt "Wikipedia: Salt"
+[microhistory]: https://en.wikipedia.org/wiki/Microhistory "Wikipedia: Microhistory"
 
-I stumbled into a genre of [microhistory](https://en.wikipedia.org/wiki/Microhistory) books that trace the history a particular topic. Each of these books explores history through the lens of a single subject. It's an interesting exercise in the influence of a material or resource through time. I've enjoyed seeing how our modern society has been shaped by things that we may take for granted. None of these are as technical as a [Petroski book][petroski],
+I stumbled into a genre of [microhistory][microhistory] books that trace the history a particular topic. Each of these books explores history through the lens of a single subject. It's an interesting exercise in the influence of a material or resource through time. I've enjoyed seeing how our modern society has been shaped by things that we may take for granted.
 
 For instance, the word "salary" comes from the Latin word for [salt][salt]. It was so valuable that some Roman Legions were paid in salt, and it was in fact more valuable than gold at the time. The incredible need for salt and the trade routes that this established had far reaching effects that last to this day. By looking at the history of salt, we can examine a cross section of history, putting each time period into perspective. For instance, with salt we can trace the history of the industrial revolution as we develop new ways to mine, as well as international shipping and taxation. These books are fascinating in that they turn away from a generalist approach to history, and instead allow us to look at everything involving a single topic.
 
-The links within this post are affiliate links to purchase these books. All of these are books that I've read, enjoyed, and have a place on my book shelf. I'd consider most of these "beach reading" - none are particular technical, and all of them have enough moment of "huh, that's interesting" to make them good pop-culture touchstones.
+The links within this post are affiliate links to purchase these books. All of these are books that I've read, enjoyed, and have a place on my book shelf. None of these are as technical as a [Petroski book][petroski], and I'd consider most of these "beach reading". All of them have moments of "huh, that's interesting" and I consider them to be good pop-culture touchstones.
 
 If you do read any of these, drop me a note and let me know if you enjoyed them! You can find me on Twitter at [@there4dev](https://twitter.com/There4Dev)
 
