@@ -38,7 +38,7 @@ books:
     amazon: http://amzn.to/1RVNpM5
     caption: From Romans to modern power plants - the story of coal.
     review: |
-        This book in particular studies the use of coal in the United Kingdom, the United States, and China. From early use as heating and cooking to modern day power plants, coal has been a cheap and transportable source of energy. It was essential in the industrial revolution for metal smelting before the modern electric kiln (which may still be powered by coal power plants). Coal heat and coal power has also made much of the world livable that would other be inhospitable. This book is a little chatty at times, but as with others in the genre is carefully researched and presented well.
+        This book presents the use of coal in the United Kingdom, the United States, and China. From early use as heating and cooking to modern day power plants, coal has been a cheap and transportable source of energy. It was essential in the industrial revolution for metal smelting before the modern electric kiln (which even now may still be powered by coal power plants). Coal heat and coal power has also made much of the world livable that would otherwise be inhospitable. This book is a little chatty at times, but as with others in the genre is carefully researched and presented well.
   - title: "Mauve: How One Man Invented a Color That Changed the World"
     author: Simon Garfield
     year: 2002
@@ -46,7 +46,7 @@ books:
     amazon: http://amzn.to/1RVPrvE
     caption: Chemistry, history, art - The discovery of the first synthetic dye
     review: |
-        Review
+        In the mid 1800s an eighteen-year-old English chemist accidentally discovered the worlds first synthetic dye. This aniline purple dye, called Mauve, was a big deal in organic chemistry research. It opened the doors for organic chemistry to be viewed as a profitable industry, and pushed the debate of pure  versus applied science. Before this discovery all dyes were organic and based on bark or plant extracts. This opened the door for thousands of new color compounds and brought chemistry research to the forefront of technology at the time. An interesting note is that it was made from coal tar - but that's another book! While not as far ranging as some of the other books on the list, it's a fascinating story of invention and the birth of an industry.
   - title: "Birdseye: The Adventures of a Curious Man"
     author: Mark Kurlansky
     year: 2013
@@ -54,7 +54,7 @@ books:
     amazon: http://amzn.to/1UNW0kM
     caption: How a fur trapper in Canada brought us all frozen food
     review: |
-        Review
+        A fur trapper in Labrador, Canada, recognized that spoiled food and an unhealthy diet of dried meats was a serious problem. He noticed that fresh vegetables frozen in the cold northern winds froze quickly and in a way that kept them from turning to mush. This book tells the story of Clarence Birdseye as he develops the technology that gave birth to the modern frozen food section of the grocery store. Birdseye was a character - he had an insatiable appetite for learning and a real knack for entrepreneurship. The book is part biography and part history of frozen food.
   - title: "Cod: A Biography of the Fish that Changed the World"
     author: Mark Kurlansky
     year: 2010
@@ -62,7 +62,7 @@ books:
     amazon: http://amzn.to/25EU7tO
     caption: World history, as told by the importance of cod fish
     review: |
-        Review
+        This may be the strongest book from Kurlansky. What starts off as a story of Cod as a salted fish that made long distance seafaring possible turns into a dramatic warning about our current overfishing and dwindling fishing stock. This is an amazing story of the impact we've had on our oceans, and a grand tale of exploration and the history of this fish.
   - title: "Tomatoland: How Modern Industrial Agriculture Destroyed Our Most Alluring Fruit "
     author: Barry Estabrook
     year: 2012
@@ -70,7 +70,7 @@ books:
     amazon: http://amzn.to/25EUowU
     caption: An examination of modern agribusiness and environmental issues
     review: |
-        Review
+        My love of this book is a little personal - I have such fond memories of eating tomatoes off the vine at my grandparents house. In the book we travel to Peru in search of the original tomatoes, and trace how the tomato grew from a small regional fruit to a global business worth billions of dollars. This books covers the slavery conditions of Florida to the agribusiness of using modern technology to develop tomatoes that can survive long distance shipping. When you're done with this book, you'll look forward to planting your own tomatoes this spring and becoming something of a historian yourself.
   - title: "Banana: The Fate of the Fruit That Changed the World"
     author: Dan Koeppel
     year: 2008
@@ -78,7 +78,7 @@ books:
     amazon: http://amzn.to/1osXMZP
     caption: There's a chance the garden of eden apple was actually a banana.
     review: |
-        Review
+        If you've ever heard the term "Banana Republic", but haven't had the backstory - this is the book that will explain it. It covers the rise of the banana business, the toppling of empires, and the search for the next banana. It examines the trouble that our Cavendish Banana is facing due to our nearly global monoculture of clones. This book is filled with interesting anecdotes explaining the historical and political ramifications of the banana industry.
   - title: "Extra Virginity: The Sublime and Scandalous World of Olive Oil"
     author: Tom Mueller
     year: 2013
@@ -86,7 +86,7 @@ books:
     amazon: http://amzn.to/1RVOovQ
     caption: Medicine, beauty aid, cooking oil, religious sacrament.
     review: |
-        Review
+        Short version - it's incredibly corrupt. The rise of gourmet food, the popularity of olive oil in beauty products, and the modern commodity market has put the olive oil industry under harsh pressure to produce. The industry has been deeply affected by organized crime and corruption, with adulterated oil and smuggling. The book reads like a crime novel at points, and is worth reading even if you aren't a foodie.
   - title: "Spice: The History of a Temptation"
     author: Jack Turner
     year: 2005
@@ -94,7 +94,7 @@ books:
     amazon: http://amzn.to/1RGYqvf
     caption: A history of the world through the development of the spice trade
     review: |
-        Review
+        The history of the spice trade is in some ways the story of human exploration. Columbus was sailing in search of pepper; the history of exploration from Europe is deeply entwined with the history of spice. Empires were built on top of the spice trade. Spice was used as medicine, spice, and for religious reasons, and the demand for it took us to all the corners of the world. This book is one of the easiest to read on this list.
   - title: "A History of the World in 6 Glasses"
     author: Tom Standage
     year: 2006
@@ -102,7 +102,7 @@ books:
     amazon: http://amzn.to/1Tu0iw5
     caption: Beverages that have had an impact on history
     review: |
-        Review
+         Beer, wine, spirits, coffee, tea, and cola: the history of the world through six beverages. From the use of beer as a way to preserve drinking water to using rum as payment during seafaring voyages to the importance of coffee during the Age of Reason in Europe, these drinks have had an effect on our culture. In this book, each drink is treated as a sort of technology, and then used to explore the larger historical context around them. The book touches on modern globalization through the lens of Coca-Cola and the cultural influence that it has had. This book is full of pop-culture information, and may surely make you enjoy your next IPA just a little more.
   - title: "Cotton: The Biography of a Revolutionary Fiber"
     author: Stephen Yafa
     year: 2006
@@ -110,7 +110,7 @@ books:
     amazon: http://amzn.to/1RGYZFt
     caption: An important part of the industrial revolution, and the civil war.
     review: |
-        Review
+        Said to be the most powerful cash crop in the world, cotton has a long history from early domestication almost 6000 years ago. This book looks at the economic turmoil that the cotton market has experienced as technology has changed. Yafa writes about the American Civil War and the part that cotton and cotton plantations played in that conflict, and he covers the modern driving factors of the industry including modern farming techniques and the complicated cotton trade.
 
 
 ---
