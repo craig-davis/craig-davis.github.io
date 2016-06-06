@@ -5,3 +5,4 @@
 * phpcpd
 * phploc
 * git bisect
+* pdepend
