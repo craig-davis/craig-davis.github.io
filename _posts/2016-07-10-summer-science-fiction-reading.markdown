@@ -7,6 +7,14 @@ tags:       [reading]
 author:     "Craig Davis"
 header-img: "img/headers/science-fiction.jpg"
 books:
+  - title: "The Daedalus Incident"
+    author: "Michael Martinez"
+    year: 2013
+    img: the-daedelus-incident.jpg
+    amazon: http://amzn.to/29wkBuO
+    caption: ""
+    review: |
+        18th-century pirates, in space, on wooden ships. This books is the most inventive and interesting science fiction that I've read in a long time. It's crazy, and boisterous, and wonderful. This is a fantastic book for summer reading. The story tells how our distant future overlaps with a past from an alternate time line, and how these two stories intertwine and overlap. The entire trilogy is worth reading, and this is the one to start. I really don't want to ruin too much - but if you're in for a really interesting and non-traditional science fiction story, this is a seafaring space odyssey that you'll certainly enjoy.
   - title: "Aurora"
     author: "Kim Stanley Robinson"
     year: 2015
@@ -14,7 +22,7 @@ books:
     amazon: http://amzn.to/29woCPD
     caption: "Our first voyage beyond the solar system"
     review: |
-        This book has far reaching ideas and ambitions for exploring our society. Generations ago, a ship was launched to the Tau Ceti system to setup colonies in a habitable system. This books starts with the generation that will finally arrive. We loosely follow the explorations of Freya, the daughter of the chief engineer. She travels throughout the ship, and provides us a way to see the struggles that this microcosm of humans faces. The book has a few pacing issues, but the stories are human and interesting. The challenges that this group faces, and the questions of what it means to have a home have stayed with me far longer than many of the books I've read recently.
+        This book has far reaching ideas and ambitions for exploring our society. Generations ago, a ship was launched to the Tau Ceti system to setup colonies in a habitable system. This books starts with the generation that will finally arrive. We loosely follow the explorations of Freya, the daughter of the chief engineer. She travels throughout the ship, and provides us a way to see the struggles of this microcosm of humans. The book has a few pacing issues, but the stories overcome this and are human and interesting. The challenges that this group faces and the questions of what it means to have a home have stayed with me far longer than many of the books I've read recently.
   - title: "Half Way Home"
     author: "Hugh Howey"
     year: 2013
@@ -30,15 +38,7 @@ books:
     amazon: http://amzn.to/29x9e2Q
     caption: "A serial novel, now in book form"
     review: |
-        This book feels shorter than it's 258 pages. This is the story of a lighthouse operator that operates outside of an asteroid field along an important trade route. He lives and works in this isolated part of the galaxy, far from the wars that are raging across other inhabited systems. He struggles with his own sanity, his history, and his role that he play in the future of humankind. This is an unexpected book that delves into his psyche as much as the science. It's a little dark, but the humor and love story that are carried throughout the novel keep it from being too gloomy.
-  - title: "The Daedalus Incident"
-    author: "Michael Martinez"
-    year: 2013
-    img: the-daedelus-incident.jpg
-    amazon: http://amzn.to/29wkBuO
-    caption: ""
-    review: |
-        18th-century pirates, in space, on wooden ships. This books is the most inventive and interesting science fiction that I've read in a long time. It's crazy, and boisterous, and wonderful. This is a fantastic book for summer reading. The story tells how our distant future overlaps with a past from an alternate time line, and how these two stories intertwine and overlap. The entire trilogy is worth reading, and this is the one to start. I really don't want to ruin too much - but if you're in for a really interesting and non-traditional science fiction story, this is a seafaring space odyssey that you'll certainly enjoy.
+        This book feels shorter than it's 258 pages. This is the story of a lighthouse operator that operates outside of an asteroid field along an important trade route. He lives and works in this isolated part of the galaxy, far from the wars that are raging across other inhabited systems. He struggles with his own sanity, his history, and his role that he plays in the future of humankind. This is an unexpected book that delves into his psyche as much as the science. It's a little dark, but the humor and love story that are carried throughout the novel keep it from being too gloomy.
   - title: "The Origin Mystery (The Atlantis Gene)"
     author: "A. G. Riddle"
     year: 2013
@@ -54,7 +54,7 @@ books:
     amazon: http://amzn.to/2a0eR8l
     caption: "Amish Science Fiction is now a thing"
     review: |
-        If you read the last review, you must think I'm crazy by now. This is an imaginative book that examines our interaction with technology. This is a solid book that take the protagonist to New Pennsylvania, where the Amish will help settle this new world. This story of settlement is has great characters, a little humor, and a fascinating storyline.
+        You must think I'm crazy by now. This is an imaginative book that examines our interaction with technology. This is a solid story that takes the protagonist to New Pennsylvania, where the Amish will help settle this new world. This story of settlement is has great characters, a little humor, and a fascinating storyline as the protagonist struggles to find his place and the truth about this new reality.
   - title: "The Plague Year"
     author: "Jeff Carlson"
     year: 2015
@@ -62,7 +62,7 @@ books:
     amazon: http://amzn.to/29tmSAz
     caption: "A terrifying exploration of nano-tech gone wrong"
     review: |
-        A nano-technology has brought about famine, war, and a horrifying future. Jeff Carlson writes thorough enjoyable novels, and while not being among some list of Great Works of Literature, this is a fun book. The main characters go on adventures amongst this civil war to uncover the truth about this plague. Their is adversity and challenges. We meet interesting pockets of survivors, and explore the challenges that we will face when this civilization finally falls apart. This is book one of a trilogy that are all worth reading. This book in particular will make a really exciting movie - and this alone makes it perfect for this list.
+        A nano-technology has brought about famine, war, and a horrifying future. Jeff Carlson writes thoroughly enjoyable novels, and while not being among some list of Great Works of Literature, this is a fun book. The main characters go on adventures amongst a civil war and collapsed civilization to uncover the truth about this plague. We meet interesting pockets of survivors and explore the challenges that we will all face when this civilization finally falls apart. This is book one of a trilogy, and the entire collection is worth reading. This book in particular will make a really exciting movie - and that alone makes it perfect for this list.
   - title: "Frozen Sky"
     author: "Jeff Carlson"
     year: 2012
@@ -70,7 +70,7 @@ books:
     amazon: http://amzn.to/29wleo1
     caption: "An alien civilization that is completely unique"
     review: |
-        Alexis Vonderach and a team of engineers explore a tunnel system under the ice of Europa. They discover a hieroglyphics and a unfathomably strange civilization. It is rare that an author can create an interesting alien civilization that it not anthropomorphic - an alien that is completely alien that yet we as readers can empathize with. This book captured me, and I read the full trilogy. There's some great science in both the space travel and in the technology to explore Europa, and the details are interesting without being overly detailed. This started as a short story, and there are some leaps and details made that do feel like filler material. But, the overall quality and impression of this book make it a great summer read.
+        Alexis Vonderach and a team of engineers explore a tunnel system under the ice of Europa. They discover hieroglyphics and an unfathomably strange civilization. It is rare that an author can create an interesting alien civilization that it not anthropomorphic - an alien that is completely alien and yet we as readers can empathize with. This book captured me, and I read the full trilogy. There's some great science in both the space travel and in the technology to explore Europa and the details are interesting without being overly detailed. This started as a short story and there are some leaps and details made that do feel like filler material. But, the overall quality and impression of this book make it a great summer read.
   - title: "Ship Breaker"
     author: "Paolo Bacigalupi"
     year: 2011
@@ -78,7 +78,7 @@ books:
     amazon: http://amzn.to/29HVfGZ
     caption: "Coming soon to a movie theater near you! Or it should anyway..."
     review: |
-        This is a young adult novel, and as such makes this fantastic beach reading! This isn't a complicated book, and is a science fiction almost entirely because of the setting in the dystopian future. In the US Gulf Coast region, abandoned oil tankers are being dismantled for parts by crews. This is the story of a young ship breaker that discovers a boat and a young woman held captive on it. I won't ruin the rest. He does a great job looking at the extreme poverty of the ship breakers. It's fun!
+        This is a young adult novel, and as such makes this fantastic beach reading! This isn't a complicated book, and is science fiction almost entirely because of its setting in the dystopian future. In the US Gulf Coast region, abandoned oil tankers are being dismantled for parts. This is the story of a young ship breaker that discovers a boat and a young woman held captive on it. I won't ruin the rest. Bacigalupi does a great job looking at the extreme poverty of the ship breakers, and tells a worthwhile tale of adventure.
   - title: "The Windup Girl"
     author: "Paolo Bacigalupi"
     year: 2015
@@ -107,11 +107,11 @@ books:
 </ul>
 <hr>
 
-I believe that science fiction is a tool to not just think about the future, but to also examine moral dilemmas in our own time. These books are free to explore ethical blind spots and issues by creating their own worlds. Worlds that let us both stretch our imagination, and develop frameworks for understanding of society. Science fiction is an enormously powerful tool for examining our culture.
+I believe that science fiction is a tool to not just think about the future, but to also examine moral dilemmas in our own time. These books are free to explore ethical blind spots and issues by creating their own worlds. Worlds that let us both stretch our imagination, and develop frameworks for our understanding of society. Science fiction is an enormously powerful tool for examining our culture.
 
-These are some of my favorite science fiction books that I've read over the last few years. I love talking about them, and have recommended them enough that I thought I'd finally take the time to collect them together into a single post. Here they are!
+These are some of my favorite lighter-weight science fiction books that I've read over the last couple of years. I love talking about them, and have recommended them enough that I thought I'd finally take the time to collect them together into a single post. Here they are!
 
-The links within this post are affiliate links to purchase these books. All of these are books that I've read, enjoyed, and have a place on my book shelf. None of these are what I'd consider hard science fiction, and I'd consider most of these to be solidly entertaining and fun reading. However, I feel that all of them have enough moments of thought-provoking introspection to be worthwhile, and to be considered proud members of the genre.
+The links within this post are affiliate links to purchase these books. All of these are books that I've read, enjoyed, and have a place on my book shelf. None of these are what I'd consider hard science fiction, and I'd consider most of these to be solidly entertaining and fun reading. I feel that all of them have enough moments of thought-provoking introspection to be worthwhile, and to be considered proud members of the genre.
 
 If you do read any of these, drop me a note and let me know if you enjoyed them! You can find me on Twitter at [@there4dev](https://twitter.com/There4Dev)
 
