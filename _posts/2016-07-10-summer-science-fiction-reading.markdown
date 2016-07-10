@@ -12,7 +12,7 @@ books:
     year: 2013
     img: the-daedelus-incident.jpg
     amazon: http://amzn.to/29wkBuO
-    caption: ""
+    caption: "Magic Space Pirates on Mars - Just trust me on this."
     review: |
         18th-century pirates, in space, on wooden ships. This books is the most inventive and interesting science fiction that I've read in a long time. It's crazy, and boisterous, and wonderful. This is a fantastic book for summer reading. The story tells how our distant future overlaps with a past from an alternate time line, and how these two stories intertwine and overlap. The entire trilogy is worth reading, and this is the one to start. I really don't want to ruin too much - but if you're in for a really interesting and non-traditional science fiction story, this is a seafaring space odyssey that you'll certainly enjoy.
   - title: "Aurora"
@@ -92,7 +92,7 @@ books:
     year: 2013
     img: 2312.jpg
     amazon: http://amzn.to/29GmPHF
-    caption: ""
+    caption: "Harder science fiction with a compelling story"
     review: |
         The book begins with Terminator, a city on Mercury. This is among the harder science fiction on the list, for it is based on world building technology and the technology plays a larger roll in the story. The detailed construction of this world is fascinating to me, and serves as a great backdrop for the story of mystery and investigation. This isn't a book to be taken on lightly, it drags on at times. His exploration of what Earth may be like in 300 years feels authentic. Overall the science and the world building kept this one on my list.
 
