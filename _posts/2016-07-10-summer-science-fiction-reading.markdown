@@ -9,81 +9,81 @@ header-img: "img/headers/science-fiction.jpg"
 books:
   - title: "2312"
     author: "Kim Stanley Robinson"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2013
+    img: 2312.jpg
+    amazon: http://amzn.to/29GmPHF
     caption: ""
     review: |
         Review
   - title: "Half Way Home"
     author: "Hugh Howey"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2013
+    img: half-way-home.jpg
+    amazon: http://amzn.to/29HUvlt
     caption: ""
     review: |
         Review
   - title: "Beacon 23"
     author: "Hugh Howey"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2016
+    img: beacon-23.jpg
+    amazon: http://amzn.to/29x9e2Q
     caption: ""
     review: |
         Review
-  - title: "The Daedalus Trilogy"
+  - title: "The Daedalus Incident"
     author: "Michael Martinez"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2013
+    img: the-daedelus-incident.jpg
+    amazon: http://amzn.to/29wkBuO
     caption: ""
     review: |
         Review
   - title: "The Origin Mystery (The Atlantis Gene)"
     author: "A. G. Riddle"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2013
+    img: the-atlantis-gene.jpg
+    amazon: http://amzn.to/29B7VjQ
     caption: ""
     review: |
         Review
   - title: "Pennsylvania"
     author: "Michael Bunker"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2014
+    img: pennsylvania.jpg
+    amazon: http://amzn.to/2a0eR8l
     caption: ""
     review: |
         Review
   - title: "The Plague Year"
     author: "Jeff Carlson"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2015
+    img: plague-year.jpg
+    amazon: http://amzn.to/29tmSAz
     caption: ""
     review: |
         Review
   - title: "Frozen Sky"
     author: "Jeff Carlson"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2012
+    img: the-frozen-sky.jpg
+    amazon: http://amzn.to/29wleo1
     caption: ""
     review: |
         Review
-  - title: "Shipbreaker"
+  - title: "Ship Breaker"
     author: "Paolo Bacigalupi"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2011
+    img: ship-breaker.jpg
+    amazon: http://amzn.to/29HVfGZ
     caption: ""
     review: |
         Review
   - title: "The Windup Girl"
     author: "Paolo Bacigalupi"
-    year: 20
-    img: salt.jpg
-    amazon:
+    year: 2015
+    img: the-windup-girl.jpg
+    amazon: http://amzn.to/29rfXsT
     caption: ""
     review: |
         Review
