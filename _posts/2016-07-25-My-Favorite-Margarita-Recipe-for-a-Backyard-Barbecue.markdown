@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "My Favorite Margarita Recipe for a Backyard Barbecue"
-subtitle:   "Summertime in New Mexico isn't complete with a pitcher of Margaritas"
+subtitle:   "Summertime in New Mexico isn't complete without a pitcher of Margaritas"
 date:       2016-07-25
 tags:       []
 author:     "Craig Davis"
