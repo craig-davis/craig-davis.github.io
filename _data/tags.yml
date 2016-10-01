@@ -4,6 +4,8 @@ photos:
   name: Photos
 php:
   name: PHP
+python:
+  name: Python
 mysql:
   name: MySQL
 ux:
