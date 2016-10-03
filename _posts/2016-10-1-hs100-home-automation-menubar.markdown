@@ -30,7 +30,7 @@ Rumps is no longer under active development. However, it's stable, easy to use, 
 
 ## Implementation
 
-In keeping with the theme of hacking this out - the project is a single file. It's simple, really simple.
+In keeping with the theme of hacking this out - the project is a single file. It's simple, really simple. [j05h](https://twitter.com/j05h) has been a valuable contributor with great enthusiasm, and he wrote the original API interface on which this is based.
 
 ### Network Scanning
 The [discover][discover] method allows us to poll the IP addresses on our local network. We [query each ip](https://github.com/craig-davis/hs100-status-bar/blob/master/ac_control.py#L19) to see if it's an HS100 device, and if so, we [create a new menu item for it](https://github.com/craig-davis/hs100-status-bar/blob/master/ac_control.py#L34-L36).
