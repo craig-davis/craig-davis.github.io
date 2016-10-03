@@ -9,7 +9,7 @@ header-img: "img/headers/beach-sunrise.jpg"
 ---
 
 ## The Finished Product
-![hs100 app](https://raw.githubusercontent.com/craig-davis/hs100-status-bar/master/docs/screenshot.png)
+![hs100 app](/img/posts/hs100/status-bar.png)
 
 The project is available at GitHub in my [hs100-status-bar][github] repository.
 
@@ -33,7 +33,7 @@ Rumps is no longer under active development. However, it's stable, easy to use, 
 In keeping with the theme of hacking this out - the project is a single file. It's simple, really simple.
 
 ### Network Scanning
-The [discover][discover] method allows us to poll the IP addresses on our local network. We [query each ip](https://github.com/craig-davis/hs100-status-bar/blob/master/ac_control.py#L19) to see if it's an HS100 device, and if so, we [create a new menu item for it](https://github.com/craig-davis/hs100-status-bar/blob/master/ac_control.py#L34-L36). 
+The [discover][discover] method allows us to poll the IP addresses on our local network. We [query each ip](https://github.com/craig-davis/hs100-status-bar/blob/master/ac_control.py#L19) to see if it's an HS100 device, and if so, we [create a new menu item for it](https://github.com/craig-davis/hs100-status-bar/blob/master/ac_control.py#L34-L36).
 
 When you initial setup an HS100 device via the phone app, you give the device a name. This name is then available via the API. We use this name in the Rumps app. The devices also expose their current state of on/off, and we use that to set [the base state](https://github.com/craig-davis/hs100-status-bar/blob/master/ac_control.py#L35) of the Rumps toggle switch.
 
@@ -43,7 +43,7 @@ We have a very simple [API Class](https://github.com/craig-davis/hs100-status-ba
 Rumps allows us to establish a callback for a toggle menu item, and we'll simply call our `on` or `off` method when we click on the item.
 
 ### Building the App
-The project includes a simple [bash script](https://github.com/craig-davis/hs100-status-bar/blob/master/build.sh) that checks python requirements and then uses the [py2app][py2app] to build a standalone app. 
+The project includes a simple [bash script](https://github.com/craig-davis/hs100-status-bar/blob/master/build.sh) that checks python requirements and then uses the [py2app][py2app] to build a standalone app.
 
 It also copies the icon into the application folder so that it is available to Rumps.
 
