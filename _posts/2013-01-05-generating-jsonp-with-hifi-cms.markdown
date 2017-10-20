@@ -41,7 +41,7 @@ __HiFi Developer Editor:__
 Here's the content of the index.jsonp template:
 
 {% highlight html %}
-{{hifi.http.get.jsonCallback}}({"title":"{{ this.title|e('js') }}","content":"{{ this.content|e('js') }}"});
+{% raw %}{{hifi.http.get.jsonCallback}}({"title":"{{ this.title|e('js') }}","content":"{{ this.content|e('js') }}"});{% endraw %}
 {% endhighlight %}
 
 I've used this with [BackboneJS][bb] to fetch help text from a

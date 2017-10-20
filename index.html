@@ -5,13 +5,17 @@ header-img: img/headers/craig-ranier.jpg
 ---
 
 {% for post in paginator.posts %}
-<div class="post-preview{% if post.photourl %} photo{% endif %}">
-{% if post.photourl %}
+<div class="post-preview{% if post.photourl %} photo{% endif %}{% if post.podcasturl %} podcast{% endif %}">
+{% if post.podcasturl %}
+    <a href="{{ post.podcasturl }}">
+{% elsif post.photourl %}
     <a href="{{ post.photourl }}">
 {% else %}
     <a href="{{ post.url | prepend: site.baseurl }}">
 {% endif %}
-        <h2 class="post-title">{% if post.photourl %}<img src="/img/camera.png" class="photo-icon">{% endif %}{{ post.title }}</h2>
+        <h2 class="post-title">
+            {% if post.photourl %}<img src="/img/camera.png" class="photo-icon">{% endif %}{% if post.podcasturl %}<img src="/img/microphone.png" class="photo-icon">{% endif %}{{ post.title }}
+        </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">{{ post.subtitle }}</h3>
         {% endif %}

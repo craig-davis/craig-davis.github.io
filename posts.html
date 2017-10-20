@@ -12,6 +12,7 @@ header-img:  "img/headers/skiers.jpg"
     <li><a href="/tags/mysql/">MySQL</a></li>
     <li><a href="/tags/php/">PHP</a></li>
     <li><a href="/tags/python/">Python</a></li>
+    <li><a href="/tags/podcast/">Podcasts</a></li>
     <li><a href="/tags/ux/">UX</a></li>
 </ul>
 
@@ -34,7 +35,9 @@ header-img:  "img/headers/skiers.jpg"
     <ul>
     {% endif %}
 
-    {% if post.photourl %}
+    {% if post.podcasturl %}
+        <li><img src="/img/microphone.png" class="photo-icon small"> <a href="{{ post.podcasturl }}">{{ post.title }}</a></li>
+    {% elsif post.photourl %}
         <li><img src="/img/camera.png" class="photo-icon small"> <a href="{{ post.photourl }}">{{ post.title }}</a></li>
     {% else%}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>

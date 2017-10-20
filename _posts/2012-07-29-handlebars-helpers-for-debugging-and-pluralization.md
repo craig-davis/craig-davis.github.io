@@ -25,12 +25,12 @@ define([
   _, Handlebars, Moment
  ) {
 
-   // usage: {{toLowerCase someString}}
+   // usage: {% raw %}{{toLowerCase someString}}{% endraw %}
    Handlebars.registerHelper('toLowerCase', function(value) {
      return (value && _.isString(value)) ? value.toLowerCase() : '';
    });
 
-   // usage: {{debug}} or {{debug someValue}}
+   // usage: {% raw %}{{debug}} or {{debug someValue}}{% endraw %}
    Handlebars.registerHelper("debug", function(optionalValue, options) {
      console.group("Handlebar Debug:");
      console.log(this);
@@ -43,12 +43,12 @@ define([
      console.groupEnd();
    });
 
-   // usage: {{pluralize collection.length 'quiz' 'quizzes'}}
+   // usage: {% raw %}{{pluralize collection.length 'quiz' 'quizzes'}}{% endraw %}
    Handlebars.registerHelper('pluralize', function(number, single, plural) {
      return (number === 1) ? single : plural;
    });
 
-  // usage: {{fromNow date}}
+  // usage: {% raw %}{{fromNow date}}{% endraw %}
   Handlebars.registerHelper('fromNow', function(date) {
     moment = new Moment(date);
     return moment.fromNow();
