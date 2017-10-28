@@ -15,7 +15,7 @@ permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "post.rb"]
 
-plugins:
+plugins_dir:
 - jekyll-redirect-from
 - jekyll-paginate
 - jekyll-gist
