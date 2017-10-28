@@ -132,7 +132,6 @@ having to include a ratchet wrench.
 * __A full spare front tube__<br>
   You can run a folded up front in your rear at low speeds if you have to.
 * __Assorted zip ties__
-* __[Longer Screwdrivers](http://amzn.to/2zXcnEg)__
 * __[Nitrile Gloves](http://amzn.to/2zUkW2y)__
 * __[Toppeak Morph Pump](http://amzn.to/2gK612R)__<br>
   The head of a regular bike pump may have trouble fitting between spokes. This
@@ -150,6 +149,7 @@ If you're heading out on a multi-day adventure, you'll want more tools than
 this. You'll probably want:
 
 * A real ratchet wrench
+* [Longer screwdriver](http://amzn.to/2zXcnEg)
 * Spare spark plug and spark plug wrench
 * Tire plugs for major holes
 * Both a front and rear tube
