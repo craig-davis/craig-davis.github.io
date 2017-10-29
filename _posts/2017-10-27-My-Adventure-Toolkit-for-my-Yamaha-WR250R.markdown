@@ -16,10 +16,10 @@ header-img: "img/headers/adventure-motorcycle.jpg"
 
 ## My Adventure Toolkit for my Yamaha WR250R
 
-This is a small toolkit for my WR250R that I carry on all of my rides. I started
-this kit by replacing the factory tools and then adding tire care and simple
-emergency repair tools to the kit. I've made sure that it covers most
-maintenance items as well.
+This is a small toolkit for my [WR250R](https://www.yamahamotorsports.com/dual-sport/models/wr250r)
+that I carry on all of my rides. I started this kit by replacing the factory
+tools and then adding tire care and simple emergency repair tools to the kit.
+I've made sure that it covers most maintenance items as well.
 
 In fact, you should use these tools to perform maintenance to make sure that
 you've got what you need and that you know how to use these tools before you
@@ -27,13 +27,16 @@ have to use them in the middle of the desert.
 
 In particular, this set has a smaller set of tire levers and a
 [bead buddy](https://www.youtube.com/watch?v=Ir_Xo-g2dnQ). You should practice
-changing a tube out with this set to make sure you can do it with your tires.
+changing a tube out with this set to make sure you can do it with
+[your tires](http://wr250r.com/articles/tire-guide).
 
 ![WR250R Toolkit](/img/posts/adventure-motorcycle-tools/wr250r-toolkit.jpg)
 
 I've done my best to keep this small and trim. The photo above is taken with the
 kit next to my favorite [summertime riding gloves](http://amzn.to/2ySNDg9). I'll
-go through the tools in it and why I like them.
+go through the tools in it and why I like them. You'll recognize that it uses
+the large size mesh bag that came with the one that use for my
+[bike tool kit](/2015/06/29/rule-31-essential-bike-tool-kit).
 
 ![Dual Sport Motorcycle tools](/img/posts/adventure-motorcycle-tools/dual-sport-tools.jpg)
 
