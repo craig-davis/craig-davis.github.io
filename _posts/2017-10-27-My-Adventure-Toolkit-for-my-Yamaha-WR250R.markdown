@@ -157,13 +157,13 @@ this. You'll probably want:
 * Chain tool
 * Chain lube
 * Hacksaw blade
-* Tweezers
-* Radiator Stop Leak
+* [Tweezers](http://amzn.to/2ico4ir)
+* [Radiator Stop Leak](http://amzn.to/2zh93GR)
 * [Longer screwdriver](http://amzn.to/2zXcnEg)
 * Spare spark plug and spark plug wrench
 * Tire plugs for major holes
 * Both a front and rear tube
-* Slow cure JB Weld
+* [Slow cure JB Weld](http://amzn.to/2ycgOxJ)
 * Digital Multimeter and assorted electric repair supplies
 * Any other tools that you've used recently during maintenance.
 * Oil
