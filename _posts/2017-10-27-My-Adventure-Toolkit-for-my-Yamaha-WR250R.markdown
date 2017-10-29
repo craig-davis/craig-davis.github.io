@@ -145,13 +145,20 @@ having to include a ratchet wrench.
 * __Fuses taped to the underside of my saddle__<br>
   I keep some extra fuses for the bike taped under the seat of the bike. It
   keeps them out of a bag where they are beaten up by the tools.
+* Sunblock
 
 ### Limitation of this kit
 
 If you're heading out on a multi-day adventure, you'll want more tools than
 this. You'll probably want:
 
+* Webbing tow strap
 * A real ratchet wrench
+* Chain tool
+* Chain lube
+* Hacksaw blade
+* Tweezers
+* Radiator Stop Leak
 * [Longer screwdriver](http://amzn.to/2zXcnEg)
 * Spare spark plug and spark plug wrench
 * Tire plugs for major holes
@@ -160,6 +167,8 @@ this. You'll probably want:
 * Digital Multimeter and assorted electric repair supplies
 * Any other tools that you've used recently during maintenance.
 * Oil
+* Visine
+* Glow sticks
 
 
 
