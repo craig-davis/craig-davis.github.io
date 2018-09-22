@@ -93,7 +93,7 @@ blade style connectors to the connectors on the new parts.
 Here are the jumper cables in place, one for each of the new devices.
 ![Jumper Cables in place](/img/posts/xj-foglight-wiring/jumper-cables.jpg)
 
-Here's the splice eiring from the [JCR lights](https://www.jcroffroad.com/product/LED3X3.html).
+Here's the splice wiring from the [JCR lights](https://www.jcroffroad.com/product/LED3X3.html).
 I tend to use a [Western Union Splice](https://en.wikipedia.org/wiki/Western_Union_splice).
 I solder the splice, coat with it dielectric grease, and then heat shrink. With 
 this style of splice it's important to make sure that no wire ends are poking out 
