@@ -47,9 +47,8 @@ the flex has mostly gone away. It's a fantastic part.
 
 
 Here's the switch panel with a [Toyota USB Charger](https://amzn.to/2DvbjgS). I 
-had to do a small amount of sanding of the tabs that retain the 
-[Toyota USB Charger](https://amzn.to/2DvbjgS). The switches all positively
-engage with the panel and everything works well together. 
+had to do a small amount of sanding of the tabs that retain the charger. The 
+switches all positively engage with the panel and everything works well together. 
 ![Switch panel with usb ports](/img/posts/xj-foglight-wiring/switch-panel-with-usb-port.jpg)
 
 On the right you can see the a [12v socket receptacle](https://amzn.to/2Dl7P01).
