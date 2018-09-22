@@ -15,7 +15,7 @@ a stock appearance. My goal was to get a set of [JCR lights](https://www.jcroffr
 to work with the OEM rocker switches and have working rear illumination. 
 
 With some help from the good folks at [cherokeeforum.com](https://www.cherokeeforum.com/f2/factory-fog-lights-00-xj-did-not-come-them-220836/)
-I found that my jeep had an unused foglight wiring pigtail behind the dash. The
+I found that my Jeep had an unused foglight wiring pigtail behind the dash. The
 orange illumination wire works and ranges from 1-12V with interior light
 brightness adjustment. I was able to use the three wires from the JCR aftermarket
 lights with this third orange wire from the original harness to wire the new
@@ -32,7 +32,7 @@ review the panel as well.
 
 
 Here's the [Five Switch Panel from GCT](https://www.shapeways.com/shops/gctent)
-on my workbench. You can also see a switch blank that I needed for now since
+on my workbench. You can also see a switch blank that I needed since
 I've only got 4 switches at the moment. The part is made and shipped by 
 [Shapeways](https://www.shapeways.com/) and the fit and finish were really
 good. I'm impressed with the design from [@wizardpc_gct](https://www.instagram.com/wizardpc_gct/)
