@@ -119,7 +119,7 @@ The finished panel installed and complete.
 ![Completed Panel](/img/posts/xj-foglight-wiring/completed-panel.jpg)
 
 The switches look fantastic at night and I think I've met my goal of keeping
-the pane looking factory original.
+the panel looking factory original.
 ![Switches at Night](/img/posts/xj-foglight-wiring/nighttime.jpg)
 
 
