@@ -71,17 +71,19 @@ I tend to solder all of my connections and I use soldering instead of butt
 connectors. I know the myths about soldering work hardening and problems with
 stiffness, but I believe that the benefits outweigh that. This Jeep isn't a
 daily driver, and so I have time to fiddle with things, and I do tend to add a
-bit of solder to crimped connections as well. I wish I'd bought a set of 
-[helping hands](https://amzn.to/2zmjTtW) earlier in my life. They make splices
-so much easier to work on, and I can even take them into tight spots in the Jeep 
-where it's sometimes hard to fit your hands. I've found it useful to put
-some heat shrink tubing over the jaws so that they can't damage small wires.
+bit of solder to crimped connections as well. 
+
+I wish I'd bought a set of [helping hands](https://amzn.to/2zmjTtW) earlier in 
+my life. They make splices so much easier to work on, and I can even take them 
+into tight spots in the Jeep where it's sometimes hard to fit your hands. 
+I've found it useful to put some heat shrink tubing over the jaws so that they 
+can't damage small wires.
+
 I do all of my soldering with a [Hakko FX888 Soldering Iron](https://amzn.to/2Dj4fDP) 
-and it a fantastic tool. It has digital temperature control and rebounds
+and it is a fantastic tool. It has digital temperature control and rebounds
 extremely fast. The tip temperature never really wavers, and I've found the temp
 control makes it great for plastic welding as well. 
 ![Soldering with helping hands](/img/posts/xj-foglight-wiring/soldering-with-helping-hand.jpg)
-
 
 I didn't want to hack into the factory harness, and so I've made jumper cables
 for the 12V socket and the Toyota USB port. These adapt from the factory
