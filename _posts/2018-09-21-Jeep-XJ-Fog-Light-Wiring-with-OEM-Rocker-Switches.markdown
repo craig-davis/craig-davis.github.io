@@ -8,7 +8,7 @@ author:     "Craig Davis"
 header-img: "img/headers/xj-switch-panel.jpg"
 ---
 
-I've recently added a JCR front and rear bumpers to my 1997 Jeep XJ. The bumpers
+I've recently added JCR front and rear bumpers to my 1997 Jeep XJ. The bumpers
 have front and rear offroad lights, and I've just finished wiring them. I've
 chosen to use new old stock fog light switches for them so that I can maintain
 a stock appearance. My goal was to get a set of [JCR lights](https://www.jcroffroad.com/product/LED3X3.html)
