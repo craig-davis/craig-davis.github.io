@@ -8,9 +8,9 @@ author:     "Craig Davis"
 header-img: "img/headers/xj-brake-upgrade.jpg"
 ---
 
-I recently installed the Teraflex Disc Brake Conversion onto a 1997 XJ with the 
-Chrysler 8.25 rear axle. I don't have extensive photos of this, but thought 
-I'd pass along the same notes that I gave to Teraflex.
+I recently installed the [Teraflex Disc Brake Conversion](https://teraflex.com/shop_items/jeep-91-06-rear-disc-brake-conversion-kit) 
+onto a 1997 XJ with the Chrysler 8.25 rear axle. I don't have extensive photos 
+of this, but thought I'd pass along the same notes that I gave to Teraflex.
 
 ## Installation Notes
 * The instructions are written for a professional mechanic. 
@@ -41,7 +41,14 @@ I'd pass along the same notes that I gave to Teraflex.
   I finalize that location.
 * The emergency brake cables are purchased separately and you can choose the 
   best routing for you.
+  
+## Other Resources
+I found the photos from [fourwheeler.com](http://www.fourwheeler.com/how-to/0709-4wd-teraflex-jeep-disc-brake-conversion/photo-01.html)
+to be very helpful. In particular, they have some photos of the soft line
+routing that were very helpful.
 
+I used O'Reilly Auto Parts [Loaner Tool Program](https://www.oreillyauto.com/rental-tools)
+for a bearing puller for my rear bearings.
 
 ## Review
 I've only got about 100 miles on these new brakes following a typical break in 
