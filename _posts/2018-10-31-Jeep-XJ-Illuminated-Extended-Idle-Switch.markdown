@@ -33,7 +33,7 @@ steps:
     imglink: /img/posts/xj-extended-idle/0040-switches-compared.jpg
     caption: Similar, the AOB is from a nearly identical mold
     instruction: |
-        The switch from AOB is really interesting, it's almost as if it came out of the same mold but without the punch out for the factory backlighting. We'll be taking both switched apart.
+        The switch from AOB is really interesting, it's almost as if it came out of the same mold but without the punch out for the factory backlighting. We'll be taking both switches apart.
 
   - title: Disassemble both switches
     img: /img/posts/xj-extended-idle/0042-disassemble-switch.jpg
