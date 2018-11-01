@@ -43,6 +43,7 @@ steps:
     imglink: /img/posts/xj-extended-idle/0050-use-a-tap.jpg
     caption:
     instruction: |
+     [tap handle](https://amzn.to/2Jv5oaP)
 
   - title: Drill the hole to 1/8"
     img: /img/posts/xj-extended-idle/0052-enlarge-the-hole.jpg
