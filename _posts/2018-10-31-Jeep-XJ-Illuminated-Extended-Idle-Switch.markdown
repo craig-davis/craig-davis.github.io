@@ -160,15 +160,16 @@ The Jeep XJ 4.0 in 1997+ vehicles will enter extended idle when pin A12 from the
 
 I hate cutting factory harnesses, and so I've taken an extra step in my installation. There is an engine connector on the passenger side of the motor that contains a gray wire that runs all the way back to pin 12. You can disassemble this connect and add a new wire and then run this wire to your new relay. This prevents you from having to hack on anything. 
 
-## Extras
-
-I have [a fairly cheap benchtop power supply](https://amzn.to/2qkX1pB) that I really enjoy having around. It makes it easy to mock up these sorts of projects before installing them. I've got a multimeter that is no longer being sold. One day I'll have a Fluke, but until then the little one I've got is good enough. For a project like this the continuity tester is especially nice. It's really nice if it's a nice loud tone for hearing it over other fans and equipment. Imagine hearing it under the hood while you're flipping a switch inside the Jeep!
-
 ## Factory Service Manual
 
 > The extended idle switch will control a ground circuit going to the powertrain control module (PCM). When a ground signal (through the switch) has been received at pin/cavity A-12 (circuit K78) of the PCM, engine idle speed will increase.
 
 The FSM has a diagnostic test that outlines the system and offers troubleshooting advice. It's a great resource. It's in section 14-43, and I've got [a screenshot of it][fsm] for reference.
+
+
+## Extras
+
+I have [a fairly cheap benchtop power supply](https://amzn.to/2qkX1pB) that I really enjoy having around. It makes it easy to mock up these sorts of projects before installing them. I've got a multimeter that is no longer being sold. One day I'll have a Fluke, but until then the little one I've got is good enough. For a project like this the continuity tester is especially nice. It's really nice if it's a nice loud tone for hearing it over other fans and equipment. Imagine hearing it under the hood while you're flipping a switch inside the Jeep!
 
 [fsm]: /img/posts/xj-extended-idle/fsm-ext-idle-troubleshooting.png
 [aob-switch]: https://www.aironboard.com/online/ext-idle-3c34-tj-jeep-rocker-switch.html
