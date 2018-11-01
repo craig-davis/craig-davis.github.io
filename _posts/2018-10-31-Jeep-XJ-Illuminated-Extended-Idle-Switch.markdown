@@ -45,14 +45,14 @@ steps:
   - title: Fitting the new face onto the OEM switch body
     img: /img/posts/xj-extended-idle/0050-use-a-tap.jpg
     imglink: /img/posts/xj-extended-idle/0050-use-a-tap.jpg
-    caption:
+    caption: Replace the fog light face with the face from the `Ext Idle`
     instruction: |
         The `Ext Idle` face has a slightly larger pin on one side and won't fit into the OEM body without enlarging the hole. In my case, both pins on the `Ext Idle` face were 1/8". You can ream the small hole in the OEM switch body to fit. 
 
   - title: Drill the hole to 1/8"
     img: /img/posts/xj-extended-idle/0052-enlarge-the-hole.jpg
     imglink: /img/posts/xj-extended-idle/0052-enlarge-the-hole.jpg
-    caption:
+    caption: The OEM switch body has a smaller hole on one side that we need to enlarge
     instruction: |
         I used a drill bit to do this, and for something so delicate it's best to do this by hand. I like using a [tap handle](https://amzn.to/2Jv5oaP) to hold the bit in this case. Sneak up on the size and test fit it to make sure you don't end up with a sloppy fit.
     
@@ -66,14 +66,14 @@ steps:
   - title: Mock on the benchtop
     img: /img/posts/xj-extended-idle/0058-wired-diagram.jpg
     imglink: /img/posts/xj-extended-idle/0058-wired-diagram.jpg
-    caption:
+    caption: Confirm that everything works
     instruction: |
         Here's the switch placed into our mockup on the benchtop. While this is a pretty simply circuit, I think it's nice to be able to see it outside of the Jeep.
     
   - title: Test operation on the benchtop
     img: /img/posts/xj-extended-idle/0063-illuminated-benchtop.jpg
     imglink: /img/posts/xj-extended-idle/0063-illuminated-benchtop.jpg
-    caption:
+    caption: Everything I'd hoped for
     instruction: |
         The multimeter in continuity mode is across pins 87 and 30 and will tone when the switch is in the on position. 12v has been added to the factory orange illumination wire.
 
@@ -87,7 +87,7 @@ steps:
   - title: Locate the engine connector
     img: /img/posts/xj-extended-idle/0277-engine-connector.jpg
     imglink: /img/posts/xj-extended-idle/0277-engine-connector.jpg
-    caption:
+    caption: This connector is on the passenger side near the back of the valve cover
     instruction: |
         Pin A12 from the computer terminates in this connector. It's located on the passenger side of the engine and can be identified with the red safety clip on it. In my case, I hate cutting into wiring harnesses, and instead of adding a splice near the PCM or even cutting that wire, I chose to add a new wire to this connector. The grey wire from A12 comes into this connect, and the other side of the connector simply has a blocked port in it's place. We can pull the little block out and add a new wire.
     
@@ -101,21 +101,21 @@ steps:
   - title: Add the wire to the connector and run a new wire
     img: /img/posts/xj-extended-idle/0279-splicing-wire.jpg
     imglink: /img/posts/xj-extended-idle/0279-splicing-wire.jpg
-    caption:
+    caption: Add a new wire to pickup pin A12
     instruction: |
         You can gently remove the back from your connector, slide the rubber up a bit and then add your new wire. It'll be across from the grey wire, and it's good to check for continuity from that pin to A12 on the PCM. To get to A12, you pull the black wire connector on the PCM that is closest to the front of the Jeep. Each pin is labeled. You can use your multimeter from that pin to the pin on the connector to verify that you're in the right spot. On the connector back you'll also need to remove a little plug that was in place of this wire that you're adding. That plug ass helping to waterproof the connector.
     
   - title: Add this new wire to your harness
     img: /img/posts/xj-extended-idle/0281-into-harness.jpg
     imglink: /img/posts/xj-extended-idle/0281-into-harness.jpg
-    caption:
+    caption: Route this wire to the relay location
     instruction: |
         After the wire has been added to the connector, you can connect a new grey wire to it and run that wire to the location where you'll be keeping your relay. My relay is currently in the engine bay, but it will soon be relocated to be under my dash. That relay will also be getting the positive source from the switch.
     
   - title: Connect this pin A12 to the relay
     img: /img/posts/xj-extended-idle/0282-extended-idle-relay.jpg
     imglink: /img/posts/xj-extended-idle/0282-extended-idle-relay.jpg
-    caption:
+    caption: Wire the relay
     instruction: |
         Here's the relay wired up and done.  
             __Pin 85__: Ground  
