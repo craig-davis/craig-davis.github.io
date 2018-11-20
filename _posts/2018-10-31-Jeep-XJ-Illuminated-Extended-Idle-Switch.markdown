@@ -89,7 +89,7 @@ steps:
     imglink: /img/posts/xj-extended-idle/0277-engine-connector.jpg
     caption: This connector is on the passenger side near the back of the valve cover
     instruction: |
-        Pin A12 from the computer terminates in this connector. It's located on the passenger side of the engine and can be identified with the red safety clip on it. In my case, I hate cutting into wiring harnesses, and instead of adding a splice near the PCM or even cutting that wire, I chose to add a new wire to this connector. The grey wire from A12 comes into this connect, and the other side of the connector simply has a blocked port in it's place. We can pull the little block out and add a new wire.
+        Pin A12 from the computer terminates in this connector. It's located on the passenger side of the engine and can be identified with the red safety clip on it. In my case, I hate cutting into wiring harnesses, and instead of adding a splice near the PCM or even cutting that wire, I chose to add a new wire to this connector. The grey wire from A12 comes into this connector, and the other side of the connector simply has a blocked port in it's place. We can pull the little block out and add a new wire.
     
   - title: Extract a wire from a wiring harness connector
     img: /img/posts/xj-extended-idle/0274-junkyard-connector.jpg
@@ -131,7 +131,7 @@ summary: |
     Questions or comments? Let me know!
 ---
 
-I've always wanted an extended idle switch for my Jeep Cherokee. The Police Package XJs were equipped with an extra toggle switch that raised the idle rpm of the Jeep to 1100rpm when it was in park or neutral. All XJs from 1997+ have the ability to do this, but they lack the switch. The switch is something a holy grail - very few were made and the last of the new old stock (NOS) were sold on eBay for hundreds of dollars. Not all is lost though, as with some ingenuity and a bit of wiring we can make a nearly identical one ourselves.
+I've always wanted an extended idle switch for my Jeep Cherokee. The Police Package XJs were equipped with an extra toggle switch that raised the idle rpm of the Jeep to 1100rpm when it was in park or neutral. All XJs from 1997+ have the ability to do this, but they lack the switch. The switch is something of a holy grail - very few were made and the last of the new old stock (NOS) were sold on eBay for hundreds of dollars. Not all is lost though, as with some ingenuity and a bit of wiring we can make a nearly identical one ourselves.
 
 This project is going to combine a NOS OEM fog light switch with a "fake" extended idle faceplate, and is then going to use this new switch to run a relay to activate the extended idle system.
 
