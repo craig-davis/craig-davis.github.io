@@ -11,7 +11,7 @@ header-img: "img/headers/gravel.jpg"
 I've started on a new toy project - a [command line client for Help Scout](https://github.com/helpscout/helpscout-cli-php). This project serves two purposes:
 
 * Provide a tool for me to use during the work day
-* Be an example of using the excellent [Help Scout API](http://developer.helpscout.net/help-desk-api/).
+* Be an example of using the excellent [Help Scout API](http://developer.helpscout.com/help-desk-api/).
 
 ## Current Commands
 
