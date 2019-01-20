@@ -68,7 +68,7 @@ steps:
     imglink: /img/posts/xj-quarter-panels/DSC_0854.JPG
     caption: Ready for POR15
     instruction: |
-        We'll now remove the sound deadening material from the holes. In order to reach the panels on the drive side you'll need to remove the vertical bar that reinforces the spare tire mount. I used a Dremel tool with a grinding wheel on it for this step, and then finished with some hand sanding. We need a flat and clean area around the hole for the fiberglass + POR15 to adhere too.
+        We'll now remove the sound deadening material from the holes. In order to reach the panels on the driver side you'll need to remove the vertical bar that reinforces the spare tire mount. I used a Dremel tool with a grinding wheel on it for this step, and then finished with some hand sanding. We need a flat and clean area around the hole for the fiberglass + POR15 to adhere too.
 
   - title: Cover the holes with tape
     img: /img/posts/xj-quarter-panels/DSC_0860.JPG
@@ -87,7 +87,7 @@ steps:
   - title: Prepare for patching
     img: /img/posts/xj-quarter-panels/DSC_0864.JPG
     imglink: /img/posts/xj-quarter-panels/DSC_0864.JPG
-    caption: I like the plastic with pre-applied tape. 
+    caption: I like the plastic with pre-applied tape.
     instruction: |
         POR15 will stain EVERYTHING. Use gloves, long sleeves, and keep it off anything you don't want black forever. If you do get some on your skin, I've found that rubbing alcohol will remove it as long as you get it before it dries. I applied the POR15 with an acid brush. They are cheap and disposable.
 
@@ -131,7 +131,7 @@ steps:
     imglink: /img/posts/xj-quarter-panels/DSC_0881.JPG
     caption: Finished project! (With some dust I need to clean)
     instruction: |
-        Following the instructions from your paints, you'll now prime and paint. A high quality sandable primer will make it easy to get everything really flat and smooth. After you've sanded and primed you'll be ready for paint and more sanding. You can use a clear coat on top of all of that. If you're going to clear coat, it can be helpful to warm your spray can up in some hot water from your tap. Don't overheat the can, just warm it up! It can be helpful in preventing orange peal. After the top coat has had a week or two to cure, you can do some finish sanding or buffing. During paint application, I masked off most of the Jeep with 401 tape and plastic sheeting. I apply the green tape first, and then add the pre-taped plastic sheeting on top of that. You'll need to be gentle with your paint edges to prevent paint build up along your tape edges.
+        Following the instructions from your paints, you'll now prime and paint. A high quality sandable primer will make it easy to get everything really flat and smooth. After you've sanded and primed you'll be ready for paint and more sanding. You can use a clear coat on top of all of that. If you're going to clear coat, it can be helpful to warm your spray can up in some hot water from your tap. Don't overheat the can, just warm it up! It can be helpful in preventing orange peal. After the top coat has had a week or two to cure, you can do some finish sanding or buffing. During paint application, I masked off most of the Jeep with 401 tape and [plastic sheeting](https://amzn.to/2DjGtFy). I apply the green tape first, and then add the pre-taped plastic sheeting on top of that. You'll need to be gentle with your paint edges to prevent paint build up along your tape edges.
 
 summary: |
     This project is a bit of a hassle. But I wanted to address the rust and give my little XJ a unique look. I may still cover these quarter panels with more armor once they have some trail damage, but until then this is perfect for me!
@@ -141,10 +141,10 @@ summary: |
 ---
 
 ## Vintage Look for a 1997 XJ
-I've always liked the clean look of the rear quarter panels of pre-1997 Jeep Cherokees. When I upgraded to a new bumper, I had an opportunity to remove the rear bumper caps on my 1997 Jeep Cherokee XJ. Behind those rear bumper caps is a rivetted trim strip that needs to be removed. Unfortunately, removing this leaves behind a bit of a mess that needs to be cleaned up and some holes that need to be patched.
+I've always liked the clean look of the rear quarter panels of pre-1997 Jeep Cherokees. When I upgraded to a new bumper, I had an opportunity to remove the rear bumper caps on my 1997 Jeep Cherokee XJ. Behind those rear bumper caps is a riveted trim strip that needs to be removed. Unfortunately, removing this leaves behind a bit of a mess that needs to be cleaned up and some holes that need to be patched.
 
 
-> __Disclaimer:__ I am not a professional. This is for informational purposes only. 
+> __Disclaimer:__ I am not a professional. This is for informational purposes only.
 > I'm certainly not an experienced body technician, but I think this turned out pretty well!
 
 ## The Finished Project
@@ -166,6 +166,7 @@ Here's the patched holes and fresh paint. I need to do a little cleaning, I've g
 The links below are Amazon Affiliate links. I've only linked to the products that I used for this project, and all of them worked really well.
 
 * [3M Green Masking Tape 401](https://amzn.to/2U0yOld). This follows curves well and forms a tight seal. It's worth the extra cost.
+* [Plastic Sheet with Tape](https://amzn.to/2DjGtFy) This isn't in the photo, it's great to have when it's time to mask off the Jeep for painting.
 * [Bondo Glazing and Spot Putty](https://amzn.to/2W4eIbG). You might be able to get away without this. But it's nice to have for final details and tiny holes.
 * [POR-15 Gloss Black Rust Preventive Coating](https://amzn.to/2FDwBZA) I bought the multi pack of 4oz cans. This stuff goes a long way per can, and once you open a can you need to reseal carefully, and even then it'll sometimes go off. Stay away from the large cans!
 * [Bondo Fiberglass Cloth](https://amzn.to/2DmvhZ6)
