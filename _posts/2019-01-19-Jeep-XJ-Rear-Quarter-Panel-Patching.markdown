@@ -19,7 +19,7 @@ steps:
     imglink: /img/posts/xj-quarter-panels/DSC_0836.JPG
     caption: Pull the trim panels. That's my DIY cargo organizer.
     instruction: |
-        Put down the back seat and then remove the screws holding the rear cargo panels. We'll need access to the back of the panel for the next steps. You won't be able to completely remove these panels as the seat belts pass through them. You can just move both panels out of the way.
+        Put down the back seat and then remove the screws holding the rear cargo panels. We'll need access to the back of the body panel for the next steps. You won't be able to completely remove these panels as the seat belts pass through them. You can just move both panels out of the way.
 
   - title: Check out the back of your holes
     img: /img/posts/xj-quarter-panels/DSC_0839.JPG
@@ -68,7 +68,7 @@ steps:
     imglink: /img/posts/xj-quarter-panels/DSC_0854.JPG
     caption: Ready for POR15
     instruction: |
-        We'll now remove the sound deadening material from the holes. In order to reach the panels on the drive side you'll need to remove the vertical bar that reinforces the spare tire mount. I used a dremel took with a grinding wheel on it for this step, and then finished with some hand sanding. We need a flat and clean area around the hole for the fiberglass + POR15 to adhere too.
+        We'll now remove the sound deadening material from the holes. In order to reach the panels on the drive side you'll need to remove the vertical bar that reinforces the spare tire mount. I used a Dremel tool with a grinding wheel on it for this step, and then finished with some hand sanding. We need a flat and clean area around the hole for the fiberglass + POR15 to adhere too.
 
   - title: Cover the holes with tape
     img: /img/posts/xj-quarter-panels/DSC_0860.JPG
@@ -89,7 +89,7 @@ steps:
     imglink: /img/posts/xj-quarter-panels/DSC_0864.JPG
     caption: I like the plastic with pre-applied tape. 
     instruction: |
-        POR15 will stain EVERYTHING. Use glove, long sleeves, and keep it of anything you don't want black forever. If you do get some on your skin, I've found that rubbing alcohol will remove it as long as you get it before it dries. I applied the POR15 with an acid brush. They are cheap and disposable.
+        POR15 will stain EVERYTHING. Use gloves, long sleeves, and keep it off anything you don't want black forever. If you do get some on your skin, I've found that rubbing alcohol will remove it as long as you get it before it dries. I applied the POR15 with an acid brush. They are cheap and disposable.
 
   - title: Apply the POR15 and the fiberglass
     img: /img/posts/xj-quarter-panels/DSC_0865.JPG
@@ -131,7 +131,7 @@ steps:
     imglink: /img/posts/xj-quarter-panels/DSC_0881.JPG
     caption: Finished project! (With some dust I need to clean)
     instruction: |
-        Following the instructions from your paints, you'll now prime and paint. A high quality sandable primer will make it easy to get everything really flat and smooth. After you've sanded and primed you'll be ready for paint and more sanding. You can use a clear coat on top of all of that. If you're going to clear coat, it can be helpful to warm your spray can up in some hot water from your tap. Don't overheat the can, just warm it up! It can be helpful in preventing orange peal. After the top coat has had a week or two to cure, you can to some finish sanding or buffing. During paint application, I masked off most of the Jeep with 401 tape and plastic sheeting. I apply the green tape first, and then add the pre-taped plastic sheeting on top of that. You'll need to be gentle with your paint edges to prevent paint build up along your tape edges.
+        Following the instructions from your paints, you'll now prime and paint. A high quality sandable primer will make it easy to get everything really flat and smooth. After you've sanded and primed you'll be ready for paint and more sanding. You can use a clear coat on top of all of that. If you're going to clear coat, it can be helpful to warm your spray can up in some hot water from your tap. Don't overheat the can, just warm it up! It can be helpful in preventing orange peal. After the top coat has had a week or two to cure, you can do some finish sanding or buffing. During paint application, I masked off most of the Jeep with 401 tape and plastic sheeting. I apply the green tape first, and then add the pre-taped plastic sheeting on top of that. You'll need to be gentle with your paint edges to prevent paint build up along your tape edges.
 
 summary: |
     This project is a bit of a hassle. But I wanted to address the rust and give my little XJ a unique look. I may still cover these quarter panels with more armor once they have some trail damage, but until then this is perfect for me!
