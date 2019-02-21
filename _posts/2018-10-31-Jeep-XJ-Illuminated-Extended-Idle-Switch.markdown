@@ -8,7 +8,7 @@ author:     "Craig Davis"
 header-img: "img/headers/xj-illuminated-extended-idle.jpg"
 permalinkXDC:
 redirect_from:
-  - /xj-ext-idle
+  - /xj-ext-idle/
 steps:
   - title: The Goal
     img: /img/posts/xj-extended-idle/0287-final-product.jpg
