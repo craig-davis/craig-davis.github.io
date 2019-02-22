@@ -52,7 +52,7 @@ Go tubeless if at all possible. It's a bit more hassle up front, but they are fa
 
 ### Dropper Seat Post
 
-<figure>
+<figure class="simple">
     <a href="https://amzn.to/2Vd9HMr"><img title="Dropper seat post" src="/img/posts/beginning-mountain-biking/dropper-post.jpg" width="250"></a>
     <figcaption>I have a KS on my favorite bike.</figcaption>
 </figure>
@@ -67,7 +67,7 @@ These bikes won't come with pedals. Start with flat pedals.
 
 There are two types of pedals, flats and clipless. Clipless pedals use special shoes that have a cleat on them and attach to the pedals a bit like a ski boot attaches to a ski. They have a lot of advantages, but they aren't great for beginners. Flat pedals are a lot like the ones on your first bike - they are flat.
 
-<figure class="right">
+<figure class="right simple">
     <img title="Downhill mountain bike pedal" src="/img/posts/beginning-mountain-biking/pedals-M828.jpg" width="350">
     <figcaption>My beloved Shimano pedals</figcaption>
 </figure>
@@ -76,7 +76,7 @@ Flat pedals do come in various shapes and sizes. Over time, you'll probably find
 
 When you look at most flat pedals, you'll notice that they have scary looking pins or spikes on them. Don't be afraid of these. They help keep your foot from sliding off the pedal. If the pedal didn't have them you'd occasionally slip your foot off your pedal and scrape your shin on the edge of your pedal. It's likely that you'll occasionally still scrape your shin, but usually the pins will help keep your feet planted in place.
 
-<figure>
+<figure class="simple">
     <img title="Beginner mountain bike pedal" src="/img/posts/beginning-mountain-biking/pedal-chester.jpg" width="350">
     <figcaption>Raceface Chester is a fantastic beginner pedal</figcaption>
 </figure>
@@ -88,14 +88,14 @@ When you buy your bike it probably won't come with pedals. Most people have opin
 If you just want to get started, you can wear your running shoes. But don't. Bike shoes can offer three things - mud resistance, a durable sole that won't be torn up by your pedals, and a stiffer last that will keep your foot planted on the pedal. A softer pair of shoes will let your foot wrap around the pedal a bit, and it's not comfortable and your feet are more likely to slip off the pedal.
 
 
-<figure>
+<figure class="simple">
     <a href="https://amzn.to/2Npg2lu" title="A good beginner bike shoe"><img title="Best mountain bike shoes" src="/img/posts/beginning-mountain-biking/best-mountain-bike-shoe.jpg" width="250"></a>
     <figcaption>Five Ten makes great bike shoes</figcaption>
 </figure>
 
 The [Five Ten Bike Shoes](https://amzn.to/2Npg2lu) are fantastic. They are well built, reasonably priced, and hold up well. I think they are a great first shoe. They shed water and mud fairly well, but certainly are not waterproof. They have a fairly stiff sole, but you can still walk comfortably in them. Their sole has enough texture on the bottom that if you need to walk a section that is slick or that has lots of roots you'll have enough traction to do so safely.
 
-<figure class="right">
+<figure class="right simple">
     <a href="https://amzn.to/2GX1fgA" title="Downhill racing shoe"><img title="Best mountain bike shoes" src="/img/posts/beginning-mountain-biking/downhill-shoe.jpg" width="250"></a>
     <figcaption>My favorite freeride shoe</figcaption>
 </figure>
