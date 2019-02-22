@@ -1,3 +1,9 @@
+/*!
+ * Craig Davis v1.0.0 (http://there4.io)
+ * Copyright 2019 Craig Davis
+ * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
 .animatedBorder {
   position: relative;
 }
@@ -494,6 +500,10 @@ a.post-tag:active {
 figure {
   float: left;
   margin: 0 1rem 1rem 0;
+}
+figure.right {
+  float: right;
+  margin: 0 0 1rem 1rem;
 }
 figure img {
   margin-bottom: 1rem;
