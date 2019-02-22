@@ -113,7 +113,7 @@ steps:
     imglink: /img/posts/xj-extended-idle/0281-into-harness.jpg
     caption: Route this wire to the relay location
     instruction: |
-        After the wire has been added to the connector, you can connect a new grey wire to it and run that wire to the location where you'll be keeping your relay. My relay is currently in the engine bay, but it will soon be relocated to be under my dash. That relay will also be getting the positive source from the switch.
+        After the wire has been added to the connector, you can connect a new grey wire to it and run that wire to the location where you'll be keeping your relay. My relay is under my dash attached to the firewall, and is grounded to G8. You'll find G8 at knee level in the area underneath the steering wheel. It's a common ground that other things use, and it's easiest to get to if you remove the trim panel and the metal shield behind that.
 
   - title: Connect this pin A12 to the relay
     img: /img/posts/xj-extended-idle/0282-extended-idle-relay.jpg
