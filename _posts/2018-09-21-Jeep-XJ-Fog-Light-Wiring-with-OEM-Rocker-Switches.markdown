@@ -6,6 +6,8 @@ date:       2018-09-21
 tags:       [jeep]
 author:     "Craig Davis"
 header-img: "img/headers/xj-switch-panel.jpg"
+redirect_from:
+  - /xj-switches/
 ---
 
 I've recently added JCR front and rear bumpers to my 1997 Jeep XJ. The bumpers
