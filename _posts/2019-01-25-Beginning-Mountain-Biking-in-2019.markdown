@@ -46,9 +46,9 @@ Buy local. When you pick up the bike, take the shop a six pack of a local beer i
 
 ## Potential Upgrades
 
-If you can, you should make sure that the bike comes with tubeless tires and a dropper post. 
+If you can, you should make sure that the bike comes with tubeless tires and a dropper post.
 
-Go tubeless if at all possible. It's a bit more hassle up front, but they are far superior. You can run them at lower pressures and have better traction, and they are nearly thorn proof and resist punctures. You might need to buy a special pump if you want to work on them yourself, but I think it's a fantastic upgrade to any bike. At the $1400 price point you may or may not get tubeless tires from the factory. Your local bike shop should be able to make that upgrade.
+Go tubeless if at all possible. It's a bit more hassle up front, but they are far superior. You can run them at lower pressures and have better traction, and they are nearly thorn proof and resist punctures. You might need to buy a special pump if you want to work on them yourself, but I think it's a fantastic upgrade to any bike. At the $1400 price point you may or may not get tubeless tires from the factory. Your local bike shop should be able to make that upgrade. For more information, this [blog post from REI about tubeless tires](https://www.rei.com/learn/expert-advice/tubed-vs-tubeless.html) is pretty good.
 
 ## Pedals
 
@@ -56,17 +56,27 @@ These bikes won't come with pedals. Start with flat pedals.
 
 There are two types of pedals, flats and clipless. Clipless pedals use special shoes that have a cleat on them and attach to the pedals a bit like a ski boot attaches to a ski. They have a lot of advantages, but they aren't great for beginners. Flat pedals are a lot like the ones on your first bike - they are flat.
 
+<figure>
+    <img title="Downhill mountain bike pedal" src="/img/posts/beginning-mountain-biking/pedals-M828.jpg" width="350">
+    <figcaption>My beloved Shimano pedals</figcaption>
+</figure>
+
 Flat pedals do come in various shapes and sizes. Over time, you'll probably find a favorite pair. I've got 4 pairs of my beloved [Shimano M828 pedals](https://amzn.to/2BOg1CP). They've got a nice shape, width for my foot, and they have replaceable pins. They are gently concaved and have a positive feel to them.
 
 When you look at most flat pedals, you'll notice that they have scary looking pins or spikes on them. Don't be afraid of these. They help keep your foot from sliding off the pedal. If the pedal didn't have them you'd occasionally slip your foot off your pedal and scrape your shin on the edge of your pedal. It's likely that you'll occasionally still scrape your shin, but usually the pins will help keep your feet planted in place.
+
+<figure>
+    <img title="Beginner mountain bike pedal" src="/img/posts/beginning-mountain-biking/pedal-chester.jpg" width="350">
+    <figcaption>Raceface Chester is a fantastic beginner pedal</figcaption>
+</figure>
 
 When you buy your bike it probably won't come with pedals. Most people have opinions. If you don't have an opinion yet, something like the [Raceface Chester](https://amzn.to/2U19Br7) is a great choice. I don't like that they don't have pins at the center of the pedal, but they won't wear out your shoes as quickly.
 
 ## Shoes
 
-If you just want to get started, you can wear your running shoes. But don't. Bike shoes can offer three things - mud resistance, a durable sole that won't be torn up by your pedals, and a stiffer last that will keep your foot planted on the pedal. A softer pair of shoes will let your foot wrap around the pedal a bit, and it's not comfortable and your feet are more likely to slip off the pedal. 
+If you just want to get started, you can wear your running shoes. But don't. Bike shoes can offer three things - mud resistance, a durable sole that won't be torn up by your pedals, and a stiffer last that will keep your foot planted on the pedal. A softer pair of shoes will let your foot wrap around the pedal a bit, and it's not comfortable and your feet are more likely to slip off the pedal.
 
-The [Five Ten Bike Shoes](https://amzn.to/2Npg2lu) are fantastic. They are well built, reasonably priced, and hold up well. I think they are a great first shoe. 
+The [Five Ten Bike Shoes](https://amzn.to/2Npg2lu) are fantastic. They are well built, reasonably priced, and hold up well. I think they are a great first shoe.
 
 For flats, I ride in Shimano DX shoes, the new version is the [SH-GR900](https://bike.shimano.com/en-EU/product/apparel-accessories/shimano-series-lsg-2019/SH-GR900.html). There's nothing stealthy about them, and they don't go from the trail to the pub very well.
 
@@ -102,9 +112,9 @@ Wear eye protection whenever you can. I wear sunglasses in the summer, goggles w
 
 You'll develop preferences here too. There's something to be said for just going riding and to not worry too much about this. But if you must...
 
-I prefer separate shorts and tights with a chamois. In fact, I prefer bibs. I wear Pearl Izumi or Voler Bibs under a pair of lightweight shorts in the summer, 3/4 length knickers in the spring and fall, and winter ridingpants when it's cold. Try on several brands and find the ones that seem to suit your anatomy. You'll find that each manufacturer has different ideas. 
+I prefer separate shorts and tights with a chamois. In fact, I prefer bibs. I wear Pearl Izumi or Voler Bibs under a pair of lightweight shorts in the summer, 3/4 length knickers in the spring and fall, and winter ridingpants when it's cold. Try on several brands and find the ones that seem to suit your anatomy. You'll find that each manufacturer has different ideas.
 
-I prefer bibs to tights because bibs can't creap down and can be a bit looser around your waist, and it's one less seam on your hips. I hate the way that tights and shorts or pants put two seams around your waist. 
+I prefer bibs to tights because bibs can't creap down and can be a bit looser around your waist, and it's one less seam on your hips. I hate the way that tights and shorts or pants put two seams around your waist.
 
 For riding jerseys, don't be too fussy at first. I prefer syntethic shirts. I've got some really lightweight button shirts for really hot weather, but I mostly wear short sleeve jerseys without zippers.
 
