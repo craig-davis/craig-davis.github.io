@@ -48,7 +48,20 @@ Buy local. When you pick up the bike, take the shop a six pack of a local beer i
 
 If you can, you should make sure that the bike comes with tubeless tires and a dropper post.
 
+### Tubeless Tires
+
 Go tubeless if at all possible. It's a bit more hassle up front, but they are far superior. You can run them at lower pressures and have better traction, and they are nearly thorn proof and resist punctures. You might need to buy a special pump if you want to work on them yourself, but I think it's a fantastic upgrade to any bike. At the $1400 price point you may or may not get tubeless tires from the factory. Your local bike shop should be able to make that upgrade. For more information, this [blog post from REI about tubeless tires](https://www.rei.com/learn/expert-advice/tubed-vs-tubeless.html) is pretty good.
+
+### Dropper Seat Post
+
+<figure>
+    <a href="https://amzn.to/2Vd9HMr"><img title="Dropper seat post" src="/img/posts/beginning-mountain-biking/dropper-post.jpg" width="250"></a>
+    <figcaption>I have a KS on my favorite bike.</figcaption>
+</figure>
+
+A dropper post puts a small lever on your handlebar that can be used to raise and lower your saddle. My first dropper post was a revelation. It allows you to drop your saddle out of the way when you are riding more technical terrain and can help prevent accidents where you might be bucked over over the handlebars. It also puts the saddle into a great position on technical terrain where you can push the bike around with your knees a little more.
+
+Adding a dropper post to a bike is a fantastic upgrade, and I think all modern trail bikes should have one. You'll need one that matches the seat tube size of your bike, so if you order one be careful to get the correct one. Check out [this review from Seth's Bike Hacks](https://www.youtube.com/watch?v=IpJeEpc1C8g&vl=en).
 
 ## Pedals
 
