@@ -141,20 +141,29 @@ With flat pedals, I ride in Shimano DX shoes, the new version is the [SH-GR900](
 
 ## Saddles and Grips
 
-You probably won't have an opinion on these yet. But these are the other two places where you touch your bike, and both are extremely important. I'm in the northwest and prefer lockon grips that use a locking ring to keep the grips from moving. This is becoming the standard in the industry. I prefer the ones from [ODI with Ruffian grips](https://amzn.to/2BMAc45). These are a smaller grip and I prefer them. If you find that you prefer a softer grip you should check out the [Oury Lock On Grips](https://amzn.to/2BLI6uO)
+<figure class="right simple">
+    <a href="https://amzn.to/2BMAc45" title="Mountain bike grips"><img title="ODI Lockon Grips" src="/img/posts/beginning-mountain-biking/odi-grips.jpg" width="250"></a>
+    <figcaption>Lockon grips are great for wet weather</figcaption>
+</figure>
 
-Every person has their own anatomy. Start with whatever saddle is on the bike and go ride. If the saddle doesn't work for you, you should try some others. The shop might even have some loaners. Talk to the shop, they can help you get the bike setup properly to help with any issues you've got. If you have any numbness, tingling, or hot spots you might want to change.
+You probably won't have an opinion on either of these yet. But these are the other two places where you touch your bike, and both are extremely important. I'm in the northwest and prefer lockon grips that use a locking ring to keep the grips from moving. This is becoming the standard in the industry. I prefer the ones from [ODI with Ruffian grips](https://amzn.to/2BMAc45). These are a smaller grip and I prefer them. If you find that you prefer a softer grip you should check out the [Oury Lock On Grips](https://amzn.to/2BLI6uO)
+
+Every person has their own anatomy. Start with whatever saddle is on the bike and go ride. If the saddle doesn't work for you, you should try some others. The shop might even have some loaners. Talk to the shop, they can help you get the bike setup properly to help with any issues you've got. If you have any numbness, tingling, or hot spots you might want to change. There are women's specific saddles, and if you are a woman you should try them. Most women have their sit bones a bit farther apart and the women's saddles will be more comfortable. 
+
+Don't buy a saddle with too much padding. A saddle should be on the firm side with a shape that suits you. The padding should come from the chamois pad in your shorts, and the lycra of your shorts will let you slide around on the saddle and reduce friction. When you have a soft saddle you get stuck in one spot on it and you will develop problems. You're looking for a firm saddle with a comfortable shape.
 
 ## Helmet
 
-All heads are a little different shape. Try on some helmets and find one that fits. You want two things - mountain bike specific helmet with good coverage of the back of your head, and a fit that is tight enough that your forehead skin moves a little when you move the helmet. Check out [this video on helmet fit](https://www.youtube.com/watch?v=MdqC5Vng270).
+All heads are a little different shape. Try on some helmets and find one that fits. You want two things - a mountain bike specific helmet with good coverage of the back of your head, and a fit that is tight enough that your forehead skin moves a little when you move the helmet. Check out [this video on helmet fit](https://www.youtube.com/watch?v=MdqC5Vng270).
 
 <figure class="simple right">
     <a href="https://amzn.to/2TWJiSZ" title="Mountain bike helmet"><img title="Beginner mountain biking" src="/img/posts/beginning-mountain-biking/troy-lee-helmet.jpg" width="250"></a>
     <figcaption>A mountain bike specific helmet</figcaption>
 </figure>
 
-The [Troy Lee A1](https://amzn.to/2U0U3DJ) is a fantastic helmet. It's generally the kind of helmet you want. It's got good coverage of the sides and back of your head and good brow coverage too. The visor is both stylish and easy to adjust. Mine has held up great. The [Bell Super 3](https://www.amazon.com/Bell-Super-MIPS-Cycling-Helmet/dp/B01MDRQNAX) is a nice helmet too. Try them on and find the one that fits. Some new helmets have [a system called MIPS](http://mipsprotection.com/technology/). It can helmet reduce injuries from rotational forces, and appears to be good technology, if you can, I think it's worth having.
+The [Troy Lee A1](https://amzn.to/2U0U3DJ) is a fantastic helmet. It's generally the shape of the helmet you want. It's got good coverage of the sides and back of your head and good brow coverage too. The visor is both stylish and easy to adjust. Mine has held up great. The [Bell Super 3](https://www.amazon.com/Bell-Super-MIPS-Cycling-Helmet/dp/B01MDRQNAX) is a nice helmet too. Try them on and find the one that fits. Some new helmets have [a system called MIPS](http://mipsprotection.com/technology/). It can helmet reduce injuries from rotational forces, and appears to be good technology, if you can, I think it's worth having.
+
+As a beginner, I don't think a full face helmet is right. Full face helmets are hard to breathe in while climbing and they aren't very comfortable for long rides. They are absolutely required for downhill riding and racing, and there are certainly some local trails that I won't ride without one. I ride with a carbon Troy Lee D2 helmet that I absolutely trust.
 
 ## Pads
 
@@ -199,6 +208,11 @@ I prefer bibs to tights because bibs can't creep down and can be a bit looser ar
 For riding jerseys, don't be too fussy at first. I prefer synthetic shirts. I've got some really lightweight button shirts for really hot weather, but I mostly wear short sleeve jerseys without zippers.
 
 ## Backpack
+
+<figure class="right simple">
+    <a href="https://amzn.to/2Xn4bZR" title="Dakine mountain bike pack"><img title="Compact mountain bike pack" src="/img/posts/beginning-mountain-biking/dakine-pack.jpg" width="250"></a>
+    <figcaption>10L is a good size</figcaption>
+</figure>
 
 There's a trend right now to use fanny packs. I don't like them. I prefer a pack. I like the extra spine protection and I like carrying a little more food and water with me. Dakine and Camelbak both make excellent packs. You should start with one in the 10 liter range, it'll be a small and lightweight pack that allows just enough room for some water, a snack, and basic tools. You'll want a larger pack if you start going on epic and remote rides.
 
