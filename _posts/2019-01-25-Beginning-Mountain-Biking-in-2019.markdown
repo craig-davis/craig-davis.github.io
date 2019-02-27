@@ -14,12 +14,16 @@ I believe that the outdoor industry has somehow decided that every new sport you
 
 ## Buy Local
 
-<figure class="simple right">
-    <img title="Shop Local" src="/img/posts/beginning-mountain-biking/shop-local.png" width="250">
-    <figcaption>Support your local shop</figcaption>
-</figure>
+{% include figure.html 
+    class="simple right"
+    url=""
+    src="/img/posts/beginning-mountain-biking/shop-local.png" 
+    alt="Shop Local"
+    max-width="250px"
+    caption="Support your local shop" 
+%}
 
-There is a huge difference in quality between a $800 bike and a $1400 bike. For your first bike, you want to be at the less expensive end of the bikes sold by your *local bike shop*. Don't buy from a big chain, and don't order online. Buy from a local shop, they'll be your guide, source of local knowledge, and center of your new community.
+There is a huge difference in quality between a $800 bike and a $1400 bike. For your first bike, you want to be at the less expensive end of the bikes sold by your *local bike shop*. Don't buy from a big chain, and don't order online. **Buy from a local shop**. They'll be your guide, source of local knowledge, and center of your new community.
 
 Buying local helps keep the local bike scene alive and funded. Please don't order bikes online. When you buy your first bike from them they'll assemble it themselves with love and care. When you pick it up, bring them a six pack of a local beer. Give it to them in a brown paper bag. Tell them thank you, and that they should keep it refrigerated. This is tradition.
 
@@ -27,9 +31,11 @@ I understand the irony of linking to some Amazon Affiliate items from this blog 
 
 ## Bike Selection
 
-You want good components and a nice bike. I think your first bike should be a hardtail. A hardtail is a bike that has a rigid rear and suspension only for the front wheel. By getting a hardtail instead of a full suspension bike you'll get nicer bike components for the same price point and you'll get a bike that forces you to learn some fundamental skills correctly.
+You want good components and a nice bike. I think your first bike should be a hardtail. A hardtail is a bike that has a rigid rear and suspension only for the front wheel. By getting a hardtail instead of a full suspension bike you'll get nicer bike components for the same price point and you'll get a bike that forces you to learn some fundamental skills correctly. 
 
-In 2019, there's lots of bike styles - but the right one to start with is a Hardtail Trail bike. Trail bikes tend to be playful and easy to ride bikes with good manners for riding over obstacles and handling technical terrain. In the Pacific Northwest, our wet and rooty year round riding means that having a larger tire is nice too. A 27.5+ (27.5 plus) tire is a great choice. This tire is a newer standard, and it's a little larger in diameter than a traditional mountain bike wheel and the tire on it is a fair bit wider. This also means that the tire can be a little softer and help make up for the fact that you'll be starting out without any rear suspension.
+Most manufactureres sell the same frame with several [different component build kits](https://www.bikeradar.com/us/gear/article/buyers-guide-to-mountain-bike-groupsets-42578/) on them. So you might have the same bike frame with three different prices. One cheapest price for the base level components, one for the mid level, and one with the nicest components. In general the mid and nicest components will be similar in performance. The more expensive components will be a little lighters and might last a little longer.
+
+In 2019, there's [lots of bike styles](https://www.bikeradar.com/blog/article/mountain-bike-styles-explained-40770/) - but the right one to start with is a [Hardtail Trail bike](https://www.bicycling.com/bikes-gear/a20046940/best-hardtail-mountain-bikes/). Trail bikes tend to be playful and easy to ride bikes with good manners for riding over obstacles and handling technical terrain. In the Pacific Northwest, our wet and rooty year round riding means that having a larger tire is nice too. A 27.5+ (27.5 plus) tire is a great choice. This tire is a newer standard, and it's a little larger in diameter than a traditional mountain bike wheel and the tire on it is a fair bit wider. This also means that the tire can be a little softer and help make up for the fact that you'll be starting out without any rear suspension.
 
 The 27.5+ Hardtail Trail Bike category has some great bikes in it. If you have the opportunity, ride each of them and see if one of them speaks to you. You might be surprised that one of them just feels more natural to you. Each of these bikes can be purchased at several price points. For the most part each of the levels has exactly the same frame and each level up has slightly nicer components. This means that the shifters, brakes, and wheels get nicer as you pay more. Once you cross the line around $1400 the initial performance of all of the components is pretty similar. The nicer components will be lighter and more durable, but you might not notice a lot of difference on day one.
 
@@ -94,7 +100,7 @@ Go tubeless if at all possible. It's a bit more hassle up front, but they are fa
     <figcaption>I have a KS on my favorite bike.</figcaption>
 </figure>
 
-A dropper post puts a small lever on your handlebar that can be used to raise and lower your saddle. My first dropper post was a revelation. It allows you to drop your saddle out of the way when you are riding more technical terrain and can help prevent accidents where you might be bucked over over the handlebars. It also puts the saddle into a great position on technical terrain where you can push the bike around with your knees a little more.
+A dropper post puts a small lever on your handlebar that can be used to raise and lower your saddle. My first dropper post was a revelation. It [allows you to drop your saddle](https://www.youtube.com/watch?v=Okw_lXhGrmM) out of the way when you are riding more technical terrain and can help prevent accidents where you might be bucked over the handlebars. It also puts the saddle into a great position on technical terrain where you can push the bike around with your knees a little more.
 
 Adding a dropper post to a bike is a fantastic upgrade, and I think all modern trail bikes should have one. You'll need one that matches the seat tube size of your bike, so if you order one be careful to get the correct one. Check out [this review from Seth's Bike Hacks](https://www.youtube.com/watch?v=IpJeEpc1C8g&vl=en).
 
@@ -141,7 +147,7 @@ With flat pedals, I ride in Shimano DX shoes, the new version is the [SH-GR900](
 
 ## Saddles and Grips
 
-<figure class="right simple">
+<figure class="simple">
     <a href="https://amzn.to/2BMAc45" title="Mountain bike grips"><img title="ODI Lockon Grips" src="/img/posts/beginning-mountain-biking/odi-grips.jpg" width="250"></a>
     <figcaption>Lockon grips are great for wet weather</figcaption>
 </figure>
@@ -150,7 +156,16 @@ You probably won't have an opinion on either of these yet. But these are the oth
 
 Every person has their own anatomy. Start with whatever saddle is on the bike and go ride. If the saddle doesn't work for you, you should try some others. The shop might even have some loaners. Talk to the shop, they can help you get the bike setup properly to help with any issues you've got. If you have any numbness, tingling, or hot spots you might want to change. There are women's specific saddles, and if you are a woman you should try them. Most women have their sit bones a bit farther apart and the women's saddles will be more comfortable. 
 
-Don't buy a saddle with too much padding. A saddle should be on the firm side with a shape that suits you. The padding should come from the chamois pad in your shorts, and the lycra of your shorts will let you slide around on the saddle and reduce friction. When you have a soft saddle you get stuck in one spot on it and you will develop problems. You're looking for a firm saddle with a comfortable shape.
+{% include figure.html 
+    class="simple right"
+    url=""
+    src="/img/posts/beginning-mountain-biking/saddle.jpg" 
+    alt="Mountain bike saddle"
+    max-width="250px"
+    caption="WTB SL8 Saddle" 
+%}
+
+Don't [buy a saddle with too much padding](https://www.singletracks.com/blog/mtb-videos/watch-choose-right-mountain-bike-saddle/). A saddle should be on the firm side with a shape that suits you. The padding should come from the chamois pad in your shorts, and the lycra of your shorts will let you slide around on the saddle and reduce friction. When you have a soft saddle you get stuck in one spot on it and you will develop problems. You're looking for a firm saddle with a comfortable shape.
 
 ## Helmet
 
@@ -161,7 +176,7 @@ All heads are a little different shape. Try on some helmets and find one that fi
     <figcaption>A mountain bike specific helmet</figcaption>
 </figure>
 
-The [Troy Lee A1](https://amzn.to/2U0U3DJ) is a fantastic helmet. It's generally the shape of the helmet you want. It's got good coverage of the sides and back of your head and good brow coverage too. The visor is both stylish and easy to adjust. Mine has held up great. The [Bell Super 3](https://www.amazon.com/Bell-Super-MIPS-Cycling-Helmet/dp/B01MDRQNAX) is a nice helmet too. Try them on and find the one that fits. Some new helmets have [a system called MIPS](http://mipsprotection.com/technology/). It can helmet reduce injuries from rotational forces, and appears to be good technology, if you can, I think it's worth having.
+The [Troy Lee A1](https://amzn.to/2U0U3DJ) is a fantastic helmet. It's generally the shape of the helmet you want. It's got good coverage of the sides and back of your head and good brow coverage too. The visor is both stylish and easy to adjust. Mine has held up great. The [Bell Super 3](https://www.amazon.com/Bell-Super-MIPS-Cycling-Helmet/dp/B01MDRQNAX) is a nice helmet too. Try them on and find the one that fits. Some new helmets have [a system called MIPS](http://mipsprotection.com/technology/). It can help reduce injuries from rotational forces and appears to be good technology. If you can, I think it's worth having.
 
 As a beginner, I don't think a full face helmet is right. Full face helmets are hard to breathe in while climbing and they aren't very comfortable for long rides. They are absolutely required for downhill riding and racing, and there are certainly some local trails that I won't ride without one. I ride with a carbon Troy Lee D2 helmet that I absolutely trust.
 
@@ -174,7 +189,7 @@ As a beginner, I don't think a full face helmet is right. Full face helmets are 
 
 The style for a while was to wear lots of armor. The pendulum has swung back and most people are only wearing knee pads these days. I tend to wear a fairly light set of kneepads. I like the [Troy Lee 5400](https://amzn.to/2TWJiSZ). They don't have any straps, and so getting the right size is key. If you want a heavier pad, the [POC VPD](https://amzn.to/2E7wSkG) is burly.
 
-I really never ride without mine, they keep my knees warm, fend off briars and rocks, and generally stay out of my way. When you buy your shorts, make sure that you don't have a gap of skin between your pads and the bottom of you shorts. It's prone to sunburn, briars, and let's look like we know what we're doing out there.
+I really never ride without my knee pads, they keep my knees warm, fend off briars and rocks, and generally stay out of my way. When you buy your shorts, make sure that you don't have a gap of skin between your pads and the bottom of you shorts. It's prone to sunburn, briars, and let's look like we know what we're doing out there.
 
 ## Gloves
 
@@ -190,22 +205,42 @@ Don't buy gloves with bulky gel pads. Don't buy fingerless gloves.
 ## Glasses
 
 
-<figure class="right simple">
+<figure class="simple">
     <a href="https://amzn.to/2EqWVo8" title="Simple safety glasses"><img title="Cheap glasses for mountain biking" src="/img/posts/beginning-mountain-biking/safety-glasses.jpg" width="250"></a>
     <figcaption>3M Safety Glasses</figcaption>
 </figure>
 
-Wear eye protection whenever you can. I wear sunglasses in the summer, goggles when it's dusty, and safety glasses when it's cloudy or dark. Put a simple pair of glasses from the hardware store in your riding bag. That way you won't worry about scratching them up and losing them. Lowe's has a cheap pair of 3M safety glasses that work really well, they've got a rubberized brow that keeps them from sliding around. For nicer sunglasses, I wear Smith. They've got great lens colors and impact proof polycarbonate lenses. Do **not** wear sunglasses with glass lenses.
+Wear eye protection whenever you can. I wear sunglasses in the summer, goggles when it's dusty, and safety glasses when it's cloudy or dark. Put [a simple pair of glasses](https://amzn.to/2EqWVo8) from the hardware store in your riding bag. That way you won't worry about scratching them up and losing them. Lowe's has a cheap pair of 3M safety glasses that work really well, they've got a rubberized brow that keeps them from sliding around. For nicer sunglasses, I wear Smith. They've got great lens colors and impact proof polycarbonate lenses. Do **not** wear sunglasses with glass lenses.
 
 ## Clothing
 
 You'll develop preferences here too. There's something to be said for just going riding and to not worry too much about this. But if you must...
 
-I prefer separate shorts and tights with a chamois. In fact, I prefer bibs. I wear Pearl Izumi or Voler Bibs under a pair of lightweight shorts in the summer, 3/4 length knickers in the spring and fall, and winter riding pants when it's cold. Try on several brands and find the ones that seem to suit your anatomy. You'll find that each manufacturer has different ideas.
+{% include figure.html 
+    class="simple right"
+    url="https://amzn.to/2EjDwUH"
+    src="/img/posts/beginning-mountain-biking/ruckus-shorts.jpg" 
+    alt="Mountain biking shorts"
+    max-width="250px"
+    caption="I prefer shell shorts without a liner" 
+%}
 
-I prefer bibs to tights because bibs can't creep down and can be a bit looser around your waist, and it's one less seam on your hips. I hate the way that tights and shorts or pants put two seams around your waist.
+I prefer separate shorts and tights with a chamois. In fact, I prefer bibs. I wear [Pearl Izumi](https://amzn.to/2T2k9da) or [Voler Bibs](https://www.voler.com/browse/product/li/1110789) under a pair of lightweight shorts in the summer, [3/4 length knickers](https://amzn.to/2Xr3zSX) in the spring and fall, and [winter riding pants](https://www.raceface.com/products/details/agent-winter-pant-18) when it's cold. Try on several brands and find the ones that seem to suit your anatomy. You'll find that each manufacturer has different ideas.
 
-For riding jerseys, don't be too fussy at first. I prefer synthetic shirts. I've got some really lightweight button shirts for really hot weather, but I mostly wear short sleeve jerseys without zippers.
+I prefer bibs to riding tights because bibs can't creep down and they can be a bit looser around your waist. It's also one less seam on your hips. I hate the way that tights and shorts put two seams around your waist that fight each other.
+
+{% include figure.html 
+    class="simple"
+    url="https://amzn.to/2EfsVdv"
+    src="/img/posts/beginning-mountain-biking/jersey.jpg" 
+    alt="Mountain biking jersey"
+    max-width="250px"
+    caption="Let's try to be subtle" 
+%}
+
+For riding jerseys, don't be too fussy at first. I prefer synthetic shirts. I've got some really [lightweight button shirts](https://www.amazon.com/dp/B07H9VCS9K/ref=twister_B079TYX57P?th=1) for really hot weather, but I mostly wear [short sleeve jerseys without zippers](https://www.trekbikes.com/us/en_US/bike-clothing/cycling-jerseys/mountain-bike-jerseys/bontrager-quantum-cycling-tech-tee/p/13778/?colorCode=greydark). One of my favorite long sleeve jerseys is from Walmart. I think tha most any technical t-shirt will do as along as it's long enough. Many of the cycling specific shirts will have a little longer tail to help keep your covered while you're in your [riding attack position](https://www.mountainbikeworldwide.com/mountain-bike-tours-worldwide/how-to-master-the-attack-position).
+
+I think that road or cross country jerseys look out of place on a mountain bike, and I think that they fairly uncomfortable underneath a pack. If you are wearing shorts and regular riding shorts under those, make sure that your jersey has enough length to keep you covered.
 
 ## Backpack
 
@@ -215,6 +250,8 @@ For riding jerseys, don't be too fussy at first. I prefer synthetic shirts. I've
 </figure>
 
 There's a trend right now to use fanny packs. I don't like them. I prefer a pack. I like the extra spine protection and I like carrying a little more food and water with me. Dakine and Camelbak both make excellent packs. You should start with one in the 10 liter range, it'll be a small and lightweight pack that allows just enough room for some water, a snack, and basic tools. You'll want a larger pack if you start going on epic and remote rides.
+
+In this pack, you'll carry with you basic tools for your bike and water and snacks.
 
 ## Tools
 
