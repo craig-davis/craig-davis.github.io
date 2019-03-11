@@ -12,6 +12,8 @@ header-img: "img/headers/xj-throttle-body-upgrade.jpg"
 
 I've installed a 62mm throttle body from [DW Designs](https://www.facebook.com/DWDesignz/). I found his shop from a recommendation from [K Suspension](https://www.ksuspensionfab.com/).
 
+This is addition to 4 hole injectors from K Suspension and new exhaust.
+
 ![Installed throttle body](/img/posts/xj-throttle-body/62mm-throttle-body.jpg)
 
 I replaced my [old throttle body](/img/posts/xj-throttle-body/old-throttle-body.jpg).
@@ -32,6 +34,8 @@ It's worth doing if you're running larger tires.
 ![Throttle body gasket](/img/posts/xj-throttle-body/jeep-throttle-body-gasket.jpg)
 
 I used [a new FelPro 60948 gasket from Oreilly's](https://www.oreillyauto.com/detail/b/fel-pro-3607/gaskets-25077/engine-25078/fuel-system-and-emission-25087/throttle-body-mounting-gasket-12332/d3e498cd8f64/fel-pro-fuel-injection-throttle-body-mounting-gasket/60948/4304542?q=+Fel-Pro+60948&pos=0).
+
+From a recommendation from [Tom's Turbo Garage](https://www.youtube.com/channel/UCPbcdXYlIxk8a_4xXzyqepw) I've started using [Honda Shin-Etsu grease](https://amzn.to/2NYMsDm) on rubber door seals and under-hood parts. In the last photo, you'll see that I scrubbed the stock air box hose and added a thin bit of grease to it to help prevent any more oxidation.
 
 ## Security Bits
 
