@@ -18,7 +18,7 @@ The new throttle body from [DW Designs](https://www.facebook.com/DWDesignz/) is 
 
 I pulled a core to send DW from a local junkyard out of a 1998 XJ. I found his shop from a recommendation from [K Suspension](https://www.ksuspensionfab.com/), and after a short Facebook conversation I paid via PayPal and shipped him the core. In just a few days I had a machined throttle body ready to install. I kept the sensors from the donor XJ and tossed them into my tool bag to keep with me on the trail.
 
-![Installed throttle body](/img/posts/xj-throttle-body/62mm-throttle-body.jpg)
+![Installed throttle body](/img/posts/xj-throttle-body/62mm-throttle-body.JPG)
 
 I've previously installed a fresh exhaust and [4 port fuel injectors](https://www.ksuspensionfab.com/store/p8/Remanufactured%3A_4_Port_Upgraded_Fuel_Injectors_XJ%2FMJ.html) from [K Suspension](https://www.ksuspensionfab.com). My [old throttle body](/img/posts/xj-throttle-body/old-throttle-body.jpg) was working fine and my sensors appear to be in good shape. This new 62mm throttle body is just a step in getting back some of the throttle response I lost with my larger tires.
 
