@@ -43,7 +43,7 @@ Here's the glamor shot of it on my benchtop with my sensors re-installed on the 
 
 ![Throttle body gasket](/img/posts/xj-throttle-body/jeep-throttle-body-gasket.jpg)
 
-I used a new [FelPro 60948 gasket](https://www.oreillyauto.com/detail/b/fel-pro-3607/gaskets-25077/engine-25078/fuel-system-and-emission-25087/throttle-body-mounting-gasket-12332/d3e498cd8f64/fel-pro-fuel-injection-throttle-body-mounting-gasket/60948/4304542?q=+Fel-Pro+60948&pos=0) from Oreilly's. My stock gasket came out in one piece, and probably could have been wiped down and re-used. I'd already picked up a new one and so I used it.
+I used a new [FelPro 60948 gasket](https://www.oreillyauto.com/detail/b/fel-pro-3607/gaskets-25077/engine-25078/fuel-system-and-emission-25087/throttle-body-mounting-gasket-12332/d3e498cd8f64/fel-pro-fuel-injection-throttle-body-mounting-gasket/60948/4304542?q=+Fel-Pro+60948&pos=0) from O'Reilly Auto Parts. My stock gasket came out in one piece, and probably could have been wiped down and re-used. I'd already picked up a new one and so I used it.
 
 The installation was very straight forward and I spent more time cleaning than I did with the install. Another customer made [a throttle body installation video](https://www.youtube.com/watch?v=QWccviNoA8s) that you can watch.
 
