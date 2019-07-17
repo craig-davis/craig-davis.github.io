@@ -85,7 +85,7 @@ Go Ride!
 
 ## 2019 Addendum
 
-Not pictured in these photos, I've started carrying one more item in this bag. After living in New Mexico, I've added [a contact lens case](https://amzn.to/2JJT8DR) with one side filled with [a strong mineral based sunscreen](https://amzn.to/32wUDO8), and the other side with [sunscreen lip balm](https://amzn.to/2XJffnL). A contact lens case a tiny container and holds just enough to re-apply to face and lips on long hot summer rides. If it's especially dry and hot, I also add [a small bottle of Visine](https://amzn.to/2NVwjT1).
+Not pictured in these photos, I've started carrying one more item in this bag. After living in New Mexico, I've added [a contact lens case](https://amzn.to/2JJT8DR) with one side filled with [a strong mineral based sunscreen](https://amzn.to/32wUDO8), and the other side with [sunscreen lip balm](https://amzn.to/2XJffnL). A contact lens case holds just enough to re-apply sunscree to face and lips on long hot summer rides. If it's especially dry and hot, I also add [a small bottle of Visine](https://amzn.to/2NVwjT1).
 
 If you have any suggestions or comments, [let me know](https://twitter.com/There4Dev)!
 
