@@ -29,7 +29,7 @@ My 2006 had a HUGE front fender that was great for blocking mud, but was a handf
 
 I added [a Battery Tender](https://amzn.to/2SnzpOm) and if you don't have one already, get [the USB adapter](https://amzn.to/2XHr4uC) for it so that you can charge you phone if you haven't added an accessory port to the bike.
 
-I added a small Pelican case to  the tail of mine, and it was great to be able to lock it with a small padlock. For saddle bags for longer rides I used a set of [Ranger Bags](https://ridermagazine.com/2015/02/03/dirt-bagz-ranger-saddlebags-review/) from [Dirtbagz](http://www.dbzproducts.com/). They hold a fair bit of gear and held up well. The never had in problems when I dropped the bike and never tore or had any issues. I kept some small dry bags in them for rainy days.
+I added [a small Pelican case](https://amzn.to/2Sn7GNx) to  the tail of mine by drilling some small holes and using hose clamps to the tail luggage rack. It was great to be able to lock it with a small padlock. For saddle bags for longer rides I used a set of [Ranger Bags](https://ridermagazine.com/2015/02/03/dirt-bagz-ranger-saddlebags-review/) from [Dirtbagz](http://www.dbzproducts.com/). They hold a fair bit of gear and held up well. The never had in problems when I dropped the bike and never tore or had any issues. I kept some small dry bags in them for rainy days.
 
 
 ## Engine Mods
