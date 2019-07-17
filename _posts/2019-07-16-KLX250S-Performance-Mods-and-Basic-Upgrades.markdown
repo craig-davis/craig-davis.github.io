@@ -100,9 +100,11 @@ With only about 17 hp stock, it's hard to get into too much trouble with these b
 
 The bike can be lowered a couple inches if you need to, but I can't imagine wanting it any shorter.
 
+One quirk - I never solved a hard starting problem if the bike had been sitting. If I knew it was going to be stored for more than about 4-5 days I always made sure I ran the carb dry. When I was close to home, I'd turn off the fuel petcock and drive home, then let it idle in my driveway until it died. I would then open the choke and crank it and let it finally die one last time and then store it. I never had any troubles starting after doing this. Not sure exactly what was going on.
+
 ## Epilogue
 
-My beloved KLX was stolen, and I later replaced it with my WR250r.
+My beloved KLX was stolen, and I later replaced it with my WR250r. I searched Craigslist for years for that bike - it never turned up.
 
 
 {% include disclosure.html %}
