@@ -65,6 +65,7 @@ There is also mention of an anti-drainback valve in the outlet side line. I foun
 ](https://www.naxja.org/forum/showthread.php?t=966931)
 * [FourWheeler: Automatic Transmission Cooling Tips and Tricks](http://www.fourwheeler.com/how-to/transmission-drivetrain/154-1009-automatic-transmission-cooling-tips-and-tricks/)
 
+These links have a lot of useful information in them, and you should read them. The article from FourWheeler in particular has some great information about including an additional cooler. I'm planning on installing one as step two of this project.
 
 ## Making the lines
 
