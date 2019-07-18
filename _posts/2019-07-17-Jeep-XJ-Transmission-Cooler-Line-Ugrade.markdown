@@ -39,7 +39,7 @@ All of the parts came from [Summit Racing](https://www.summitracing.com/) and I 
 | [ICB-551454](https://www.summitracing.com/parts/icb-551454) | 6AN WRENCH<br><small style="color:#748494">Non-marring wrench for -6 AN connectors</small> |
 | [FRA-900666](https://www.summitracing.com/parts/fra-900666) | Fragola Performance Systems Hose Test Kits 900666<br><small style="color:#748494">Pressure testing kit to make sure your fittings are assembled correctly</small> |
 | [4000-6/50-FF](https://amzn.to/2XOiA4P) | Dremel Toolkit with Cut-off Wheels<br><small style="color:#748494">The [quick change tool arbor](https://amzn.to/2XOzmRj) with metal cutting disks is crucial</small> |
-| [TDT230](https://amzn.to/2Y3ubMU) | Fiber Reinforced Strapping Taps<br><small style="color:#748494">For keeping the stainless braid from fraying</small> |
+| [TDT230](https://amzn.to/2Y3ubMU) | Fiber Reinforced Strapping Tape<br><small style="color:#748494">For keeping the stainless braid from fraying while cutting it</small> |
 | [B076Q7ZK19](https://amzn.to/2Y927HL) | Hose clamp<br><small style="color:#748494">Used as a cutting guide</small>
 
 ## Helpful installation videos
