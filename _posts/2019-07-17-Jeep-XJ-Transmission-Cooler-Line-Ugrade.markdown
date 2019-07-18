@@ -52,7 +52,11 @@ The 1997 Jeep Cherokee factory service manual covers the transmission cooler and
 
 ![AW4 Transmission Cooler Plumbing Diagram](/img/posts/xj-transmission-cooler-lines/aw4-transmission-cooler-plumbing.jpg)
 
-I collected the figure above from a forum post, and the photo makes it a little more clear why I chose a 90&deg; fitting for the rear and a 45&deg; fitting for the front.
+I collected the figure above from a forum post, and the inset photo makes it a little more clear why I chose a 90&deg; fitting for the rear and a 45&deg; fitting for the front.
+
+It appears that Jeep changed the direction of flow through the cooler in the 1997 model year. Diagrams online show the transmission outlet going to the top of the cooler pre-1997 and to the bottom of the cooler in 1997 onwards. However, in the 1997 FSM, there is one diagram showing the old flow style. My 1997 had the back transmission outlet routed to the top of the cooler and the front transmission outlet routed to the bottom of the cooler. I'd suggest that if you make these hoses that you carefully document which flow direction you have and make your hoses match.
+
+There is also mention of an anti-drainback valve in the outlet side line. I found no evidence of one in my hard lines and so I didn't worry about it in these new lines.
 
 ## Useful Links
 
