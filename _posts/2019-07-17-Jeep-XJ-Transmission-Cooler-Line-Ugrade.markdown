@@ -61,22 +61,40 @@ Once you made the cut you can remove the clamp and the tape. Add the ferrule and
 
 ![Pressure testing PTFE lines](/img/posts/xj-transmission-cooler-lines/pressure-testing-ptfe-lines.jpg)
 
-Once I assembled my lines, I pressure tested them in water with [a tool from Fragola](https://www.summitracing.com/parts/fra-900666). It's a sealed cap for one end of your hose, and a cap with a [Schrader valve](https://en.wikipedia.org/wiki/Schrader_valve) for the other. You can then add 60 psi to your hose with a regular bike pump and submerge it and watch for bubbles. I found that with my hoses it took some time for the weep holes in the fitting to quit emitting tiny bubbles. My hoses held pressure overnight on my bench as well without any problems.
-
+Once I assembled my lines, I pressure tested them in water with [a tool from [Fragola](https://www.summitracing.com/parts/fra-900666). It's a sealed cap for one end of your hose, and a cap with a [Schrader valve](https://en.wikipedia.org/wiki/Schrader_valve) for the other. You can then add 60 psi to your hose with a regular bike pump and submerge it and watch for bubbles. I found that with my hoses it took some time for the weep holes in the fitting to quit emitting tiny bubbles. My hoses held pressure overnight on my bench as well without any problems.
 
 
 ## Installing transmission adapters
 
-![](/img/posts/xj-transmission-cooler-lines/transmission-adapters-benchtop.jpg)
-![](/img/posts/xj-transmission-cooler-lines/transmission-adapters.jpg)
-![](/img/posts/xj-transmission-cooler-lines/transmission-line-install.jpg)
+The transmission needs adapters to convert it to use -6 AN fittings. I've got a AW-4 automatic, and I needed two [14mm-1.5 adapters](https://www.summitracing.com/parts/ear-9919dfherl) to convert to using -6AN. The transmission has some other adapters on it, and you can see them below after they were removed.
 
+![AW-4 transmission line adapters](/img/posts/xj-transmission-cooler-lines/transmission-adapters-benchtop.jpg)
+
+You can see in the photo above the [new o-rings](https://www.summitracing.com/parts/ear-176106erl) that I installed on the adapters. I put a little ATF on them before installing them, and I torqued these to 30ft-lbs. 
+
+![Jeep XJ -6AN transmission lines](/img/posts/xj-transmission-cooler-lines/transmission-adapters.jpg)
+
+Once installed, they should look like the photo above.
+
+![With hoses](/img/posts/xj-transmission-cooler-lines/transmission-line-install.jpg)
+
+With the hoses installed, they'll look like this. I've used a 90&deg; fitting in the rear, and a 45&deg; fitting for the front.
 
 ## Top of the transmission cooler
 
-![](/img/posts/xj-transmission-cooler-lines/top-cooler-line.jpg)
-![](/img/posts/xj-transmission-cooler-lines/top-cooler-adapter.jpg)
-![](/img/posts/xj-transmission-cooler-lines/top-cooler-install.jpg)
+The factory transmission cooler is built into the radiator and is on the driver side. We'll need to convert both the inlet and outlet to use -6AN as well.
+
+![Factory cooler line](/img/posts/xj-transmission-cooler-lines/top-cooler-line.jpg)
+
+My factory cooler line was seized and the compression nut would not spin on the hard line. I cut the hard line and removed the whole thing with a 6-point socket. You want to remove the whole adapter and not just the flared fitting.
+
+![Upper adapter installed](/img/posts/xj-transmission-cooler-lines/top-cooler-adapter.jpg)
+
+With the [-6AN to &#8541;-18 inverted flare](https://www.summitracing.com/parts/sum-220667b) installed we can see that we'll need a 90&deg; hose end fitting.
+
+![Line installed](/img/posts/xj-transmission-cooler-lines/top-cooler-install.jpg)
+
+With the line installed, we still have lots of room and good routing options.
 
 ## Bottom of the transmission cooler
 
