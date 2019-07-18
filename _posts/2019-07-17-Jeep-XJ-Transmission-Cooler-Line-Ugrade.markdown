@@ -133,6 +133,6 @@ Double check your routing to make sure that at full compression your upper trail
 
 I've been running these lines for a few months now without any problems. The installation was pretty straight-forward once I had all the parts in place. My original parts order included 90&deg; for both of the radiator fittings and a straight fitting for the front of transmission. I didn't like how the lines were situated and I swapped to 45&deg; for that line and everything fits well now.
 
-If you've got questions, please feel free to send me an {% include email.html %}
+If you've got questions, please feel free to send me an {% include email.html %}.
 
 {% include disclosure.html %}
