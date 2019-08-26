@@ -8,7 +8,7 @@ author:     "Craig Davis"
 header-img: "img/headers/transmission-cooler-lines.jpg"
 ---
 
-While installing my [Boostwerks Engineering Comp Mount](http://www.boostwerksengineering.com/BWE-Comp-Mount_p_14.html) hidden winch, I found that the stock Jeep Cherokee transmission cooler hard lines interfered with my winch placement. In order to make room for my winch I needed to replace my factory hard lines with flexible braided hose so that I could relocate them out of the way.
+While installing my [Boostwerks Engineering Comp Mount](http://there4.io/2019/08/24/Jeep-XJ-Boostwerks-Comp-Mount-Hidden-Winch-Installation/) hidden winch, I found that the stock Jeep Cherokee transmission cooler hard lines interfered with my winch placement. In order to make room for my winch I needed to replace my factory hard lines with flexible braided hose so that I could relocate them out of the way.
 
 ![Jeep XJ Hidden Winch Installation](/img/posts/xj-transmission-cooler-lines/transmission-line-interference.jpg)
 
