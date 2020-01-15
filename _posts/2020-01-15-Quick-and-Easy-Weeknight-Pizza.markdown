@@ -31,8 +31,8 @@ Combine the following into the bowl of your mixer. Use a digital scale if possib
 
 The teaspoon measure for the dry ingredients is a little quicker than weighing the dry ingredients.
 
-## Make Piza
+## Make Pizza
 
-Turn on your mixer with the dough hook and give the dough several minutes. If you are in a hurry, you can now make pizza. If you've got the luxury of time you can certainly allow this dough to rise. Frequently, I don't wait. It will be a little more crackery, or maybe a little more flat-bread-ish, but it will still be delicious.
+Turn on your mixer with the dough hook and give the dough several minutes. If you are in a hurry, you can now make pizza. If you've got the luxury of time you can certainly allow this dough to rise. Frequently, I don't wait. It will be a little more cracker-y, or maybe a little more flat-bread-ish, but it will still be delicious.
 
-Divide dough in two. Take the first half and give it a few final kneads with some flour, [form into pizza round](https://youtu.be/lz8HlqYn98Q?t=191). Add sauce and topings, bake at 475&deg; for 8-13 minutes depending on your oven.
+Divide dough in two. Take the first half and give it a few final kneads with some flour, [form into pizza round](https://youtu.be/lz8HlqYn98Q?t=191). Add sauce and toppings, bake at 475&deg; for 8-13 minutes depending on your oven.
