@@ -2,7 +2,7 @@
 layout:     post
 title:      "Jeep XJ Boostwerks Comp Mount Hidden Winch Installation"
 subtitle:   "Installing a hidden Warn M8-S in my Jeep Cherokee"
-date:       2019-08-24
+date:       2020-01-14
 tags:       [jeep]
 author:     "Craig Davis"
 header-img: "img/headers/jeep-xj-hidden-winch.jpg"
@@ -48,9 +48,11 @@ This was a part of the job that I was the least excited about - cutting the  fro
 ![Jeep XJ Winch Mount](/img/posts/xj-hidden-winch/small/crossmember-cut.jpg)
 
 After making the cuts, I removed all of the rough edges, sanded the entire area, and then applied a coat of [POR-15](por15).
+
 ![POR15 Rust Proofing](/img/posts/xj-hidden-winch/small/crossmember-painted.jpg)
 
 With the cuts done and  the paint  cured it was time to test fit the Comp  Mount. This mount went in and out a lot while I was getting lines moved, wiring installed, and parts moved around. I cannot imagine doing this without a good floor jack.  During this time, I  didn't have the winch in it's cradle. Keep it light!
+
 ![Test fitting  the hidden winch](/img/posts/xj-hidden-winch/small/cmount-mount-mockup.jpg)
 
 During this time, I found that the holes that aligned with the sway bar bushing mounts were a little out of place compared to  my Jeep. I'm certain that every Jeep is going to be a little different, and so  this  wasn't  surprising. I marked with a [silver Sharpie Pen][sharpie] and then  filed  by hand to make  some room.
@@ -58,6 +60,7 @@ During this time, I found that the holes that aligned with the sway bar bushing 
 ![Comp Mount Modifications](/img/posts/xj-hidden-winch/small/comp-mount-holes.jpg)
 
 With all of the bolts  lining up and  test fit, it was finally time to install  the comp mount one more time for final fit. I still have no idea  where this chunk  of wood  came from, but I can't imagine working on my Jeep without it.
+
 ![Jeep XJ Hidden Winch Instructions](/img/posts/xj-hidden-winch/small/comp-mount-installation.jpg)
 
 ## Cutting My Bumper
@@ -87,7 +90,7 @@ With  the  cuts made,  it's time  to  clean up the  edges with  a file or [debur
 
 With that buttoned up,  it was time to move on  to  one last task. The Boostwerks Comp  Mount incorporates a steering  brace. It's a  great design and it puts a burly pillow  bearing onto  the end of the Pitman Arm to prevent the arm from  being able to  wag  around in  open space. The design  replaces the sector shaft nut with a  longer sleeve that engages  the new bearing. In  the photo below you can  see this new sleeve installed.
 
-![](/img/posts/xj-hidden-winch/small/sector-shaft.jpg)
+![Pitman Arm Sector Shaft](/img/posts/xj-hidden-winch/small/sector-shaft.jpg)
 
  In order to torque the sector shaft nut to spec, I needed an extra deep throat 1-&frac14; socket. I purchased the  socket called  for in the instructions, and unfortunately they've changed the manufacturing of  it.  Previous versions had thinner  walls and  could slide completely over the sector shaft to get to the facets. In  the photo below you can  see that the socket that I received had thicker walls and wouldn't  work.  After looking at  my options, and considering just making  it gutentight,  I took  my socket to a  NAPA machine shop. They were able to get it  on a  lathe and into it with a boring bar to reduce the wall thickness.  I dropped off the sector shaft nut and  the socket together and they were able to sort it out for me.
 
@@ -95,12 +98,14 @@ With that buttoned up,  it was time to move on  to  one last task. The Boostwerk
 
 
 With my newly machined socket, I was able to torque  the nut to the correct 180ft/lbs. 
+
 ![Sector  shaft installation](/img/posts/xj-hidden-winch/small/sector-shaft-install.jpg)
 
 
 ## Winch Power Cables
 
-[Jeep Cables][cables]  made a beautiful set of custom cables for me. With the winch mounted below and the  contactor box mounted  under the hood, you'll need a custom set of cables. 
+[Jeep Cables][cables]  made a beautiful set of custom cables for me. He even labeled each one with custom made labels.  With the winch mounted below and the  contactor box mounted  under the hood, you'll need a custom set of cables. 
+
 ![Winch Power Cables](/img/posts/xj-hidden-winch/small/winch-positive-wires.jpg)
 
 After mounting  my  winch in the cradle and  the contactor under  the hood on the [Boostwerks Solenoid Mount][solenoid-bracket], I was able to measure for my new cables.  I ordered a full set of cables. They all had 5/8 lug with 5/16 hole.
@@ -115,7 +120,8 @@ After mounting  my  winch in the cradle and  the contactor under  the hood on th
 
 
 With the wires in place, it was almost time to try this thing out!
-![](/img/posts/xj-hidden-winch/small/solenoid-installed.jpg)
+
+![Jeep XJ Solenoid Relocation](/img/posts/xj-hidden-winch/small/solenoid-installed.jpg)
 
 ## Alternator Shield
 
