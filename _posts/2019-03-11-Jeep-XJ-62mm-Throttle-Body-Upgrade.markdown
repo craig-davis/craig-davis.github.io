@@ -47,7 +47,7 @@ I used a new [FelPro 60948 gasket](https://www.oreillyauto.com/detail/b/fel-pro-
 
 The installation was very straight forward and I spent more time cleaning than I did with the install. Another customer made [a throttle body installation video](https://www.youtube.com/watch?v=QWccviNoA8s) that you can watch.
 
-Remember that the bolts that attach it to the intake are threading into aluminum and only need about 90 inch-pounds of torque - that's about 8 pound-feet.
+Remember that the bolts that attach it to the intake are threading into aluminum and only need about 90 inch-pounds of torque &mdash; that's about 8 pound-feet.
 
 ![Stock Air Box](/img/posts/xj-throttle-body/installed-throttle-body.jpg)
 
@@ -55,11 +55,11 @@ From a recommendation from [Tom's Turbo Garage](https://www.youtube.com/channel/
 
 ## Security Bits
 
-To move my sensors I needed both T20 and T25 bits. I've got a set of [1/4" drive torx bits from Craftsman](https://amzn.to/2T0q79m) that were too large to fit in this space, and so I needed to use my small bits with a driver to swap my sensors.
+To move my sensors I needed both T20 and T25 bits. I've got a set of [&frac14;" drive torx bits from Craftsman](https://amzn.to/2T0q79m) that were too large to fit in this space, and so I needed to use my small bits with a driver to swap my sensors.
 
 [![](/img/posts/xj-throttle-body/security-bits.jpg)](https://amzn.to/2NYS9kX)
 
-In order to remove the idle air controller housing for cleaning, I needed a T20 security bit. These are the torx bits with the spike in the center that prevent tampering. I've got [a complete set from Neiko](https://amzn.to/2NYS9kX) that have been great. The kits includes tri-lobe and pins and security hex in both metric and standard and it's a nice little kit to have.
+In order to remove the idle air controller housing for cleaning, I needed a T20 security bit. These are the torx bits with the spike in the center that prevent tampering. I've got [a complete set from Neiko](https://amzn.to/2NYS9kX) that have been great. The kit includes tri-lobe, pins, and security hex in both metric and standard and it's a nice little kit to have.
 
 ## Minor Issues
 
@@ -67,7 +67,7 @@ There were a couple of minor issues with the install.
 
 ![Plugged MAP sensor](/img/posts/xj-throttle-body/plugged-idle-control.jpg)
 
-When I received the new throttle body some of the media blasting material was clogging the MAP sensor tube. This was easily cleaned out with a small drill bit and I ran a little rubbing alcohol through the tube to make sure it was clear.
+When I received the new throttle body some of the media blasting material was clogging the MAP sensor tube. This was easily cleaned out with a small pick and I ran a little rubbing alcohol through the tube to make sure it was clear.
 
 ![Cleaning a bit more](/img/posts/xj-throttle-body/throttle-body-cleaning.jpg)
 I also disassembled the IAC housing and did a little more cleaning. The rest of the throttle body was beautiful, but the IAC housing had some flaky soot that I wanted to remove before installation. This probably wasn't required, but this Jeep is a hobby and listening to NPR and cleaning parts is a lovely way to spend early weekend mornings.
