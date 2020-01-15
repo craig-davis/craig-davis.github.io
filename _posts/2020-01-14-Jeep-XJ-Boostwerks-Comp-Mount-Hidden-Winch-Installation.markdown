@@ -46,17 +46,19 @@ You can see the frame tie-ins to the outside of the uni-frame rail in the follow
 
 ## Cutting My Crossmember
 
-This was a part of the job that I was the least excited about - cutting the  front crossmember. I made the  cuts with a grinder and cut-off wheel. I've started to really like [the Metal Max from Lenox][cutoff]. It's proven durable and still cuts quickly. I was far too fiddly with marking this out. The Comp Mount covers this entire area, and so the cuts really only need to open space for the rope to pass through.
+This was a part of the job that I was the least excited about - cutting the  front crossmember. I made the  cuts with a grinder and cut-off wheel. I've started to really like [the Metal Max][cutoff] cut off wheel from Lenox. It's [proven durable](https://www.youtube.com/watch?v=BGPJtTKmMLM) and still cuts quickly.
+
+I was far too fiddly with marking this out. The Comp Mount covers this entire area, and so the cuts really only need to open space for the rope to pass through. It's worth nothing that in some markets, the Jeep XJ had [a factory hidden winch option](https://www.jeepforum.com/forum/f11/factory-xj-hidden-winch-564037/#post12295131). If you look closely at the crossmember before you cut it, you'll see that the crossmember has holes punched for the standard winch attachment pattern.
 
 [![Jeep XJ Winch Mount](/img/posts/xj-hidden-winch/small/crossmember-cut.jpg)](/img/posts/xj-hidden-winch/crossmember-cut.jpg)
 
-In the photo above, you can see the two lines in front of the balancer. These are transmission cooler lines, and later in this project I found that they fouled on the winch. I could have relocated them with some simple cutting and flaring and re-routing only a section of one of them. But, I chose to [completely replace them with flexible hoses](/2019/07/17/Jeep-XJ-Transmission-Cooler-Line-Ugrade/).
+In the photo above, you can see the two hose lines in front of the balancer. These are transmission cooler lines, and later in this project I found that they fouled on the winch. I could have relocated them with some simple cutting and flaring and re-routing only a section of one of them. But, I chose to [completely replace them with flexible hoses](/2019/07/17/Jeep-XJ-Transmission-Cooler-Line-Ugrade/).
 
 After making the cuts, I removed all of the rough edges, sanded the entire area, and then applied a coat of [POR-15](por15).
 
 [![POR15 Rust Proofing](/img/posts/xj-hidden-winch/small/crossmember-painted.jpg)](/img/posts/xj-hidden-winch/crossmember-painted.jpg)
 
-With the cuts done and the paint cured it was time to test fit the Comp Mount. This mount went in and out a lot while I was getting lines moved, wiring installed, and parts moved around. I cannot imagine doing this without a good floor jack. During this time, I didn't have the winch in it's cradle. Keep it light!
+With the cuts done and the paint cured it was time to test fit the Comp Mount. This mount went in and out a lot while I was getting lines moved, wiring installed, and parts moved around. I cannot imagine doing this without a good floor jack. During this time, I didn't have the winch in its cradle. Keep it light!
 
 [![Test fitting the hidden winch](/img/posts/xj-hidden-winch/small/cmount-mount-mockup.jpg)](/img/posts/xj-hidden-winch/cmount-mount-mockup.jpg)
 
@@ -74,7 +76,7 @@ With my comp mount installed into it's final location, I was able to measure for
 
 [![Measure twice and cut once](/img/posts/xj-hidden-winch/small/fairlead-measuring.jpg)](/img/posts/xj-hidden-winch/fairlead-measuring.jpg)
 
-With careful measurements made, it was time to do some drilling. I first punched the location for one side of the [Factory 55 fairlead][fairlead]. After punching it and checking the measurements one last time, I drilled a hole for the mounting bolt. I then put the fairlead in place and tightened the bolt. I carefully measured and made the fairlead square to the bumper, and then used a center punch to mark the location of the other hole. You can see the [transfer punch][transfer-punch] in this following photo. This ensures that the two holes are absolutely spot on without having to measure. I think in this photo I've also got either magnet or double stick tape holding the fairlead up on the free side - I wanted to be able to look at it from a distance to make sure that the spacing looked right.
+With careful measurements made, it was time to do some drilling. I first punched the location for one side of the [Factory 55 fairlead][fairlead]. After punching it and checking the measurements one last time, I drilled a hole for the mounting bolt. I then put the fairlead in place and tightened the bolt. I carefully measured and made the fairlead square to the bumper, and then used a transfer punch to mark the location of the other hole. You can see the [transfer punch][transfer-punch] in this following photo. This ensures that the two holes are absolutely spot on without having to measure. I think in this photo I've also got either magnet or double stick tape holding the fairlead up on the free side - I wanted to be able to look at it from a distance to make sure that the spacing looked right.
 
 [![Fairlead measuring](/img/posts/xj-hidden-winch/small/fairlead-punching.jpg)](/img/posts/xj-hidden-winch/fairlead-punching.jpg)
 
@@ -86,7 +88,7 @@ The hole for the fairlead was first cut with a [2-&frac14; hole saw][hole-saw]. 
 
 [![Jeep XJ Winch](/img/posts/xj-hidden-winch/small/fairlead-lines.jpg)](/img/posts/xj-hidden-winch/fairlead-lines.jpg)
 
-With the cuts made, it's time to clean up the edges with a file or [deburring tool](deburring-tool) and then painting. These areas are completely hidden, and so I used [POR15][por15].
+With the cuts made, it was time to clean up the edges with a file and [deburring tool](deburring-tool) and then painting. These areas are completely hidden, and so I used [POR15][por15].
 
 During final fitting of the bumper, I did find that I had to shave down the plastic inner fairlead to make some clearance for the bumper. I took about &#8539;inch off of the back of it. The plastic material works well with woodworking tools and a simple block plane made it thinner and sandpaper set flat on my workbench made it flat.
 
@@ -94,7 +96,7 @@ During final fitting of the bumper, I did find that I had to shave down the plas
 
 ## Sector Shaft Nut Installation
 
-With that buttoned up, it was time to move on to one last task. The Boostwerks Comp Mount incorporates a steering brace. It's a great design and it puts a burly pillow bearing onto the end of the Pitman Arm to prevent the arm from being able to wag around in open space. The design replaces the sector shaft nut with a longer sleeve that engages the new bearing. In the photo below you can see this new sleeve installed.
+With that buttoned up, it was time to move on to one last task. The Boostwerks Comp Mount incorporates a steering brace. It's a stout design and it puts a burly pillow bearing onto the end of the Pitman Arm to prevent the arm from being able to wag around in open space. The design replaces the sector shaft nut with a longer sleeve that engages the new bearing. In the photo below you can see this new sleeve installed.
 
 [![Pitman Arm Sector Shaft](/img/posts/xj-hidden-winch/small/sector-shaft.jpg)](/img/posts/xj-hidden-winch/sector-shaft.jpg)
 
