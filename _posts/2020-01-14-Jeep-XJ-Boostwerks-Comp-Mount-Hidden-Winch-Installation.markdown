@@ -45,9 +45,14 @@ The comp mount adds a fair bit of bracing to the bumper brackets. It ties them i
 ## Cutting My Crossmember
 
 This was a part of the job that I was the least excited about - cutting the  front crossmember. I made the  cuts with a grinder and cut-off wheel.  I've started to really  like [the Metal  Max from  Lenox][cutoff]. It's proven  durable and still cuts quickly. I was far too fiddly  with marking this out. The Comp Mount covers this entire area, and so the cuts really only need to open  space for the rope to pass through.  
+
 ![Jeep XJ Winch Mount](/img/posts/xj-hidden-winch/small/crossmember-cut.jpg)
 
+
+In the photo above, you can see  the two lines in  front of the balancer. These are transmission  cooler lines, and later in this project I found that they fouled on the winch. I could have relocated them with some simple cutting and flaring and re-routing only a section  of one of  them. But, I chose to [completely  replace them with flexible hoses](/2019/07/17/Jeep-XJ-Transmission-Cooler-Line-Ugrade/).
+
 After making the cuts, I removed all of the rough edges, sanded the entire area, and then applied a coat of [POR-15](por15).
+
 
 ![POR15 Rust Proofing](/img/posts/xj-hidden-winch/small/crossmember-painted.jpg)
 
