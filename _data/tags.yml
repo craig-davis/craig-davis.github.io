@@ -24,3 +24,5 @@ woodworking:
   name: Woodworking
 reading:
   name: Reading
+recipes:
+  name: Recipes
