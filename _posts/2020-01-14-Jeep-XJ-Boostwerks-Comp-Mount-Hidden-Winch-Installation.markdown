@@ -147,7 +147,7 @@ With the splice done, it was time to wind the winch and go wheeling.
 
 ## Winch Clocking for Freespool
 
-I currently have my freespool selector pointed upwards at an angle. I had the intention of cutting a hole in my front bumper to allow easy access to it. After getting everything installed, I decided I didn't want that. For the moment, I just power-out the rope. The time the Jeep is up on stands, I'm going to clock the selector downwards so that I can get to it from below if I want to. It'll mean a small hole in the bottom of the mount, and I'm ok with that.
+I currently have my freespool selector pointed upwards at an angle. I had the intention of cutting a hole in my front bumper to allow easy access to it. After getting everything installed, I decided I didn't want that. For the moment, I just power-out the rope. The next time the Jeep is up on stands, I'm going to clock the selector downwards so that I can get to it from below if I want to. It'll mean a small hole in the bottom of the mount, and I'm ok with that.
 
 ## Overflow Bottle Relocation
 
