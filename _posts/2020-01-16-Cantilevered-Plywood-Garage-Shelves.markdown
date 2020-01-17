@@ -8,11 +8,11 @@ author:     "Craig Davis"
 header-img: "img/posts/cantilevered-shelving/leg-assembled.jpg"
 ---
 
-I had some unused space between my garage doors that could be used for storing some common car care items. I didn't want to have a heavy looking set of shelves with front leg posts, nor did I want to build cabinets that would become cluttered. I decided that a set og cantilevered shelves would work well for this narrow space, and would give me a chance to try out some assembly with glue and my new nailer.
+I had some unused space between my garage doors that could be used for storing car care items. I didn't want to have a heavy looking set of shelves with front leg posts, nor did I want to build cabinets that would become cluttered. I decided that a set of cantilevered shelves would work well for this narrow space, and would give me a chance to try out some assembly with glue and my new nailer.
 
 ![cantilevered garage shelves](/img/posts/cantilevered-shelving/catilevered-shelves.jpg)
 
-I made a quick model of these shelves in Sketchup. If you're interested, you can [download a copy of the file](/sketchup/cantilevered-shelves.skp). If you're new to woodworking modeling, you should start with [the tutorials from Jay Bates](https://jayscustomcreations.com/sketchup/). In this model, each color is a different part type. You can see the cut plan for the plywood next to the standing assembly. It's worth noting the OSB has some directional strength, and I oriented the parts to the longer axis so that they'd be stronger along their length. I don't really think this matter much in this application though.
+I made a quick model of these shelves in Sketchup. If you're interested, you can [download a copy of the file](/sketchup/cantilevered-shelves.skp). If you're new to woodworking modeling, you should start with [the tutorials from Jay Bates](https://jayscustomcreations.com/sketchup/). In this model, each color is a different part type. You can see the cut plan for the plywood next to the standing assembly. It's worth noting the OSB has some directional strength, and I oriented the parts to the longer axis so that they'd be stronger along their length. I don't really think this matters much in this application though.
 
 ![Sketchup Overview](/img/posts/cantilevered-shelving/sketchup-overview.png)
 
@@ -24,7 +24,7 @@ Each leg is made up of two pieces of plywood that sandwich a section of 2x4 that
 
 ![Glue up](/img/posts/cantilevered-shelving/shelf-support.png)
 
-I cut the components by first breaking down the plywood with [my homemade saw guide](https://www.popularmechanics.com/home/tools/reviews/a3602/4283497/), and then cutting to exact dimensions with my table saw. The legs were then further cut with a tapering jig. In this photo below you can see all of the parts ready for assembly with glue.
+I cut the components by first breaking down the plywood with [my homemade saw guide](https://www.popularmechanics.com/home/tools/reviews/a3602/4283497/), and then cut to exact dimensions with my table saw and to length with my miter saw. The legs were then further cut with a tapering jig. In this photo below you can see all of the parts ready for assembly with glue. The bracing pieces made of the ripped 2x4 where cut on the miter saw set to an angle that was read directly from the part. I didn't measure it.
 
 ![shelve bracket components](/img/posts/cantilevered-shelving/cut-components.jpg)
 
@@ -48,7 +48,7 @@ I then installed the brackets onto the 2x4 legs at 16" increments. Each was simp
 
 ![](/img/posts/cantilevered-shelving/leg-assembled.jpg)
 
-I've been using these wood screws lately for projects, and they are fantastic for attaching to wall studs. I do tend to predrill to help make sure they go in straight. In this case, I used two per side to attach these shelve rails to the walls.
+I've been using these wood screws lately for projects, and they are fantastic for attaching to wall studs. I do tend to predrill to help make sure they go in straight. In this case, I used two per side to attach these shelf rails to the walls.
 
 ![wood screws](/img/posts/cantilevered-shelving/wood-screws.jpg)
 
