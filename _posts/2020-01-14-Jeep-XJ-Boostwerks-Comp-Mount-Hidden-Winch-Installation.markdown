@@ -96,11 +96,13 @@ During final fitting of the bumper, I did find that I had to shave down the plas
 
 ## Sector Shaft Nut Installation
 
+> **Update**: Boostwerks is now making their own tool to handle the problem described below. The kit now includes a tool made out of &frac14;" plate that allows for a &frac12;" torque wrench to tighten down the sector nuts. You won't have the hassle I had of altering a socket!
+
 With that buttoned up, it was time to move on to one last task. The Boostwerks Comp Mount incorporates a steering brace. It's a stout design and it puts a burly pillow bearing onto the end of the Pitman Arm to prevent the arm from being able to wag around in open space. The design replaces the sector shaft nut with a longer sleeve that engages the new bearing. In the photo below you can see this new sleeve installed.
 
 [![Pitman Arm Sector Shaft](/img/posts/xj-hidden-winch/small/sector-shaft.jpg)](/img/posts/xj-hidden-winch/sector-shaft.jpg)
 
- In order to torque the sector shaft nut to spec, I needed an extra deep throat <nobr>1-&frac14;</nobr> socket. I purchased the socket called for in the instructions, and unfortunately they've changed the manufacturing of it. Previous versions had thinner walls and could slide completely over the sector shaft to get to the facets. In the photo below you can see that the socket that I received had thicker walls and wouldn't work. After looking at my options, and considering just making it gutentight, I took my socket to a NAPA machine shop. They were able to get it on a lathe and into it with a boring bar to reduce the wall thickness. I dropped off the sector shaft nut and the socket together and they were able to sort it out for me.
+ In order to torque the sector shaft nut to spec, I needed an extra deep throat <nobr>1-&frac14;"</nobr> socket. I purchased the socket called for in the instructions, and unfortunately they've changed the manufacturing of it. Previous versions had thinner walls and could slide completely over the sector shaft to get to the facets. In the photo below you can see that the socket that I received had thicker walls and wouldn't work. After looking at my options, and considering just making it gutentight, I took my socket to a NAPA machine shop. They were able to get it on a lathe and into it with a boring bar to reduce the wall thickness. I dropped off the sector shaft nut and the socket together and they were able to sort it out for me.
 
 [![Sunex extra deep socket](/img/posts/xj-hidden-winch/small/socket-problem.jpg)](/img/posts/xj-hidden-winch/socket-problem.jpg)
 
