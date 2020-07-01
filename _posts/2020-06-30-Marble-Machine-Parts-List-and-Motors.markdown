@@ -8,45 +8,44 @@ author:     "Craig Davis"
 header-img: "img/headers/marble-machine.jpg"
 ---
 
-![](/img/posts/marble-machine/ball-loader.jpg)
-![](/img/posts/marble-machine/bottom-turns.jpg)
-![](/img/posts/marble-machine/empty-loader.jpg)
-![](/img/posts/marble-machine/first-arial-track.jpg)
-![](/img/posts/marble-machine/first-lifting.jpg)
 ![](/img/posts/marble-machine/full-track.jpg)
-![](/img/posts/marble-machine/helping-hands.jpg)
-![](/img/posts/marble-machine/jaws-parallel.jpg)
-![](/img/posts/marble-machine/jaws-passthrough.jpg)
-![](/img/posts/marble-machine/lift-exit.jpg)
-![](/img/posts/marble-machine/lift-diagram.jpg)
-![](/img/posts/marble-machine/marble-turns.jpg)
-![](/img/posts/marble-machine/motor-coupler.jpg)
-![](/img/posts/marble-machine/motorized-marble-lift.jpg)
-![](/img/posts/marble-machine/overhead-view.jpg)
-![](/img/posts/marble-machine/side-view.jpg)
-![](/img/posts/marble-machine/test-turns.jpg)
-![](/img/posts/marble-machine/track-jig.jpg)
 
 [Daniel de Bruin][insta] recently posted a wonderful video about [How to make a STEEL MARBLE TRACK with basic tools][video]. I was impressed with his creativity and the simple tools that he used to build his track. With some time on my hands because of the COVID stay at home orders, I decided it'd give it a go.
 
+![marble machine with motorized lift](/img/posts/marble-machine/side-view.jpg)
+
 I'm quite proud of my marble machine roller coaster. I did stumble a bit sourcing the right parts and adjusting until I found the correct measurements. In this blog post I'll try to add to his HOWTO with a few more details and measurements that should help you along in your project. I'll also include some Amazon Affiliate links to the parts that I purchased and used in my project.
 
+
 If you've got questions about any of this or have tips to contribute, please feel free to send me an {% include email.html %}.
+
+![overhead view](/img/posts/marble-machine/overhead-view.jpg)
 
 ## Jig for Straight Track
 
 In his video he marks out on some press board material and uses clamps to make his straight track pieces. I've got access to a table saw, and so I made a proper jig. I recommend you do the same if you can. You could certainly make one with a hand saw and some patience. This ensures even spacing and straight track sections, and because the straight section ends will be consistently spaced it will simplify making the connecting turns.
 
+![marble track jig](/img/posts/marble-machine/track-jig.jpg)
+
 ## Helping Hands
 
-In addition to the jig, having a set of [helping hands][helpinghands] will really speed up your build. When building straight track it's hugely helpful to be able to setup the helping hands to hold the cross brace onto the track in the jig and then hold the solder in one of your hands and the soldering iron in the other. I prefer to keep [heat shrink tubing][heatshrink] over the jaws of my helping hands clamps. It prevents marring surfaces and won't damage wire insulation when you use them on other projects!
+In addition to the jig, having a set of [helping hands][helpinghands] will really speed up your build. You can see them in the photo above in use while building straight track. It's hugely helpful to be able to setup the helping hands to hold the cross brace onto the track in the jig and then hold the solder in one of your hands and the soldering iron in the other. I prefer to keep [heat shrink tubing][heatshrink] over the jaws of my helping hands clamps. It prevents marring surfaces and won't damage wire insulation when you use them on other projects!
+
+![helping hands](/img/posts/marble-machine/helping-hands.jpg)
+
+In this photo you can seen them holding a cross brace in place while I built a long sweeping turn in-place.
+
 
 ## Bolts Sizes
 
 Both the track connection pieces and the elevator lift spiral sizes are dependent on the size of the marble that you choose. In his video he uses bolts to wrap his wire around to form the curved track connectors and the spiral for the lift mechanism.
 
-The diameter of the bolts that you need related to the size of the ball. The chrome marbles that I chose were exactly &frac12;". I found success with FIXME. You can find both of these at your local hardware store. Be sure to find either plain un-threaded rod in the metal department, or partially threaded bolts with a smooth shank.
+The diameter of the bolts that you need related to the size of the ball. The chrome marbles that I chose were exactly &frac12;". I found success with a &frac12;" diameter bolt for making the lift spiral, and a 7/16" bolt for the cross pieces. You can find both of these at your local hardware store. Be sure to find either plain un-threaded rod in the metal department, or partially threaded bolts with a smooth shank.
 
+
+![first test turns](/img/posts/marble-machine/test-turns.jpg)
+
+Here's a photo of some early test track that I made to try out joints and angles.
 
 ## Soldering Flux and Solder
 
@@ -73,33 +72,58 @@ If you're just starting out, I'd still stick with Hakko by choosing their temp c
 
 Making the vertical supports is actually quite soothing. I found that I built the track with the bare minimum supports at first while I tested the ball rolling and adjustments. Once the track was working well and nearly complete I then added all of the cross bracing. The track will vibrate a fair bit without the cross bracing, and so once you add bracing the track will be smoother, quieter, and more consistent. Remember that as you add bracing you should be building [triangular braces][bracing].
 
+![arial track assembly](/img/posts/marble-machine/first-arial-track.jpg)
+
 Initially I did my drilling with a spare piece of wire based on [this technique from Paul Sellers][diydrill]. I cut a short section of straightened wire and sanded the end into a flat wedge shape. I chucked this into my drill and then used this to make my holes. It worked well, but I eventually ordered a set of [1.5mm drill bits][drill]. I found that these worked better. It does take some force to get the wire into the undersized hole that these bits make. I found it was best to grip the wire with larger pliers perpendicular to the wire and then press down on the side of the pliers while holding the wire firmly to drive the wire into the hole. I also found that in the later cross bracing phase that I had to drill most of my holes from the bottom; there wasn't access from above with my drill because of all of the track.
 
 ## Cutters and Pliers
 
+{% include figure.html
+    class="simple right"
+    url="/img/posts/marble-machine/nipex-cutters.jpg"
+    src="/img/posts/marble-machine/nipex-cutters.jpg"
+    alt="Knipex cutters"
+    max-width="250px"
+    caption="Make quick work of this wire"
+%}
 I prefer the [Knipex diagonal cutters][cutters]. They keep sharp edges, and had no trouble making precise cuts on this galvanized wire. Even making tiny adjustments to make track ends align was easy with them. I did not find any need for the small bolt cutters that he used in the video.
 
+![parallel jaw pliers](/img/posts/marble-machine/jaws-passthrough.jpg)
+
 I do have one tool that I'm considering sending him as a thank you - [a set of parallel jaw pliers][paralleljaw]. This is a tool that you'll wonder how you lived without. Every other set of pliers will only grab wire by one small edge of the tool. These pliers will grip with their entire face and hold securely and strong. This allows them to bend *both* wire at the same time to precisely the same angle. With regular pliers you always end up with a little slop.
+
+![bending marble track](/img/posts/marble-machine/jaws-parallel.jpg)
 
 They make bending wire at precise positions and to accurate angles quick and easy. As a bonus because of how they open you can pass a wire through the center of the tool to make bends that would otherwise require bent nose needle nose pliers. If you purchase only one extra tool from this blog post, [buy these][paralleljaw].
 
 ## Marble Ball Lift Details
 
-The marble lift is the most fiddly part of this project. In the video, he speeds through it a bit, and while his instructions are good, I had to a fair bit of experimenting until I had a lift that consistently worked. The most important part of the lift is spacing and the feed track.
+![marble ball lift](/img/posts/marble-machine/first-lifting.jpg)
+
+The marble lift is the most fiddly part of this project. In the video, he speeds through it a bit, and while his instructions are good, I had to a fair bit of experimenting until I had a lift that consistently worked. The most important part of the lift is spacing and the feed track. In the following photo you can see that I've added an extra guide rail. Sometimes when there are a lot of marbles at the bottom and one slams into the back of the row the front one can lift upwards a bit, and that extra rail guides is back into place.
+
+![marble roller coaster lift](/img/posts/marble-machine/ball-loader.jpg)
 
 The fixed side of the lift is just a reinforced straight section of track. The center of the lift spiral is __not__ centered between the runners of this track. The lift is offset to one side. If you look closely at [his video at 4:48][closeup] you can see this detail. Here's the final dimensions of my lift:
 
-FIXME
+![marble machine lift diagram](/img/posts/marble-machine/lift-diagram.png)
 
-I found the best success with my feeder by having it feed the balls at 90&deg; to the "open face" of the lift mechanism:
+I found the best success with my feeder by having it feed the balls at 90&deg; to the "open face" of the lift mechanism.
 
-FIXME
+![empty marble machine lift](/img/posts/marble-machine/empty-loader.jpg)
+
+The top of the lift was not particular difficult, gravity is finally on our side again. I chose to exit directly away from the reinforced rail side. Don't start off too steep. I did find that the bend from vertical to horizontal needed to be fairly crisp so that the corkscrew lift could effectively push the ball onto the track.
+
+![marble machine detail photo](/img/posts/marble-machine/lift-exit.jpg)
 
 ## Motor, Coupler, and Battery Box
 
 I went through a few different motors before I found a suitable one that didn't need any additional gear reduction. This [25RPM 3V DC motor from uxcell][motor] is perfect. It had plenty of torque, didn't bog down, and is quiet. Delivering about one ball every 2 seconds is a nice pace on the track that I made. I tried both a 9rpm and a 50 rpm motor and they weren't right. I think that this 25rpm pace is the Goldilocks for this size track.
 
 The motor has a 3mm shaft. The galvanized wire measured 1.88mm, and I found that a [3mm to 2mm coupler][coupler] worked great for joining the motor to the central shaft of the ball lift. In some of my photos you'll see an alternate coupler that I used before finding this simpler one.
+
+
+![marble machine motor](/img/posts/marble-machine/motor-coupler.jpg)
 
 I used a [battery box with integrated switch][batterybox]. This further simplified the project. I ran the wires underneath the wooden base to hide them. Note that depending on which direction you wrapped your corkscrew lift you might need to reverse the polarity on your motor so that it spins in the correct direction.
 
@@ -110,6 +134,13 @@ I made a simple motor mount out of a small scrap of plywood with a small hole dr
 ### Make straight track sections first
 
 This will allow you to practice making good solder joints before you need to make the trickier joints in corner sections and track section joining.
+
+### Make turns on the workbench when you can
+
+![](/img/posts/marble-machine/marble-turns.jpg)
+
+Making some of your turns on the workbench will make it easier to keep your spacing consistent. I found it useful to have two jigs so that I could keep everything aligned. Remember that the outside rail usually does need to be tilted up a bit to make a banked track.
+
 
 ### This isn't electronics soldering
 
@@ -133,6 +164,9 @@ The more accurate you can make the parts the less trouble you'll have later in t
 
 ### Paint or finish your base board first
 I started tinkering with a board and began building a prototype. I got too far into it to turn back, and just kept going. It was a hassle sanding and applying finish around my support legs. I should have applied [polyuerathane finish][polyurethane] first!
+
+### This is really quite forgiving!
+If you tend to the small details at first, I think you'll find there's a larger margin of error than you might expect. The balls will roll over uneven joints, blobs of solder, and will even tolerate fairly flat turns. Don't be intimidated and just get started!
 
 ## Enjoy this!
 
