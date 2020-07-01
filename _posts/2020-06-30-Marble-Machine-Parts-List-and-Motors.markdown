@@ -5,8 +5,27 @@ subtitle:   "Tips, tricks, and a parts list for building a marble roller coaster
 date:       2020-06-30
 tags:       []
 author:     "Craig Davis"
-header-img: "img/headers/deck.jpg"
+header-img: "img/headers/marble-machine.jpg"
 ---
+
+![](/img/posts/marble-machine/ball-loader.jpg)
+![](/img/posts/marble-machine/bottom-turns.jpg)
+![](/img/posts/marble-machine/empty-loader.jpg)
+![](/img/posts/marble-machine/first-arial-track.jpg)
+![](/img/posts/marble-machine/first-lifting.jpg)
+![](/img/posts/marble-machine/full-track.jpg)
+![](/img/posts/marble-machine/helping-hands.jpg)
+![](/img/posts/marble-machine/jaws-parallel.jpg)
+![](/img/posts/marble-machine/jaws-passthrough.jpg)
+![](/img/posts/marble-machine/lift-exit.jpg)
+![](/img/posts/marble-machine/lift-diagram.jpg)
+![](/img/posts/marble-machine/marble-turns.jpg)
+![](/img/posts/marble-machine/motor-coupler.jpg)
+![](/img/posts/marble-machine/motorized-marble-lift.jpg)
+![](/img/posts/marble-machine/overhead-view.jpg)
+![](/img/posts/marble-machine/side-view.jpg)
+![](/img/posts/marble-machine/test-turns.jpg)
+![](/img/posts/marble-machine/track-jig.jpg)
 
 [Daniel de Bruin][insta] recently posted a wonderful video about [How to make a STEEL MARBLE TRACK with basic tools][video]. I was impressed with his creativity and the simple tools that he used to build his track. With some time on my hands because of the COVID stay at home orders, I decided it'd give it a go.
 
@@ -24,7 +43,7 @@ In addition to the jig, having a set of [helping hands][helpinghands] will reall
 
 ## Bolts Sizes
 
-Both the track connection pieces and the elevator lift spiral sizes are dependent on the size of the marble that you choose. In his video he uses bolts to wrap his wire around to form the curved track connectors and the spiral for the lift mechanism. 
+Both the track connection pieces and the elevator lift spiral sizes are dependent on the size of the marble that you choose. In his video he uses bolts to wrap his wire around to form the curved track connectors and the spiral for the lift mechanism.
 
 The diameter of the bolts that you need related to the size of the ball. The chrome marbles that I chose were exactly &frac12;". I found success with FIXME. You can find both of these at your local hardware store. Be sure to find either plain un-threaded rod in the metal department, or partially threaded bolts with a smooth shank.
 
@@ -40,13 +59,13 @@ After making a joint, it's best to immediately clean it with a damp cloth to rem
 
 The [lead free solder][solder] that I used is certainly safer than electronics solder with lead. However, metal fumes and flux are still toxic and the fumes need to be handled correctly. The galvanized wire recommended by Daniel also poses a risk, as the zinc in the galvanization can be toxic when heated. Nobody wants to get the [brass chills][fever] and so we should be careful with our lungs even if we're working with lead free materials.
 
-I'm working in a space with an overhead fume extractor and I also use [a small fan][fan] on my workbench. Place the fan next to your work and point it away from you. This way you won't have air blowing on your work and the fumes will tend to be pulled away from you. Watch the smoke from the flux and make sure it's moving away from you! If you are in a workspace with less air flow, I might suggest using a proper [soldering fume absorber][absorber]. 
+I'm working in a space with an overhead fume extractor and I also use [a small fan][fan] on my workbench. Place the fan next to your work and point it away from you. This way you won't have air blowing on your work and the fumes will tend to be pulled away from you. Watch the smoke from the flux and make sure it's moving away from you! If you are in a workspace with less air flow, I might suggest using a proper [soldering fume absorber][absorber].
 
 If you aren't working with gloves, it's best to wash your hands after handling any soldering materials. I know that these materials are used in plumbing, but wash your hands before handling food.
 
 ## Soldering Irons
 
-With soldering irons, you will be rewarded by [having a nicer tool][ironreview]. Higher end models will heat up quicker, maintain a consistent temperature, and will give you better results. In particular, a model with an adjustable temperature can be great for working with various projects. I think that for hobby use there is nothing better than the [Hakko FX888D][solderingiron]. It's a joy to use with high quality parts throughout. I used a [chisel tip][chisel] in it set to 780&deg; F and it worked beautifully. 
+With soldering irons, you will be rewarded by [having a nicer tool][ironreview]. Higher end models will heat up quicker, maintain a consistent temperature, and will give you better results. In particular, a model with an adjustable temperature can be great for working with various projects. I think that for hobby use there is nothing better than the [Hakko FX888D][solderingiron]. It's a joy to use with high quality parts throughout. I used a [chisel tip][chisel] in it set to 780&deg; F and it worked beautifully.
 
 If you're just starting out, I'd still stick with Hakko by choosing their temp controlled [FX60101][cheaperiron] or the basic [503F][cheapestiron]. I don't own either of these, but I would expect them both to be able to do this soldering.
 
@@ -60,11 +79,13 @@ Initially I did my drilling with a spare piece of wire based on [this technique 
 
 I prefer the [Knipex diagonal cutters][cutters]. They keep sharp edges, and had no trouble making precise cuts on this galvanized wire. Even making tiny adjustments to make track ends align was easy with them. I did not find any need for the small bolt cutters that he used in the video.
 
-I do have one tool that I'm considering sending him as a thank you - [a set of parallel jaw pliers][paralleljaw]. This is a tool that you'll wonder how you lived without. Every other set of pliers will only grab wire by one small edge of the tool. These pliers will grip with their entire face and hold securely and strong. They make bending wire at precise positions and to accurate angles quick and easy. As a bonus because of how they open you can pass a wire through the center of the tool to make bends that would otherwise require bent nose needle nose pliers. If you purchase only one extra tool from this blog post, [buy these][paralleljaw].
+I do have one tool that I'm considering sending him as a thank you - [a set of parallel jaw pliers][paralleljaw]. This is a tool that you'll wonder how you lived without. Every other set of pliers will only grab wire by one small edge of the tool. These pliers will grip with their entire face and hold securely and strong. This allows them to bend *both* wire at the same time to precisely the same angle. With regular pliers you always end up with a little slop.
+
+They make bending wire at precise positions and to accurate angles quick and easy. As a bonus because of how they open you can pass a wire through the center of the tool to make bends that would otherwise require bent nose needle nose pliers. If you purchase only one extra tool from this blog post, [buy these][paralleljaw].
 
 ## Marble Ball Lift Details
 
-The marble lift is the most fiddly part of this project. In the video, he speeds through it a bit, and while his instructions are good, I had to a fair bit of experimenting until I had a lift that consistently worked. The most important part of the lift is spacing and the feed track. 
+The marble lift is the most fiddly part of this project. In the video, he speeds through it a bit, and while his instructions are good, I had to a fair bit of experimenting until I had a lift that consistently worked. The most important part of the lift is spacing and the feed track.
 
 The fixed side of the lift is just a reinforced straight section of track. The center of the lift spiral is __not__ centered between the runners of this track. The lift is offset to one side. If you look closely at [his video at 4:48][closeup] you can see this detail. Here's the final dimensions of my lift:
 
@@ -98,17 +119,20 @@ This will allow you to practice making good solder joints before you need to mak
 When making the butt joint between sections of track you'll find that the track takes a while to heat up enough to make a good joint. Be patient and get both pieces hot enough to ensure a good connection.
 
 ### Tin your parts before making a joint
-In normal soldering, you might be able to heat both wires and then introduce the solder to the joint. Because you'll sometimes be making joints in the air and holding them in place is hard, you should instead pre-tin both sides of the joint. If you're joining a new section of track to the existing coaster you'll first add flux to one wire end of the track, add heat, and then add solder to the end of the wire. When you're doing this you'll have solder in one hand and your iron in the other. 
+In normal soldering, you might be able to heat both wires and then introduce the solder to the joint. Because you'll sometimes be making joints in the air and holding them in place is hard, you should instead pre-tin both sides of the joint. If you're joining a new section of track to the existing coaster you'll first add flux to one wire end of the track, add heat, and then add solder to the end of the wire. When you're doing this you'll have solder in one hand and your iron in the other.
 
 If you pre-tin your soldering iron tip with a tiny drop of solder you'll get better heat transfer into the wire. That drop of solder will form a thermal bridge to the wire and help it heat up. Once you've gotten the wire hot enough you'll see that dot of solder wet-out and the surface tension will break and the solder will smoothly span the gap between the wire and the soldering iron tip. At this point you can add additional solder. Do this same procedure to the track that you're going to be installing. Each wire end should have a tiny drop of solder on them before you move to the next joining step.
 
-Now that both sides of the track have pre-tinned ends you can join them with only the soldering iron. This leaves your other hand free to hold the new track piece in space without having to resort to elaborate clamping and work holding. Add a little dab of flux to one side of the joint, and then hold the new track piece in alignment with the existing track, and then touch the tip of the soldering iron across the joint to heat both sides. When they are hot enough the solder will join and you'll be able to align the track. Remove the soldering iron, and then have a steady hand while you wait a moment for the solder to cool. I found that in some cases I needed to get one side joined, then solder the second side, and then jump back to heat the first to make a small adjustment. 
+Now that both sides of the track have pre-tinned ends you can join them with only the soldering iron. This leaves your other hand free to hold the new track piece in space without having to resort to elaborate clamping and work holding. Add a little dab of flux to one side of the joint, and then hold the new track piece in alignment with the existing track, and then touch the tip of the soldering iron across the joint to heat both sides. When they are hot enough the solder will join and you'll be able to align the track. Remove the soldering iron, and then have a steady hand while you wait a moment for the solder to cool. I found that in some cases I needed to get one side joined, then solder the second side, and then jump back to heat the first to make a small adjustment.
 
 ### Ball speed is controlled by track width.
 As the track gets wider, the balls will slow down. Narrowly spaced track is both unstable and faster. On narrow track the balls sit higher and roll on a larger diameter and are more prone to jumping the track. If you're making a section of free form track this could be an advantage.
 
 ### Sweat the details early
 The more accurate you can make the parts the less trouble you'll have later in the build. Any errors you make will add up and you'll end up fighting alignment and spacing issues later. Maintain consistency early and you'll really enjoy tuning the track for speed and watching it come together.
+
+### Paint or finish your base board first
+I started tinkering with a board and began building a prototype. I got too far into it to turn back, and just kept going. It was a hassle sanding and applying finish around my support legs. I should have applied [polyuerathane finish][polyurethane] first!
 
 ## Enjoy this!
 
@@ -144,3 +168,4 @@ I'd really love to see photos of anything you build. Tag me on [instagram](https
 [helpinghands]: https://amzn.to/2BYJhJZ
 [vise]: https://amzn.to/2YPIFj8
 [heatshrink]: https://amzn.to/38gImR
+[polyurethane]: https://amzn.to/3gdBWVS
