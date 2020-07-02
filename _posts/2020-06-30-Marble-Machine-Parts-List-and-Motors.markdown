@@ -26,7 +26,7 @@ If you've got questions about any of this or have tips to contribute, please fee
 * [Jig for Straight Track](#jig-for-straight-track)
 * [Helping Hands](#helping-hands)
 * [Bolt Sizes](#bolt-sizes)
-* [Soldering Flux and Solder](#bolts-sizes)
+* [Soldering Flux and Solder](#soldering-flux-and-solder)
 * [Safety and Fume Extraction](#safety-and-fume-extraction)
 * [Soldering Irons](#soldering-irons)
 * [Vertical Supports](#vertical-supports)
