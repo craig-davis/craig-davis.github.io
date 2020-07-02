@@ -8,7 +8,8 @@ author:     "Craig Davis"
 header-img: "img/headers/marble-machine.jpg"
 ---
 
-![](/img/posts/marble-machine/full-track.jpg)
+## Completed Marble Machine
+![Marble Machine Track](/img/posts/marble-machine/full-track.jpg)
 
 [Daniel de Bruin][insta] recently posted a wonderful video about [How to make a STEEL MARBLE TRACK with basic tools][video]. I was impressed with his creativity and the simple tools that he used to build his track. With some time on my hands because of the COVID stay at home orders, I decided it'd give it a go.
 
@@ -16,14 +17,27 @@ header-img: "img/headers/marble-machine.jpg"
 
 I'm quite proud of my marble machine roller coaster. I did stumble a bit sourcing the right parts and adjusting until I found the correct measurements. In this blog post I'll try to add to his HOWTO with a few more details and measurements that should help you along in your project. I'll also include some Amazon Affiliate links to the parts that I purchased and used in my project.
 
-
 If you've got questions about any of this or have tips to contribute, please feel free to send me an {% include email.html %}.
+
+## Table of Contents
 
 ![overhead view](/img/posts/marble-machine/overhead-view.jpg)
 
+* [Jig for Straight Track](#jig-for-straight-track)
+* [Helping Hands](#helping-hands)
+* [Bolt Sizes](#bolt-sizes)
+* [Soldering Flux and Solder](#bolts-sizes)
+* [Safety and Fume Extraction](#safety-and-fume-extraction)
+* [Soldering Irons](#soldering-irons)
+* [Vertical Supports](#vertical-supports)
+* [Cutters and Pliers](#cutters-and-pliers)
+* [Marble Ball Lift Details](#marble-ball-lift-details)
+* [Motor, Coupler, and Battery Box](#motor-coupler-and-battery-box)
+* [Assembly Tips](#assembly-tips)
+
 ## Jig for Straight Track
 
-In his video he marks out on some press board material and uses clamps to make his straight track pieces. I've got access to a table saw, and so I made a proper jig. I recommend you do the same if you can. You could certainly make one with a hand saw and some patience. This ensures even spacing and straight track sections, and because the straight section ends will be consistently spaced it will simplify making the connecting turns.
+In his video he marks out a pattern on press board and uses clamps to make his straight track pieces. I've got access to a table saw, and so I made a proper jig. I recommend you do the same if you can. You could certainly make one with a hand saw and some patience. This ensures even spacing and straight track sections, and because the straight section ends will be consistently spaced it will simplify making the connecting turns.
 
 ![marble track jig](/img/posts/marble-machine/track-jig.jpg)
 
@@ -36,7 +50,7 @@ In addition to the jig, having a set of [helping hands][helpinghands] will reall
 In this photo you can seen them holding a cross brace in place while I built a long sweeping turn in-place.
 
 
-## Bolts Sizes
+## Bolt Sizes
 
 Both the track connection pieces and the elevator lift spiral sizes are dependent on the size of the marble that you choose. In his video he uses bolts to wrap his wire around to form the curved track connectors and the spiral for the lift mechanism.
 
@@ -70,7 +84,7 @@ If you're just starting out, I'd still stick with Hakko by choosing their temp c
 
 ## Vertical Supports
 
-Making the vertical supports is actually quite soothing. I found that I built the track with the bare minimum supports at first while I tested the ball rolling and adjustments. Once the track was working well and nearly complete I then added all of the cross bracing. The track will vibrate a fair bit without the cross bracing, and so once you add bracing the track will be smoother, quieter, and more consistent. Remember that as you add bracing you should be building [triangular braces][bracing].
+Making the vertical supports is actually quite soothing. I found that I built the track with the bare minimum supports at first while I tested the ball rolling and speed adjustments. Once the track was working well and nearly complete I then added all of the cross bracing. The track will vibrate a fair bit without the cross bracing, and so once you add bracing the track will be smoother, quieter, and more consistent. Remember that as you add bracing you should be building [triangular braces][bracing].
 
 ![arial track assembly](/img/posts/marble-machine/first-arial-track.jpg)
 
@@ -137,7 +151,7 @@ This will allow you to practice making good solder joints before you need to mak
 
 ### Make turns on the workbench when you can
 
-![](/img/posts/marble-machine/marble-turns.jpg)
+![Building marble machine turns](/img/posts/marble-machine/marble-turns.jpg)
 
 Making some of your turns on the workbench will make it easier to keep your spacing consistent. I found it useful to have two jigs so that I could keep everything aligned. Remember that the outside rail usually does need to be tilted up a bit to make a banked track.
 
