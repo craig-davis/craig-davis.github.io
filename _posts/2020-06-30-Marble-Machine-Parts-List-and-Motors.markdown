@@ -104,7 +104,7 @@ I prefer the [Knipex diagonal cutters][cutters]. They keep sharp edges, and had 
 
 ![parallel jaw pliers](/img/posts/marble-machine/jaws-passthrough.jpg)
 
-I do have one tool that I'm considering sending him as a thank you - [a set of parallel jaw pliers][paralleljaw]. This is a tool that you'll wonder how you lived without. Every other set of pliers will only grab wire by one small edge of the tool. These pliers will grip with their entire face and hold securely and strong. This allows them to bend *both* wire at the same time to precisely the same angle. With regular pliers you always end up with a little slop.
+I do have one tool that I'm considering sending him as a thank you - [a set of parallel jaw pliers][paralleljaw]. This is a tool that you'll wonder how you lived without. Every other set of pliers will only grab wire by one small edge of the tool. These pliers will grip with their entire face and hold securely and strong. This allows them to bend *both* wires at the same time to precisely the same angle. With regular pliers you always end up with a little slop.
 
 ![bending marble track](/img/posts/marble-machine/jaws-parallel.jpg)
 
