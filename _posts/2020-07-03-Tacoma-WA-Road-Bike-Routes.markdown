@@ -16,7 +16,9 @@ It can be hard to find good riding on the Tacoma peninsula. Our poor roads and s
 * [Gig Harbor Path - 23 miles](#gig-harbor-path-23-miles)
 * [Vashon Island Loop - 37 miles](#vashon-island-big-loop-37-miles)
 * [Get to the Point - 14 miles](#get-to-the-point-14-miles)
-* [What I've left out][#what-ive-left-out]
+* [Be Industrious](#be-industrious)
+* [Really? You road to Puyallup?](#really-you-road-to-puyallup)
+* [What I've left out](#what-ive-left-out)
 
 If I've left out a good ride, please let me know at {% include email.html %}!
 
