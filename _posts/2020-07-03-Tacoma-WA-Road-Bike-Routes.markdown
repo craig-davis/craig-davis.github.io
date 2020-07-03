@@ -30,6 +30,13 @@ You can now explore the Gig Harbor side of the bay, and for this quick ride we m
 
 This ride is an extension of the previous ride. Instead of turning left and riding to the airport, it continues into Gig Harbor to join the [Cuchman Trail][cushman]. You'll ride a short section of 14th Avenue to access the trail. In this section 14th has an adequate shoulder that seems to stay clear of debris. There are a couple of breaks in the trail, and you'll need to navigate. There is some signage in place, but it's not great. Remember that the trail sticks close to Highway 16 and you find your way. The last few miles of this out and back ride have some nice 8-10% climbs that will make you happy for the flat sections of riding back through Gig Harbor.
 
+## Vashon Island Big Loop (37 miles)
+> Any ride with a ferry seems like an adventure
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m36!1m12!1m3!1d98002.71319267438!2d-122.45853238809954!3d47.327400014374945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m21!3e1!4m3!3m2!1d47.259899499999996!2d-122.48117219999999!4m3!3m2!1d47.2902066!2d-122.49619829999999!4m3!3m2!1d47.3022936!2d-122.5102227!4m3!3m2!1d47.479065899999995!2d-122.48404409999999!4m3!3m2!1d47.3601244!2d-122.5019248!5e0!3m2!1sen!2sus!4v1593798452941!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+[ferry]: https://www.wsdot.com/Ferries/Schedule/ScheduleDetailByRoute.aspx?route=pd-tal
 [cushman]: https://www.cityofgigharbor.net/181/Cushman-Trail
 [fieldhouse]: https://www.pugetsound.edu/about/offices-services/university-relations/donor-relations/named-sites-on-campus/memorial-fieldhouse/
 [ups]: https://www.pugetsound.edu/
