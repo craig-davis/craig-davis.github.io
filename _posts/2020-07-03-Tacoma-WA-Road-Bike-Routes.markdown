@@ -10,7 +10,11 @@ header-img: "img/headers/tacoma-narrows.jpg"
 
 # Tacoma Road Bike Rides
 
-I sometimes feel like we're stuck on this peninsula with poor roads and sketchy drivers. Over the last couple of years I've put together a few go-to rides originating in [Proctor][proctor] but that work well for anyone in [North Tacoma][north].
+It can be hard to find good riding on the Tacoma peninsula. Our poor roads and sketchy drivers can discourage road riding. However, over the last couple of years I've put together a few go-to rides originating in [Proctor][proctor] that work well for anyone in [North Tacoma][north]. These rides minimize exposure to traffic and use established bike lanes and routes when possible.
+
+* [Airport Ride - 13 miles](#airport-ride-13-miles)
+* [Gig Harbor Path - 23 miles](#gig-harbor-path-23-miles)
+* [Vashon Island Loop - 37 miles](#vashon-island-big-loop-37-miles)
 
 ## Airport Ride (13 miles)
 > A quick ride across the bridge and along the airport
@@ -35,7 +39,12 @@ This ride is an extension of the previous ride. Instead of turning left and ridi
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m36!1m12!1m3!1d98002.71319267438!2d-122.45853238809954!3d47.327400014374945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m21!3e1!4m3!3m2!1d47.259899499999996!2d-122.48117219999999!4m3!3m2!1d47.2902066!2d-122.49619829999999!4m3!3m2!1d47.3022936!2d-122.5102227!4m3!3m2!1d47.479065899999995!2d-122.48404409999999!4m3!3m2!1d47.3601244!2d-122.5019248!5e0!3m2!1sen!2sus!4v1593798452941!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
+This loop includes a crossing on [the ferry][ferry]. Pay attention to the schedule when you ride, and the cross should only cost a dollar for you and your bike. You'll get priority loading and you can read more information on their [bicycle information page][bikeinfo]. The map above shows the full route, but because of waypoint limitations at Google Maps, the final leg to return home is not included. This is a long ride, and it could take a fair bit of time if you end up having to wait for the ferry both directions. Take some snacks and extra water. There are some cute shops in town on this loop including both a small cafe and an espresso stand. The roads on this loop in many places have no shoulders at all. However, the locals seem to deal with riders fairly well. I do recommend blinking bike lights and brightly colored jersey. If there is inclement weather, the wait for the ferry can be bad as there is no shelter.
 
+You can shorten this loop by cross the island at any of the cross roads, just check the map and choose your own adventure. If you're a mountain biker, check out the [Dockton Forest riding area][dockton] for some fun little flow trails. It's a great place to roll around.
+
+[dockton]: https://www.evergreenmtb.org/trails/dockton-forest
+[bikeinfo]: https://www.wsdot.wa.gov/Ferries/bicycles/
 [ferry]: https://www.wsdot.com/Ferries/Schedule/ScheduleDetailByRoute.aspx?route=pd-tal
 [cushman]: https://www.cityofgigharbor.net/181/Cushman-Trail
 [fieldhouse]: https://www.pugetsound.edu/about/offices-services/university-relations/donor-relations/named-sites-on-campus/memorial-fieldhouse/
