@@ -67,7 +67,7 @@ coming soon.
 coming soon.
 
 ## What I've left out
-I don't generally ride on Ruston Way Road, and I never ride on the Ruston Way Path. The Ruston Way Road is a horrible road with no shoulders, a close curb, and narrow lanes that prevent a car from being able to overtake a rider safely. It's a very poor road for riding. The multi-use path is appropriate for road bikes. The speed differential and poor sight lines to the many driveway intersections make it unsafe for both rider and pedestrian. I find it best to steer clear of the entire waterfront down there. I do occasionally time trial it down the road, but it's not safe for general riding.
+I don't generally ride on Ruston Way Road, and I never ride on the Ruston Way Path. The Ruston Way Road is a horrible road with no shoulders, a close curb, and narrow lanes that prevent a car from being able to overtake a rider safely. It's a very poor road for riding. The multi-use path is not appropriate for road bikes. The speed differential and poor sight lines to the many driveway intersections make it unsafe for both rider and pedestrian. I find it best to steer clear of the entire waterfront down there. I do occasionally time trial it down the road, but it's not safe for general riding.
 
 [dunes]: https://www.metroparkstacoma.org/place/dune-peninsula/
 [dockton]: https://www.evergreenmtb.org/trails/dockton-forest
