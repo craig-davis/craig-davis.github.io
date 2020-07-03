@@ -15,7 +15,10 @@ It can be hard to find good riding on the Tacoma peninsula. Our poor roads and s
 * [Airport Ride - 13 miles](#airport-ride-13-miles)
 * [Gig Harbor Path - 23 miles](#gig-harbor-path-23-miles)
 * [Vashon Island Loop - 37 miles](#vashon-island-big-loop-37-miles)
-* [Get to the Point - 14 miles](#get-to-the-Point-14-miles)
+* [Get to the Point - 14 miles](#get-to-the-point-14-miles)
+* [What I've left out][#what-ive-left-out]
+
+If I've left out a good ride, please let me know at {% include email.html %}!
 
 ## Airport Ride (13 miles)
 > A quick ride across the bridge and along the airport
@@ -49,7 +52,20 @@ You can shorten this loop by cross the island at any of the cross roads, just ch
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m52!1m12!1m3!1d25174.62369048152!2d-122.52211296009445!3d47.29192592852155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m37!3e1!4m3!3m2!1d47.2599083!2d-122.48116789999999!4m3!3m2!1d47.25992!2d-122.4839789!4m3!3m2!1d47.2747257!2d-122.483947!4m3!3m2!1d47.2748737!2d-122.49615569999999!4m3!3m2!1d47.2905756!2d-122.4966369!4m3!3m2!1d47.2989129!2d-122.50825139999999!4m3!3m2!1d47.3039859!2d-122.5129535!4m3!3m2!1d47.317509699999995!2d-122.54621709999999!4m3!3m2!1d47.3022018!2d-122.5234813!5e0!3m2!1sen!2sus!4v1593815074534!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-This is a popular route and once you get to Point Defiance Park it's quite a nice ride. Because of the road and the cross traffic between Proctor and the park, I rarely ride this route. The park itself can be crowded on the weekend and the traffic can be quite busy. But on a Tuesday morning, this can be a nice ride to take. If you've got a few extra minutes, roll out to the [Dune Peninsula at Pt Defiance Park][dunes]. It has a great view of the water.
+This is a popular route and once you get to Point Defiance Park it's quite a nice ride. Because of the road and the cross traffic between Proctor and the park, I rarely ride this route. The park itself can be crowded on the weekend and the traffic can be quite busy. But on a Tuesday morning, this can be a nice ride to take. If you've got a few extra minutes, roll out to the [Dune Peninsula at Pt Defiance Park][dunes]. It has a great view of the water. Again, because of a Google Maps limitation, you'll need to ride back following your own route.
+
+## Be Industrious
+> A loop through downtown and the industrial roads
+
+coming soon.
+
+## Really? You road to Puyallup?
+> A cyclocross ride of adventure with some sketchy sections
+
+coming soon.
+
+## What I've left out
+I don't generally ride on Ruston Way Road, and I never ride on the Ruston Way Path. The Ruston Way Road is a horrible road with no shoulders, a close curb, and narrow lanes that prevent a car from being able to overtake a rider safely. It's a very poor road for riding. The multi-use path is appropriate for road bikes. The speed differential and poor sight lines to the many driveway intersections make it unsafe for both rider and pedestrian. I find it best to steer clear of the entire waterfront down there. I do occasionally time trial it down the road, but it's not safe for general riding.
 
 [dunes]: https://www.metroparkstacoma.org/place/dune-peninsula/
 [dockton]: https://www.evergreenmtb.org/trails/dockton-forest
