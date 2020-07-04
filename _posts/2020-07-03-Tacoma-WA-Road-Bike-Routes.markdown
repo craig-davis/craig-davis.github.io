@@ -16,7 +16,7 @@ It can be hard to find good riding on the Tacoma peninsula. Our poor roads and s
 * [Gig Harbor Path - 23 miles](#gig-harbor-path-23-miles)
 * [Vashon Island Loop - 37 miles](#vashon-island-big-loop-37-miles)
 * [Get to the Point - 14 miles](#get-to-the-point-14-miles)
-* [Be Industrious](#be-industrious)
+* [Be Industrious - 12 miles](#be-industrious-12-miles)
 * [Really? You road to Puyallup?](#really-you-road-to-puyallup)
 * [What I've left out](#what-ive-left-out)
 
@@ -56,7 +56,7 @@ You can shorten this loop by cross the island at any of the cross roads, just ch
 
 This is a popular route and once you get to Point Defiance Park it's quite a nice ride. Because of the road and the cross traffic between Proctor and the park, I rarely ride this route. The park itself can be crowded on the weekend and the traffic can be quite busy. But on a Tuesday morning, this can be a nice ride to take. If you've got a few extra minutes, roll out to the [Dune Peninsula at Pt Defiance Park][dunes]. It has a great view of the water. Again, because of a Google Maps limitation, you'll need to ride back following your own route.
 
-## Be Industrious
+## Be Industrious (12 miles)
 > A loop through downtown and the industrial roads
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m56!1m12!1m3!1d21775.298747833356!2d-122.4626182879673!3d47.25515909142101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m41!3e1!4m3!3m2!1d47.2598355!2d-122.48299999999999!4m3!3m2!1d47.2747283!2d-122.4839296!4m3!3m2!1d47.261173799999995!2d-122.441414!4m3!3m2!1d47.241785799999995!2d-122.42998139999999!4m3!3m2!1d47.251432799999996!2d-122.4227169!4m3!3m2!1d47.256862299999995!2d-122.41935799999999!4m3!3m2!1d47.2565938!2d-122.4379099!4m3!3m2!1d47.268643!2d-122.46088999999999!4m3!3m2!1d47.259729799999995!2d-122.4671525!4m3!3m2!1d47.259908499999995!2d-122.481258!5e0!3m2!1sen!2sus!4v1593877639592!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
