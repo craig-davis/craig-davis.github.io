@@ -47,7 +47,7 @@ In addition to the jig, having a set of [helping hands][helpinghands] will reall
 
 ![helping hands](/img/posts/marble-machine/helping-hands.jpg)
 
-In this photo you can seen them holding a cross brace in place while I built a long sweeping turn in-place.
+In this photo you can see the helping hands holding a cross brace in place while I built a long sweeping turn in-place.
 
 
 ## Bolt Sizes

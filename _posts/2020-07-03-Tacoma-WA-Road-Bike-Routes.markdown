@@ -59,7 +59,7 @@ This is a popular route and once you get to Point Defiance Park it's quite a nic
 ## Be Industrious
 > A loop through downtown and the industrial roads
 
-coming soon.
+<iframe src="https://www.google.com/maps/embed?pb=!1m56!1m12!1m3!1d13823.097328381642!2d-122.46779353579802!3d47.25749089932152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m41!3e1!4m3!3m2!1d47.259899!2d-122.48116599999999!4m3!3m2!1d47.2599087!2d-122.4839672!4m3!3m2!1d47.2747283!2d-122.4839296!4m3!3m2!1d47.261173799999995!2d-122.441414!4m3!3m2!1d47.241785799999995!2d-122.42998139999999!4m3!3m2!1d47.251432799999996!2d-122.4227169!4m3!3m2!1d47.256862299999995!2d-122.41935799999999!4m3!3m2!1d47.2565938!2d-122.4379099!4m3!3m2!1d47.268643!2d-122.46088999999999!4m3!3m2!1d47.259729799999995!2d-122.4671525!5e0!3m2!1sen!2sus!4v1593877524009!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 ## Really? You road to Puyallup?
 > A cyclocross ride of adventure with some sketchy sections
