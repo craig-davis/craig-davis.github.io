@@ -69,6 +69,8 @@ You'll turn off the sidewalk and onto 4th St/Dock Street and begin moving toward
 
 Eventually you'll pass the [Glass Museum][glass] and [Marina][marina] and you'll move back out to Dock St. Ride over the end of the waterway and turn left into the industrial district. There's a loop out here that will be quiet on the weekends and feel a little post-apocalyptic. You'll return over the 11th St Bridge with a nice view of downtown. Turn right and continue through town to get to [Fireman's Park][firemans]. This park has a nice overlook of the port, and the bridge nicely frames Mt. Ranier. From here you make your way past the [Elks Lodge][elks] and up S. Stadium Way. You can choose to run up the [Spanish Steps][steps] for a view and different ride past (or through) [Wright Park][wright]. The N. Tacoma Ave leg of this road has lots of parked cars, but is generally wide enough that you can ride safely, and then you'll work your way through neighborhoods to get back to campus.
 
+If you choose, you can ride across the Lincoln Ave bridge and make a loop on that side of the port to make this a longer ride. During the week these roads have heavy truck traffic and can be busy. It's a nice ride if you're comfortable with it. This ride might be best with a friend.
+
 ## Really? You road to Puyallup?
 > A cyclocross ride of adventure with some sketchy sections
 
