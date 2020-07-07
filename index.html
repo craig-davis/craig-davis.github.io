@@ -8,6 +8,8 @@ header-img: img/headers/craig-ranier.jpg
 <div class="post-preview{% if post.photourl %} photo{% endif %}{% if post.podcasturl %} podcast{% endif %}">
 {% if post.podcasturl %}
     <a href="{{ post.podcasturl }}">
+{% elsif post.remoteurl %}
+    <a href="{{ post.remoteurl }}">
 {% elsif post.photourl %}
     <a href="{{ post.photourl }}">
 {% else %}
