@@ -541,8 +541,8 @@ dt {
   clear: both;
 }
 dt a {
-  text-decoration: none;
-  color: #404040;
+  /*text-decoration: none;
+  color: #404040;*/
 }
 dd {
   margin: 0 0 1em 1em;
