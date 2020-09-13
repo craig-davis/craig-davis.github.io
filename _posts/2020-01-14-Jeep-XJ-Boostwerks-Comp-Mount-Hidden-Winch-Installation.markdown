@@ -22,6 +22,10 @@ The [BWE Comp Mount][comp-mount] is a well thought out product, and I really lik
 
 There were a few things that were a hassle and made the final installation take longer than I'd originally planned. I had to relocate my [transmission cooler lines][transmission], and I needed to [replace my worn out motor mounts][motor-mounts]. Relocating the winch contactor box under the hood is also a larger project than I originally expected.
 
+## 2020 Update on JCR
+
+JCR is no longer offering their Crusader bumper without the front hitch option. This makes it a fair bit harder to do this same installation. In addition, they no longer offer it as an option as a special order. Unfortunately to use that bumper you'd need to cut out the hitch mount and the gussets for it and weld in a covering plate to do this same build. If anyone else has a bumper that would work well with the comp mount, send me an {% include email.html %} and let me know so I can add it here.
+
 ## The Finished Installation
 
 Here's a view of my XJ  in my garage with my freshly installed [Factory 55 spliced flat link][flat-splicer] and [fairlead][fairlead].
