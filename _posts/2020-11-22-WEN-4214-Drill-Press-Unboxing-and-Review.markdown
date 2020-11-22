@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "WEN 4214 Drill Press Unboxing and Review"
-subtitle:   ""
+subtitle:   "A great choice for a home workshop"
 date:       2020-11-22
 tags:       [woodworking, tools]
 author:     "Craig Davis"
