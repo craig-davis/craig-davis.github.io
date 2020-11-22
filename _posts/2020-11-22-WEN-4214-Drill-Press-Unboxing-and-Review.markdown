@@ -17,7 +17,7 @@ I was doubtful of this drill press at the price point, and purchasing through Am
 
 I have not used this drill press much yet. It certainly spun through softwoods with a 1" spade bit, and had no issues with a 3/4" step drill bit in 1/4" steel bar. I can't imagine needing anything more than that for the kinds of projects that I do. For a more in-depth review, check out [this review at The Spruce][review-spruce].
 
-I think this [WEN 4214 drill press][amazon] is a fantastic choice for a hobby workshop. I suspect that it will show it's limitations when drilling larger holes in metal, but that with patience it will be enough for the home shop. I've got a couple of furniture projects coming up, and I will update this review once I've drill for a lot more dowels.
+I think this [WEN 4214 drill press][amazon] is a fantastic choice for a hobby workshop. I suspect that it will show its limitations when drilling larger holes in metal, but that with patience it will be enough for the home shop. I've got a couple of furniture projects coming up, and I will update this review once I've drilled for a lot more dowels.
 
 
 ## Unboxing
