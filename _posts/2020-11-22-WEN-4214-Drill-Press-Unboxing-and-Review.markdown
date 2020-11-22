@@ -15,10 +15,11 @@ I was doubtful of this drill press at the price point, and purchasing through Am
 
 ## Quick Review
 
-I have not used this drill press much yet. It certainly spun through softwoods with a 1" spade bit, and had no issues with a 3/4" step drill bit in 1/4" steel bar. I can't imagine needing anything more than that for the kinds of projects that I do. For a more in-depth review, check out [this review at The Spruce][review-spruce].
+I have not used this drill press much yet. It certainly spun through softwoods with a 1" spade bit, and had no issues with a 3/4" step drill bit in 3/16" steel bar. I can't imagine needing anything more than that for the kinds of projects that I do. 
 
-I think this [WEN 4214 drill press][amazon] is a fantastic choice for a hobby workshop. I suspect that it will show its limitations when drilling larger holes in metal, but that with patience it will be enough for the home shop. I've got a couple of furniture projects coming up, and I will update this review once I've drilled for a lot more dowels.
+I think this [WEN 4214 drill press][amazon] is a fantastic choice for a hobby workshop. I suspect that it will show its limitations when drilling larger holes in metal, but that with patience it will be enough for the home shop. I've got a couple of furniture projects coming up, and I will update this review once I've had more time with it. I also plan to build a small cart for it, and I might share some photos of that as well.
 
+For a more in-depth review, check out [this review at The Spruce][review-spruce].
 
 ## Unboxing
 
@@ -26,7 +27,7 @@ On my workbench after delivery:
 
 ![WEN 4214 Shipping Box](/img/posts/wen-4214-drill-press/thumbnails/0105-drill-press-box.small.jpg)
 
-The drill press was well packaged in styrofoam. All of the exposed metal had a coat of protectant grease, and it removed easily with mineral spirits. There was no rust on any of the parts.
+The drill press was well packaged in styrofoam. All of the exposed metal had a coat of protectant grease and there was no rust on any of the parts.
 
 ![Drill Press Accessories](/img/posts/wen-4214-drill-press/thumbnails/0110-drill-press-accesories.small.jpg)
 
