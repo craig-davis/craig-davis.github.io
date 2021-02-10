@@ -61,7 +61,7 @@ In order to switch the glass to my mirror housings I needed to first remove the 
 While I had the mirrors apart, I did a bit of scrubbing and cleaning. For this I used some [contact cleaner][contact-cleaner] and a brass brush. These old contacts were pretty grungey. 
 
 
-![Mirrors removed](/img/posts/xj-heated-mirrors/mirror-reflection.jpg)
+![Mirrors removed](/img/posts/xj-heated-mirrors/0293-old-mirrors.jpg)
 
 Here's my old mirrors. You can see that they popped free without any trouble.
 
