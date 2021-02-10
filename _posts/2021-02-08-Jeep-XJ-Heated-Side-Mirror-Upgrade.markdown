@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Jeep XJ Heated Rear View Mirror Upgrade"
+title:      "Jeep XJ Heated Side Mirror Upgrade"
 subtitle:   "A direct plug-in upgrade for Jeep Cherokees, usually."
 date:       2021-02-08
 tags:       [jeep]
