@@ -64,7 +64,7 @@ steps:
     imglink: /img/posts/xj-extended-idle/0056-illuminated-switch.jpg
     caption: Both illumination and power indicator lighting
     instruction: |
-        Here's the first try of the new hybrid switch. This is powering both the orange factory backlighting wire and the blue run source wire. The black wire is grounded.
+        Here's the first try of the new hybrid switch. This is powering both the orange factory backlighting wire and the purple run source wire. The black wire is grounded.
 
   - title: Mock on the benchtop
     img: /img/posts/xj-extended-idle/0058-wired-diagram.jpg
@@ -94,7 +94,7 @@ steps:
     instruction: |
         Pin A12 from the computer terminates in this connector. It's located on the passenger side of the engine and can be identified with the red safety clip on it. In my case, I hate cutting into wiring harnesses, and instead of adding a splice near the PCM or even cutting that wire, I chose to add a new wire to this connector. The grey wire from A12 comes into this connector, and the other side of the connector simply has a blocked port in it's place. We can pull the little block out and add a new wire.
 
-  - title: Extract a wire from a wiring harness connector
+  - title: Get a pin from a spare wiring harness connector
     img: /img/posts/xj-extended-idle/0274-junkyard-connector.jpg
     imglink: /img/posts/xj-extended-idle/0274-junkyard-connector.jpg
     caption: Contact me and I'll send a wire to you
@@ -113,18 +113,18 @@ steps:
     imglink: /img/posts/xj-extended-idle/0281-into-harness.jpg
     caption: Route this wire to the relay location
     instruction: |
-        After the wire has been added to the connector, you can connect a new grey wire to it and run that wire to the location where you'll be keeping your relay. My relay is under my dash attached to the firewall, and is grounded to G8. You'll find G8 at knee level in the area underneath the steering wheel. It's a common ground that other things use, and it's easiest to get to if you remove the trim panel and the metal shield behind that.
+        After the wire has been added to the connector, you can connect a new grey wire to it and run that wire to the location where you'll be keeping your relay. My relay is under my dash attached to the firewall, and is grounded to G8. You'll find G8 at knee level in the area underneath the steering wheel. It's a common ground that other things use, and it's easiest to get to if you remove the trim panel below the steering wheel and the metal shield behind it.
 
   - title: Connect this pin A12 to the relay
     img: /img/posts/xj-extended-idle/0282-extended-idle-relay.jpg
     imglink: /img/posts/xj-extended-idle/0282-extended-idle-relay.jpg
     caption: Wire the relay
     instruction: |
-        Here's the relay wired up and done.
-            __Pin 85__: Ground
-            __Pin 86__: Positive from switch
-            __Pin 87__: A12 from PCM
-            __Pin 30__: Ground
+        Here's the relay wired up and done.<br>
+            __Pin 85__: Ground<br>
+            __Pin 86__: Positive from switch<br>
+            __Pin 87__: A12 from PCM<br>
+            __Pin 30__: Ground<br>
 
 summary: |
     This was a fun project. It combines a little but of Jeep XJ history with a practical application. If you haven't worked with relays before this is a fun project. I recommend building this on the bench first, as you'll get a chance to fiddle with the components and take some of the mystery out of relays.
@@ -134,15 +134,21 @@ summary: |
     Questions or comments? Let me know!
 ---
 
-I've always wanted an extended idle switch for my Jeep Cherokee. The Police Package XJs were equipped with an extra toggle switch that raised the idle rpm of the Jeep to 1100rpm when it was in park or neutral. All XJs from 1997+ have the ability to do this, but they lack the switch. The switch is something of a holy grail - very few were made and the last of the new old stock (NOS) were sold on eBay for hundreds of dollars. Not all is lost though, as with some ingenuity and a bit of wiring we can make a nearly identical one ourselves.
+I've always wanted an extended idle switch for my Jeep Cherokee. The [Police Package XJs](https://www.allpar.com/threads/jeep-cherokee-police-cars.229153/) were equipped with an extra toggle switch that raised the idle rpm of the Jeep to 1100rpm when it was in park or neutral. All XJs from 1997+ have the ability to do this, but they lack the switch. The switch is something of a holy grail - very few were made and the last of the [new old stock](https://en.wikipedia.org/wiki/New_old_stock) (NOS) were sold on eBay for hundreds of dollars. Not all is lost though, as with some ingenuity and a bit of wiring we can make a nearly identical one ourselves.
 
-This project is going to combine a NOS OEM fog light switch with a "fake" extended idle faceplate, and is then going to use this new switch to run a relay to activate the extended idle system.
+This project is going to combine a NOS OEM fog light switch with a "fake" extended idle faceplate to provide factory backlighting and switch illumination. We'll use this hybrid switch to run a relay to activate the extended idle system.
 
 
 > __Disclaimer:__ I am not a professional. This is for informational purposes only.
 > Please use fuses for all wiring, properly secure all wires, and don't do anything
 > stupid. Please be careful with the project and never connect 12v positive to your
 > PCM by accident!
+
+## The Simple Way
+
+You can use [a simple toggle switch](https://www.cherokeeforum.com/f51/how-install-factory-extended-idle-switch-204925/index2/#post3369783) to connect pin A12 to ground to enable the high idle. But my goal is to replicate the look and function of the factory original switch.
+
+With that out of way, we can continue with this project.
 
 ## Collect the Supplies
 
@@ -151,7 +157,7 @@ This project is going to combine a NOS OEM fog light switch with a "fake" extend
 * __OEM factory fog light switch__
   These are available on eBay. Save one from a junkyard if at all possible.
 * __OEM factory fog light switch pigtail__
-  Retailers don't send the connector that we need with an OEM switch. These can be found on eBay, but go to a junkyard. All XJs have an extra one for the fog light even if the fog light package wasn't installed. Be sure to clip it with the longest pigtails that you can.
+  Retailers don't usually send the connector that we'll need with an OEM switch. These can be found on eBay, but go to a junkyard if you can. All XJs have an extra one for the fog light even if the fog light package wasn't installed. Be sure to clip it with the longest pigtails that you can.
 * __A relay to run the extended idle system__
   Any [four wire auto relay](https://amzn.to/2RsHJum) will work.
 * __Wiring and connectors__
@@ -161,7 +167,7 @@ This project is going to combine a NOS OEM fog light switch with a "fake" extend
 
 The Jeep XJ 4.0 in 1997+ vehicles will enter extended idle when pin A12 from the computer is grounded. The factory switch did this on its own. Unfortunately, the closest available switch is a fog light switch. These switches can only control a positive hot wire. We'll need to use a positive fog light switch to control a relay that will ground pin A12.
 
-I hate cutting factory harnesses, and so I've taken an extra step in my installation. There is an engine connector on the passenger side of the motor that contains a gray wire that runs all the way back to pin 12. You can disassemble this connect and add a new wire and then run this wire to your new relay. This prevents you from having to hack on anything.
+I hate cutting factory harnesses, and so I've taken an extra step in my installation. There is an engine connector on the passenger side of the motor that contains a gray wire that runs all the way back to pin 12. You can add a new pin to this connector and run this wire to your new relay. This prevents you from having to cut any wires.
 
 ## Factory Service Manual
 
@@ -169,6 +175,20 @@ I hate cutting factory harnesses, and so I've taken an extra step in my installa
 
 The FSM has a diagnostic test that outlines the system and offers troubleshooting advice. It's a great resource. It's in section 14-43, and I've got [a screenshot of it][fsm] for reference.
 
+## Circuit Diagram
+
+[![Jeep XJ Extended Idle Switch Circuit Diagram](/img/posts/xj-extended-idle/extended-idle-circuit-diagram.png)](/img/posts/xj-extended-idle/extended-idle-circuit-diagram.png)
+
+This is the circuit diagram for using a factory fog light to control the extended idle.
+
+
+## Other Tutorials
+
+There's a fair bit of information about this online. Some of the forum posts are starting to age, and so I'll host my own photos here to try and preserve this. You can cross reference these, there's lots of good information in them.
+
+* [Cherokee Talk: Making A Ext Idle Switch](https://www.cherokeetalk.com/threads/making-a-ext-idle-switch.72226/)
+* [Jeep Forum: EXT idle project](https://www.jeepforum.com/forum/f11/ext-idle-project-4387287/)
+* [Cherokee Forum: How to Install a Factory Extended Idle Switch](https://www.cherokeeforum.com/f51/how-install-factory-extended-idle-switch-204925/)
 
 ## Extras
 
