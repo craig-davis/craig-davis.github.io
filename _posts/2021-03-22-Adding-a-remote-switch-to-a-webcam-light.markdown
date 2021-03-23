@@ -17,9 +17,9 @@ header-img: "img/headers/webcam-light-switch.jpg"
     caption="Amazon Webcam Ring Light"
 %}
 
-I've been setting up my home office with better organization. I've recently purchased [a ring light][ring-light] for my webcam. I've been quite happy with it and it removes shadows during video calls. With my new cable organization, the switch for the light has become buried behind my monitor stand. It's a hassle to reach behind my monitors to turn it on and off. This blog post shows how I added a remote switch to this webcam light.
+I've been setting up my home office with better organization. I've recently purchased [a ring light][ring-light] for my webcam. I've been quite happy with it and how it removes shadows from my video calls. With my new cable organization, the switch for the light has become buried out of reach behind my monitor stand. This blog post shows how I added a remote switch to this webcam light.
 
-The project is simple. This only requires you to solder two wires onto a circuit board and modify the switch case to make room for the second wire.
+The project is simple. This only requires you to solder two wires onto a circuit board, modify the switch case to make room for the second wire, and run this wire to a new momentary switch. We'll put the new switch into a nice housing that you can mount on the front of your desk.
 
 ## Adding an on/off switch to a webcam light
 
@@ -37,7 +37,7 @@ The project is simple. This only requires you to solder two wires onto a circuit
     caption="Original webcam light switch"
 %}
 
-In this post, I'll share some photos of how to add a switch to a common and inexpensive webcam light. I'll include a few Amazon affiliate links to the items I used to assemble this. It looks like [quite](https://amzn.to/318ODf1) [a](https://amzn.to/3d0Q4Sn) [few](https://amzn.to/31aJ53R) of the webcam lights use the same controller and switch. This approach should work for any of these webcam lights. In the photo to the left you can see the switch that controls the color and brightness of the light. The on/off switch is our target, we're going to add a second switch [in parallel](https://www.dummies.com/programming/electronics/diy-projects/electronics-projects-how-to-build-series-and-parallel-switched-circuits/#:~:text=When%20switches%20are%20wired%20in,circuit%20from%20two%20different%20locations) to it.
+In this post, I'll share some photos of how to add a switch to a common and inexpensive webcam light. I'll include a few Amazon affiliate links to the items I used to assemble this. [Quite](https://amzn.to/318ODf1) [a](https://amzn.to/3d0Q4Sn) [few](https://amzn.to/31aJ53R) of the webcam lights use the same controller and switch. This approach should work for any of these webcam lights. In the photo to the left you can see the switch that controls the color and brightness of the light. We're going to add a second switch [in parallel](https://www.dummies.com/programming/electronics/diy-projects/electronics-projects-how-to-build-series-and-parallel-switched-circuits/#:~:text=When%20switches%20are%20wired%20in,circuit%20from%20two%20different%20locations) to the on/off switch.
 
 ## Materials
 
