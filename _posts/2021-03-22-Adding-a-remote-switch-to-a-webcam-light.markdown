@@ -81,7 +81,7 @@ After you've added the new wire, you'll need to carve out some material from the
 
 ### Prepare our new switch
 
-I wanted a nice looking housing for the new switch. I found [an automative switch housing][housing] that would look great under my desk. Unfortunately it has an on/off switch and we need a momentary push-button switch. Fortunately, a helpful reviewer [mentioned that the switch could be replaced](https://www.amazon.com/gp/customer-reviews/R3P0TLSFIKDA57/ref=cm_cr_dp_d_rvw_ttl). 
+I wanted a nice looking housing for the new switch. I found [an automotive switch housing][housing] that would look great under my desk. Unfortunately it has an on/off switch and we need a momentary push-button switch. Fortunately, a helpful reviewer [mentioned that the switch could be replaced](https://www.amazon.com/gp/customer-reviews/R3P0TLSFIKDA57/ref=cm_cr_dp_d_rvw_ttl). 
 
 
 ![Switch Housing](/img/posts/webcam-ring-light/5-switch-housing.small.jpg)
@@ -98,7 +98,7 @@ I found that [a 19mm momentary switch][switch] fit perfectly into the enclosure.
     caption="Transplanted switch"
 %}
 
-I had to use a pair of angled needle nose pliers to be able to depress the tab on the bottom of the old switch. The new switch has a nicer screw design that makes it easy to install the new switch. I'd recommend putting your wires on before installing the switch as the angle of the switch makes it hard to get to the screws to tighten down on the wires. In the photo below you can see that I've added some hot glue to the new wires to add a little strain relief.
+I had to use a pair of angled needle nose pliers to depress the tab on the bottom of the old switch. The new switch has a nicer screw design that makes it easy to install the new switch. I'd recommend putting your wires on before installing the switch as the angle of the switch makes it hard to get to the screws to tighten down on the wires. In the photo below you can see that I've added some hot glue to the new wires to add a little strain relief.
 
 
 [![Switch Housing](/img/posts/webcam-ring-light/8-switch-glued.small.jpg)](/img/posts/webcam-ring-light/8-switch-glued.jpg)
