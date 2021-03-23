@@ -24,7 +24,7 @@ Combine the following into the bowl of your mixer. Use a digital scale if possib
 * 1 tsp salt
 * 1 tsp sugar
 * 1 tsp active dry yeast
-* 8 grams extra virgin oil
+* 16 grams extra virgin oil
 * A few grinds of black pepper
 * &mdash; stir &mdash;
 * 320 grams King Arthur All Purpose  Flour
