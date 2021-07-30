@@ -8,7 +8,7 @@ author:     "Craig Davis"
 header-img: "img/headers/xj-crossmember-exhaust-hangar.jpg"
 ---
 
-My Jeep developed a new rattle. The rubber isolator mount for the middle of the exhaust was failing and allowing the exhaust to hit my [transmission crossmember][crossmember]. You can see in this photo that the &frac12;" hole in the middle of this hangar has wallowed out.
+My Jeep developed a new rattle. The rubber isolator mount for the middle of the exhaust was failing and allowing the exhaust to hit my [transmission crossmember][crossmember]. You can see in this photo that the &frac12;" hole in the middle of this hangar has wallowed.
 
 ![Worn Out Jeep XJ Exhaust Hangar with oversized hole](/img/posts/xj-exhaust-hanger/worn-out-middle-hanger.jpg)
 
@@ -74,7 +74,7 @@ I assembled the part with button head screws and stover nuts. They have even mor
 
 ## Admire your work
 
-The the new rubber in place, you can attach the metal cage back to the base plate. You should have something that looks like this:
+With the new rubber in place, you can attach the metal cage back to the base plate. You should have something that looks like this:
 
 ![Finished rebuild](/img/posts/xj-exhaust-hanger/xj-crossmember-exhaust-hangar.jpg)
 
