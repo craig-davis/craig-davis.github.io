@@ -35,16 +35,16 @@ There isn't a direct fit replacement for this rubber. We're going to have to mak
 
 ## Parts
 
-As usual, there's an Amazon affiliate link in case you'd like to support these posts and need this part.
+As usual, there's an Amazon affiliate link in case you'd like to support these posts and need this part. The nuts and screws you should be able to find at a good hardware store for just a couple of dollars.
 
-* M6-1.00 Self Locking Stover Nuts
-* M6 Washers
-* M6-1.00x16mm Button Head Cap Screws
+* [M6-1.00 Self Locking Stover Nuts][stover]
+* [M6 Washers][washer]
+* [M6-1.00x16mm Button Head Cap Screws][screws]
 * [DEA A5208 Transmission Mount][mount]
 
 ## Remove the part and get it on your workbench
 
-You'll need to remover your transmission crossmember and then your transmission mount in order to access the exhaust mount. Remember to securely support your transmission when you do this.
+You'll need to remove your transmission crossmember and then your transmission mount in order to access the exhaust mount. Remember to securely support your transmission when you do this.
 
 ## Drill out the rivets and separate the parts
 
@@ -98,3 +98,6 @@ If you've got questions about any of this, please feel free to send me an {% inc
 [ccken]: https://www.cherokeeforum.com/members/ccken-23176/
 [block]: https://amzn.to/3zDPvrj
 [krylon]: https://amzn.to/3zDoSmj
+[stover]: https://amzn.to/3zyeFb8
+[washer]: https://amzn.to/2Wvq7X3
+[screws]: https://amzn.to/3BqdriN
