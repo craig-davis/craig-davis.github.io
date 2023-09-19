@@ -14,21 +14,21 @@ books:
     img: 90-days.jpg
     amazon: https://amzn.to/3LtgZIy
     caption: Proven Strategies for Getting Up to Speed Faster and Smarter, Updated and Expanded
-    review:
+    review: This is a thoughtful guide for professionals transitioning into new leadership roles. Watkins outlines a comprehensive strategy for navigating the critital initial phase of starting a new role. He emphasizes the importance of understanding the organizational culture, building key relationships, and formulating a clear action plan to achieve early wins. The book provides actionable insights and real-world examples, making it an invaluable resource for anyone seeking to make a successful transition into a leadership role. It's particularly relevant for software developers, as it underscores the significance of adapting skills and strategies to new challenges and environments.
   - title: "The Personal MBA"
     author: Josh Kaufman
     year: 2012
     img: personal-mba.jpg
     amazon: https://amzn.to/48lkWJa
     caption: Master the Art of Business
-    review:
+    review: This is a comprehensive guide that distills essential business principles and concepts for readers looking to gain a practical understanding of business. Kaufman introduces topics such as finance, marketing, strategy, and decision-making, and provides readers with a solid foundation for participation in business discussions. This book is particularly valuable for software developers, as it equips them with the business knowledge needed to excel in roles where technical skills intersect with business objectives.
   - title: "Now, Discover Your Strengths"
     author: Marcus Buckingham and Donald O. Clifton
     year: 2020
     img: discover-strengths.jpg
     amazon: https://amzn.to/3t0ky2G
     caption: The revolutionary Gallup program that shows you how to develop your unique talents and strengths
-    review:
+    review: The book emphasizes the idea that focusing on one's strengths, rather than trying to fix weaknesses, is the key to personal and professional success. It encourages readers to shift their perspective and embrace what they excel at, as this can lead to increased productivity, satisfaction, and overall well-being. 
   - title: "Search Inside Yourself"
     author:  Chade-Meng Tan, Daniel Goleman, Jon Kabat-Zinn (Author)
     year: 2014
