@@ -35,35 +35,35 @@ books:
     img: search-inside-yourself.jpg
     amazon: https://amzn.to/3PKRc1d
     caption: The Unexpected Path to Achieving Success, Happiness (and World Peace)
-    review:
+    review: Search Inside Yourself is an exploration of the intersection between mindfulness and emotional intelligence in the workplace. This book gives you a guide to develop self-awareness, empathy, and leadership skills based on meditation practices and internal review. This book has some valuable insights into fostering not only well-being, but also improving collaboration, communication, and creativity in the workplace.
   - title: "Radical Candor"
     author: Kim Scott 
     year: 2019
     img: radical-candor.jpg
     amazon: https://amzn.to/3ZlTyGY
     caption: Be a Kick-Ass Boss Without Losing Your Humanity
-    review:
+    review: This book offers a framework for providing honest, direct and caring feedback to team members. Kim Scott emphasizes the importance of building strong relationships with team members and offers advice for building open communication and professional growth. This book should give you some tools for building collaboration and problem solving.
   - title: "Getting Things Done"
     author: David Allen
     year: 2015
     img: getting-things-done.jpg
     amazon: https://amzn.to/45Uq05R
     caption: The Art of Stress-Free Productivity
-    review:
+    review: This is a productivity and time management classic that offers a comprehensive system for organizing tasks and reducing mental clutter. The methodology is based on capturing commitments, tasks, and ideas into a system that allows you to systematically process them. The organizational techniques should help you find a clear mind and enhance focus by reducing the cognitive load associated with task switching. This can be especially helpful when working in complex coding projects where you may be juggling multiple simulataneous tasks. This book should help you free up some mental bandwidth and increase your productivity.
   - title: "The Progress Principle"
     author: Teresa Amabile, Steven Kramer
     year: 2011
     img: progress-principle.jpg
     amazon: https://amzn.to/3Rt0ccu
     caption: Using Small Wins to Ignite Joy, Engagement, and Creativity at Work
-    review:
+    review: The Progress Principle examines the psychology of motivation and creativity in the workplace. Research has shown that small incremental steps are the most powerful motivator for creative individuals. The book highlights the importance of daily progress in enhancing job satisfaction and overall productivity. This is a valuable reminder that consistent progress, no matter how incremental, can be a driving force behind innovation and job satisfaction.
   - title: "The Manager's Path"
     author: Camille Fournier
     year: 2017
     img: managers-path.jpg
     amazon: https://amzn.to/45Yf4UB
     caption: A Guide for Tech Leaders Navigating Growth and Change
-    review:
+    review: This book offers a practical roadmap for aspiring and current tech managers. This book is presented as a detailed guide that outlines the various stages of a managers career from individual contributor to senior leadership roles. Camille Fournier presents the challenges and responsibilties at each stage and offers valuable advice for each stage. The book presents advice for improving communication, team building, and decision-making. For any developer looking to make a transition in their career, this can be a great guidebook.
   - title: "Leaders Eat Last"
     author: Simon Sinek
     year: 2017
