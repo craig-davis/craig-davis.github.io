@@ -70,35 +70,42 @@ books:
     img: leaders-eat-last.jpg
     amazon: https://amzn.to/3Zo41Bz
     caption: Why Some Teams Pull Together and Others Don't
-    review:
+    review: From 2017, this book explores the profound impact of leadership on organizational culture and employee well-being. The author argues that great leaders prioritize the needs of their teams, fostering a sense of trust and safety that encourages collaboration and innovation. Sinek delves into the foundations of effective leadership, emphasizing the importance of empathy, selflessness, and a commitment to the long-term success of both individuals and organizations.
   - title: "Drive"
     author: Daniel H. Pink
     year: 2011
     img: drive.jpg
     amazon: https://amzn.to/3EJ1ubB
     caption: The Surprising Truth About What Motivates Us
-    review:
+    review: This book was ahead of the curve in 2011. It explores the science of motivation and presents a compelling argument that traditional reward and punishment based approaches to motivation are antiquated. Pink contends that, for complex tasks requiring creativity and problem-solving, intrinsic motivation, fueled by autonomy, mastery, and purpose, is more effective than external rewards. This book offers insight on how individuals and organizations can harness these principles to foster motivation and improve erformance. This offers a fresh perspective for both personal and professional growth.
   - title: "Deep Work"
     author: Cal Newport
     year: 2013
     img: deep-work.jpg
     amazon: https://amzn.to/3EH5fyu
     caption: Rules for Focused Success in a Distracted World
-    review:
+    review: If you are hoping to maximize productivity and creativity, this book is a good place to start. In today's distracted world, deep work is harder than ever to accomplish. Newport argues that the ability to focus without distraction on cognitively demanding tasks is becoming increasingly rare and valuable in our digital age. He presents practical strategies to cultivate deep work, emphasizing the importance of structured routines, eliminating shallow work, and harnessing the power of deliberate practice to achieve true mastery. 
   - title: "Flow"
     author: Mihaly Csikszentmihalyi 
     year: 2008
     img: flow.jpg
     amazon: https://amzn.to/3Lu3SqO
     caption: The Psychology of Optimal Experience
-    review:
+    review:  Csikszentmihalyi delves into the state of flow, where individuals are fully engaged and immersed in an activity. Being in a flow state leads to increased happiness and productivity. Drawing from research, he outlines the conditions and principles that facilitate achieving and maintaining this state, emphasizing the importance of clear goals, immediate feedback, and the balance between skills and challenges. The book serves as a comprehensive guide for harnessing the power of flow to enhance creativity, satisfaction, and overall well-being in life.
   - title: "Accelerate This!"
     author: Ryan Kushner, Danny Kennedy
     year: 2018
     img: accelerate-this.jpg
     amazon: https://amzn.to/3PJtcv7
     caption: A Super Not Boring Guide To Startup Accelerators And Clean Energy Entrepreneurship
-    review:
+    review: The book offers a perspective on how innovations in renewable energy combined with disruptive technologies can revolutionize our energy landscape. It emphasizes the urgency of accelerating the adoption of these solutions to combat climate change and provides a compelling vision for a sustainable and prosperous future. This book is perhaps the outlier on this list, but is included here as a discussion of distruptive industries.
+  - title: "Blue Ocean Strategy"
+    author: W. Chan Kim, Renee Mauborgne
+    year: 1994
+    img: blue-ocean.jpg
+    amazon: https://amzn.to/3LudPo4
+    caption: How to Create Uncontested Market Space and Make the Competition Irrelevant
+    review: A classic book where W. Chan Kim and Renee Mauborgne introduce a groundbreaking business concept that challenges traditional competition-based thinking. It advocates for companies to create uncontested market spaces or "blue oceans" by innovating their value propositions, rather than competing in overcrowded, competitive "red oceans."  The book provides a detailed roadmap for businesses to discover new market opportunities, differentiate themselves, and ultimately achieve sustainable growth and profitability.
 ---
 
 ## Business Education for Developers
