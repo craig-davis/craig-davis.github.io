@@ -1,11 +1,12 @@
 ---
-layout:     post
+layout:     books
 title:      "Business and Growth for Software Developers"
 subtitle:   "Modern software development business practices and growth mindset"
 date:       2023-09-19
 tags:       [reading]
 author:     "Craig Davis"
 header-img: "img/headers/software-books.jpg"
+img-folder: software-engineering
 
 books:
   - title: "The First 90 Days"
@@ -115,37 +116,4 @@ Technical skills are the backbone of software development. However, in today's w
 Business vocabulary and viewpoints can help you have smoother communication with non-technical stakeholders. Moreover, a business-oriented perspective can help you make strategic decisions, align software projects with organizational goals, and even explore entrepreneurial opportunities.
 
 With this in mind, I'm sharing a collection of books that I've accumulated over the years. Each of these books was recommended to me by managers and members of leadership at my previous and current employers - there are no sponsorships here.
-
-## Table of Contents
-<ul>
-{% for book in page.books %}
-    <li><a href="#{{ book.title | slugify }}">{{ book.title }}</a></li>
-{% endfor %}
-</ul>
-<hr>
-
-<small>The links below are Amazon affiliate links. Purchasing any of these books help fund more posts like these.</small>
-
-<div class="review">
-{% if page.books %}
-{% for book in page.books %}
-    <div class="review-book" id="{{ book.title | slugify }}" >
-        {% if book.img %}
-        <figure>
-            <a href="{{ book.amazon }}" title="Amazon: {{ book.title }}"><img src="/img/posts/software-engineering/{{ book.img }}" alt="{{ book.title }}"></a>
-            <figcaption>{{ book.caption }}</figcaption>
-        </figure>
-        {% endif %}
-        <strong><a href="{{ book.amazon }}" title="Amazon: {{ book.title }}">{{ book.title }}</a></strong><br>
-        <small>{{ book.author }}, {{ book.year }}</small><br>
-        {% if book.review %}{{ book.review | markdownify }}{% endif %}
-    </div>
-    <hr style="clear: both; margin: 30px 0;">
-{% endfor %}
-{% else %}
-    <p>The book list is empty!</p>
-{% endif %}
-</div>
-
-{% include disclosure.html %}
 
