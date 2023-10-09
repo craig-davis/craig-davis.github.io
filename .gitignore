@@ -3,3 +3,6 @@ _site/
 .DS_Store
 .bundle
 vendor
+
+# Dependency directories
+node_modules/
