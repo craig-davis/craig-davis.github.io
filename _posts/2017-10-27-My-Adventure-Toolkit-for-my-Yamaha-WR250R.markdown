@@ -117,7 +117,7 @@ the large size mesh bag that came with the one that use for my
   The bulky head of the tire iron adapter makes it hard to get to a couple of
   the 8mm bolts. With this extension you should be able to get to everything,
   in particular doing an oil change if you have a skid plate on the bike.
-* __[8, 10, 14, 17 metric sockets](http://amzn.to/2hgFSsY)__<br>
+* __[8, 10, 14, 17 metric sockets](https://amzn.to/40rqbn0)__<br>
   I bought these individually, but a set is a great way to go. These 4 sizes
   cover nearly all of the maintenance items on the bike.
 * __[4 and 5 mm allen keys](http://amzn.to/2gJGUgr)__<br>
