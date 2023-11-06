@@ -25,10 +25,6 @@ I recently blew up a power steering pump in my 1997 Jeep Cherokee. I plan to ins
 | 1 | [FL-SWE715-4PAK][FL-SWE715-4PAK] | PSC Swepco 715 Power Steering Fluid |
 | 1 | [PSP01][PSP01] | Power Steering Pump Pulley Removal/Installer Tool Combo |
 
-[SP1205C]: https://www.summitracing.com/parts/pfn-sp1205c 
-[FL-SWE715-4PAK]: https://www.summitracing.com/parts/pfn-flswe7154pak
-[PSP01]: https://www.summitracing.com/parts/pfn-psp01
-
 # Installation
 > __Disclaimer:__ I am not a professional. This is for informational purposes only.
 > Please properly secure your transmission when working, and don't do anything stupid. Be safe when under your Jeep, and please wear your safety glasses.
@@ -47,7 +43,10 @@ If you've got questions about any of this, please feel free to send me an {% inc
 {% include disclosure.html %}
 
 
-[K060935]: https://www.amazon.com/Gates-K060935-Multi-V-Groove-Belt/dp/B000C2UKCO/
+[K060935]: https://amzn.to/47haOzO
 [O-K060935]: https://www.oreillyauto.com/detail/c/micro-v/belts---hoses/belts/serpentine-belt/c92a524fe09d/gates-micro-v-serpentine-belt-6-rib-94-inch/gamv/k060935?pos=2
 [PP2401]: https://www.summitracing.com/parts/pfn-pp2401
 [naxja]: https://www.naxja.org/forum/showthread.php?t=1148990
+[SP1205C]: https://www.summitracing.com/parts/pfn-sp1205c 
+[FL-SWE715-4PAK]: https://www.summitracing.com/parts/pfn-flswe7154pak
+[PSP01]: https://www.summitracing.com/parts/pfn-psp01
