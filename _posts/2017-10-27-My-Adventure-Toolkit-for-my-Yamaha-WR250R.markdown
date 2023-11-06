@@ -77,7 +77,7 @@ the large size mesh bag that came with the one that use for my
   little bag to make sure that I am never without. The shape can be nice for
   getting into tight corners. Even in the daytime it can be hard to see into
   nooks and crannies of a bike if you're parked in the shade.
-* __[Bic Lighter](http://amzn.to/2xvj8M4)__<br>
+* __[Bic Lighter](https://amzn.to/3QWMAFX)__<br>
   This is more likely a survival item, but I have dealt with frayed saddlebag
   straps with it.
 * __[Tire Pressure Gauge](http://amzn.to/2gJMQpP)__<br>
