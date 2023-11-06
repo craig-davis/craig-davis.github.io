@@ -3,7 +3,7 @@ layout:     post
 title:      "Jeep XJ PSC Power Steering Replacement"
 subtitle:   "Installing a smaller power steering pulley and correct belt length"
 date:       2023-10-31
-tags:       []
+tags:       [jeep]
 author:     "Craig Davis"
 header-img: "img/headers/xj-psc-power-steering-pulley.jpg"
 ---
@@ -14,7 +14,7 @@ I recently blew up a power steering pump in my 1997 Jeep Cherokee. I plan to ins
 
 [The 4.5" PSC Power Steering Pulleys PP2401][PP2401] is a smaller pulley. This should help with steering at near idle speeds and when rock crawling. This is a press fit pulley with the correct offset for the  6 groove serpentive belt of the Jeep XJ Cherokee. When using this smaller pulley, there isn't enough adjustment available in the belt tensioner to use your stock 95" belt. With this smaller pulley you'll need to install a shorter belt as well.
 
-[Gates Micro-V Serpentine Belt 6 Rib 94 Inch - K060935][K060935] ([O'Reilly][O-K060935]) is the correct belt to use with the smaller pulley. There is [a good discussion][naxja] of this over at NAXJA.
+[Gates Micro-V Serpentine Belt 6 Rib 94 Inch - K060935 (Amazon)][K060935] ([O'Reilly][O-K060935]) is the correct belt to use with the smaller pulley. There is [a good discussion][naxja] of this over at NAXJA.
 
 # SP1205C PSC Power Steering Pump
 
