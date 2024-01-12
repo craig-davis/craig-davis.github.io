@@ -14,7 +14,7 @@ Yield: 2 medium sized pizzas
 
 ## Preparation
 
-Preheat your over to 475&deg;, with a pizza stone if available.
+Preheat your over to 500&deg;, with a pizza stone if available.
 
 ## Ingredients
 
