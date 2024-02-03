@@ -8,6 +8,8 @@ author:     "Craig Davis"
 header-img: "img/headers/xj-crossmember-exhaust-hangar.jpg"
 ---
 
+> Want to buy one of these? These aren't available from a factory anymore, but [@triple_t_customs](https://www.instagram.com/triple_t_customs/) is now making high quality replacements. Send him a message on Instagram!
+
 My Jeep developed a new rattle. The rubber isolator mount for the middle of the exhaust was failing and allowing the exhaust to hit my [transmission crossmember][crossmember]. You can see in this photo that the &frac12;" hole in the middle of this hangar has wallowed.
 
 ![Worn Out Jeep XJ Exhaust Hangar with oversized hole](/img/posts/xj-exhaust-hanger/worn-out-middle-hanger.jpg)
