@@ -3,7 +3,7 @@ layout:     post
 title:      "Repairing a Smith Wilder Jr Helmet Visor"
 subtitle:   "Fixing a kids helmet with simple parts"
 date:       2024-06-25
-tags:       ['Bikes']
+tags:       [bike]
 author:     "Craig Davis"
 header-img: "img/headers/helmet-visor-repair.jpg"
 ---
