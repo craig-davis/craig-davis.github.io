@@ -20,7 +20,7 @@ My kiddo has a [Wilder Jr helmet from Smith][wilder]. It's a great helmet! It fi
 
 
 ## Repairing a visor with broken plastic pins
-Most helmet visors attached to the helmet by using either small screws or small plastic pins. In kids helmets, small plastic pins seem to be the most common. These small pins are prone to breaking. In the photo below, you can see that the plastic pin from the visor has broken off inside the helmet. We'll need to remove this from the helmet with some tweezers.
+Most helmet visors attach to the helmet by using small screws with a threaded insert or small plastic pins. In kids helmets, small plastic pins seem to be the most common. These small pins are prone to breaking. In the photo below, you can see that the plastic pin from the visor has broken off inside the helmet. We'll need to remove this from the helmet with some tweezers.
 
 ![Broken helmet visor](/img/posts/helmet-visor-repair/1-broken-helmet-visor.jpg)
 
