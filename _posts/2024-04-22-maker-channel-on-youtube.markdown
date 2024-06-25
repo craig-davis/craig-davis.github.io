@@ -5,7 +5,7 @@ subtitle:   "Woodworking, car building, and maker videos on Youtube"
 date:       2024-06-25
 tags:       [woodworking]
 author:     "Craig Davis"
-header-img: "img/headers/helmet-visor-repair.jpg"
+header-img: "img/headers/youtube-maker-channels.jpg"
 ---
 
 I feel like the YouTube algorithm is delivering worse recommendations than it used to. I've recommended these channels privately before - so here's a list of makers that I think are worth watching!
