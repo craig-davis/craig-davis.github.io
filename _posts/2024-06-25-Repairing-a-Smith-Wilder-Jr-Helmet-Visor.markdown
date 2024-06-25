@@ -34,7 +34,7 @@ We'll clip any remaining pin from the visor side, and then drill a hole in it's 
 
 ![Helemt visor prepared for rivets](/img/posts/helmet-visor-repair/3-drill-helmet.jpg)
 
-I glued the plastic pin into the visor. I've been using [Starbond Super Glue] on projects lately, and it's really great for quick projects like this. The spray activator makes the glue cure instantly. It really speeds up projects like this.
+I glued the plastic pin into the visor. I've been using [Starbond Super Glue][starbond] on projects lately, and it's really great for quick projects like this. The spray [accelerator][accelerator] makes the glue cure instantly. It really speeds up projects like this.
 
 ![Rivet glued into place](/img/posts/helmet-visor-repair/4-installed-rivet.jpg)
 
@@ -51,5 +51,6 @@ The repaired helmet looks pretty good!
 [wilder]: https://www.smithoptics.com/en_US/p/helmet/wilder-jr.-mips%C2%AE-youth-helmet/E007519PC4852.html
 [rivets]: https://amzn.to/3VCRc58
 [starbond]: https://amzn.to/4chGrvW
+[accelerator]: https://starbond.com/products/aerosol-accelerator
 [countersink]: https://amzn.to/4eGqPnB
 [oreilly]: https://www.oreillyauto.com/search?q=plastic+retainer
