@@ -35,9 +35,8 @@ It’s worth noting that in both systems we have some expectation that the indiv
 
 Here’s where it gets interesting: both methods create their own kind of decision pressure.
 
-In the **American system**, pressure comes from expectation. The group feels momentum toward skiing, and stopping _feels like defeat_. It’s easy to let confirmation bias nudge us toward riskier choices.
-
-In the **German system**, pressure comes from the burden of proof. Someone has to make the case for yes. That can prevent accidents but also stall a good day when conditions are fine, just not perfectly proven.
+* In the **American system**, pressure comes from expectation. The group feels momentum toward skiing, and stopping _feels like defeat_. It’s easy to let confirmation bias nudge us toward riskier choices.
+* In the **German system**, pressure comes from the burden of proof. Someone has to make the case for yes. That can prevent accidents but also stall a good day when conditions are fine, just not perfectly proven.
 
 Each model generates stress differently: one risks overcommitment, the other excessive restraint. And both teach us that it’s not just the snowpack we’re navigating, but actually our own psychology.
 
@@ -49,8 +48,8 @@ By naming that baseline, you become aware of the lens through which you’ll see
 
 # Comparing the Two Mindsets
 So we have:
-* American: Yes by default → _"Today we ski, unless…"_
-* German: No by default → _"We will not ski, unless…"_
+* **American**: Yes by default → _"Today we ski, unless…"_
+* **German**: No by default → _"We will not ski, unless…"_
 
 Both aim for the same outcome of safe backcountry travel, but they flip the mental model. One begins with optimism, the other with skepticism. One fuels possibility, the other enforces discipline. And in the end, both are simply different ways to keep humans alive in avalanche country.
 
