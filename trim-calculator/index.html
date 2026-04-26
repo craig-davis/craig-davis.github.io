@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Running Length Calculator</title>
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --button: #f3f4f6;
+      --button-strong: #e5e7eb;
+      --accent: #cfc6b0;
+      --accent-dark: #8a6f3d;
+      --danger: #fee2e2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+    }
+
+    body {
+      min-height: 100%;
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+    }
+
+    .app {
+      max-width: 720px;
+      min-height: 100dvh;
+      margin: 0 auto;
+      padding: 24px 16px var(--calculator-clearance, 360px);
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      font-family: "Libre Baskerville", Georgia, serif;
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .tape {
+      margin-top: 20px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .tape-row {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 12px;
+      align-items: baseline;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #fafaf9;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tape-row .operator {
+      font-weight: 800;
+      color: var(--accent-dark);
+    }
+
+    .tape-row .value {
+      font-size: 1.15rem;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    .tape-row .decimal {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .tape-total {
+      border-color: #b7aa8e;
+      background: #f4efe3;
+    }
+
+    .tape-total .operator,
+    .tape-total .value {
+      color: var(--text);
+      font-weight: 900;
+    }
+
+    .tape-total .value {
+      font-size: 1.35rem;
+    }
+
+    .empty-tape {
+      margin-top: 20px;
+      padding: 24px;
+      border: 1px dashed var(--border);
+      border-radius: 14px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .scroll-spacer {
+      height: var(--calculator-clearance, 360px);
+      pointer-events: none;
+    }
+
+    .calculator {
+      position: fixed;
+      left: 50%;
+      bottom: 0;
+      width: min(720px, 100%);
+      transform: translateX(-50%);
+      padding: 12px 12px max(12px, env(safe-area-inset-bottom));
+      border-top: 1px solid var(--border);
+      background: rgba(246, 244, 239, 0.96);
+      backdrop-filter: blur(12px);
+      max-height: min(78dvh, 560px);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+
+    .display {
+      margin-bottom: 12px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--panel);
+      text-align: right;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+    }
+
+    .display .entry {
+      min-height: 48px;
+      font-size: clamp(2.4rem, 12vw, 4.5rem);
+      font-weight: 800;
+      letter-spacing: -0.05em;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .display .summary {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .keypad {
+      display: grid;
+      grid-template-columns: 1.4fr 1.15fr 0.8fr;
+      gap: 8px;
+    }
+
+    .fraction-pad {
+      display: grid;
+      grid-template-rows: auto auto;
+      gap: 8px;
+    }
+
+    .main-pad,
+    .fraction-pad,
+    .numerator-pad,
+    .denominator-pad,
+    .operator-pad {
+      display: grid;
+      gap: 8px;
+    }
+
+    .main-pad {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .numerator-pad,
+    .denominator-pad {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .operator-pad {
+      grid-template-columns: 1fr;
+    }
+
+    button {
+      min-height: 54px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--button);
+      color: var(--text);
+      font: inherit;
+      font-size: 1.3rem;
+      font-weight: 700;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+    }
+
+    .button-small {
+      min-height: 44px;
+      font-size: 1rem;
+    }
+
+    .button-wide {
+      grid-column: span 2;
+    }
+
+    .button-strong {
+      background: var(--button-strong);
+    }
+
+    .button-accent {
+      background: var(--accent);
+      border-color: #b7aa8e;
+    }
+
+    .button-danger {
+      background: var(--danger);
+    }
+
+    .pad-label {
+      grid-column: 1 / -1;
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    @media (max-height: 620px) {
+      .display {
+        margin-bottom: 8px;
+        padding: 10px 12px;
+      }
+
+      .display .entry {
+        min-height: 36px;
+        font-size: clamp(2rem, 10vw, 3.2rem);
+      }
+
+      .display .summary {
+        font-size: 0.85rem;
+      }
+
+      button {
+        min-height: 42px;
+      }
+
+      .button-small {
+        min-height: 34px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .app {
+        padding: 18px 12px var(--calculator-clearance, 340px);
+      }
+
+      .card {
+        padding: 18px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      .keypad {
+        grid-template-columns: 1.25fr 1fr 0.7fr;
+        gap: 6px;
+      }
+
+      .main-pad,
+      .numerator-pad,
+      .denominator-pad,
+      .operator-pad {
+        gap: 6px;
+      }
+
+      button {
+        min-height: 48px;
+        border-radius: 12px;
+        font-size: 1.1rem;
+      }
+
+      .button-small {
+        min-height: 38px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <h1>Running Length Calculator</h1>
+      <p>Add and subtract inch measurements with carpentry fractions. Enter whole inches on the left, numerator on the upper-right pad, and denominator on the lower-right pad.</p>
+
+      <div id="tape" class="tape"></div>
+      <div id="emptyTape" class="empty-tape">Your paper tape will appear here.</div>
+      <div class="scroll-spacer" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <section class="calculator" aria-label="Running length keypad">
+    <div class="display">
+      <div id="entryDisplay" class="entry">0&quot;</div>
+      <div id="summaryDisplay" class="summary">Total: 0&quot;</div>
+    </div>
+
+    <div class="keypad">
+      <div class="main-pad" aria-label="Whole inch keypad">
+        <button type="button" class="button-danger" data-action="clear">ac</button>
+        <button type="button" class="button-strong" data-action="backspace">⌫</button>
+        <button type="button" class="button-strong" data-action="clear-entry">ce</button>
+        <button type="button" data-whole="7">7</button>
+        <button type="button" data-whole="8">8</button>
+        <button type="button" data-whole="9">9</button>
+        <button type="button" data-whole="4">4</button>
+        <button type="button" data-whole="5">5</button>
+        <button type="button" data-whole="6">6</button>
+        <button type="button" data-whole="1">1</button>
+        <button type="button" data-whole="2">2</button>
+        <button type="button" data-whole="3">3</button>
+        <button type="button" class="button-wide" data-whole="0">0</button>
+        <button type="button" data-action="decimal">.</button>
+      </div>
+
+      <div class="fraction-pad" aria-label="Fraction keypad">
+        <div class="numerator-pad" aria-label="Numerator keypad">
+          <div class="pad-label">Numerator</div>
+          <button type="button" class="button-small" data-numerator="7">7</button>
+          <button type="button" class="button-small" data-numerator="8">8</button>
+          <button type="button" class="button-small" data-numerator="9">9</button>
+          <button type="button" class="button-small" data-numerator="4">4</button>
+          <button type="button" class="button-small" data-numerator="5">5</button>
+          <button type="button" class="button-small" data-numerator="6">6</button>
+          <button type="button" class="button-small" data-numerator="1">1</button>
+          <button type="button" class="button-small" data-numerator="2">2</button>
+          <button type="button" class="button-small" data-numerator="3">3</button>
+        </div>
+
+        <div class="denominator-pad" aria-label="Denominator keypad">
+          <div class="pad-label">Denominator</div>
+          <button type="button" class="button-small" data-denominator="2">2</button>
+          <button type="button" class="button-small" data-denominator="4">4</button>
+          <button type="button" class="button-small" data-denominator="8">8</button>
+          <button type="button" class="button-small" data-denominator="16">16</button>
+          <button type="button" class="button-small" data-denominator="32">32</button>
+        </div>
+      </div>
+
+      <div class="operator-pad" aria-label="Operation keypad">
+        <button type="button" data-action="add">+</button>
+        <button type="button" data-action="subtract">−</button>
+        <button type="button" data-action="multiply">×</button>
+        <button type="button" data-action="divide">÷</button>
+        <button type="button" class="button-accent" data-action="equals">=</button>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const state = {
+      whole: "",
+      numerator: "",
+      denominator: "",
+      pendingOperator: "+",
+      scalarOperator: "*",
+      inputMode: "length",
+      tape: []
+    };
+
+    function resetState() {
+      state.whole = "";
+      state.numerator = "";
+      state.denominator = "";
+      state.pendingOperator = "+";
+      state.scalarOperator = "*";
+      state.inputMode = "length";
+      state.tape = [];
+    }
+
+    function gcd(a, b) {
+      let left = Math.abs(a);
+      let right = Math.abs(b);
+
+      while (right !== 0) {
+        const next = right;
+        right = left % right;
+        left = next;
+      }
+
+      return left || 1;
+    }
+
+    function toInchFractionString(value, denominator = 32) {
+      if (!Number.isFinite(value)) {
+        return "—";
+      }
+
+      const safeDenominator = Math.max(1, Math.round(denominator));
+      const sign = value < 0 ? "-" : "";
+      const absoluteValue = Math.abs(value);
+      const whole = Math.floor(absoluteValue);
+      const fractional = absoluteValue - whole;
+      let numerator = Math.round(fractional * safeDenominator);
+      let adjustedWhole = whole;
+
+      if (numerator === safeDenominator) {
+        adjustedWhole += 1;
+        numerator = 0;
+      }
+
+      if (numerator === 0) {
+        return `${sign}${adjustedWhole}\"`;
+      }
+
+      const divisor = gcd(numerator, safeDenominator);
+      const reducedNumerator = numerator / divisor;
+      const reducedDenominator = safeDenominator / divisor;
+
+      if (adjustedWhole === 0) {
+        return `${sign}${reducedNumerator}/${reducedDenominator}\"`;
+      }
+
+      return `${sign}${adjustedWhole} ${reducedNumerator}/${reducedDenominator}\"`;
+    }
+
+    function getEntryValue() {
+      const whole = Number(state.whole || 0);
+      const numerator = Number(state.numerator || 0);
+      const denominator = Number(state.denominator || 0);
+
+      if (!Number.isFinite(whole) || !Number.isFinite(numerator) || !Number.isFinite(denominator)) {
+        return NaN;
+      }
+
+      if (state.numerator !== "" && state.denominator === "") {
+        return NaN;
+      }
+
+      if (denominator === 0 && state.denominator !== "") {
+        return NaN;
+      }
+
+      return whole + (denominator ? numerator / denominator : 0);
+    }
+
+    function getTotal() {
+      const total = state.tape.reduce((sum, item) => {
+        if (!Number.isFinite(item.value)) {
+          return NaN;
+        }
+
+        if (item.result) {
+          return item.value;
+        }
+
+        if (item.scalar) {
+          return sum;
+        }
+
+        return sum + (item.operator === "-" ? -item.value : item.value);
+      }, 0);
+
+      return Number.isFinite(total) ? total : NaN;
+    }
+
+    function formatEntry() {
+      const whole = state.whole || "0";
+
+      if (state.inputMode === "scalar") {
+        return whole;
+      }
+
+      if (state.numerator === "" && state.denominator === "") {
+        return `${whole}\"`;
+      }
+
+      if (state.denominator === "") {
+        return `${whole} ${state.numerator}/?\"`;
+      }
+
+      return toInchFractionString(getEntryValue(), Number(state.denominator));
+    }
+
+    function clearEntry() {
+      state.whole = "";
+      state.numerator = "";
+      state.denominator = "";
+    }
+
+    function pushLengthEntry(value, label, operator) {
+      if (!Number.isFinite(value) || value === 0) {
+        return false;
+      }
+
+      state.tape.push({
+        operator,
+        value,
+        label
+      });
+
+      return true;
+    }
+
+    function enterScalarMode(operator) {
+      const currentEntry = getEntryValue();
+
+      if (Number.isFinite(currentEntry) && currentEntry !== 0) {
+        pushLengthEntry(currentEntry, formatEntry(), state.pendingOperator);
+      }
+
+      clearEntry();
+      state.scalarOperator = operator;
+      state.inputMode = "scalar";
+      render();
+      scrollTapeIntoView();
+    }
+
+    function applyScalarOperation() {
+      const scalar = Number(state.whole || 0);
+      const currentTotal = getTotal();
+
+      if (!Number.isFinite(scalar) || scalar === 0 || !Number.isFinite(currentTotal)) {
+        render();
+        return;
+      }
+
+      const nextTotal = state.scalarOperator === "*"
+        ? currentTotal * scalar
+        : currentTotal / scalar;
+
+      if (!Number.isFinite(nextTotal)) {
+        render();
+        return;
+      }
+
+      state.tape.push({
+        operator: state.scalarOperator,
+        value: scalar,
+        label: String(scalar),
+        scalar: true
+      });
+
+      state.tape.push({
+        operator: "=",
+        value: nextTotal,
+        label: toInchFractionString(nextTotal),
+        result: true
+      });
+
+      clearEntry();
+      state.inputMode = "length";
+      state.pendingOperator = "+";
+      state.scalarOperator = "*";
+      render();
+      scrollTapeIntoView();
+    }
+
+    function commitEntry(operator) {
+      const value = getEntryValue();
+
+      if (!Number.isFinite(value) || value === 0) {
+        state.pendingOperator = operator;
+        render();
+        return;
+      }
+
+      pushLengthEntry(value, formatEntry(), state.pendingOperator);
+      state.pendingOperator = operator;
+      clearEntry();
+      render();
+      scrollTapeIntoView();
+    }
+
+    function renderTape() {
+      const tapeElement = document.getElementById("tape");
+      const emptyTapeElement = document.getElementById("emptyTape");
+
+      emptyTapeElement.style.display = state.tape.length ? "none" : "block";
+      tapeElement.innerHTML = "";
+
+      const visibleRows = state.tape.filter((item) => !item.result);
+
+      visibleRows.forEach((item) => {
+        const row = document.createElement("div");
+        row.className = "tape-row";
+        row.innerHTML = `
+          <div class="operator">${item.operator === "*" ? "×" : item.operator === "/" ? "÷" : item.operator}</div>
+          <div class="value">${item.label}</div>
+          <div class="decimal">${Number.isFinite(item.value) ? item.value.toFixed(4) : "—"}</div>
+        `;
+        tapeElement.appendChild(row);
+      });
+
+      if (state.tape.length) {
+        const total = getTotal();
+        const totalRow = document.createElement("div");
+        totalRow.className = "tape-row tape-total";
+        totalRow.innerHTML = `
+          <div class="operator">=</div>
+          <div class="value">${toInchFractionString(total)}</div>
+          <div class="decimal">${Number.isFinite(total) ? total.toFixed(4) : "—"}</div>
+        `;
+        tapeElement.appendChild(totalRow);
+      }
+    }
+
+    function getCalculatorClearance() {
+      const calculator = document.querySelector(".calculator");
+
+      if (!calculator) {
+        return 360;
+      }
+
+      const safeAreaInset = 64;
+      return Math.ceil(calculator.getBoundingClientRect().height + safeAreaInset);
+    }
+
+    function syncCalculatorClearance() {
+      document.documentElement.style.setProperty("--calculator-clearance", `${getCalculatorClearance()}px`);
+    }
+
+    function scrollTapeIntoView() {
+      const targetRow = document.querySelector(".tape-total") || document.querySelector(".tape-row:last-child");
+      const calculator = document.querySelector(".calculator");
+
+      if (!targetRow || !calculator) {
+        return;
+      }
+
+      requestAnimationFrame(() => {
+        syncCalculatorClearance();
+
+        const calculatorClearance = getCalculatorClearance();
+        const targetBottom = targetRow.getBoundingClientRect().bottom + window.scrollY;
+        const visibleViewportBottom = window.scrollY + window.innerHeight - calculatorClearance;
+        const neededScrollDelta = targetBottom - visibleViewportBottom;
+
+        if (neededScrollDelta > 0) {
+          window.scrollTo({
+            top: window.scrollY + neededScrollDelta,
+            behavior: "smooth"
+          });
+        }
+      });
+    }
+
+    function updateFractionPadState() {
+      const disabled = state.inputMode === "scalar";
+
+      document.querySelectorAll(".fraction-pad button").forEach((button) => {
+        button.disabled = disabled;
+        button.style.opacity = disabled ? "0.45" : "1";
+      });
+    }
+
+    function render() {
+      const total = getTotal();
+      const entryValue = getEntryValue();
+
+      document.getElementById("entryDisplay").textContent = formatEntry();
+      document.getElementById("summaryDisplay").textContent = state.inputMode === "scalar"
+        ? `Total: ${toInchFractionString(total)} ${state.scalarOperator === "*" ? "×" : "÷"} ${state.whole || "…"}`
+        : `Total: ${toInchFractionString(total)}${Number.isFinite(entryValue) && entryValue !== 0 ? ` · Next ${state.pendingOperator} ${formatEntry()}` : ""}`;
+      renderTape();
+      updateFractionPadState();
+      syncCalculatorClearance();
+    }
+
+    function appendWholeDigit(digit) {
+      if (digit === "." && state.whole.includes(".")) {
+        return;
+      }
+
+      if (state.whole === "0" && digit !== ".") {
+        state.whole = digit;
+        return;
+      }
+
+      state.whole += digit;
+    }
+
+    function appendNumeratorDigit(digit) {
+      if (state.numerator === "0") {
+        state.numerator = digit;
+        return;
+      }
+
+      state.numerator += digit;
+    }
+
+    function handleAction(action) {
+      switch (action) {
+        case "clear":
+          resetState();
+          render();
+          return;
+
+        case "clear-entry":
+          clearEntry();
+          render();
+          return;
+
+        case "clear-fraction":
+          state.numerator = "";
+          state.denominator = "";
+          render();
+          return;
+
+        case "backspace":
+          if (state.denominator !== "") {
+            state.denominator = "";
+          } else if (state.numerator !== "") {
+            state.numerator = state.numerator.slice(0, -1);
+          } else {
+            state.whole = state.whole.slice(0, -1);
+          }
+          render();
+          return;
+
+        case "decimal":
+          appendWholeDigit(".");
+          render();
+          return;
+
+        case "add":
+          state.inputMode = "length";
+          commitEntry("+");
+          return;
+
+        case "subtract":
+          state.inputMode = "length";
+          commitEntry("-");
+          return;
+
+        case "multiply":
+          enterScalarMode("*");
+          return;
+
+        case "divide":
+          enterScalarMode("/");
+          return;
+
+        case "equals":
+          if (state.inputMode === "scalar") {
+            applyScalarOperation();
+            return;
+          }
+
+          commitEntry("+");
+          state.pendingOperator = "+";
+          render();
+          return;
+
+        default:
+          throw new Error(`Unknown action: ${action}`);
+      }
+    }
+
+    function assertAlmostEqual(actual, expected, label) {
+      const epsilon = 0.000001;
+
+      if (Math.abs(actual - expected) > epsilon) {
+        throw new Error(`${label}: expected ${expected}, received ${actual}`);
+      }
+    }
+
+    function runSelfTests() {
+      const originalState = JSON.stringify(state);
+
+      if (toInchFractionString(60.125, 32) !== "60 1/8\"") {
+        throw new Error("fraction formatting failed for 60 1/8");
+      }
+
+      if (toInchFractionString(24.875, 32) !== "24 7/8\"") {
+        throw new Error("fraction formatting failed for 24 7/8");
+      }
+
+      if (toInchFractionString(9 / 8, 32) !== "1 1/8\"") {
+        throw new Error("improper fraction formatting failed for 9/8");
+      }
+
+      resetState();
+      state.whole = "56";
+      state.numerator = "1";
+      state.denominator = "8";
+      assertAlmostEqual(getEntryValue(), 56.125, "entry value failed for 56 1/8");
+
+      resetState();
+      state.tape = [
+        { operator: "+", value: 56.125, label: "56 1/8\"" },
+        { operator: "+", value: 4, label: "4\"" },
+        { operator: "-", value: 1.5, label: "1 1/2\"" }
+      ];
+      assertAlmostEqual(getTotal(), 58.625, "paper tape total failed");
+
+      renderTape();
+      const totalRow = document.querySelector(".tape-total");
+      if (totalRow === null || !totalRow.textContent.includes("58 5/8\"")) {
+        throw new Error("paper tape total row failed");
+      }
+
+      resetState();
+      state.whole = "2";
+      enterScalarMode("*");
+      if (state.inputMode !== "scalar" || state.whole !== "" || state.scalarOperator !== "*") {
+        throw new Error("multiply should commit current entry and clear scalar input");
+      }
+      assertAlmostEqual(getTotal(), 2, "multiply mode should preserve committed current entry");
+
+      state.whole = "3";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 6, "scalar multiply failed");
+
+      resetState();
+      state.tape = [{ operator: "+", value: 60, label: "60\"" }];
+      enterScalarMode("/");
+      state.whole = "4";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 15, "scalar divide failed");
+
+      resetState();
+      state.tape = [{ operator: "+", value: 60, label: "60\"" }];
+      state.whole = "2";
+      enterScalarMode("/");
+      state.whole = "4";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 15.5, "divide should include committed current entry before scalar mode");
+
+      resetState();
+      state.tape = [{ operator: "+", value: 10, label: "10\"" }];
+      enterScalarMode("*");
+      state.whole = "2.5";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 25, "decimal scalar multiply failed");
+
+      resetState();
+      state.tape = [{ operator: "+", value: 10, label: "10\"" }];
+      enterScalarMode("/");
+      state.whole = "0";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 10, "divide by zero should not corrupt total");
+      if (state.inputMode !== "scalar") {
+        throw new Error("divide by zero should keep scalar mode active");
+      }
+
+      resetState();
+      state.whole = "12";
+      state.numerator = "3";
+      state.denominator = "16";
+      handleAction("backspace");
+      if (state.denominator !== "" || state.numerator !== "3" || state.whole !== "12") {
+        throw new Error("backspace should clear denominator first");
+      }
+      handleAction("backspace");
+      if (state.numerator !== "" || state.whole !== "12") {
+        throw new Error("backspace should remove numerator after denominator");
+      }
+      handleAction("backspace");
+      if (state.whole !== "1") {
+        throw new Error("backspace should remove whole inch digits last");
+      }
+
+      resetState();
+      state.tape = [{ operator: "+", value: NaN, label: "bad" }];
+      if (Number.isFinite(getTotal())) {
+        throw new Error("getTotal should reject invalid tape values");
+      }
+
+      const numeratorZeroButton = document.querySelector('[data-numerator="0"]');
+      if (numeratorZeroButton !== null) {
+        throw new Error("numerator keypad should not include zero");
+      }
+
+      const numeratorDeleteButton = document.querySelector('.numerator-pad [data-action="clear-fraction"]');
+      if (numeratorDeleteButton !== null) {
+        throw new Error("numerator keypad should not include its own delete button");
+      }
+
+      const calculator = document.querySelector(".calculator");
+      if (calculator === null) {
+        throw new Error("calculator element should exist");
+      }
+
+      if (typeof scrollTapeIntoView !== "function") {
+        throw new Error("scrollTapeIntoView should exist");
+      }
+
+      const scrollSpacer = document.querySelector(".scroll-spacer");
+      if (scrollSpacer === null) {
+        throw new Error("scroll spacer should exist below the tape");
+      }
+
+      const clearance = getCalculatorClearance();
+      const calculatorHeight = calculator.getBoundingClientRect().height;
+      if (clearance <= calculatorHeight) {
+        throw new Error("calculator clearance should exceed calculator height");
+      }
+
+      Object.assign(state, JSON.parse(originalState));
+    }
+
+    document.querySelectorAll("button").forEach((button) => {
+      button.addEventListener("click", () => {
+        if (button.dataset.whole) {
+          appendWholeDigit(button.dataset.whole);
+          render();
+          return;
+        }
+
+        if (button.dataset.numerator) {
+          appendNumeratorDigit(button.dataset.numerator);
+          render();
+          return;
+        }
+
+        if (button.dataset.denominator) {
+          state.denominator = button.dataset.denominator;
+          render();
+          return;
+        }
+
+        handleAction(button.dataset.action);
+      });
+    });
+
+    try {
+      runSelfTests();
+    } catch (error) {
+      window.alert(`Running Length Calculator self-test failed:\n\n${error.message}`);
+      throw error;
+    }
+
+    window.addEventListener("resize", syncCalculatorClearance);
+    window.addEventListener("orientationchange", syncCalculatorClearance);
+
+    syncCalculatorClearance();
+    render();
+
+    requestAnimationFrame(() => {
+      syncCalculatorClearance();
+    });
+  </script>
+</body>
+</html>
