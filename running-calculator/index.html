@@ -146,7 +146,7 @@
     }
 
     .scroll-spacer {
-      height: 16px;
+      height: 8px;
       pointer-events: none;
     }
 
@@ -710,26 +710,22 @@
       document.documentElement.style.setProperty("--calculator-clearance", `${getCalculatorClearance()}px`);
     }
 
+    function getTapeScrollTarget(scroller) {
+      return scroller.scrollHeight;
+    }
+
     function scrollTapeIntoView() {
       const scroller = document.querySelector(".app");
-      const targetRow = document.querySelector(".tape-total") || document.querySelector(".tape-row:last-child");
 
-      if (!scroller || !targetRow) {
+      if (!scroller) {
         return;
       }
 
       requestAnimationFrame(() => {
-        const scrollerRect = scroller.getBoundingClientRect();
-        const targetRect = targetRow.getBoundingClientRect();
-        const extraOffset = 12;
-        const scrollDelta = targetRect.bottom - scrollerRect.bottom + extraOffset;
-
-        if (scrollDelta > 0) {
-          scroller.scrollTo({
-            top: scroller.scrollTop + scrollDelta,
-            behavior: "smooth"
-          });
-        }
+        scroller.scrollTo({
+          top: getTapeScrollTarget(scroller),
+          behavior: "smooth"
+        });
       });
     }
 
@@ -1087,8 +1083,17 @@
         throw new Error("scrollTapeIntoView should exist");
       }
 
-      if (document.querySelector(".app")?.scrollTo === undefined) {
+      const scrollRegion = document.querySelector(".app");
+      if (scrollRegion?.scrollTo === undefined) {
         throw new Error("paper tape region should be independently scrollable");
+      }
+
+      if (typeof getTapeScrollTarget !== "function") {
+        throw new Error("getTapeScrollTarget should exist");
+      }
+
+      if (getTapeScrollTarget(scrollRegion) !== scrollRegion.scrollHeight) {
+        throw new Error("scroll target should be bottom of paper tape region");
       }
 
       const scrollSpacer = document.querySelector(".scroll-spacer");
