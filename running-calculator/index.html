@@ -27,22 +27,34 @@
 
     html {
       min-height: 100%;
+      touch-action: manipulation;
     }
 
     body {
-      min-height: 100%;
+      min-height: 100dvh;
       margin: 0;
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.45;
+      overflow: hidden;
+    }
+
+    .shell {
+      width: min(720px, 100%);
+      height: 100dvh;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
     }
 
     .app {
-      max-width: 720px;
-      min-height: 100dvh;
-      margin: 0 auto;
-      padding: 24px 16px var(--calculator-clearance, 360px);
+      flex: 1 1 auto;
+      min-height: 0;
+      padding: 24px 16px;
+      overflow-y: auto;
+      overscroll-behavior: contain;
     }
 
     .card {
@@ -98,6 +110,17 @@
       font-size: 0.85rem;
     }
 
+    .tape-scalar {
+      border-color: #b7aa8e;
+      background: #f8f3e8;
+      box-shadow: 0 0 0 2px rgba(183, 170, 142, 0.12);
+    }
+
+    .tape-scalar .operator {
+      color: var(--accent-dark);
+      font-weight: 900;
+    }
+
     .tape-total {
       border-color: #b7aa8e;
       background: #f4efe3;
@@ -123,21 +146,17 @@
     }
 
     .scroll-spacer {
-      height: var(--calculator-clearance, 360px);
+      height: 16px;
       pointer-events: none;
     }
 
     .calculator {
-      position: fixed;
-      left: 50%;
-      bottom: 0;
-      width: min(720px, 100%);
-      transform: translateX(-50%);
+      flex: 0 0 auto;
       padding: 12px 12px max(12px, env(safe-area-inset-bottom));
       border-top: 1px solid var(--border);
       background: rgba(246, 244, 239, 0.96);
       backdrop-filter: blur(12px);
-      max-height: min(78dvh, 560px);
+      max-height: 62dvh;
       overflow-y: auto;
       overscroll-behavior: contain;
     }
@@ -225,6 +244,9 @@
       font-weight: 700;
       cursor: pointer;
       -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
     }
 
     button:active {
@@ -246,6 +268,13 @@
 
     .button-strong {
       background: var(--button-strong);
+    }
+
+    .button-strong.scalar-exit {
+      border-color: #b7aa8e;
+      background: #f8f3e8;
+      box-shadow: 0 0 0 2px rgba(183, 170, 142, 0.14);
+      color: var(--accent-dark);
     }
 
     .button-accent {
@@ -292,7 +321,7 @@
 
     @media (max-width: 520px) {
       .app {
-        padding: 18px 12px var(--calculator-clearance, 340px);
+        padding: 18px 12px;
       }
 
       .card {
@@ -329,6 +358,7 @@
   </style>
 </head>
 <body>
+  <div class="shell">
   <main class="app">
     <section class="card">
       <h1>Running Length Calculator</h1>
@@ -397,6 +427,7 @@
       </div>
     </div>
   </section>
+</div>
 
   <script>
     const state = {
@@ -624,7 +655,7 @@
 
       visibleRows.forEach((item) => {
         const row = document.createElement("div");
-        row.className = "tape-row";
+        row.className = item.scalar ? "tape-row tape-scalar" : "tape-row";
         row.innerHTML = `
           <div class="operator">${item.operator === "*" ? "×" : item.operator === "/" ? "÷" : item.operator}</div>
           <div class="value">${item.label}</div>
@@ -648,13 +679,7 @@
 
     function getCalculatorClearance() {
       const calculator = document.querySelector(".calculator");
-
-      if (!calculator) {
-        return 360;
-      }
-
-      const safeAreaInset = 64;
-      return Math.ceil(calculator.getBoundingClientRect().height + safeAreaInset);
+      return calculator ? Math.ceil(calculator.getBoundingClientRect().height) : 0;
     }
 
     function syncCalculatorClearance() {
@@ -662,24 +687,22 @@
     }
 
     function scrollTapeIntoView() {
+      const scroller = document.querySelector(".app");
       const targetRow = document.querySelector(".tape-total") || document.querySelector(".tape-row:last-child");
-      const calculator = document.querySelector(".calculator");
 
-      if (!targetRow || !calculator) {
+      if (!scroller || !targetRow) {
         return;
       }
 
       requestAnimationFrame(() => {
-        syncCalculatorClearance();
+        const scrollerRect = scroller.getBoundingClientRect();
+        const targetRect = targetRow.getBoundingClientRect();
+        const extraOffset = 12;
+        const scrollDelta = targetRect.bottom - scrollerRect.bottom + extraOffset;
 
-        const calculatorClearance = getCalculatorClearance();
-        const targetBottom = targetRow.getBoundingClientRect().bottom + window.scrollY;
-        const visibleViewportBottom = window.scrollY + window.innerHeight - calculatorClearance;
-        const neededScrollDelta = targetBottom - visibleViewportBottom;
-
-        if (neededScrollDelta > 0) {
-          window.scrollTo({
-            top: window.scrollY + neededScrollDelta,
+        if (scrollDelta > 0) {
+          scroller.scrollTo({
+            top: scroller.scrollTop + scrollDelta,
             behavior: "smooth"
           });
         }
@@ -697,19 +720,42 @@
 
     function updateDisplayMode() {
       const display = document.querySelector(".display");
+      const clearEntryButton = document.querySelector('[data-action="clear-entry"]');
+      const isScalarMode = state.inputMode === "scalar";
 
-      if (!display) {
-        return;
+      if (display) {
+        display.classList.toggle("scalar-mode", isScalarMode);
       }
 
-      display.classList.toggle("scalar-mode", state.inputMode === "scalar");
+      if (clearEntryButton) {
+        clearEntryButton.classList.toggle("scalar-exit", isScalarMode);
+      }
+    }
+
+    function getDisplayOperator() {
+      if (state.inputMode === "scalar") {
+        return state.scalarOperator === "*" ? "×" : "÷";
+      }
+
+      return state.pendingOperator;
+    }
+
+    function formatDisplayEntry() {
+      const operator = getDisplayOperator();
+      const entry = formatEntry();
+
+      if (state.inputMode === "length" && state.pendingOperator === "+" && state.tape.length === 0) {
+        return entry;
+      }
+
+      return `${operator} ${entry}`;
     }
 
     function render() {
       const total = getTotal();
       const entryValue = getEntryValue();
 
-      document.getElementById("entryDisplay").textContent = formatEntry();
+      document.getElementById("entryDisplay").textContent = formatDisplayEntry();
       document.getElementById("summaryDisplay").textContent = state.inputMode === "scalar"
         ? `Total: ${toInchFractionString(total)} ${state.scalarOperator === "*" ? "×" : "÷"} ${state.whole || "…"}`
         : `Total: ${toInchFractionString(total)}${Number.isFinite(entryValue) && entryValue !== 0 ? ` · Next ${state.pendingOperator} ${formatEntry()}` : ""}`;
@@ -750,6 +796,15 @@
 
         case "clear-entry":
           clearEntry();
+
+          if (state.inputMode === "scalar") {
+            state.inputMode = "length";
+            state.scalarOperator = "*";
+            render();
+            scrollTapeIntoView();
+            return;
+          }
+
           render();
           return;
 
@@ -853,6 +908,17 @@
       }
 
       resetState();
+      state.tape = [
+        { operator: "+", value: 5, label: "5\"" },
+        { operator: "*", value: 2, label: "2", scalar: true }
+      ];
+      renderTape();
+      const scalarRow = document.querySelector(".tape-scalar");
+      if (scalarRow === null || !scalarRow.textContent.includes("×")) {
+        throw new Error("scalar tape row should use scalar styling and symbol");
+      }
+
+      resetState();
       state.whole = "2";
       enterScalarMode("*");
       if (state.inputMode !== "scalar" || state.whole !== "" || state.scalarOperator !== "*") {
@@ -934,6 +1000,11 @@
         throw new Error("calculator element should exist");
       }
 
+      const firstButton = document.querySelector("button");
+      if (firstButton === null || getComputedStyle(firstButton).touchAction !== "manipulation") {
+        throw new Error("buttons should use touch-action manipulation to prevent double-tap zoom");
+      }
+
       updateDisplayMode();
       const display = document.querySelector(".display");
       if (display === null || !display.classList) {
@@ -941,19 +1012,48 @@
       }
 
       state.inputMode = "scalar";
+      state.scalarOperator = "/";
       updateDisplayMode();
+      if (formatDisplayEntry() !== "÷ 0") {
+        throw new Error("display entry should include scalar operator");
+      }
       if (!display.classList.contains("scalar-mode")) {
         throw new Error("display should visually indicate scalar mode");
       }
 
+      const clearEntryButton = document.querySelector('[data-action="clear-entry"]');
+      if (clearEntryButton === null || !clearEntryButton.classList.contains("scalar-exit")) {
+        throw new Error("clear entry should visually indicate scalar escape mode");
+      }
+
       state.inputMode = "length";
+      state.pendingOperator = "-";
+      state.whole = "4";
+      if (formatDisplayEntry() !== "- 4\"") {
+        throw new Error("display entry should include pending length operator");
+      }
       updateDisplayMode();
       if (display.classList.contains("scalar-mode")) {
         throw new Error("display should exit scalar mode styling");
       }
 
+      if (clearEntryButton !== null && clearEntryButton.classList.contains("scalar-exit")) {
+        throw new Error("clear entry should exit scalar escape styling");
+      }
+
+      state.inputMode = "scalar";
+      state.whole = "4";
+      handleAction("clear-entry");
+      if (state.inputMode !== "length" || state.whole !== "") {
+        throw new Error("clear entry should exit scalar mode and clear scalar input");
+      }
+
       if (typeof scrollTapeIntoView !== "function") {
         throw new Error("scrollTapeIntoView should exist");
+      }
+
+      if (document.querySelector(".app")?.scrollTo === undefined) {
+        throw new Error("paper tape region should be independently scrollable");
       }
 
       const scrollSpacer = document.querySelector(".scroll-spacer");
@@ -961,11 +1061,19 @@
         throw new Error("scroll spacer should exist below the tape");
       }
 
+      const shell = document.querySelector(".shell");
+      const app = document.querySelector(".app");
+      if (shell === null || app === null) {
+        throw new Error("calculator layout regions should exist");
+      }
+
+      if (getComputedStyle(shell).display !== "flex") {
+        throw new Error("calculator should use isolated flex layout");
+      }
+
       const clearance = getCalculatorClearance();
       const calculatorHeight = calculator.getBoundingClientRect().height;
-      if (clearance <= calculatorHeight) {
-        throw new Error("calculator clearance should exceed calculator height");
-      }
+      assertAlmostEqual(clearance, Math.ceil(calculatorHeight), "calculator clearance should match calculator height");
 
       Object.assign(state, JSON.parse(originalState));
     }
