@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Craftsman Flat Trim Calculator</title>
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --top-bottom-board: #cfc6b0;
+      --side-board: #d9ddd0;
+      --window: #f9fafb;
+      --line: #374151;
+      --dimension: #6b7280;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+    }
+
+    .wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      font-family: "Libre Baskerville", Georgia, serif;
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 1rem;
+      background: #fff;
+    }
+
+    input:focus {
+      outline: 2px solid #c7d2fe;
+      border-color: #818cf8;
+    }
+
+    .result {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      background: #fafaf9;
+    }
+
+    .result h2 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+    }
+
+    .value {
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .sub {
+      margin-top: 4px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .notes {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .diagram-wrap {
+      margin-top: 12px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #fff;
+      padding: 12px;
+      overflow: auto;
+    }
+
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 720px) {
+      .grid,
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Craftsman Flat Trim Calculator</h1>
+      <p>Calculate cut lengths for painted flat-stock exterior window trim (craftsman-style casing) using half-lap joinery at the head casing and bottom rail. Enter dimensions as whole numbers, decimals, or fractions like <code>1 15/16</code>, <code>3/8</code>, or <code>28.125</code>. Outputs are shown in decimal and nearest fraction.</p>
+
+      <div class="grid">
+        <div>
+          <label for="windowWidth">Window width (in)</label>
+          <input id="windowWidth" type="text" inputmode="decimal" value="28" placeholder="28 or 28 1/8" />
+        </div>
+        <div>
+          <label for="windowHeight">Window height (in)</label>
+          <input id="windowHeight" type="text" inputmode="decimal" value="62" placeholder="62 or 62 1/4" />
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <label for="gap">Gap / reveal (in)</label>
+          <input id="gap" type="text" inputmode="decimal" value="1/16" placeholder="1/16" />
+        </div>
+        <div>
+          <label for="trimWidth">Trim face width (in)</label>
+          <input id="trimWidth" type="text" inputmode="decimal" value="1 15/16" placeholder="1 15/16" />
+        </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <label for="lap">Half-lap allowance (in)</label>
+          <input id="lap" type="text" inputmode="decimal" value="3/8" placeholder="3/8" />
+        </div>
+        <div>
+          <label for="fractionBase">Fraction display denominator</label>
+          <input id="fractionBase" type="number" step="1" min="2" value="16" />
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <div class="result">
+          <h2>Top board</h2>
+          <div class="value" id="topBoard">—</div>
+          <div class="sub" id="topBoardDecimal">—</div>
+        </div>
+        <div class="result">
+          <h2>Bottom board</h2>
+          <div class="value" id="bottomBoard">—</div>
+          <div class="sub" id="bottomBoardDecimal">—</div>
+        </div>
+        <div class="result">
+          <h2>Side board</h2>
+          <div class="value" id="sideBoard">—</div>
+          <div class="sub" id="sideBoardDecimal">—</div>
+        </div>
+      </div>
+
+      <div class="notes">
+        <div><strong>Formulas used</strong></div>
+        <div><code>top = width + 2 × gap + 2 × trimWidth</code></div>
+        <div><code>bottom = width + 2 × gap + 2 × lap</code></div>
+        <div><code>side = height + 2 × gap + trimWidth + lap</code></div>
+      </div>
+
+      <div class="notes">
+        <div><strong>Calculation breakdown</strong></div>
+        <div id="calculationBreakdown" style="margin-top: 12px; line-height: 1.7;">—</div>
+      </div>
+
+      <div class="notes">
+        <div><strong>Live diagram</strong></div>
+        <div class="diagram-wrap">
+          <svg id="diagram" viewBox="0 0 900 700" width="100%" height="auto" aria-label="Window trim diagram"></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SVG_NS = "http://www.w3.org/2000/svg";
+
+    function gcd(a, b) {
+      let left = Math.abs(a);
+      let right = Math.abs(b);
+
+      while (right !== 0) {
+        const next = right;
+        right = left % right;
+        left = next;
+      }
+
+      return left || 1;
+    }
+
+    function parseMeasurement(value) {
+      const cleanedValue = String(value)
+        .trim()
+        .replace(/[″"]/g, "")
+        .replace(/[’']/g, "")
+        .replace(/\s+/g, " ");
+
+      if (cleanedValue === "") {
+        return NaN;
+      }
+
+      if (cleanedValue.includes("/")) {
+        const parts = cleanedValue.split(" ");
+        const fraction = parts.pop();
+        const whole = parts.length > 0 ? Number(parts.join(" ")) : 0;
+        const fractionParts = fraction.split("/");
+
+        if (fractionParts.length !== 2) {
+          return NaN;
+        }
+
+        const numerator = Number(fractionParts[0]);
+        const denominator = Number(fractionParts[1]);
+
+        if (!Number.isFinite(whole) || !Number.isFinite(numerator) || !Number.isFinite(denominator) || denominator === 0) {
+          return NaN;
+        }
+
+        return whole + (numerator / denominator);
+      }
+
+      return Number(cleanedValue);
+    }
+
+    function toFractionString(value, denominator) {
+      if (!Number.isFinite(value)) {
+        return "—";
+      }
+
+      const safeDenominator = Math.max(1, Math.round(denominator || 16));
+      const sign = value < 0 ? "-" : "";
+      const absoluteValue = Math.abs(value);
+      const whole = Math.floor(absoluteValue);
+      const fractional = absoluteValue - whole;
+      let numerator = Math.round(fractional * safeDenominator);
+      let adjustedWhole = whole;
+
+      if (numerator === safeDenominator) {
+        adjustedWhole += 1;
+        numerator = 0;
+      }
+
+      if (numerator === 0) {
+        return `${sign}${adjustedWhole}\"`;
+      }
+
+      const divisor = gcd(numerator, safeDenominator);
+      const reducedNumerator = numerator / divisor;
+      const reducedDenominator = safeDenominator / divisor;
+
+      if (adjustedWhole === 0) {
+        return `${sign}${reducedNumerator}/${reducedDenominator}\"`;
+      }
+
+      return `${sign}${adjustedWhole} ${reducedNumerator}/${reducedDenominator}\"`;
+    }
+
+    function readMeasurementInput(id) {
+      return parseMeasurement(document.getElementById(id).value);
+    }
+
+    function readFractionDenominator() {
+      const rawValue = Number(document.getElementById("fractionBase").value);
+      return Math.max(2, Math.round(rawValue || 16));
+    }
+
+    function calculateBoardLengths({ windowWidth, windowHeight, gap, trimWidth, lap }) {
+      return {
+        top: windowWidth + (2 * gap) + (2 * trimWidth),
+        bottom: windowWidth + (2 * gap) + (2 * lap),
+        side: windowHeight + (2 * gap) + trimWidth + lap,
+        overallHeight: windowHeight + (2 * gap) + (2 * trimWidth)
+      };
+    }
+
+    function createSvgElement(tagName, attributes = {}) {
+      const element = document.createElementNS(SVG_NS, tagName);
+
+      Object.entries(attributes).forEach(([key, value]) => {
+        element.setAttribute(key, String(value));
+      });
+
+      return element;
+    }
+
+    function appendText(svg, x, y, text, options = {}) {
+      const textElement = createSvgElement("text", {
+        x,
+        y,
+        "font-family": options.fontFamily || "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+        "font-size": options.fontSize || 16,
+        "font-weight": options.fontWeight || 500,
+        fill: options.fill || "#1f2937",
+        "text-anchor": options.anchor || "middle",
+        "dominant-baseline": options.baseline || "middle"
+      });
+
+      textElement.textContent = text;
+      svg.appendChild(textElement);
+      return textElement;
+    }
+
+    function drawDimension(svg, x1, y1, x2, y2, label, orientation) {
+      const group = createSvgElement("g");
+      const stroke = "#6b7280";
+
+      group.appendChild(createSvgElement("line", {
+        x1,
+        y1,
+        x2,
+        y2,
+        stroke,
+        "stroke-width": 1.5
+      }));
+
+      if (orientation === "horizontal") {
+        group.appendChild(createSvgElement("line", {
+          x1,
+          y1: y1 - 8,
+          x2: x1,
+          y2: y1 + 8,
+          stroke,
+          "stroke-width": 1.5
+        }));
+
+        group.appendChild(createSvgElement("line", {
+          x1: x2,
+          y1: y2 - 8,
+          x2,
+          y2: y2 + 8,
+          stroke,
+          "stroke-width": 1.5
+        }));
+
+        group.appendChild(createSvgElement("polygon", {
+          points: `${x1},${y1} ${x1 + 8},${y1 - 4} ${x1 + 8},${y1 + 4}`,
+          fill: stroke
+        }));
+
+        group.appendChild(createSvgElement("polygon", {
+          points: `${x2},${y2} ${x2 - 8},${y2 - 4} ${x2 - 8},${y2 + 4}`,
+          fill: stroke
+        }));
+
+        svg.appendChild(group);
+        appendText(svg, (x1 + x2) / 2, y1 - 18, label, {
+          fontSize: 15,
+          fill: stroke
+        });
+        return;
+      }
+
+      group.appendChild(createSvgElement("line", {
+        x1: x1 - 8,
+        y1,
+        x2: x1 + 8,
+        y2: y1,
+        stroke,
+        "stroke-width": 1.5
+      }));
+
+      group.appendChild(createSvgElement("line", {
+        x1: x2 - 8,
+        y1: y2,
+        x2: x2 + 8,
+        y2: y2,
+        stroke,
+        "stroke-width": 1.5
+      }));
+
+      group.appendChild(createSvgElement("polygon", {
+        points: `${x1},${y1} ${x1 - 4},${y1 + 8} ${x1 + 4},${y1 + 8}`,
+        fill: stroke
+      }));
+
+      group.appendChild(createSvgElement("polygon", {
+        points: `${x2},${y2} ${x2 - 4},${y2 - 8} ${x2 + 4},${y2 - 8}`,
+        fill: stroke
+      }));
+
+      svg.appendChild(group);
+
+      const textElement = createSvgElement("text", {
+        x: x1 - 18,
+        y: (y1 + y2) / 2,
+        "font-size": 15,
+        fill: stroke,
+        "text-anchor": "middle"
+      });
+
+      textElement.setAttribute("transform", `rotate(-90 ${x1 - 18} ${(y1 + y2) / 2})`);
+      textElement.textContent = label;
+      svg.appendChild(textElement);
+    }
+
+    function setResult(valueId, decimalId, rawValue, denominator) {
+      document.getElementById(valueId).textContent = toFractionString(rawValue, denominator);
+      document.getElementById(decimalId).textContent = Number.isFinite(rawValue) ? `${rawValue.toFixed(4)} in` : "—";
+    }
+
+    function renderCalculationBreakdown(values) {
+      const breakdown = document.getElementById("calculationBreakdown");
+
+      breakdown.innerHTML = `
+        <div><strong>Top:</strong> ${toFractionString(values.windowWidth, values.denominator)} + (2 × ${toFractionString(values.gap, values.denominator)}) + (2 × ${toFractionString(values.trimWidth, values.denominator)}) = <strong>${toFractionString(values.top, values.denominator)}</strong></div>
+        <div><strong>Bottom:</strong> ${toFractionString(values.windowWidth, values.denominator)} + (2 × ${toFractionString(values.gap, values.denominator)}) + (2 × ${toFractionString(values.lap, values.denominator)}) = <strong>${toFractionString(values.bottom, values.denominator)}</strong></div>
+        <div><strong>Side:</strong> ${toFractionString(values.windowHeight, values.denominator)} + (2 × ${toFractionString(values.gap, values.denominator)}) + ${toFractionString(values.trimWidth, values.denominator)} + ${toFractionString(values.lap, values.denominator)} = <strong>${toFractionString(values.side, values.denominator)}</strong></div>
+      `;
+    }
+
+    function renderErrorDiagram(message) {
+      const svg = document.getElementById("diagram");
+      svg.innerHTML = "";
+      svg.appendChild(createSvgElement("rect", {
+        x: 0,
+        y: 0,
+        width: 900,
+        height: 700,
+        fill: "#ffffff"
+      }));
+      appendText(svg, 450, 350, message, {
+        fontSize: 18,
+        fill: "#6b7280"
+      });
+    }
+
+    function renderDiagram(values) {
+      const svg = document.getElementById("diagram");
+      svg.innerHTML = "";
+
+      const canvasWidth = 900;
+      const canvasHeight = 700;
+      const margin = 120;
+
+      const openingWidth = values.windowWidth + (2 * values.gap);
+      const openingHeight = values.windowHeight + (2 * values.gap);
+      const assemblyWidth = values.top;
+      const assemblyHeight = values.overallHeight;
+      const boardFaceWidth = values.trimWidth;
+      const bottomBoardLength = values.bottom;
+      const sideBoardTopOffset = values.trimWidth - values.lap;
+
+      if (![openingWidth, openingHeight, assemblyWidth, assemblyHeight, boardFaceWidth, bottomBoardLength, sideBoardTopOffset].every(Number.isFinite)) {
+        renderErrorDiagram("Enter valid measurements to draw the diagram.");
+        return;
+      }
+
+      if (assemblyWidth <= 0 || assemblyHeight <= 0 || boardFaceWidth <= 0 || bottomBoardLength <= 0) {
+        renderErrorDiagram("Measurements must be greater than zero.");
+        return;
+      }
+
+      const scale = Math.min(
+        (canvasWidth - (margin * 2)) / assemblyWidth,
+        (canvasHeight - (margin * 2)) / assemblyHeight
+      );
+
+      const drawingWidth = assemblyWidth * scale;
+      const drawingHeight = assemblyHeight * scale;
+      const originX = (canvasWidth - drawingWidth) / 2;
+      const originY = (canvasHeight - drawingHeight) / 2;
+      const boardDepth = boardFaceWidth * scale;
+
+      const leftSideX = originX;
+      const rightSideX = originX + drawingWidth - boardDepth;
+      const topBoardY = originY;
+      const sideBoardY = originY + (sideBoardTopOffset * scale);
+      const sideBoardDrawHeight = values.side * scale;
+      const bottomBoardY = originY + drawingHeight - boardDepth;
+      const openingX = originX + boardDepth;
+      const openingY = originY + boardDepth;
+      const openingDrawWidth = openingWidth * scale;
+      const openingDrawHeight = openingHeight * scale;
+      const bottomBoardDrawX = originX + ((assemblyWidth - bottomBoardLength) / 2) * scale;
+      const bottomBoardDrawWidth = bottomBoardLength * scale;
+
+      svg.appendChild(createSvgElement("rect", {
+        x: 0,
+        y: 0,
+        width: canvasWidth,
+        height: canvasHeight,
+        fill: "#ffffff"
+      }));
+
+      svg.appendChild(createSvgElement("rect", {
+        x: originX,
+        y: topBoardY,
+        width: drawingWidth,
+        height: boardDepth,
+        fill: "#cfc6b0",
+        stroke: "#374151",
+        "stroke-width": 2
+      }));
+
+      svg.appendChild(createSvgElement("rect", {
+        x: leftSideX,
+        y: sideBoardY,
+        width: boardDepth,
+        height: sideBoardDrawHeight,
+        fill: "#d9ddd0",
+        stroke: "#374151",
+        "stroke-width": 2
+      }));
+
+      svg.appendChild(createSvgElement("rect", {
+        x: rightSideX,
+        y: sideBoardY,
+        width: boardDepth,
+        height: sideBoardDrawHeight,
+        fill: "#d9ddd0",
+        stroke: "#374151",
+        "stroke-width": 2
+      }));
+
+      svg.appendChild(createSvgElement("rect", {
+        x: bottomBoardDrawX,
+        y: bottomBoardY,
+        width: bottomBoardDrawWidth,
+        height: boardDepth,
+        fill: "#cfc6b0",
+        stroke: "#374151",
+        "stroke-width": 2
+      }));
+
+      svg.appendChild(createSvgElement("rect", {
+        x: openingX,
+        y: openingY,
+        width: openingDrawWidth,
+        height: openingDrawHeight,
+        fill: "#f9fafb",
+        stroke: "#6b7280",
+        "stroke-width": 1.5,
+        "stroke-dasharray": "6 4"
+      }));
+
+      appendText(svg, originX + (drawingWidth / 2), topBoardY + (boardDepth / 2), `Top board: ${toFractionString(values.top, values.denominator)}`, {
+        fontSize: 18,
+        fontWeight: 700
+      });
+
+      appendText(svg, bottomBoardDrawX + (bottomBoardDrawWidth / 2), bottomBoardY + (boardDepth / 2), `Bottom board: ${toFractionString(values.bottom, values.denominator)}`, {
+        fontSize: 18,
+        fontWeight: 700
+      });
+
+      const sideLabelY = sideBoardY + (sideBoardDrawHeight / 2);
+
+      const leftSideLabel = appendText(svg, leftSideX + (boardDepth / 2), sideLabelY, `Side cut: ${toFractionString(values.side, values.denominator)}`, {
+        fontSize: 16,
+        fontWeight: 700,
+        fill: "#111827"
+      });
+      leftSideLabel.setAttribute("transform", `rotate(-90 ${leftSideX + (boardDepth / 2)} ${sideLabelY})`);
+
+      const rightSideLabel = appendText(svg, rightSideX + (boardDepth / 2), sideLabelY, `Side cut: ${toFractionString(values.side, values.denominator)}`, {
+        fontSize: 16,
+        fontWeight: 700,
+        fill: "#111827"
+      });
+      rightSideLabel.setAttribute("transform", `rotate(90 ${rightSideX + (boardDepth / 2)} ${sideLabelY})`);
+
+      appendText(svg, openingX + (openingDrawWidth / 2), openingY + (openingDrawHeight / 2) - 14, `Window: ${toFractionString(values.windowWidth, values.denominator)} × ${toFractionString(values.windowHeight, values.denominator)}`, {
+        fontSize: 18,
+        fontWeight: 700
+      });
+
+      appendText(svg, openingX + (openingDrawWidth / 2), openingY + (openingDrawHeight / 2) + 14, `Gap: ${toFractionString(values.gap, values.denominator)} on all sides`, {
+        fontSize: 15,
+        fill: "#6b7280"
+      });
+
+      drawDimension(svg, originX, originY - 40, originX + drawingWidth, originY - 40, `Overall width: ${toFractionString(values.top, values.denominator)}`, "horizontal");
+      drawDimension(svg, originX + drawingWidth + 40, originY, originX + drawingWidth + 40, originY + drawingHeight, `Overall height: ${toFractionString(values.overallHeight, values.denominator)}`, "vertical");
+      drawDimension(svg, openingX, bottomBoardY - 24, openingX + openingDrawWidth, bottomBoardY - 24, `Opening width: ${toFractionString(openingWidth, values.denominator)}`, "horizontal");
+      drawDimension(svg, openingX - 24, openingY, openingX - 24, openingY + openingDrawHeight, `Opening height: ${toFractionString(openingHeight, values.denominator)}`, "vertical");
+    }
+
+    function renderInvalidState() {
+      setResult("topBoard", "topBoardDecimal", NaN, 16);
+      setResult("bottomBoard", "bottomBoardDecimal", NaN, 16);
+      setResult("sideBoard", "sideBoardDecimal", NaN, 16);
+      document.getElementById("calculationBreakdown").textContent = "Enter valid measurements to calculate board lengths.";
+      renderErrorDiagram("Enter valid measurements to draw the diagram.");
+    }
+
+    function calculate() {
+      const denominator = readFractionDenominator();
+      const inputs = {
+        windowWidth: readMeasurementInput("windowWidth"),
+        windowHeight: readMeasurementInput("windowHeight"),
+        gap: readMeasurementInput("gap"),
+        trimWidth: readMeasurementInput("trimWidth"),
+        lap: readMeasurementInput("lap")
+      };
+
+      if (!Object.values(inputs).every(Number.isFinite)) {
+        renderInvalidState();
+        return;
+      }
+
+      const values = {
+        ...inputs,
+        ...calculateBoardLengths(inputs),
+        denominator
+      };
+
+      setResult("topBoard", "topBoardDecimal", values.top, denominator);
+      setResult("bottomBoard", "bottomBoardDecimal", values.bottom, denominator);
+      setResult("sideBoard", "sideBoardDecimal", values.side, denominator);
+      renderCalculationBreakdown(values);
+      renderDiagram(values);
+    }
+
+    function assertAlmostEqual(actual, expected, label) {
+      const epsilon = 0.000001;
+
+      if (Math.abs(actual - expected) > epsilon) {
+        throw new Error(`${label}: expected ${expected}, received ${actual}`);
+      }
+    }
+
+    function runSelfTests() {
+      assertAlmostEqual(parseMeasurement("1/16"), 0.0625, "parse simple fraction");
+      assertAlmostEqual(parseMeasurement("1 15/16"), 1.9375, "parse mixed fraction");
+      assertAlmostEqual(parseMeasurement("28.125"), 28.125, "parse decimal");
+      assertAlmostEqual(parseMeasurement("28\""), 28, "parse inch quote");
+
+      const defaultLengths = calculateBoardLengths({
+        windowWidth: 28,
+        windowHeight: 62,
+        gap: 1 / 16,
+        trimWidth: 1 + (15 / 16),
+        lap: 3 / 8
+      });
+
+      assertAlmostEqual(defaultLengths.top, 32, "default top board");
+      assertAlmostEqual(defaultLengths.bottom, 28.875, "default bottom board");
+      assertAlmostEqual(defaultLengths.side, 64.4375, "default side board");
+      assertAlmostEqual(defaultLengths.overallHeight, 66, "default overall height");
+      assertAlmostEqual((1 + (15 / 16)) - (3 / 8), 1.5625, "default side board top offset");
+
+      if (toFractionString(28.875, 16) !== "28 7/8\"") {
+        throw new Error("fraction reduction failed for 28 7/8");
+      }
+
+      if (toFractionString(64.4375, 16) !== "64 7/16\"") {
+        throw new Error("fraction reduction failed for 64 7/16");
+      }
+
+      if (typeof renderCalculationBreakdown !== "function") {
+        throw new Error("renderCalculationBreakdown is not defined");
+      }
+    }
+
+    [
+      "windowWidth",
+      "windowHeight",
+      "gap",
+      "trimWidth",
+      "lap",
+      "fractionBase"
+    ].forEach((id) => {
+      document.getElementById(id).addEventListener("input", calculate);
+    });
+
+    try {
+      runSelfTests();
+    } catch (error) {
+      window.alert(`Window Trim Calculator self-test failed:\n\n${error.message}`);
+      throw error;
+    }
+
+    calculate();
+  </script>
+</body>
+</html>
