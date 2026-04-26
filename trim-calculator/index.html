@@ -144,6 +144,7 @@
 
     .display {
       margin-bottom: 12px;
+      transition: border-color 160ms ease, box-shadow 160ms ease, background 160ms ease;
       padding: 14px 16px;
       border: 1px solid var(--border);
       border-radius: 16px;
@@ -159,6 +160,17 @@
       letter-spacing: -0.05em;
       line-height: 1;
       font-variant-numeric: tabular-nums;
+    }
+
+    .display.scalar-mode {
+      border-color: #b7aa8e;
+      background: #f8f3e8;
+      box-shadow: 0 0 0 2px rgba(183, 170, 142, 0.18), 0 6px 18px rgba(0, 0, 0, 0.04);
+    }
+
+    .display.scalar-mode .summary {
+      color: var(--accent-dark);
+      font-weight: 700;
     }
 
     .display .summary {
@@ -683,6 +695,16 @@
       });
     }
 
+    function updateDisplayMode() {
+      const display = document.querySelector(".display");
+
+      if (!display) {
+        return;
+      }
+
+      display.classList.toggle("scalar-mode", state.inputMode === "scalar");
+    }
+
     function render() {
       const total = getTotal();
       const entryValue = getEntryValue();
@@ -693,6 +715,7 @@
         : `Total: ${toInchFractionString(total)}${Number.isFinite(entryValue) && entryValue !== 0 ? ` · Next ${state.pendingOperator} ${formatEntry()}` : ""}`;
       renderTape();
       updateFractionPadState();
+      updateDisplayMode();
       syncCalculatorClearance();
     }
 
@@ -909,6 +932,24 @@
       const calculator = document.querySelector(".calculator");
       if (calculator === null) {
         throw new Error("calculator element should exist");
+      }
+
+      updateDisplayMode();
+      const display = document.querySelector(".display");
+      if (display === null || !display.classList) {
+        throw new Error("display element should exist");
+      }
+
+      state.inputMode = "scalar";
+      updateDisplayMode();
+      if (!display.classList.contains("scalar-mode")) {
+        throw new Error("display should visually indicate scalar mode");
+      }
+
+      state.inputMode = "length";
+      updateDisplayMode();
+      if (display.classList.contains("scalar-mode")) {
+        throw new Error("display should exit scalar mode styling");
       }
 
       if (typeof scrollTapeIntoView !== "function") {

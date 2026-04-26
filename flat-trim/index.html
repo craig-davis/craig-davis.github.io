@@ -6,7 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
-  <title>Craftsman Flat Trim Calculator</title>
+  <title>Running Length Calculator</title>
   <style>
     :root {
       --bg: #f6f4ef;
@@ -14,36 +14,54 @@
       --text: #1f2937;
       --muted: #6b7280;
       --border: #d1d5db;
-      --top-bottom-board: #cfc6b0;
-      --side-board: #d9ddd0;
-      --window: #f9fafb;
-      --line: #374151;
-      --dimension: #6b7280;
+      --button: #f3f4f6;
+      --button-strong: #e5e7eb;
+      --accent: #cfc6b0;
+      --accent-dark: #8a6f3d;
+      --danger: #fee2e2;
     }
 
     * {
       box-sizing: border-box;
     }
 
+    html {
+      min-height: 100%;
+      touch-action: manipulation;
+    }
+
     body {
+      min-height: 100dvh;
       margin: 0;
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.45;
+      overflow: hidden;
     }
 
-    .wrap {
-      max-width: 960px;
+    .shell {
+      width: min(720px, 100%);
+      height: 100dvh;
       margin: 0 auto;
-      padding: 32px 20px 48px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .app {
+      flex: 1 1 auto;
+      min-height: 0;
+      padding: 24px 16px;
+      overflow-y: auto;
+      overscroll-behavior: contain;
     }
 
     .card {
       background: var(--panel);
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 24px;
+      padding: 20px;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
     }
 
@@ -58,176 +76,379 @@
       color: var(--muted);
     }
 
-    .grid {
+    .tape {
+      margin-top: 20px;
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 16px;
-      margin-top: 24px;
+      gap: 10px;
     }
 
-    .grid-3 {
+    .tape-row {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-      margin-top: 24px;
-    }
-
-    label {
-      display: block;
-      font-size: 0.9rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-
-    input {
-      width: 100%;
-      padding: 12px 14px;
+      grid-template-columns: auto 1fr auto;
+      gap: 12px;
+      align-items: baseline;
+      padding: 10px 12px;
       border: 1px solid var(--border);
       border-radius: 12px;
-      font-size: 1rem;
-      background: #fff;
-    }
-
-    input:focus {
-      outline: 2px solid #c7d2fe;
-      border-color: #818cf8;
-    }
-
-    .result {
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 16px;
       background: #fafaf9;
+      font-variant-numeric: tabular-nums;
     }
 
-    .result h2 {
-      margin: 0 0 6px;
-      font-size: 1rem;
+    .tape-row .operator {
+      font-weight: 800;
+      color: var(--accent-dark);
     }
 
-    .value {
-      font-size: 1.6rem;
+    .tape-row .value {
+      font-size: 1.15rem;
       font-weight: 700;
-      letter-spacing: -0.02em;
+      text-align: right;
     }
 
-    .sub {
-      margin-top: 4px;
-      font-size: 0.9rem;
+    .tape-row .decimal {
       color: var(--muted);
+      font-size: 0.85rem;
     }
 
-    .notes {
-      margin-top: 24px;
-      padding-top: 20px;
+    .tape-scalar {
+      border-color: #b7aa8e;
+      background: #f8f3e8;
+      box-shadow: 0 0 0 2px rgba(183, 170, 142, 0.12);
+    }
+
+    .tape-scalar .operator {
+      color: var(--accent-dark);
+      font-weight: 900;
+    }
+
+    .tape-total {
+      border-color: #b7aa8e;
+      background: #f4efe3;
+    }
+
+    .tape-total .operator,
+    .tape-total .value {
+      color: var(--text);
+      font-weight: 900;
+    }
+
+    .tape-total .value {
+      font-size: 1.35rem;
+    }
+
+    .empty-tape {
+      margin-top: 20px;
+      padding: 24px;
+      border: 1px dashed var(--border);
+      border-radius: 14px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .scroll-spacer {
+      height: 16px;
+      pointer-events: none;
+    }
+
+    .calculator {
+      flex: 0 0 auto;
+      padding: 12px 12px max(12px, env(safe-area-inset-bottom));
       border-top: 1px solid var(--border);
+      background: rgba(246, 244, 239, 0.96);
+      backdrop-filter: blur(12px);
+      max-height: 62dvh;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+
+    .display {
+      margin-bottom: 12px;
+      transition: border-color 160ms ease, box-shadow 160ms ease, background 160ms ease;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--panel);
+      text-align: right;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+    }
+
+    .display .entry {
+      min-height: 48px;
+      font-size: clamp(2.4rem, 12vw, 4.5rem);
+      font-weight: 800;
+      letter-spacing: -0.05em;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .display.scalar-mode {
+      border-color: #b7aa8e;
+      background: #f8f3e8;
+      box-shadow: 0 0 0 2px rgba(183, 170, 142, 0.18), 0 6px 18px rgba(0, 0, 0, 0.04);
+    }
+
+    .display.scalar-mode .summary {
+      color: var(--accent-dark);
+      font-weight: 700;
+    }
+
+    .display .summary {
+      margin-top: 6px;
       color: var(--muted);
       font-size: 0.95rem;
+      font-variant-numeric: tabular-nums;
     }
 
-    .diagram-wrap {
-      margin-top: 12px;
+    .keypad {
+      display: grid;
+      grid-template-columns: 1.4fr 1.15fr 0.8fr;
+      gap: 8px;
+    }
+
+    .fraction-pad {
+      display: grid;
+      grid-template-rows: auto auto;
+      gap: 8px;
+    }
+
+    .main-pad,
+    .fraction-pad,
+    .numerator-pad,
+    .denominator-pad,
+    .operator-pad {
+      display: grid;
+      gap: 8px;
+    }
+
+    .main-pad {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .numerator-pad,
+    .denominator-pad {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .operator-pad {
+      grid-template-columns: 1fr;
+    }
+
+    button {
+      min-height: 54px;
       border: 1px solid var(--border);
       border-radius: 14px;
-      background: #fff;
-      padding: 12px;
-      overflow: auto;
+      background: var(--button);
+      color: var(--text);
+      font: inherit;
+      font-size: 1.3rem;
+      font-weight: 700;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
     }
 
-    code {
-      background: #f3f4f6;
-      padding: 2px 6px;
-      border-radius: 6px;
+    button:active {
+      transform: translateY(1px);
     }
 
-    @media (max-width: 720px) {
-      .grid,
-      .grid-3 {
-        grid-template-columns: 1fr;
+    button:disabled {
+      cursor: not-allowed;
+    }
+
+    .button-small {
+      min-height: 44px;
+      font-size: 1rem;
+    }
+
+    .button-wide {
+      grid-column: span 2;
+    }
+
+    .button-strong {
+      background: var(--button-strong);
+    }
+
+    .button-strong.scalar-exit {
+      border-color: #b7aa8e;
+      background: #f8f3e8;
+      box-shadow: 0 0 0 2px rgba(183, 170, 142, 0.14);
+      color: var(--accent-dark);
+    }
+
+    .button-accent {
+      background: var(--accent);
+      border-color: #b7aa8e;
+    }
+
+    .button-danger {
+      background: var(--danger);
+    }
+
+    .pad-label {
+      grid-column: 1 / -1;
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    @media (max-height: 620px) {
+      .display {
+        margin-bottom: 8px;
+        padding: 10px 12px;
+      }
+
+      .display .entry {
+        min-height: 36px;
+        font-size: clamp(2rem, 10vw, 3.2rem);
+      }
+
+      .display .summary {
+        font-size: 0.85rem;
+      }
+
+      button {
+        min-height: 42px;
+      }
+
+      .button-small {
+        min-height: 34px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .app {
+        padding: 18px 12px;
+      }
+
+      .card {
+        padding: 18px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      .keypad {
+        grid-template-columns: 1.25fr 1fr 0.7fr;
+        gap: 6px;
+      }
+
+      .main-pad,
+      .numerator-pad,
+      .denominator-pad,
+      .operator-pad {
+        gap: 6px;
+      }
+
+      button {
+        min-height: 48px;
+        border-radius: 12px;
+        font-size: 1.1rem;
+      }
+
+      .button-small {
+        min-height: 38px;
+        font-size: 0.9rem;
       }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="card">
-      <h1>Craftsman Flat Trim Calculator</h1>
-      <p>Calculate cut lengths for painted flat-stock exterior window trim (craftsman-style casing) using half-lap joinery at the head casing and bottom rail. Enter dimensions as whole numbers, decimals, or fractions like <code>1 15/16</code>, <code>3/8</code>, or <code>28.125</code>. Outputs are shown in decimal and nearest fraction.</p>
+  <div class="shell">
+  <main class="app">
+    <section class="card">
+      <h1>Running Length Calculator</h1>
+      <p>Add and subtract inch measurements with carpentry fractions. Enter whole inches on the left, numerator on the upper-right pad, and denominator on the lower-right pad.</p>
 
-      <div class="grid">
-        <div>
-          <label for="windowWidth">Window width (in)</label>
-          <input id="windowWidth" type="text" inputmode="decimal" value="28" placeholder="28 or 28 1/8" />
+      <div id="tape" class="tape"></div>
+      <div id="emptyTape" class="empty-tape">Your paper tape will appear here.</div>
+      <div class="scroll-spacer" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <section class="calculator" aria-label="Running length keypad">
+    <div class="display">
+      <div id="entryDisplay" class="entry">0&quot;</div>
+      <div id="summaryDisplay" class="summary">Total: 0&quot;</div>
+    </div>
+
+    <div class="keypad">
+      <div class="main-pad" aria-label="Whole inch keypad">
+        <button type="button" class="button-danger" data-action="clear">ac</button>
+        <button type="button" class="button-strong" data-action="backspace">⌫</button>
+        <button type="button" class="button-strong" data-action="clear-entry">ce</button>
+        <button type="button" data-whole="7">7</button>
+        <button type="button" data-whole="8">8</button>
+        <button type="button" data-whole="9">9</button>
+        <button type="button" data-whole="4">4</button>
+        <button type="button" data-whole="5">5</button>
+        <button type="button" data-whole="6">6</button>
+        <button type="button" data-whole="1">1</button>
+        <button type="button" data-whole="2">2</button>
+        <button type="button" data-whole="3">3</button>
+        <button type="button" class="button-wide" data-whole="0">0</button>
+        <button type="button" data-action="decimal">.</button>
+      </div>
+
+      <div class="fraction-pad" aria-label="Fraction keypad">
+        <div class="numerator-pad" aria-label="Numerator keypad">
+          <div class="pad-label">Numerator</div>
+          <button type="button" class="button-small" data-numerator="7">7</button>
+          <button type="button" class="button-small" data-numerator="8">8</button>
+          <button type="button" class="button-small" data-numerator="9">9</button>
+          <button type="button" class="button-small" data-numerator="4">4</button>
+          <button type="button" class="button-small" data-numerator="5">5</button>
+          <button type="button" class="button-small" data-numerator="6">6</button>
+          <button type="button" class="button-small" data-numerator="1">1</button>
+          <button type="button" class="button-small" data-numerator="2">2</button>
+          <button type="button" class="button-small" data-numerator="3">3</button>
         </div>
-        <div>
-          <label for="windowHeight">Window height (in)</label>
-          <input id="windowHeight" type="text" inputmode="decimal" value="62" placeholder="62 or 62 1/4" />
+
+        <div class="denominator-pad" aria-label="Denominator keypad">
+          <div class="pad-label">Denominator</div>
+          <button type="button" class="button-small" data-denominator="2">2</button>
+          <button type="button" class="button-small" data-denominator="4">4</button>
+          <button type="button" class="button-small" data-denominator="8">8</button>
+          <button type="button" class="button-small" data-denominator="16">16</button>
+          <button type="button" class="button-small" data-denominator="32">32</button>
         </div>
       </div>
 
-      <div class="grid">
-        <div>
-          <label for="gap">Gap / reveal (in)</label>
-          <input id="gap" type="text" inputmode="decimal" value="1/16" placeholder="1/16" />
-        </div>
-        <div>
-          <label for="trimWidth">Trim face width (in)</label>
-          <input id="trimWidth" type="text" inputmode="decimal" value="1 15/16" placeholder="1 15/16" />
-        </div>
-      </div>
-
-      <div class="grid">
-        <div>
-          <label for="lap">Half-lap allowance (in)</label>
-          <input id="lap" type="text" inputmode="decimal" value="3/8" placeholder="3/8" />
-        </div>
-        <div>
-          <label for="fractionBase">Fraction display denominator</label>
-          <input id="fractionBase" type="number" step="1" min="2" value="16" />
-        </div>
-      </div>
-
-      <div class="grid-3">
-        <div class="result">
-          <h2>Top board</h2>
-          <div class="value" id="topBoard">—</div>
-          <div class="sub" id="topBoardDecimal">—</div>
-        </div>
-        <div class="result">
-          <h2>Bottom board</h2>
-          <div class="value" id="bottomBoard">—</div>
-          <div class="sub" id="bottomBoardDecimal">—</div>
-        </div>
-        <div class="result">
-          <h2>Side board</h2>
-          <div class="value" id="sideBoard">—</div>
-          <div class="sub" id="sideBoardDecimal">—</div>
-        </div>
-      </div>
-
-      <div class="notes">
-        <div><strong>Formulas used</strong></div>
-        <div><code>top = width + 2 × gap + 2 × trimWidth</code></div>
-        <div><code>bottom = width + 2 × gap + 2 × lap</code></div>
-        <div><code>side = height + 2 × gap + trimWidth + lap</code></div>
-      </div>
-
-      <div class="notes">
-        <div><strong>Calculation breakdown</strong></div>
-        <div id="calculationBreakdown" style="margin-top: 12px; line-height: 1.7;">—</div>
-      </div>
-
-      <div class="notes">
-        <div><strong>Live diagram</strong></div>
-        <div class="diagram-wrap">
-          <svg id="diagram" viewBox="0 0 900 700" width="100%" height="auto" aria-label="Window trim diagram"></svg>
-        </div>
+      <div class="operator-pad" aria-label="Operation keypad">
+        <button type="button" data-action="add">+</button>
+        <button type="button" data-action="subtract">−</button>
+        <button type="button" data-action="multiply">×</button>
+        <button type="button" data-action="divide">÷</button>
+        <button type="button" class="button-accent" data-action="equals">=</button>
       </div>
     </div>
-  </div>
+  </section>
+</div>
 
   <script>
-    const SVG_NS = "http://www.w3.org/2000/svg";
+    const state = {
+      whole: "",
+      numerator: "",
+      denominator: "",
+      pendingOperator: "+",
+      scalarOperator: "*",
+      inputMode: "length",
+      tape: []
+    };
+
+    function resetState() {
+      state.whole = "";
+      state.numerator = "";
+      state.denominator = "";
+      state.pendingOperator = "+";
+      state.scalarOperator = "*";
+      state.inputMode = "length";
+      state.tape = [];
+    }
 
     function gcd(a, b) {
       let left = Math.abs(a);
@@ -242,46 +463,12 @@
       return left || 1;
     }
 
-    function parseMeasurement(value) {
-      const cleanedValue = String(value)
-        .trim()
-        .replace(/[″"]/g, "")
-        .replace(/[’']/g, "")
-        .replace(/\s+/g, " ");
-
-      if (cleanedValue === "") {
-        return NaN;
-      }
-
-      if (cleanedValue.includes("/")) {
-        const parts = cleanedValue.split(" ");
-        const fraction = parts.pop();
-        const whole = parts.length > 0 ? Number(parts.join(" ")) : 0;
-        const fractionParts = fraction.split("/");
-
-        if (fractionParts.length !== 2) {
-          return NaN;
-        }
-
-        const numerator = Number(fractionParts[0]);
-        const denominator = Number(fractionParts[1]);
-
-        if (!Number.isFinite(whole) || !Number.isFinite(numerator) || !Number.isFinite(denominator) || denominator === 0) {
-          return NaN;
-        }
-
-        return whole + (numerator / denominator);
-      }
-
-      return Number(cleanedValue);
-    }
-
-    function toFractionString(value, denominator) {
+    function toInchFractionString(value, denominator = 32) {
       if (!Number.isFinite(value)) {
         return "—";
       }
 
-      const safeDenominator = Math.max(1, Math.round(denominator || 16));
+      const safeDenominator = Math.max(1, Math.round(denominator));
       const sign = value < 0 ? "-" : "";
       const absoluteValue = Math.abs(value);
       const whole = Math.floor(absoluteValue);
@@ -309,367 +496,372 @@
       return `${sign}${adjustedWhole} ${reducedNumerator}/${reducedDenominator}\"`;
     }
 
-    function readMeasurementInput(id) {
-      return parseMeasurement(document.getElementById(id).value);
+    function getEntryValue() {
+      const whole = Number(state.whole || 0);
+      const numerator = Number(state.numerator || 0);
+      const denominator = Number(state.denominator || 0);
+
+      if (!Number.isFinite(whole) || !Number.isFinite(numerator) || !Number.isFinite(denominator)) {
+        return NaN;
+      }
+
+      if (state.numerator !== "" && state.denominator === "") {
+        return NaN;
+      }
+
+      if (denominator === 0 && state.denominator !== "") {
+        return NaN;
+      }
+
+      return whole + (denominator ? numerator / denominator : 0);
     }
 
-    function readFractionDenominator() {
-      const rawValue = Number(document.getElementById("fractionBase").value);
-      return Math.max(2, Math.round(rawValue || 16));
+    function getTotal() {
+      const total = state.tape.reduce((sum, item) => {
+        if (!Number.isFinite(item.value)) {
+          return NaN;
+        }
+
+        if (item.result) {
+          return item.value;
+        }
+
+        if (item.scalar) {
+          return sum;
+        }
+
+        return sum + (item.operator === "-" ? -item.value : item.value);
+      }, 0);
+
+      return Number.isFinite(total) ? total : NaN;
     }
 
-    function calculateBoardLengths({ windowWidth, windowHeight, gap, trimWidth, lap }) {
-      return {
-        top: windowWidth + (2 * gap) + (2 * trimWidth),
-        bottom: windowWidth + (2 * gap) + (2 * lap),
-        side: windowHeight + (2 * gap) + trimWidth + lap,
-        overallHeight: windowHeight + (2 * gap) + (2 * trimWidth)
-      };
+    function formatEntry() {
+      const whole = state.whole || "0";
+
+      if (state.inputMode === "scalar") {
+        return whole;
+      }
+
+      if (state.numerator === "" && state.denominator === "") {
+        return `${whole}\"`;
+      }
+
+      if (state.denominator === "") {
+        return `${whole} ${state.numerator}/?\"`;
+      }
+
+      return toInchFractionString(getEntryValue(), Number(state.denominator));
     }
 
-    function createSvgElement(tagName, attributes = {}) {
-      const element = document.createElementNS(SVG_NS, tagName);
+    function clearEntry() {
+      state.whole = "";
+      state.numerator = "";
+      state.denominator = "";
+    }
 
-      Object.entries(attributes).forEach(([key, value]) => {
-        element.setAttribute(key, String(value));
+    function pushLengthEntry(value, label, operator) {
+      if (!Number.isFinite(value) || value === 0) {
+        return false;
+      }
+
+      state.tape.push({
+        operator,
+        value,
+        label
       });
 
-      return element;
+      return true;
     }
 
-    function appendText(svg, x, y, text, options = {}) {
-      const textElement = createSvgElement("text", {
-        x,
-        y,
-        "font-family": options.fontFamily || "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-        "font-size": options.fontSize || 16,
-        "font-weight": options.fontWeight || 500,
-        fill: options.fill || "#1f2937",
-        "text-anchor": options.anchor || "middle",
-        "dominant-baseline": options.baseline || "middle"
-      });
+    function enterScalarMode(operator) {
+      const currentEntry = getEntryValue();
 
-      textElement.textContent = text;
-      svg.appendChild(textElement);
-      return textElement;
+      if (Number.isFinite(currentEntry) && currentEntry !== 0) {
+        pushLengthEntry(currentEntry, formatEntry(), state.pendingOperator);
+      }
+
+      clearEntry();
+      state.scalarOperator = operator;
+      state.inputMode = "scalar";
+      render();
+      scrollTapeIntoView();
     }
 
-    function drawDimension(svg, x1, y1, x2, y2, label, orientation) {
-      const group = createSvgElement("g");
-      const stroke = "#6b7280";
+    function applyScalarOperation() {
+      const scalar = Number(state.whole || 0);
+      const currentTotal = getTotal();
 
-      group.appendChild(createSvgElement("line", {
-        x1,
-        y1,
-        x2,
-        y2,
-        stroke,
-        "stroke-width": 1.5
-      }));
-
-      if (orientation === "horizontal") {
-        group.appendChild(createSvgElement("line", {
-          x1,
-          y1: y1 - 8,
-          x2: x1,
-          y2: y1 + 8,
-          stroke,
-          "stroke-width": 1.5
-        }));
-
-        group.appendChild(createSvgElement("line", {
-          x1: x2,
-          y1: y2 - 8,
-          x2,
-          y2: y2 + 8,
-          stroke,
-          "stroke-width": 1.5
-        }));
-
-        group.appendChild(createSvgElement("polygon", {
-          points: `${x1},${y1} ${x1 + 8},${y1 - 4} ${x1 + 8},${y1 + 4}`,
-          fill: stroke
-        }));
-
-        group.appendChild(createSvgElement("polygon", {
-          points: `${x2},${y2} ${x2 - 8},${y2 - 4} ${x2 - 8},${y2 + 4}`,
-          fill: stroke
-        }));
-
-        svg.appendChild(group);
-        appendText(svg, (x1 + x2) / 2, y1 - 18, label, {
-          fontSize: 15,
-          fill: stroke
-        });
+      if (!Number.isFinite(scalar) || scalar === 0 || !Number.isFinite(currentTotal)) {
+        render();
         return;
       }
 
-      group.appendChild(createSvgElement("line", {
-        x1: x1 - 8,
-        y1,
-        x2: x1 + 8,
-        y2: y1,
-        stroke,
-        "stroke-width": 1.5
-      }));
+      const nextTotal = state.scalarOperator === "*"
+        ? currentTotal * scalar
+        : currentTotal / scalar;
 
-      group.appendChild(createSvgElement("line", {
-        x1: x2 - 8,
-        y1: y2,
-        x2: x2 + 8,
-        y2: y2,
-        stroke,
-        "stroke-width": 1.5
-      }));
-
-      group.appendChild(createSvgElement("polygon", {
-        points: `${x1},${y1} ${x1 - 4},${y1 + 8} ${x1 + 4},${y1 + 8}`,
-        fill: stroke
-      }));
-
-      group.appendChild(createSvgElement("polygon", {
-        points: `${x2},${y2} ${x2 - 4},${y2 - 8} ${x2 + 4},${y2 - 8}`,
-        fill: stroke
-      }));
-
-      svg.appendChild(group);
-
-      const textElement = createSvgElement("text", {
-        x: x1 - 18,
-        y: (y1 + y2) / 2,
-        "font-size": 15,
-        fill: stroke,
-        "text-anchor": "middle"
-      });
-
-      textElement.setAttribute("transform", `rotate(-90 ${x1 - 18} ${(y1 + y2) / 2})`);
-      textElement.textContent = label;
-      svg.appendChild(textElement);
-    }
-
-    function setResult(valueId, decimalId, rawValue, denominator) {
-      document.getElementById(valueId).textContent = toFractionString(rawValue, denominator);
-      document.getElementById(decimalId).textContent = Number.isFinite(rawValue) ? `${rawValue.toFixed(4)} in` : "—";
-    }
-
-    function renderCalculationBreakdown(values) {
-      const breakdown = document.getElementById("calculationBreakdown");
-
-      breakdown.innerHTML = `
-        <div><strong>Top:</strong> ${toFractionString(values.windowWidth, values.denominator)} + (2 × ${toFractionString(values.gap, values.denominator)}) + (2 × ${toFractionString(values.trimWidth, values.denominator)}) = <strong>${toFractionString(values.top, values.denominator)}</strong></div>
-        <div><strong>Bottom:</strong> ${toFractionString(values.windowWidth, values.denominator)} + (2 × ${toFractionString(values.gap, values.denominator)}) + (2 × ${toFractionString(values.lap, values.denominator)}) = <strong>${toFractionString(values.bottom, values.denominator)}</strong></div>
-        <div><strong>Side:</strong> ${toFractionString(values.windowHeight, values.denominator)} + (2 × ${toFractionString(values.gap, values.denominator)}) + ${toFractionString(values.trimWidth, values.denominator)} + ${toFractionString(values.lap, values.denominator)} = <strong>${toFractionString(values.side, values.denominator)}</strong></div>
-      `;
-    }
-
-    function renderErrorDiagram(message) {
-      const svg = document.getElementById("diagram");
-      svg.innerHTML = "";
-      svg.appendChild(createSvgElement("rect", {
-        x: 0,
-        y: 0,
-        width: 900,
-        height: 700,
-        fill: "#ffffff"
-      }));
-      appendText(svg, 450, 350, message, {
-        fontSize: 18,
-        fill: "#6b7280"
-      });
-    }
-
-    function renderDiagram(values) {
-      const svg = document.getElementById("diagram");
-      svg.innerHTML = "";
-
-      const canvasHeight = 700;
-      const marginX = 70;
-      const marginY = 90;
-
-      const openingWidth = values.windowWidth + (2 * values.gap);
-      const openingHeight = values.windowHeight + (2 * values.gap);
-      const assemblyWidth = values.top;
-      const assemblyHeight = values.overallHeight;
-      const boardFaceWidth = values.trimWidth;
-      const bottomBoardLength = values.bottom;
-      const sideBoardTopOffset = values.trimWidth - values.lap;
-
-      if (![openingWidth, openingHeight, assemblyWidth, assemblyHeight, boardFaceWidth, bottomBoardLength, sideBoardTopOffset].every(Number.isFinite)) {
-        renderErrorDiagram("Enter valid measurements to draw the diagram.");
+      if (!Number.isFinite(nextTotal)) {
+        render();
         return;
       }
 
-      if (assemblyWidth <= 0 || assemblyHeight <= 0 || boardFaceWidth <= 0 || bottomBoardLength <= 0) {
-        renderErrorDiagram("Measurements must be greater than zero.");
+      state.tape.push({
+        operator: state.scalarOperator,
+        value: scalar,
+        label: String(scalar),
+        scalar: true
+      });
+
+      state.tape.push({
+        operator: "=",
+        value: nextTotal,
+        label: toInchFractionString(nextTotal),
+        result: true
+      });
+
+      clearEntry();
+      state.inputMode = "length";
+      state.pendingOperator = "+";
+      state.scalarOperator = "*";
+      render();
+      scrollTapeIntoView();
+    }
+
+    function commitEntry(operator) {
+      const value = getEntryValue();
+
+      if (!Number.isFinite(value) || value === 0) {
+        state.pendingOperator = operator;
+        render();
         return;
       }
 
-      const availableHeight = canvasHeight - (marginY * 2);
-      const heightBasedScale = availableHeight / assemblyHeight;
-      const drawingWidthAtHeight = assemblyWidth * heightBasedScale;
-      const canvasWidth = Math.max(360, Math.min(900, drawingWidthAtHeight + (marginX * 2) + 120));
-
-      svg.setAttribute("viewBox", `0 0 ${canvasWidth} ${canvasHeight}`);
-
-      const scale = Math.min(
-        (canvasWidth - (marginX * 2)) / assemblyWidth,
-        availableHeight / assemblyHeight
-      );
-
-      const drawingWidth = assemblyWidth * scale;
-      const drawingHeight = assemblyHeight * scale;
-      const originX = (canvasWidth - drawingWidth) / 2;
-      const originY = (canvasHeight - drawingHeight) / 2;
-      const boardDepth = boardFaceWidth * scale;
-
-      const leftSideX = originX;
-      const rightSideX = originX + drawingWidth - boardDepth;
-      const topBoardY = originY;
-      const sideBoardY = originY + (sideBoardTopOffset * scale);
-      const sideBoardDrawHeight = values.side * scale;
-      const bottomBoardY = originY + drawingHeight - boardDepth;
-      const openingX = originX + boardDepth;
-      const openingY = originY + boardDepth;
-      const openingDrawWidth = openingWidth * scale;
-      const openingDrawHeight = openingHeight * scale;
-      const bottomBoardDrawX = originX + ((assemblyWidth - bottomBoardLength) / 2) * scale;
-      const bottomBoardDrawWidth = bottomBoardLength * scale;
-
-      svg.appendChild(createSvgElement("rect", {
-        x: 0,
-        y: 0,
-        width: canvasWidth,
-        height: canvasHeight,
-        fill: "#ffffff"
-      }));
-
-      svg.appendChild(createSvgElement("rect", {
-        x: originX,
-        y: topBoardY,
-        width: drawingWidth,
-        height: boardDepth,
-        fill: "#cfc6b0",
-        stroke: "#374151",
-        "stroke-width": 2
-      }));
-
-      svg.appendChild(createSvgElement("rect", {
-        x: leftSideX,
-        y: sideBoardY,
-        width: boardDepth,
-        height: sideBoardDrawHeight,
-        fill: "#d9ddd0",
-        stroke: "#374151",
-        "stroke-width": 2
-      }));
-
-      svg.appendChild(createSvgElement("rect", {
-        x: rightSideX,
-        y: sideBoardY,
-        width: boardDepth,
-        height: sideBoardDrawHeight,
-        fill: "#d9ddd0",
-        stroke: "#374151",
-        "stroke-width": 2
-      }));
-
-      svg.appendChild(createSvgElement("rect", {
-        x: bottomBoardDrawX,
-        y: bottomBoardY,
-        width: bottomBoardDrawWidth,
-        height: boardDepth,
-        fill: "#cfc6b0",
-        stroke: "#374151",
-        "stroke-width": 2
-      }));
-
-      svg.appendChild(createSvgElement("rect", {
-        x: openingX,
-        y: openingY,
-        width: openingDrawWidth,
-        height: openingDrawHeight,
-        fill: "#f9fafb",
-        stroke: "#6b7280",
-        "stroke-width": 1.5,
-        "stroke-dasharray": "6 4"
-      }));
-
-      appendText(svg, originX + (drawingWidth / 2), topBoardY + (boardDepth / 2), `Top board: ${toFractionString(values.top, values.denominator)}`, {
-        fontSize: 18,
-        fontWeight: 700
-      });
-
-      appendText(svg, bottomBoardDrawX + (bottomBoardDrawWidth / 2), bottomBoardY + (boardDepth / 2), `Bottom board: ${toFractionString(values.bottom, values.denominator)}`, {
-        fontSize: 18,
-        fontWeight: 700
-      });
-
-      const sideLabelY = sideBoardY + (sideBoardDrawHeight / 2);
-
-      const leftSideLabel = appendText(svg, leftSideX + (boardDepth / 2), sideLabelY, `Side cut: ${toFractionString(values.side, values.denominator)}`, {
-        fontSize: 16,
-        fontWeight: 700,
-        fill: "#111827"
-      });
-      leftSideLabel.setAttribute("transform", `rotate(-90 ${leftSideX + (boardDepth / 2)} ${sideLabelY})`);
-
-      const rightSideLabel = appendText(svg, rightSideX + (boardDepth / 2), sideLabelY, `Side cut: ${toFractionString(values.side, values.denominator)}`, {
-        fontSize: 16,
-        fontWeight: 700,
-        fill: "#111827"
-      });
-      rightSideLabel.setAttribute("transform", `rotate(90 ${rightSideX + (boardDepth / 2)} ${sideLabelY})`);
-
-      appendText(svg, openingX + (openingDrawWidth / 2), openingY + (openingDrawHeight / 2) - 14, `Window: ${toFractionString(values.windowWidth, values.denominator)} × ${toFractionString(values.windowHeight, values.denominator)}`, {
-        fontSize: 18,
-        fontWeight: 700
-      });
-
-      appendText(svg, openingX + (openingDrawWidth / 2), openingY + (openingDrawHeight / 2) + 14, `Gap: ${toFractionString(values.gap, values.denominator)} on all sides`, {
-        fontSize: 15,
-        fill: "#6b7280"
-      });
-
-      drawDimension(svg, originX, originY - 40, originX + drawingWidth, originY - 40, `Overall width: ${toFractionString(values.top, values.denominator)}`, "horizontal");
-      drawDimension(svg, originX + drawingWidth + 32, originY, originX + drawingWidth + 32, originY + drawingHeight, `Overall height: ${toFractionString(values.overallHeight, values.denominator)}`, "vertical");
-      drawDimension(svg, openingX, bottomBoardY - 24, openingX + openingDrawWidth, bottomBoardY - 24, `Opening width: ${toFractionString(openingWidth, values.denominator)}`, "horizontal");
-      drawDimension(svg, openingX - 24, openingY, openingX - 24, openingY + openingDrawHeight, `Opening height: ${toFractionString(openingHeight, values.denominator)}`, "vertical");
+      pushLengthEntry(value, formatEntry(), state.pendingOperator);
+      state.pendingOperator = operator;
+      clearEntry();
+      render();
+      scrollTapeIntoView();
     }
 
-    function renderInvalidState() {
-      setResult("topBoard", "topBoardDecimal", NaN, 16);
-      setResult("bottomBoard", "bottomBoardDecimal", NaN, 16);
-      setResult("sideBoard", "sideBoardDecimal", NaN, 16);
-      document.getElementById("calculationBreakdown").textContent = "Enter valid measurements to calculate board lengths.";
-      renderErrorDiagram("Enter valid measurements to draw the diagram.");
+    function renderTape() {
+      const tapeElement = document.getElementById("tape");
+      const emptyTapeElement = document.getElementById("emptyTape");
+
+      emptyTapeElement.style.display = state.tape.length ? "none" : "block";
+      tapeElement.innerHTML = "";
+
+      const visibleRows = state.tape.filter((item) => !item.result);
+
+      visibleRows.forEach((item) => {
+        const row = document.createElement("div");
+        row.className = item.scalar ? "tape-row tape-scalar" : "tape-row";
+        row.innerHTML = `
+          <div class="operator">${item.operator === "*" ? "×" : item.operator === "/" ? "÷" : item.operator}</div>
+          <div class="value">${item.label}</div>
+          <div class="decimal">${Number.isFinite(item.value) ? item.value.toFixed(4) : "—"}</div>
+        `;
+        tapeElement.appendChild(row);
+      });
+
+      if (state.tape.length) {
+        const total = getTotal();
+        const totalRow = document.createElement("div");
+        totalRow.className = "tape-row tape-total";
+        totalRow.innerHTML = `
+          <div class="operator">=</div>
+          <div class="value">${toInchFractionString(total)}</div>
+          <div class="decimal">${Number.isFinite(total) ? total.toFixed(4) : "—"}</div>
+        `;
+        tapeElement.appendChild(totalRow);
+      }
     }
 
-    function calculate() {
-      const denominator = readFractionDenominator();
-      const inputs = {
-        windowWidth: readMeasurementInput("windowWidth"),
-        windowHeight: readMeasurementInput("windowHeight"),
-        gap: readMeasurementInput("gap"),
-        trimWidth: readMeasurementInput("trimWidth"),
-        lap: readMeasurementInput("lap")
-      };
+    function getCalculatorClearance() {
+      const calculator = document.querySelector(".calculator");
+      return calculator ? Math.ceil(calculator.getBoundingClientRect().height) : 0;
+    }
 
-      if (!Object.values(inputs).every(Number.isFinite)) {
-        renderInvalidState();
+    function syncCalculatorClearance() {
+      document.documentElement.style.setProperty("--calculator-clearance", `${getCalculatorClearance()}px`);
+    }
+
+    function scrollTapeIntoView() {
+      const scroller = document.querySelector(".app");
+      const targetRow = document.querySelector(".tape-total") || document.querySelector(".tape-row:last-child");
+
+      if (!scroller || !targetRow) {
         return;
       }
 
-      const values = {
-        ...inputs,
-        ...calculateBoardLengths(inputs),
-        denominator
-      };
+      requestAnimationFrame(() => {
+        const scrollerRect = scroller.getBoundingClientRect();
+        const targetRect = targetRow.getBoundingClientRect();
+        const extraOffset = 12;
+        const scrollDelta = targetRect.bottom - scrollerRect.bottom + extraOffset;
 
-      setResult("topBoard", "topBoardDecimal", values.top, denominator);
-      setResult("bottomBoard", "bottomBoardDecimal", values.bottom, denominator);
-      setResult("sideBoard", "sideBoardDecimal", values.side, denominator);
-      renderCalculationBreakdown(values);
-      renderDiagram(values);
+        if (scrollDelta > 0) {
+          scroller.scrollTo({
+            top: scroller.scrollTop + scrollDelta,
+            behavior: "smooth"
+          });
+        }
+      });
+    }
+
+    function updateFractionPadState() {
+      const disabled = state.inputMode === "scalar";
+
+      document.querySelectorAll(".fraction-pad button").forEach((button) => {
+        button.disabled = disabled;
+        button.style.opacity = disabled ? "0.45" : "1";
+      });
+    }
+
+    function updateDisplayMode() {
+      const display = document.querySelector(".display");
+      const clearEntryButton = document.querySelector('[data-action="clear-entry"]');
+      const isScalarMode = state.inputMode === "scalar";
+
+      if (display) {
+        display.classList.toggle("scalar-mode", isScalarMode);
+      }
+
+      if (clearEntryButton) {
+        clearEntryButton.classList.toggle("scalar-exit", isScalarMode);
+      }
+    }
+
+    function getDisplayOperator() {
+      if (state.inputMode === "scalar") {
+        return state.scalarOperator === "*" ? "×" : "÷";
+      }
+
+      return state.pendingOperator;
+    }
+
+    function formatDisplayEntry() {
+      const operator = getDisplayOperator();
+      const entry = formatEntry();
+
+      if (state.inputMode === "length" && state.pendingOperator === "+" && state.tape.length === 0) {
+        return entry;
+      }
+
+      return `${operator} ${entry}`;
+    }
+
+    function render() {
+      const total = getTotal();
+      const entryValue = getEntryValue();
+
+      document.getElementById("entryDisplay").textContent = formatDisplayEntry();
+      document.getElementById("summaryDisplay").textContent = state.inputMode === "scalar"
+        ? `Total: ${toInchFractionString(total)} ${state.scalarOperator === "*" ? "×" : "÷"} ${state.whole || "…"}`
+        : `Total: ${toInchFractionString(total)}${Number.isFinite(entryValue) && entryValue !== 0 ? ` · Next ${state.pendingOperator} ${formatEntry()}` : ""}`;
+      renderTape();
+      updateFractionPadState();
+      updateDisplayMode();
+      syncCalculatorClearance();
+    }
+
+    function appendWholeDigit(digit) {
+      if (digit === "." && state.whole.includes(".")) {
+        return;
+      }
+
+      if (state.whole === "0" && digit !== ".") {
+        state.whole = digit;
+        return;
+      }
+
+      state.whole += digit;
+    }
+
+    function appendNumeratorDigit(digit) {
+      if (state.numerator === "0") {
+        state.numerator = digit;
+        return;
+      }
+
+      state.numerator += digit;
+    }
+
+    function handleAction(action) {
+      switch (action) {
+        case "clear":
+          resetState();
+          render();
+          return;
+
+        case "clear-entry":
+          clearEntry();
+
+          if (state.inputMode === "scalar") {
+            state.inputMode = "length";
+            state.scalarOperator = "*";
+            render();
+            scrollTapeIntoView();
+            return;
+          }
+
+          render();
+          return;
+
+        case "clear-fraction":
+          state.numerator = "";
+          state.denominator = "";
+          render();
+          return;
+
+        case "backspace":
+          if (state.denominator !== "") {
+            state.denominator = "";
+          } else if (state.numerator !== "") {
+            state.numerator = state.numerator.slice(0, -1);
+          } else {
+            state.whole = state.whole.slice(0, -1);
+          }
+          render();
+          return;
+
+        case "decimal":
+          appendWholeDigit(".");
+          render();
+          return;
+
+        case "add":
+          state.inputMode = "length";
+          commitEntry("+");
+          return;
+
+        case "subtract":
+          state.inputMode = "length";
+          commitEntry("-");
+          return;
+
+        case "multiply":
+          enterScalarMode("*");
+          return;
+
+        case "divide":
+          enterScalarMode("/");
+          return;
+
+        case "equals":
+          if (state.inputMode === "scalar") {
+            applyScalarOperation();
+            return;
+          }
+
+          commitEntry("+");
+          state.pendingOperator = "+";
+          render();
+          return;
+
+        default:
+          throw new Error(`Unknown action: ${action}`);
+      }
     }
 
     function assertAlmostEqual(actual, expected, label) {
@@ -681,60 +873,251 @@
     }
 
     function runSelfTests() {
-      assertAlmostEqual(parseMeasurement("1/16"), 0.0625, "parse simple fraction");
-      assertAlmostEqual(parseMeasurement("1 15/16"), 1.9375, "parse mixed fraction");
-      assertAlmostEqual(parseMeasurement("28.125"), 28.125, "parse decimal");
-      assertAlmostEqual(parseMeasurement("28\""), 28, "parse inch quote");
+      const originalState = JSON.stringify(state);
 
-      const defaultLengths = calculateBoardLengths({
-        windowWidth: 28,
-        windowHeight: 62,
-        gap: 1 / 16,
-        trimWidth: 1 + (15 / 16),
-        lap: 3 / 8
-      });
-
-      assertAlmostEqual(defaultLengths.top, 32, "default top board");
-      assertAlmostEqual(defaultLengths.bottom, 28.875, "default bottom board");
-      assertAlmostEqual(defaultLengths.side, 64.4375, "default side board");
-      assertAlmostEqual(defaultLengths.overallHeight, 66, "default overall height");
-      assertAlmostEqual((1 + (15 / 16)) - (3 / 8), 1.5625, "default side board top offset");
-
-      const responsiveCanvasWidth = Math.max(360, Math.min(900, (32 * ((700 - (90 * 2)) / 66)) + (70 * 2) + 120));
-      assertAlmostEqual(responsiveCanvasWidth, 512.1212121212, "default responsive SVG width");
-
-      if (toFractionString(28.875, 16) !== "28 7/8\"") {
-        throw new Error("fraction reduction failed for 28 7/8");
+      if (toInchFractionString(60.125, 32) !== "60 1/8\"") {
+        throw new Error("fraction formatting failed for 60 1/8");
       }
 
-      if (toFractionString(64.4375, 16) !== "64 7/16\"") {
-        throw new Error("fraction reduction failed for 64 7/16");
+      if (toInchFractionString(24.875, 32) !== "24 7/8\"") {
+        throw new Error("fraction formatting failed for 24 7/8");
       }
 
-      if (typeof renderCalculationBreakdown !== "function") {
-        throw new Error("renderCalculationBreakdown is not defined");
+      if (toInchFractionString(9 / 8, 32) !== "1 1/8\"") {
+        throw new Error("improper fraction formatting failed for 9/8");
       }
+
+      resetState();
+      state.whole = "56";
+      state.numerator = "1";
+      state.denominator = "8";
+      assertAlmostEqual(getEntryValue(), 56.125, "entry value failed for 56 1/8");
+
+      resetState();
+      state.tape = [
+        { operator: "+", value: 56.125, label: "56 1/8\"" },
+        { operator: "+", value: 4, label: "4\"" },
+        { operator: "-", value: 1.5, label: "1 1/2\"" }
+      ];
+      assertAlmostEqual(getTotal(), 58.625, "paper tape total failed");
+
+      renderTape();
+      const totalRow = document.querySelector(".tape-total");
+      if (totalRow === null || !totalRow.textContent.includes("58 5/8\"")) {
+        throw new Error("paper tape total row failed");
+      }
+
+      resetState();
+      state.tape = [
+        { operator: "+", value: 5, label: "5\"" },
+        { operator: "*", value: 2, label: "2", scalar: true }
+      ];
+      renderTape();
+      const scalarRow = document.querySelector(".tape-scalar");
+      if (scalarRow === null || !scalarRow.textContent.includes("×")) {
+        throw new Error("scalar tape row should use scalar styling and symbol");
+      }
+
+      resetState();
+      state.whole = "2";
+      enterScalarMode("*");
+      if (state.inputMode !== "scalar" || state.whole !== "" || state.scalarOperator !== "*") {
+        throw new Error("multiply should commit current entry and clear scalar input");
+      }
+      assertAlmostEqual(getTotal(), 2, "multiply mode should preserve committed current entry");
+
+      state.whole = "3";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 6, "scalar multiply failed");
+
+      resetState();
+      state.tape = [{ operator: "+", value: 60, label: "60\"" }];
+      enterScalarMode("/");
+      state.whole = "4";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 15, "scalar divide failed");
+
+      resetState();
+      state.tape = [{ operator: "+", value: 60, label: "60\"" }];
+      state.whole = "2";
+      enterScalarMode("/");
+      state.whole = "4";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 15.5, "divide should include committed current entry before scalar mode");
+
+      resetState();
+      state.tape = [{ operator: "+", value: 10, label: "10\"" }];
+      enterScalarMode("*");
+      state.whole = "2.5";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 25, "decimal scalar multiply failed");
+
+      resetState();
+      state.tape = [{ operator: "+", value: 10, label: "10\"" }];
+      enterScalarMode("/");
+      state.whole = "0";
+      applyScalarOperation();
+      assertAlmostEqual(getTotal(), 10, "divide by zero should not corrupt total");
+      if (state.inputMode !== "scalar") {
+        throw new Error("divide by zero should keep scalar mode active");
+      }
+
+      resetState();
+      state.whole = "12";
+      state.numerator = "3";
+      state.denominator = "16";
+      handleAction("backspace");
+      if (state.denominator !== "" || state.numerator !== "3" || state.whole !== "12") {
+        throw new Error("backspace should clear denominator first");
+      }
+      handleAction("backspace");
+      if (state.numerator !== "" || state.whole !== "12") {
+        throw new Error("backspace should remove numerator after denominator");
+      }
+      handleAction("backspace");
+      if (state.whole !== "1") {
+        throw new Error("backspace should remove whole inch digits last");
+      }
+
+      resetState();
+      state.tape = [{ operator: "+", value: NaN, label: "bad" }];
+      if (Number.isFinite(getTotal())) {
+        throw new Error("getTotal should reject invalid tape values");
+      }
+
+      const numeratorZeroButton = document.querySelector('[data-numerator="0"]');
+      if (numeratorZeroButton !== null) {
+        throw new Error("numerator keypad should not include zero");
+      }
+
+      const numeratorDeleteButton = document.querySelector('.numerator-pad [data-action="clear-fraction"]');
+      if (numeratorDeleteButton !== null) {
+        throw new Error("numerator keypad should not include its own delete button");
+      }
+
+      const calculator = document.querySelector(".calculator");
+      if (calculator === null) {
+        throw new Error("calculator element should exist");
+      }
+
+      const firstButton = document.querySelector("button");
+      if (firstButton === null || getComputedStyle(firstButton).touchAction !== "manipulation") {
+        throw new Error("buttons should use touch-action manipulation to prevent double-tap zoom");
+      }
+
+      updateDisplayMode();
+      const display = document.querySelector(".display");
+      if (display === null || !display.classList) {
+        throw new Error("display element should exist");
+      }
+
+      state.inputMode = "scalar";
+      state.scalarOperator = "/";
+      updateDisplayMode();
+      if (formatDisplayEntry() !== "÷ 0") {
+        throw new Error("display entry should include scalar operator");
+      }
+      if (!display.classList.contains("scalar-mode")) {
+        throw new Error("display should visually indicate scalar mode");
+      }
+
+      const clearEntryButton = document.querySelector('[data-action="clear-entry"]');
+      if (clearEntryButton === null || !clearEntryButton.classList.contains("scalar-exit")) {
+        throw new Error("clear entry should visually indicate scalar escape mode");
+      }
+
+      state.inputMode = "length";
+      state.pendingOperator = "-";
+      state.whole = "4";
+      if (formatDisplayEntry() !== "- 4\"") {
+        throw new Error("display entry should include pending length operator");
+      }
+      updateDisplayMode();
+      if (display.classList.contains("scalar-mode")) {
+        throw new Error("display should exit scalar mode styling");
+      }
+
+      if (clearEntryButton !== null && clearEntryButton.classList.contains("scalar-exit")) {
+        throw new Error("clear entry should exit scalar escape styling");
+      }
+
+      state.inputMode = "scalar";
+      state.whole = "4";
+      handleAction("clear-entry");
+      if (state.inputMode !== "length" || state.whole !== "") {
+        throw new Error("clear entry should exit scalar mode and clear scalar input");
+      }
+
+      if (typeof scrollTapeIntoView !== "function") {
+        throw new Error("scrollTapeIntoView should exist");
+      }
+
+      if (document.querySelector(".app")?.scrollTo === undefined) {
+        throw new Error("paper tape region should be independently scrollable");
+      }
+
+      const scrollSpacer = document.querySelector(".scroll-spacer");
+      if (scrollSpacer === null) {
+        throw new Error("scroll spacer should exist below the tape");
+      }
+
+      const shell = document.querySelector(".shell");
+      const app = document.querySelector(".app");
+      if (shell === null || app === null) {
+        throw new Error("calculator layout regions should exist");
+      }
+
+      if (getComputedStyle(shell).display !== "flex") {
+        throw new Error("calculator should use isolated flex layout");
+      }
+
+      const clearance = getCalculatorClearance();
+      const calculatorHeight = calculator.getBoundingClientRect().height;
+      assertAlmostEqual(clearance, Math.ceil(calculatorHeight), "calculator clearance should match calculator height");
+
+      Object.assign(state, JSON.parse(originalState));
     }
 
-    [
-      "windowWidth",
-      "windowHeight",
-      "gap",
-      "trimWidth",
-      "lap",
-      "fractionBase"
-    ].forEach((id) => {
-      document.getElementById(id).addEventListener("input", calculate);
+    document.querySelectorAll("button").forEach((button) => {
+      button.addEventListener("click", () => {
+        if (button.dataset.whole) {
+          appendWholeDigit(button.dataset.whole);
+          render();
+          return;
+        }
+
+        if (button.dataset.numerator) {
+          appendNumeratorDigit(button.dataset.numerator);
+          render();
+          return;
+        }
+
+        if (button.dataset.denominator) {
+          state.denominator = button.dataset.denominator;
+          render();
+          return;
+        }
+
+        handleAction(button.dataset.action);
+      });
     });
 
     try {
       runSelfTests();
     } catch (error) {
-      window.alert(`Window Trim Calculator self-test failed:\n\n${error.message}`);
+      window.alert(`Running Length Calculator self-test failed:\n\n${error.message}`);
       throw error;
     }
 
-    calculate();
+    window.addEventListener("resize", syncCalculatorClearance);
+    window.addEventListener("orientationchange", syncCalculatorClearance);
+
+    syncCalculatorClearance();
+    render();
+
+    requestAnimationFrame(() => {
+      syncCalculatorClearance();
+    });
   </script>
 </body>
 </html>
