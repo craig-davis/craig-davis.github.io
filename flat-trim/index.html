@@ -482,9 +482,9 @@
       const svg = document.getElementById("diagram");
       svg.innerHTML = "";
 
-      const canvasWidth = 900;
       const canvasHeight = 700;
-      const margin = 120;
+      const marginX = 70;
+      const marginY = 90;
 
       const openingWidth = values.windowWidth + (2 * values.gap);
       const openingHeight = values.windowHeight + (2 * values.gap);
@@ -504,9 +504,16 @@
         return;
       }
 
+      const availableHeight = canvasHeight - (marginY * 2);
+      const heightBasedScale = availableHeight / assemblyHeight;
+      const drawingWidthAtHeight = assemblyWidth * heightBasedScale;
+      const canvasWidth = Math.max(360, Math.min(900, drawingWidthAtHeight + (marginX * 2) + 120));
+
+      svg.setAttribute("viewBox", `0 0 ${canvasWidth} ${canvasHeight}`);
+
       const scale = Math.min(
-        (canvasWidth - (margin * 2)) / assemblyWidth,
-        (canvasHeight - (margin * 2)) / assemblyHeight
+        (canvasWidth - (marginX * 2)) / assemblyWidth,
+        availableHeight / assemblyHeight
       );
 
       const drawingWidth = assemblyWidth * scale;
@@ -624,7 +631,7 @@
       });
 
       drawDimension(svg, originX, originY - 40, originX + drawingWidth, originY - 40, `Overall width: ${toFractionString(values.top, values.denominator)}`, "horizontal");
-      drawDimension(svg, originX + drawingWidth + 40, originY, originX + drawingWidth + 40, originY + drawingHeight, `Overall height: ${toFractionString(values.overallHeight, values.denominator)}`, "vertical");
+      drawDimension(svg, originX + drawingWidth + 32, originY, originX + drawingWidth + 32, originY + drawingHeight, `Overall height: ${toFractionString(values.overallHeight, values.denominator)}`, "vertical");
       drawDimension(svg, openingX, bottomBoardY - 24, openingX + openingDrawWidth, bottomBoardY - 24, `Opening width: ${toFractionString(openingWidth, values.denominator)}`, "horizontal");
       drawDimension(svg, openingX - 24, openingY, openingX - 24, openingY + openingDrawHeight, `Opening height: ${toFractionString(openingHeight, values.denominator)}`, "vertical");
     }
@@ -692,6 +699,9 @@
       assertAlmostEqual(defaultLengths.side, 64.4375, "default side board");
       assertAlmostEqual(defaultLengths.overallHeight, 66, "default overall height");
       assertAlmostEqual((1 + (15 / 16)) - (3 / 8), 1.5625, "default side board top offset");
+
+      const responsiveCanvasWidth = Math.max(360, Math.min(900, (32 * ((700 - (90 * 2)) / 66)) + (70 * 2) + 120));
+      assertAlmostEqual(responsiveCanvasWidth, 512.1212121212, "default responsive SVG width");
 
       if (toFractionString(28.875, 16) !== "28 7/8\"") {
         throw new Error("fraction reduction failed for 28 7/8");
