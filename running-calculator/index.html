@@ -1109,7 +1109,7 @@
         throw new Error("total row should exist for copy interaction");
       }
 
-      copyTotalValue(latestTotalRow, "58 5/8\"");
+      copyTotalValue(latestTotalRow, "58 5/8\"", { writeToClipboard: false });
       if (!latestTotalRow.classList.contains("copied-flash")) {
         throw new Error("total row should visually flash when copied");
       }
@@ -1207,26 +1207,19 @@
       Object.assign(state, JSON.parse(originalState));
     }
 
-    function copyTotalValue(row, value) {
-      if (!navigator.clipboard) {
-        return;
+    function copyTotalValue(row, value, options = {}) {
+      const shouldWriteToClipboard = options.writeToClipboard !== false;
+
+      if (shouldWriteToClipboard && navigator.clipboard) {
+        navigator.clipboard.writeText(value).catch(() => {});
       }
-
-      navigator.clipboard.writeText(value).catch(() => {});
-
-      const decimalElement = row.querySelector(".decimal");
-      const originalDecimalText = decimalElement ? decimalElement.textContent : "";
 
       row.classList.remove("copied-flash");
       void row.offsetWidth;
       row.classList.add("copied-flash");
 
-      
-
       window.setTimeout(() => {
         row.classList.remove("copied-flash");
-
-
       }, 900);
     }
 
