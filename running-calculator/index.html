@@ -96,7 +96,7 @@
 
     .tape-row .operator {
       font-weight: 800;
-      color: var(--accent-dark);
+      color: #9a7f4d;
     }
 
     .tape-row .value {
@@ -124,6 +124,42 @@
     .tape-total {
       border-color: #b7aa8e;
       background: #f4efe3;
+      cursor: pointer;
+      transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .tape-total.copied-flash {
+      background: #f8f3e8;
+      box-shadow: 0 0 0 3px rgba(183, 170, 142, 0.18);
+    }
+
+    .tape-total .copied-indicator {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1rem;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      color: var(--accent-dark);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 160ms ease;
+      text-transform: uppercase;
+    }
+
+    .tape-total {
+      position: relative;
+    }
+
+    .tape-total.copied-flash .operator,
+    .tape-total.copied-flash .value,
+    .tape-total.copied-flash .decimal {
+      color: #8f8571;
+    }
+
+    .tape-total.copied-flash .copied-indicator {
+      opacity: 1;
     }
 
     .tape-total .operator,
@@ -242,7 +278,7 @@
     .operator-pad [data-action="multiply"],
     .operator-pad [data-action="divide"] {
       background: #f8f3e8;
-      border-color: #b7aa8e;
+      border-color: #cbbfa6;
       color: var(--accent-dark);
       font-size: 1.75rem;
     }
@@ -261,6 +297,19 @@
       touch-action: manipulation;
       user-select: none;
       -webkit-user-select: none;
+      transition: background-color 120ms ease, border-color 120ms ease, box-shadow 120ms ease, transform 80ms ease;
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.78),
+        0 2px 4px rgba(0, 0, 0, 0.07);
+    }
+
+    button.tap-flash {
+      background: #f8f3e8;
+      border-color: #b7aa8e;
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.82),
+        0 0 0 3px rgba(183, 170, 142, 0.18),
+        0 2px 4px rgba(0, 0, 0, 0.07);
     }
 
     button:active {
@@ -420,7 +469,12 @@
 
       <div class="fraction-pad" aria-label="Fraction keypad">
         <div class="numerator-pad" aria-label="Numerator keypad">
-          <div class="pad-label">Numerator</div>
+          <div class="pad-label" style="display:flex; align-items:center; gap:10px;">
+            <span style="flex:1; height:1px; background: var(--border);"></span>
+            <span>Numerator</span>
+            <span style="flex:1; height:1px; background: var(--border);"></span>
+          </div>
+          
           <button type="button" class="button-small" data-numerator="7">7</button>
           <button type="button" class="button-small" data-numerator="8">8</button>
           <button type="button" class="button-small" data-numerator="9">9</button>
@@ -433,7 +487,11 @@
         </div>
 
         <div class="denominator-pad" aria-label="Denominator keypad">
-          <div class="pad-label">Denominator</div>
+          <div class="pad-label" style="display:flex; align-items:center; gap:10px;">
+            <span style="flex:1; height:1px; background: var(--border);"></span>
+            <span>Denominator</span>
+            <span style="flex:1; height:1px; background: var(--border);"></span>
+          </div>
           <button type="button" class="button-small" data-denominator="2">2</button>
           <button type="button" class="button-small" data-denominator="4">4</button>
           <button type="button" class="button-small" data-denominator="8">8</button>
@@ -696,7 +754,12 @@
           <div class="operator">=</div>
           <div class="value">${toInchFractionString(total)}</div>
           <div class="decimal">${Number.isFinite(total) ? total.toFixed(4) : "—"}</div>
+          <div class="copied-indicator">Copied ✓</div>
         `;
+        totalRow.addEventListener("click", () => {
+          copyTotalValue(totalRow, toInchFractionString(total));
+        });
+
         tapeElement.appendChild(totalRow);
       }
     }
@@ -1036,6 +1099,32 @@
         throw new Error("buttons should use touch-action manipulation to prevent double-tap zoom");
       }
 
+      if (typeof copyTotalValue !== "function") {
+        throw new Error("copyTotalValue should exist for total row copy interaction");
+      }
+
+      renderTape();
+      const latestTotalRow = document.querySelector(".tape-total");
+      if (latestTotalRow === null) {
+        throw new Error("total row should exist for copy interaction");
+      }
+
+      copyTotalValue(latestTotalRow, "58 5/8\"");
+      if (!latestTotalRow.classList.contains("copied-flash")) {
+        throw new Error("total row should visually flash when copied");
+      }
+      latestTotalRow.classList.remove("copied-flash");
+
+      if (typeof flashButton !== "function") {
+        throw new Error("flashButton should exist for mobile tap feedback");
+      }
+
+      flashButton(firstButton);
+      if (!firstButton.classList.contains("tap-flash")) {
+        throw new Error("button tap feedback should apply tap-flash class");
+      }
+      firstButton.classList.remove("tap-flash");
+
       updateDisplayMode();
       const display = document.querySelector(".display");
       if (display === null || !display.classList) {
@@ -1118,7 +1207,44 @@
       Object.assign(state, JSON.parse(originalState));
     }
 
+    function copyTotalValue(row, value) {
+      if (!navigator.clipboard) {
+        return;
+      }
+
+      navigator.clipboard.writeText(value).catch(() => {});
+
+      const decimalElement = row.querySelector(".decimal");
+      const originalDecimalText = decimalElement ? decimalElement.textContent : "";
+
+      row.classList.remove("copied-flash");
+      void row.offsetWidth;
+      row.classList.add("copied-flash");
+
+      
+
+      window.setTimeout(() => {
+        row.classList.remove("copied-flash");
+
+
+      }, 900);
+    }
+
+    function flashButton(button) {
+      button.classList.remove("tap-flash");
+      void button.offsetWidth;
+      button.classList.add("tap-flash");
+
+      window.setTimeout(() => {
+        button.classList.remove("tap-flash");
+      }, 140);
+    }
+
     document.querySelectorAll("button").forEach((button) => {
+      button.addEventListener("pointerdown", () => {
+        flashButton(button);
+      });
+
       button.addEventListener("click", () => {
         if (button.dataset.whole) {
           appendWholeDigit(button.dataset.whole);
