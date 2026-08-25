@@ -48,7 +48,7 @@ Completion evidence:
 
 ### 1. Jekyll and Ruby modernization
 
-**Status:** Active
+**Status:** Complete
 
 Scope:
 
@@ -63,6 +63,14 @@ Exit criteria:
 - A clean checkout builds reproducibly using the documented command.
 - Generated URL parity passes.
 - Ruby/Jekyll compatibility warnings are eliminated or explicitly documented.
+
+Completion evidence:
+
+- Ruby 3.4.7, Bundler 2.7.2, and Jekyll 4.4.1 are pinned and build successfully.
+- The DigitalOcean-equivalent `bin/verify` gate preserves all 705 baseline public files.
+- Both calculator URLs and all generated HTML quality baselines pass unchanged.
+- GitHub Actions verifies the build on Ubuntu 22.04 using the repository-pinned runtime.
+- A direct Jekyll 3 versus Jekyll 4 output comparison found only documented renderer and feed-generator differences.
 
 ### 2. Design system and semantic shell
 
