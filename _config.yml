@@ -29,7 +29,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-gems:
+plugins:
 - jekyll-redirect-from
 - jekyll-paginate
 - jekyll-gist

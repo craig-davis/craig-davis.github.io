@@ -48,7 +48,7 @@ Completion evidence:
 
 ### 1. Jekyll and Ruby modernization
 
-**Status:** Not started
+**Status:** Active
 
 Scope:
 
