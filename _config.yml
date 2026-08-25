@@ -14,8 +14,12 @@ highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: 
+  - bin
+  - docs
   - less
   - node_modules
+  - scripts
+  - test
   - Gruntfile.js
   - package.json
   - README.md

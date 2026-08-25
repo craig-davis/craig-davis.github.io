@@ -1,0 +1,80 @@
+path,title,current_tags,primary_topic,new_layout,description,headings,images_alt,callouts,related_posts,products,links,qa,status
+_posts/2011-08-23-google-event-tracking-from-php.markdown,Google Event Tracking from PHP,php,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2011-11-03-ios-html-application-configuration.md,iOS HTML Application Configuration,ux,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-02-09-mysql-list-of-privileges-for-a-database.markdown,MySQL list of privileges for a database,mysql,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-03-10-qunit-rules-for-jshint.md,QUnit rules for JSHint,javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-05-02-google-chart-color-list.md,Google Chart Color List,css|ux,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-06-22-get-more-exercise-during-the-programming-workday.md,Get more exercise during the programming workday,"","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-07-29-handlebars-helpers-for-debugging-and-pluralization.md,Handlebars Helpers for Debugging and Pluralization,javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-08-23-dotfiles-for-puppet-installation.markdown,Dotfiles for Puppet Installation,"","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-09-10-fogbugz-geckoboard-widgets.md,FogBugz GeckoBoard Widgets,"","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-09-17-fogbugz-command-line-client.md,FogBugz Command Line Client,php,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-09-18-amd-javascript-parse-url.markdown,AMD Javascript Parse URL,javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-09-27-php-pake-to-build-a-readme-file.markdown,PHP Pake to build a README file,php,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-10-16-pchart-updated-with-image-maps.markdown,pChart updated with image maps,php,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-12-05-html-minifier-and-handlebars-compiler-for-jst-and-backbonejs.markdown,HTML Minifier and Handlebars compiler for JST and BackboneJS,javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2012-12-31-markdown-resume-builder.markdown,Markdown Resume Builder,php,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2013-01-03-jquery-animated-borders.markdown,jQuery Animated Border: jquery.animatedborders.js,javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2013-01-05-generating-jsonp-with-hifi-cms.markdown,Generating JSONP with HiFi CMS,javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2013-01-16-introducing-campfire-chat-on-the-command-line.markdown,"Introducing TermCamp, a Campfire command line client",javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2013-03-29-partial-api-mocking-in-backbone-javascript.markdown,Partial API Mocking in Backbone JavaScript,javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2013-10-13-unit-testing-slim-framework-applications-with-phpunit.markdown,Unit Testing Slim PHP Framework applications with PHPUnit,php,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2014-03-25-twitter-feeds-for-javascript-and-php.markdown,Twitter Feeds for JavaScript and PHP,php|javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-04-18-help-scout-command-line-client.markdown,Help Scout Command Line Client,php,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-05-05-enable-mysql-logging-for-debugging.markdown,Enable MySQL logging for Debugging at Runtime,mysql,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-06-10-refactoring-with-guard-clauses-php-javascript.markdown,Reducing Complexity by Refactoring with Guard Clauses,php|javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-06-29-rule-31-essential-bike-tool-kit.markdown,The Essential Bike Tool Kit,bike,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-08-17-miter-saw-workbench.markdown,A Miter Saw Workbench,woodworking,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-08-18-jekyll-instruction-layout.markdown,Jekyll Layout for Tutorial Pages,ux,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-09-03-osx-media-keys-filco-mechanical-keyboard.md,OSX Media Keys for Filco Mechanical Keyboards,"","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-11-20-maintaining-your-bash-history.markdown,Maintaining and Using Your Bash History,"","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-12-13-a-snowy-day-with-riley.markdown,A Snowy Day with Riley,photos,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2015-12-20-beginning-woodworking-tools.markdown,Beginning Woodworking Tools,woodworking,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2016-02-23-white-mesa-snow-ride.markdown,A snowy ride at White Mesa,photos,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2016-03-26-my-favorite-popular-science-books.markdown,Reading List: Popular Science Books,reading,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2016-03-28-A-Simple-Complexity-Test.markdown,A Simple Complexity Test,php|javascript,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2016-04-02-sheep-shearing-in-new-mexico.markdown,Sheep Shearing in New Mexico,photos,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2016-04-03-interesting-single-topic-history-books.markdown,Reading List: Single Topic History Books,reading,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2016-07-10-summer-science-fiction-reading.markdown,Reading List: Summer Science Fiction Books,reading,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2016-07-25-My-Favorite-Margarita-Recipe-for-a-Backyard-Barbecue.markdown,My Favorite Margarita Recipe for a Backyard Barbecue,recipes,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2016-10-1-hs100-home-automation-menubar.markdown,HS100 Home Automation Menu Bar App,python,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2017-04-09-Chaco-Culture-National-Historical-Park.markdown,Chaco Culture National Historical Park,photos,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2017-04-09-Trinity-Test-Site.markdown,Trinity Test Site,photos,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2017-10-02-Photos-from-Barcelona.markdown,Photos from Barcelona,photos,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2017-10-18-source-control-as-conversation.html,Code Talk: Source Control as Conversation,podcast,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2017-10-27-My-Adventure-Toolkit-for-my-Yamaha-WR250R.markdown,My Adventure Toolkit for my Yamaha WR250R,tools|motorcycles,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2018-08-22-Jeep-XJ-Teraflex-Disc-Brake-Conversion.markdown,Jeep XJ Teraflex Disc Brake Conversion,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2018-09-21-Jeep-XJ-Fog-Light-Wiring-with-OEM-Rocker-Switches.markdown,Jeep XJ Fog Light Wiring with OEM Rocker Switches,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2018-10-31-Jeep-XJ-Illuminated-Extended-Idle-Switch.markdown,Jeep XJ Illuminated Extended Idle Switch,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2018-11-10-The-Legend-of-the-Aged-Shredder.markdown,The Legend of the Aged Shredder,"","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-01-19-Jeep-XJ-Rear-Quarter-Panel-Patching.markdown,Jeep XJ Rear Quarter Panel Patching,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-01-25-Beginning-Mountain-Biking-in-2019.markdown,Beginning Mountain Biking in 2019,bike,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-03-04-Jeep-XJ-Tire-Carrier-License-Plate.markdown,Jeep XJ Tire Carrier License Plate,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-03-08-Jeep-XJ-Overhead-Console-Compass-Calibration.markdown,Jeep XJ Overhead Console Compass Calibration,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-03-11-Jeep-XJ-62mm-Throttle-Body-Upgrade.markdown,Jeep XJ 62mm Throttle Body Upgrade,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-03-19-Jeep-XJ-Brown-Dog-Motor-Mounts-Installation-Notes.markdown,Jeep XJ Brown Dog Motor Mounts Installation Notes,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-07-11-code-talk-podcast.markdown,"Code Talk: Broken Computers, Booting new computers, Digital photo storage, Tin foil hats",podcast,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-07-16-KLX250S-Performance-Mods-and-Basic-Upgrades.markdown,KLX250S Performance Mods and Basic Upgrades,motorcycles,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2019-07-17-Jeep-XJ-Transmission-Cooler-Line-Ugrade.markdown,Jeep XJ Transmission Cooler Line Ugrade,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2020-01-14-Jeep-XJ-Boostwerks-Comp-Mount-Hidden-Winch-Installation.markdown,Jeep XJ Boostwerks Comp Mount Hidden Winch Installation,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2020-01-15-Quick-and-Easy-Weeknight-Pizza.markdown,Quick and Easy Weeknight Pizza,recipes,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2020-01-16-Cantilevered-Plywood-Garage-Shelves.markdown,Cantilevered Plywood Garage Shelves,woodworking,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2020-03-31-writing-for-code-review.markdown,Writing for Code Review,php,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2020-06-30-Marble-Machine-Parts-List-and-Motors.markdown,Marble Machine Parts List and Motors,"","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2020-07-03-Tacoma-WA-Road-Bike-Routes.markdown,Tacoma WA Road Bike Routes,bike,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2020-08-12-Shop-Tools-I-Wish-Id-Bought-Sooner.markdown,Shop Tools I Wish I'd Bought Sooner,woodworking,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2020-11-22-WEN-4214-Drill-Press-Unboxing-and-Review.markdown,WEN 4214 Drill Press Unboxing and Review,woodworking|tools,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2021-02-08-Jeep-XJ-Heated-Side-Mirror-Upgrade.markdown,Jeep XJ Heated Side Mirror Upgrade,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2021-03-22-Adding-a-remote-switch-to-a-webcam-light.markdown,Adding a Remote Switch to a Webcam Ring Light,"","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2021-07-26-Jeep-XJ-Crossmember-Exhaust-Hanger.markdown,Rebuilding a Jeep XJ Transmission Mount Exhaust Hanger,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2022-04-20-Delta-Unisaw-Shark-Guard.markdown,Delta Unisaw Shark Guard,woodworking,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2022-06-05-Bosch-4100-Router-Table-Insert.markdown,Bosch 4100 Router Table Insert,woodworking,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2023-09-19-business-for-software-developers.markdown,Business and Growth for Software Developers,reading,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2023-10-09-Books-for-Software-Engineering-Continuing-Education.markdown,Books for Software Engineering Continuing Education,reading,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2023-10-14-Easy-self-rising-flour-biscuits.markdown,Easy Self Rising Flour Biscuits,recipes,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2023-10-31-Jeep-XJ-PSC-Power-Steering-Replacement.markdown,Jeep XJ PSC Power Steering Replacement,jeep,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2024-04-22-maker-channel-on-youtube.markdown,Maker channels on Youtube,woodworking,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2024-06-25-Repairing-a-Smith-Wilder-Jr-Helmet-Visor.markdown,Repairing a Smith Wilder Jr Helmet Visor,bike,"",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+_posts/2025-10-07-avalanche-safety-engineering-decisions.markdown,"Skiing, Snow, and Software","","",pending,pending,pending,pending,pending,pending,pending,pending,pending,not_started
+flat-trim/index.html,Craftsman Flat Trim Calculator,"",Tools,pending,pending,pending,pending,n/a,pending,n/a,pending,pending,not_started
+running-calculator/index.html,Running Length Calculator,"",Tools,pending,pending,pending,pending,n/a,pending,n/a,pending,pending,not_started
