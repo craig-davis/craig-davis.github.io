@@ -4,9 +4,15 @@ layout: default
 {% include article-header.html %}
 <article class="article-shell">
   {% include article-tags.html %}
-  {% include article-toc.html %}
-  <div class="article-content prose">
-    {{ content }}
+  <div class="article-layout{% unless page.toc and page.toc.size > 0 %} article-layout--without-rail{% endunless %}">
+    {% if page.toc and page.toc.size > 0 %}
+      <aside class="article-layout__rail">
+        {% include article-toc.html %}
+      </aside>
+    {% endif %}
+    <div class="article-content prose">
+      {{ content }}
+    </div>
   </div>
 
   {% include article-related.html %}

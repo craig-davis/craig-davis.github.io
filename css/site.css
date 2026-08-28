@@ -269,8 +269,7 @@ main {
   text-transform: uppercase;
 }
 
-.page-content,
-.article-shell {
+.page-content {
   width: min(100% - 2rem, var(--reading));
   margin-inline: auto;
 }
@@ -280,22 +279,46 @@ main {
 }
 
 .article-shell {
+  width: min(100% - 2rem, var(--shell));
+  margin-inline: auto;
   margin-bottom: var(--space-7);
 }
 
 .article-tags {
-  margin: 0 0 var(--space-5);
+  width: min(100%, var(--reading));
+  margin: 0 auto var(--space-5);
   padding-bottom: var(--space-3);
   border-bottom: 1px solid var(--rule);
   color: var(--muted);
   font: 700 0.72rem/1.5 var(--sans);
 }
 
+.article-layout {
+  display: grid;
+  grid-template-columns: minmax(10rem, 14rem) minmax(0, var(--reading)) minmax(10rem, 14rem);
+  justify-content: center;
+  gap: clamp(2rem, 4vw, 4rem);
+}
+
+.article-layout--without-rail .article-content {
+  grid-column: 2;
+}
+
+.article-layout__rail {
+  grid-column: 1;
+}
+
+.article-content {
+  grid-column: 2;
+}
+
 .article-toc {
-  margin: 0 0 var(--space-6);
-  padding: var(--space-4);
-  border: 1px solid var(--rule);
-  background: color-mix(in srgb, var(--paper-light) 72%, transparent);
+  position: sticky;
+  top: var(--space-4);
+  margin: 0;
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
   font-family: var(--sans);
 }
 
@@ -312,8 +335,6 @@ main {
 .article-toc ol {
   margin: 0;
   padding-left: 1.25rem;
-  columns: 2;
-  column-gap: var(--space-5);
   font-size: 0.84rem;
 }
 
@@ -731,6 +752,8 @@ main {
 }
 
 .related-posts {
+  width: min(100%, var(--reading));
+  margin-inline: auto;
   margin-top: var(--space-7);
   padding-top: var(--space-5);
   border-top: 1px solid var(--rule);
@@ -821,6 +844,42 @@ main {
   margin: 0;
   color: var(--muted);
   font: 0.72rem/1.5 var(--sans);
+}
+
+.article-shell > .post-navigation {
+  width: min(100%, var(--reading));
+  margin-inline: auto;
+  margin-top: var(--space-6);
+}
+
+@media (max-width: 72rem) {
+  .article-shell {
+    width: min(100% - 2rem, var(--reading));
+  }
+
+  .article-layout,
+  .article-layout--without-rail {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-5);
+  }
+
+  .article-layout__rail,
+  .article-content,
+  .article-layout--without-rail .article-content {
+    grid-column: 1;
+  }
+
+  .article-toc {
+    position: static;
+    padding: var(--space-4);
+    border: 1px solid var(--rule);
+    background: color-mix(in srgb, var(--paper-light) 72%, transparent);
+  }
+
+  .article-toc ol {
+    columns: 2;
+    column-gap: var(--space-5);
+  }
 }
 
 @media (max-width: 54rem) {
