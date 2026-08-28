@@ -1,6 +1,6 @@
 ---
 layout: page
-subtitle: "A Blog of Code, Photos, Bikes, and Life"
+subtitle: "Notes from the shop, the trail, and the keyboard. Firsthand experience, hard-earned lessons, and the things I actually use and recommend."
 header-img: img/headers/craig-ranier.jpg
 sitemap:
     priority: 1
@@ -8,40 +8,65 @@ sitemap:
     lastmod: 2023-10-26T13:23:20-05:00
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview{% if post.photourl %} photo{% endif %}{% if post.podcasturl %} podcast{% endif %}">
-{% if post.podcasturl %}
-    <a href="{{ post.podcasturl }}">
-{% elsif post.remoteurl %}
-    <a href="{{ post.remoteurl }}">
-{% elsif post.photourl %}
-    <a href="{{ post.photourl }}">
-{% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-{% endif %}
-        <h2 class="post-title">
-            {% if post.photourl %}<img src="/img/camera.png" class="photo-icon">{% endif %}{% if post.podcasturl %}<img src="/img/microphone.png" class="photo-icon">{% endif %}{{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-        {% endif %}
+{% if paginator.page == 1 %}
+<nav class="home-topics" aria-label="Browse by topic">
+  {% for topic_pair in site.data.topics %}
+    {% assign topic_key = topic_pair[0] %}
+    {% assign topic = topic_pair[1] %}
+    <a class="home-topic" href="{{ '/topics/' | append: topic_key | append: '/' | relative_url }}">
+      <span class="home-topic__symbol" aria-hidden="true">{{ topic.symbol }}</span>
+      <span><strong>{{ topic.name }}</strong><small>{{ topic.description }}</small></span>
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+  {% endfor %}
+</nav>
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
+{% assign featured = site.posts | first %}
+<section class="home-section home-featured" aria-labelledby="featured-title">
+  <div class="section-heading"><h2 id="featured-title">Featured</h2></div>
+  <article class="feature-card">
+    {% if featured.header-img %}<a class="feature-card__image" href="{{ featured.url | relative_url }}" style="background-image: url('{{ featured.header-img | relative_url }}')" aria-label="Read {{ featured.title | escape }}"></a>{% endif %}
+    <div class="feature-card__body">
+      {% assign featured_tag = featured.tags | first %}
+      {% assign featured_topic_key = featured.topic | default: site.data.tags[featured_tag].topic %}
+      <p class="eyebrow">{{ site.data.topics[featured_topic_key].name }} · {{ featured.date | date: "%B %-d, %Y" }}</p>
+      <h2><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h2>
+      {% if featured.subtitle %}<p>{{ featured.subtitle }}</p>{% endif %}
+      <a class="text-link" href="{{ featured.url | relative_url }}">Read article <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+</section>
+
+<section class="home-section" aria-labelledby="recent-title">
+  <div class="section-heading">
+    <h2 id="recent-title">Recent writing</h2>
+    <a href="{{ '/posts/' | relative_url }}">Complete archive</a>
+  </div>
+  <div class="post-card-grid post-card-grid--compact">
+    {% for post in site.posts limit: 7 offset: 1 %}{% include post-card.html post=post %}{% endfor %}
+  </div>
+</section>
+
+<aside class="home-gear">
+  <div>
+    <p class="eyebrow">Gear I actually use</p>
+    <h2>Tools, parts, and equipment that earned their place.</h2>
+    <p>Long-term notes on shop tools, trail equipment, and practical gear—not a generic storefront.</p>
+  </div>
+  <a class="button-link" href="{{ '/tags/tools/' | relative_url }}">Explore gear and tools <span aria-hidden="true">→</span></a>
+</aside>
+{% else %}
+<section class="home-section" aria-labelledby="pagination-title">
+  <div class="section-heading">
+    <h2 id="pagination-title">Writing archive · Page {{ paginator.page }}</h2>
+    <a href="{{ '/posts/' | relative_url }}">Complete archive</a>
+  </div>
+  <div class="post-card-grid">
+    {% for post in paginator.posts %}{% include post-card.html post=post %}{% endfor %}
+  </div>
+  <nav class="pagination-nav" aria-label="Archive pages">
+    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>{% endif %}
+    <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">Older →</a>{% endif %}
+  </nav>
+</section>
 {% endif %}

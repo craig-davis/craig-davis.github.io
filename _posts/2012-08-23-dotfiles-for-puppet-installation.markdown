@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Dotfiles for Puppet Installation"
+topic:      software
 sustitle:   "Take your bash preferences with you!"
 tags:       []
 author:     "Craig Davis"

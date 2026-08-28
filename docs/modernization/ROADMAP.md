@@ -116,7 +116,7 @@ Exit criteria:
 
 Completion evidence:
 
-- All 77 posts route through a shared semantic article frame; book and instructional layouts retain specialized rendering, while photo, podcast, and remote entries now provide complete local landing pages.
+- All published posts route through a shared semantic article frame; book and instructional layouts retain specialized rendering, while photo, podcast, and remote entries now provide complete local landing pages.
 - Shared article headers support decks, published and updated dates, topics, tags, curated tables of contents, and decorative heroes.
 - Reusable callout, disclosure, product, figure, related-writing, and adjacent-article components are documented in `EDITORIAL-COMPONENTS.md`.
 - Every generated article has exactly one H1, including the three historical posts corrected in this phase.
@@ -125,7 +125,7 @@ Completion evidence:
 
 ### 4. Taxonomy, homepage, and archives
 
-**Status:** Not started
+**Status:** Complete
 
 Scope:
 
@@ -138,6 +138,15 @@ Exit criteria:
 
 - Every post is discoverable through chronology and topic/tag navigation.
 - Homepage selections follow documented deterministic or editorial rules.
+
+Completion evidence:
+
+- Every published post resolves to Machines, Making, Software, or Reading & Life through explicit front matter or its preserved first tag; historically untagged posts received explicit assignments.
+- Four `/topics/` collection pages list all published posts in their area and link to the applicable legacy tags.
+- The homepage features the newest post, the next seven recent posts, all four topic entry points, the complete archive, and a restrained Gear/tools entry point.
+- `/posts/` provides topic, tag, and chronological discovery, while tag listings now use local durable post URLs.
+- Existing `/tags/` and `/page2/` through `/page8/` routes remain present and useful; the Python and Tools tag-page mapping defects were corrected.
+- `bin/verify` preserves all 705 baseline public URLs, generates 711 current files, and reports no new HTML quality regressions.
 
 ### 5. Images, accessibility, and performance
 

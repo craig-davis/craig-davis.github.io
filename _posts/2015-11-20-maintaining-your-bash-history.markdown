@@ -1,6 +1,7 @@
 ---
 layout:      post
 title:       "Maintaining and Using Your Bash History"
+topic:       software
 subtitle:    "Tips and tricks for using your bash history more productively"
 description: "Tips and tricks for using your bash history more productively"
 date:        2015-11-20

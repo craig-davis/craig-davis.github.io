@@ -1,28 +1,45 @@
 javascript:
   name: JavaScript
+  topic: software
 jeep:
   name: Jeep
+  topic: machines
 photos:
   name: Photos
+  topic: reading-life
 php:
   name: PHP
+  topic: software
 python:
   name: Python
+  topic: software
 mysql:
   name: MySQL
+  topic: software
 ux:
   name: UX
+  topic: software
 css:
   name: CSS
+  topic: software
 bike:
   name: Bike
+  topic: machines
 tools:
   name: Tools
+  topic: making
 motorcycles:
   name: Motorcycles
+  topic: machines
 woodworking:
   name: Woodworking
+  topic: making
 reading:
   name: Reading
+  topic: reading-life
 recipes:
   name: Recipes
+  topic: making
+podcast:
+  name: Podcasts
+  topic: reading-life
