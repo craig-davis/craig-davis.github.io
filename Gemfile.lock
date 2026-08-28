@@ -125,7 +125,6 @@ DEPENDENCIES
   jekyll-gist (~> 1.5)
   jekyll-paginate (~> 1.1)
   jekyll-redirect-from (~> 0.16)
-  tzinfo-data
   webrick (~> 1.9)
 
 RUBY VERSION

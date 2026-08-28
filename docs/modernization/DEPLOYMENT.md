@@ -20,6 +20,12 @@
 - Custom-domain configuration for `there4.io` and `www.there4.io`.
 - Redirect and error-document settings supplied outside Jekyll.
 
+## Required DigitalOcean stack upgrade
+
+The first Phase 1 deployment revealed that the app still uses DigitalOcean's legacy Ubuntu 18.04 stack with `heroku/ruby` buildpack v1.244.3 and Bundler 2.3.10. The immediate Gemfile parser failure was caused by an unnecessary Windows-only dependency and has been removed.
+
+Ruby 3.4.7 should be deployed on DigitalOcean's Ubuntu-22 Ruby buildpack. Upgrade the app stack before treating the production runtime as aligned with local development and GitHub Actions.
+
 ## Local production-equivalent build
 
 ```sh

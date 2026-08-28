@@ -14,5 +14,3 @@ end
 group :development do
   gem "webrick", "~> 1.9"
 end
-
-gem "tzinfo-data", platforms: %i[windows jruby]
