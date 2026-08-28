@@ -74,7 +74,7 @@ Completion evidence:
 
 ### 2. Design system and semantic shell
 
-**Status:** Not started
+**Status:** Complete
 
 Scope:
 
@@ -88,6 +88,14 @@ Exit criteria:
 - Shared pages use semantic landmarks and accessible navigation.
 - The shell works deliberately on desktop, tablet, and phone.
 - No site-wide behavior depends on the retired frontend stack.
+
+Completion evidence:
+
+- The shared default, page, and post layouts use semantic header, navigation, main, article, and footer landmarks with a keyboard skip link and current-page navigation state.
+- `css/site.css` provides the responsive editorial design system without external fonts, icon fonts, Bootstrap, or global JavaScript.
+- Shared metadata now includes canonical, description, Open Graph, Twitter card, feed, theme-color, and favicon fields.
+- Grunt and LESS build sources were removed; legacy public asset files remain unreferenced only to preserve Phase 0 URL parity.
+- `bin/verify` passes with all 705 baseline URLs, 707 current public files, and no new generated HTML quality regressions.
 
 ### 3. Article system and editorial components
 
