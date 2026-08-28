@@ -34,4 +34,5 @@
 
   <link rel="stylesheet" href="{{ '/css/syntax.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/css/site.css' | relative_url }}">
+  {% if page.date %}{% include article-json-ld.html %}{% endif %}
 </head>

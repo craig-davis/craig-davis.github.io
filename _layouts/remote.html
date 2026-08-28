@@ -1,3 +1,7 @@
 ---
-layout: default
+layout: post
 ---
+{% if content != '' %}{{ content }}{% endif %}
+{% capture remote_message %}This article was published on another site. The link below opens the original publication.{% endcapture %}
+{% include callout.html type="external" title="Published elsewhere" content=remote_message %}
+<p><a class="button-link" href="{{ page.remoteurl }}">Read the original article <span aria-hidden="true">→</span></a></p>

@@ -1,0 +1,18 @@
+{% assign schema_description = page.description | default: page.deck | default: page.subtitle | default: site.description | strip_html | normalize_whitespace %}
+{% assign schema_image = page.header-img | default: site.header-img | absolute_url %}
+{% assign schema_modified = page.last_modified_at | default: page.lastmod | default: page.date %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ schema_description | jsonify }},
+  "image": {{ schema_image | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ schema_modified | date_to_xmlschema | jsonify }},
+  "author": { "@type": "Person", "name": {{ page.author | default: site.author | jsonify }} },
+  "publisher": { "@type": "Person", "name": {{ site.author | jsonify }} },
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}{% if page.tags and page.tags.size > 0 %},
+  "keywords": {{ page.tags | join: ', ' | jsonify }}{% endif %}
+}
+</script>

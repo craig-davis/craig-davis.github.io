@@ -1,0 +1,9 @@
+<aside class="product-card" aria-label="{{ include.title | escape }}">
+  {% if include.image %}<img class="product-card__image" src="{{ include.image | relative_url }}" alt="{{ include.image_alt | default: include.title | escape }}" loading="lazy" decoding="async">{% endif %}
+  <div class="product-card__body">
+    {% if include.label %}<p class="eyebrow">{{ include.label }}</p>{% endif %}
+    <p class="product-card__title">{{ include.title }}</p>
+    {% if include.description %}<p>{{ include.description }}</p>{% endif %}
+    {% if include.url %}<a class="text-link" href="{{ include.url }}">{{ include.link_text | default: 'View product' }} <span aria-hidden="true">→</span></a>{% endif %}
+  </div>
+</aside>

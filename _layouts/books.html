@@ -2,41 +2,37 @@
 layout: post
 ---
 
-{{ title }}
-
 {{ content }}
 
-<h2>Table of Contents</h2>
-<ul>
+<nav class="book-index" aria-labelledby="book-index-title">
+<h2 id="book-index-title">Books in this guide</h2>
+<ol>
 {% for book in page.books %}
     <li><a href="#{{ book.title | slugify }}">{{ book.title }}</a></li>
 {% endfor %}
-</ul>
-<hr>
+</ol>
+</nav>
 
-<small>The links below are Amazon affiliate links. Purchasing any of these books helps fund more posts like these.</small>
+{% include disclosure.html %}
 
-<hr>
-
-<div class="review">
+<div class="book-reviews">
 {% if page.books %}
 {% for book in page.books %}
-    <div class="review-book" id="{{ book.title | slugify }}" >
+    <section class="review-book" id="{{ book.title | slugify }}">
         {% if book.img %}
         <figure>
-            <a href="{{ book.amazon }}" title="Amazon: {{ book.title }}"><img src="/img/posts/{{ page.img-folder }}/{{ book.img }}" alt="{{ book.title }}"></a>
+            <a href="{{ book.amazon }}"><img src="/img/posts/{{ page.img-folder }}/{{ book.img }}" alt="Cover of {{ book.title | escape }}" loading="lazy" decoding="async"></a>
             <figcaption>{{ book.caption }}</figcaption>
         </figure>
         {% endif %}
-        <strong><a href="{{ book.amazon }}" title="Amazon: {{ book.title }}">{{ book.title }}</a></strong><br>
-        <small>{{ book.author }}, {{ book.year }}</small><br>
+        <div class="review-book__body">
+        <h2><a href="{{ book.amazon }}">{{ book.title }}</a></h2>
+        <p class="review-book__meta">{{ book.author }}, {{ book.year }}</p>
         {% if book.review %}{{ book.review | markdownify }}{% endif %}
-    </div>
-    <hr style="clear: both; margin: 30px 0;">
+        </div>
+    </section>
 {% endfor %}
 {% else %}
     <p>The book list is empty!</p>
 {% endif %}
 </div>
-
-{% include disclosure.html %}

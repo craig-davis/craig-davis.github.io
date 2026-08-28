@@ -1,45 +1,15 @@
 ---
 layout: default
 ---
-{% assign post = page %}
-{% if post.tags.size > 0 %}
-    {% capture tags_content %}{% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %} {% endcapture %}
-    {% for post_tag in post.tags %}
-        {% assign tag = site.data.tags[post_tag] %}
-        {% if tag %}
-            {% capture tags_content_temp %}{{ tags_content }}<a class="post-tag" href="/tags/{{ post_tag }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
-            {% assign tags_content = tags_content_temp %}
-        {% endif %}
-    {% endfor %}
-{% else %}
-    {% assign tags_content = '' %}
-{% endif %}
-
-{% assign masthead_image = page.header-img | default: site.header-img %}
-<header class="post-masthead">
-  <div class="post-masthead__copy">
-    {% if page.tags and page.tags.size > 0 %}
-      <p class="eyebrow">{{ page.tags | first | replace: '-', ' ' }}</p>
-    {% else %}
-      <p class="eyebrow">Writing</p>
-    {% endif %}
-    <h1>{{ page.title }}</h1>
-    {% if page.subtitle %}<p class="post-masthead__deck">{{ page.subtitle }}</p>{% endif %}
-    <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-      <span aria-hidden="true">·</span>
-      <span>{{ page.author | default: site.author }}</span>
-    </div>
-  </div>
-  {% if masthead_image %}
-    <div class="post-masthead__media" style="background-image: url('{{ masthead_image | relative_url }}')"></div>
-  {% endif %}
-</header>
+{% include article-header.html %}
 <article class="article-shell">
-  {% if tags_content != '' %}<p class="article-tags">{{ tags_content }}</p>{% endif %}
+  {% include article-tags.html %}
+  {% include article-toc.html %}
   <div class="article-content prose">
     {{ content }}
   </div>
+
+  {% include article-related.html %}
 
   {% if page.previous.url or page.next.url %}
   <nav class="post-navigation" aria-label="Adjacent articles">

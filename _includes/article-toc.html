@@ -1,0 +1,10 @@
+{% if page.toc and page.toc.size > 0 %}
+<nav class="article-toc" aria-labelledby="article-toc-title">
+  <p class="article-toc__title" id="article-toc-title">On this page</p>
+  <ol>
+    {% for item in page.toc %}
+      <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ol>
+</nav>
+{% endif %}

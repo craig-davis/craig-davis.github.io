@@ -1,0 +1,8 @@
+{% if page.tags and page.tags.size > 0 %}
+<nav class="article-tags" aria-label="Article topics">
+  {% for post_tag in page.tags %}
+    {% assign tag = site.data.tags[post_tag] %}
+    {% if tag %}<a class="post-tag" href="{{ '/tags/' | append: post_tag | append: '/' | relative_url }}">{{ tag.name }}</a>{% endif %}
+  {% endfor %}
+</nav>
+{% endif %}

@@ -8,7 +8,7 @@ author:     "Craig Davis"
 header-img: "img/headers/tacoma-narrows.jpg"
 ---
 
-# Tacoma Road Bike Rides
+## Tacoma Road Bike Rides
 
 It can be hard to find good riding on the Tacoma peninsula. Our poor roads and sketchy drivers can discourage road riding. However, over the last couple of years I've put together a few go-to rides originating in [Proctor][proctor] that work well for anyone in [North Tacoma][north]. These rides minimize exposure to traffic and use established bike lanes and routes when possible.
 
