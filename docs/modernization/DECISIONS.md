@@ -50,6 +50,14 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Reason:** Separating build modernization from visual redesign makes failures attributable and keeps Phase 1 reviewable. The observed differences are syntax-highlighter token classes, inline-code language classes, and feed generator/build timestamps; URLs and quality checks remain stable.
 
+## D-008 — Do not carry Windows-only Ruby dependencies
+
+**Status:** Accepted
+
+**Decision:** Remove `tzinfo-data` rather than maintain Windows platform declarations in the Gemfile.
+
+**Reason:** There4 builds on macOS and Linux. The dependency is unnecessary on both platforms, and its modern Bundler platform alias was incompatible with DigitalOcean's legacy Bundler 2.3.10 parser.
+
 ## Decision template
 
 ### D-NNN — Title
