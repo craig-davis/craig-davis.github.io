@@ -6,9 +6,16 @@ date:       2023-10-31
 tags:       [jeep]
 author:     "Craig Davis"
 header-img: "img/headers/xj-psc-power-steering-pulley.jpg"
+toc:
+  - title: 4.5-inch pulley and 94-inch belt
+    id: 45-pulley-94-belt
+  - title: SP1205C power steering pump
+    id: sp1205c-psc-power-steering-pump
+  - title: Installation
+    id: installation
 ---
 
-# 4.5" pulley, 94" Belt
+## 4.5" pulley, 94" Belt
 
 I recently blew up a power steering pump in my 1997 Jeep Cherokee. I plan to install a ram with a new steering box soon, and so while installing this pump I also installed a smaller pump pulley. 
 
@@ -16,7 +23,7 @@ I recently blew up a power steering pump in my 1997 Jeep Cherokee. I plan to ins
 
 [Gates Micro-V Serpentine Belt 6 Rib 94 Inch - K060935 (Amazon)][K060935] ([O'Reilly][O-K060935]) is the correct belt to use with the smaller pulley. There is [a good discussion][naxja] of this over at NAXJA.
 
-# SP1205C PSC Power Steering Pump
+## SP1205C PSC Power Steering Pump
 
 | Quantity | Item | Description |
 |----------|------|-------------|
@@ -25,9 +32,9 @@ I recently blew up a power steering pump in my 1997 Jeep Cherokee. I plan to ins
 | 1 | [FL-SWE715-4PAK][FL-SWE715-4PAK] | PSC Swepco 715 Power Steering Fluid |
 | 1 | [PSP01][PSP01] | Power Steering Pump Pulley Removal/Installer Tool Combo |
 
-# Installation
-> __Disclaimer:__ I am not a professional. This is for informational purposes only.
-> Please properly secure your transmission when working, and don't do anything stupid. Be safe when under your Jeep, and please wear your safety glasses.
+## Installation
+{% capture safety_note %}I am not a professional. This is for informational purposes only. Properly secure the vehicle when working, be safe underneath it, and wear safety glasses.{% endcapture %}
+{% include callout.html type="warning" title="Safety note" content=safety_note %}
 
 I'm not a professional. You should check out this video at YouTube: [How to Properly Install a Power Steering Pulley](https://www.youtube.com/watch?v=Fp7Ozlw29Sg).
 

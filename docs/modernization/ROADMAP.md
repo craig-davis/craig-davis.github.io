@@ -99,7 +99,7 @@ Completion evidence:
 
 ### 3. Article system and editorial components
 
-**Status:** Not started
+**Status:** Complete
 
 Scope:
 
@@ -113,6 +113,15 @@ Exit criteria:
 - Representative posts from every historical layout render correctly.
 - Article pages have exactly one H1 and a valid heading hierarchy.
 - Existing content remains readable before individual archive migration.
+
+Completion evidence:
+
+- All 77 posts route through a shared semantic article frame; book and instructional layouts retain specialized rendering, while photo, podcast, and remote entries now provide complete local landing pages.
+- Shared article headers support decks, published and updated dates, topics, tags, curated tables of contents, and decorative heroes.
+- Reusable callout, disclosure, product, figure, related-writing, and adjacent-article components are documented in `EDITORIAL-COMPONENTS.md`.
+- Every generated article has exactly one H1, including the three historical posts corrected in this phase.
+- Every dated page emits valid `BlogPosting` JSON-LD, and generated JSON-LD parses successfully across the site.
+- `bin/verify` preserves all 705 baseline public URLs and reports no new generated HTML quality regressions.
 
 ### 4. Taxonomy, homepage, and archives
 

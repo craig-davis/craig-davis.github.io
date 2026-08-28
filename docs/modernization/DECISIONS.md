@@ -84,6 +84,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** The files are inert compatibility artifacts, not part of the active frontend. Phase 9 will decide whether to remove them and deliberately update the URL baseline.
 
+## D-012 — Unify articles without rewriting the archive
+
+**Status:** Accepted
+
+**Decision:** Route standard, book, instructional, photo, podcast, and remote entries through one shared article frame. Keep specialized content generation in thin child layouts and make tables of contents opt-in and curated.
+
+**Reason:** Shared headers, metadata, topics, navigation, and related writing should behave consistently, while historical structured data such as books and instruction steps still needs purpose-built rendering. Curated tables of contents avoid noisy automatic navigation and can be added during editorial review.
+
+**Consequences:** Existing articles gain the modern frame immediately. Detailed callout, figure, product, and metadata migration remains incremental, and image-dimension work remains in Phase 5.
+
 ## Decision template
 
 ### D-NNN — Title

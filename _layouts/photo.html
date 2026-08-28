@@ -1,3 +1,7 @@
 ---
-layout: default
+layout: post
 ---
+{% if content != '' %}{{ content }}{% endif %}
+{% capture photo_message %}This entry is part of the There4 photo archive and opens the complete gallery on the original photo site.{% endcapture %}
+{% include callout.html type="photo" title="Photo essay" content=photo_message %}
+<p><a class="button-link" href="{{ page.photourl }}">View the complete photo essay <span aria-hidden="true">→</span></a></p>

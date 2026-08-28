@@ -1,0 +1,5 @@
+{% assign callout_type = include.type | default: 'note' %}
+<aside class="callout callout--{{ callout_type }}"{% if include.title %} aria-labelledby="callout-{{ include.title | slugify }}"{% endif %}>
+  {% if include.title %}<p class="callout__title" id="callout-{{ include.title | slugify }}">{{ include.title }}</p>{% endif %}
+  <div class="callout__content">{{ include.content | markdownify }}</div>
+</aside>

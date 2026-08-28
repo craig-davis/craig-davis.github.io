@@ -1,0 +1,29 @@
+{% assign masthead_image = page.header-img | default: site.header-img %}
+<header class="post-masthead">
+  <div class="post-masthead__copy">
+    {% if page.topic %}
+      <p class="eyebrow">{{ page.topic }}</p>
+    {% elsif page.tags and page.tags.size > 0 %}
+      {% assign primary_tag = page.tags | first %}
+      {% assign primary_tag_data = site.data.tags[primary_tag] %}
+      <p class="eyebrow">{{ primary_tag_data.name | default: primary_tag | replace: '-', ' ' }}</p>
+    {% else %}
+      <p class="eyebrow">Writing</p>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.deck or page.subtitle %}<p class="post-masthead__deck">{{ page.deck | default: page.subtitle }}</p>{% endif %}
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% assign updated_date = page.last_modified_at | default: page.lastmod %}
+      {% if updated_date %}
+        <span aria-hidden="true">·</span>
+        <span>Updated <time datetime="{{ updated_date | date_to_xmlschema }}">{{ updated_date | date: "%B %-d, %Y" }}</time></span>
+      {% endif %}
+      <span aria-hidden="true">·</span>
+      <span>{{ page.author | default: site.author }}</span>
+    </div>
+  </div>
+  {% if masthead_image %}
+    <div class="post-masthead__media" style="background-image: url('{{ masthead_image | relative_url }}')"></div>
+  {% endif %}
+</header>

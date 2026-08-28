@@ -1,6 +1,6 @@
-<figure class="{{ include.class }}">
-	{% if include.url != "" %}<a href="{{ include.url }}">{% endif %}
-		<img src="{{ include.src }}" style="max-width: {{ include.max-width }};" alt="{{ include.alt }}"/>
-	{% if include.url != "" %}</a>{% endif %}
-	<figcaption>{{ include.caption }}</figcaption>
+<figure{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.max-width %} style="--figure-width: {{ include.max-width }};"{% endif %}>
+  {% if include.url %}<a href="{{ include.url }}">{% endif %}
+    <img src="{{ include.src }}" alt="{{ include.alt | default: '' | escape }}"{% if include.width %} width="{{ include.width }}"{% endif %}{% if include.height %} height="{{ include.height }}"{% endif %} loading="lazy" decoding="async">
+  {% if include.url %}</a>{% endif %}
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 </figure>

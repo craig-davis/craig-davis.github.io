@@ -1,3 +1,7 @@
 ---
-layout: default
+layout: post
 ---
+{% if content != '' %}{{ content }}{% endif %}
+{% capture podcast_message %}This entry links to an episode hosted by the podcast publisher.{% endcapture %}
+{% include callout.html type="podcast" title="Podcast appearance" content=podcast_message %}
+<p><a class="button-link" href="{{ page.podcasturl }}">Listen to the episode <span aria-hidden="true">→</span></a></p>

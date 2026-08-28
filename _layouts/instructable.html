@@ -7,21 +7,23 @@ layout: post
 <div class="instructable">
 {% if page.steps %}
 {% for step in page.steps %}
-    <h3>{{ forloop.index }}. {{ step.title }}</h3>
-    <div class="instructable-step">
+    <section class="instructable-step" id="step-{{ forloop.index }}">
+    <div class="instructable-step__number" aria-hidden="true">{{ forloop.index }}</div>
+    <div class="instructable-step__body">
+    <h2>{{ step.title }}</h2>
     {% if step.img %}
         <figure>
-            {% if step.imglink %}<a href="{{ step.imglink }}">{% endif %}<img src="{{ step.img }}" alt="Step {{ forloop.index }}">{% if step.imglink %}</a>{% endif %}
+            {% if step.imglink %}<a href="{{ step.imglink }}">{% endif %}<img src="{{ step.img }}" alt="{{ step.alt | default: step.caption | default: step.title | escape }}" loading="lazy" decoding="async">{% if step.imglink %}</a>{% endif %}
             {% if step.caption %}<figcaption>{{ step.caption }}</figcaption>{% endif %}
         </figure>
     {% endif %}
-    {% if step.instruction %}<p>{{ step.instruction | markdownify }}</p>{% endif %}
-  </div>
+    {% if step.instruction %}{{ step.instruction | markdownify }}{% endif %}
+    </div>
+    </section>
 {% endfor %}
 {% else %}
     <p>This tutorial has no steps!</p>
 {% endif %}
 </div>
 
-
-<p style="clear: both">{% if page.summary %}<h2>Summary</h2>{{ page.summary }}{% endif %}</p>
+{% if page.summary %}<section class="instructable-summary"><h2>Summary</h2>{{ page.summary | markdownify }}</section>{% endif %}
