@@ -58,6 +58,32 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Reason:** There4 builds on macOS and Linux. The dependency is unnecessary on both platforms, and its modern Bundler platform alias was incompatible with DigitalOcean's legacy Bundler 2.3.10 parser.
 
+## D-009 — Make the therefore sign part of the There4 identity
+
+**Status:** Accepted
+
+**Decision:** Use the literal Unicode therefore sign (`U+2234`, `∴`) with the THERE4.IO wordmark and Craig Davis byline in the shared site identity.
+
+**Reason:** The symbol is an intentional expression of the site's name, not a replaceable decorative icon. Keeping it as text makes the mark crisp, accessible, and independent of an image asset.
+
+## D-010 — Use a quiet, self-hosted editorial design system
+
+**Status:** Accepted
+
+**Decision:** Build the shared shell with warm paper, ink, and rust color tokens; system serif, sans-serif, and monospace type stacks; semantic HTML; and CSS-driven responsive behavior. Do not depend on a font CDN, icon font, global JavaScript, or dark mode in this phase.
+
+**Reason:** The approach supports the practical, photographic character of the archive while reducing privacy, performance, and maintenance costs.
+
+## D-011 — Retain legacy public asset URLs temporarily
+
+**Status:** Accepted
+
+**Decision:** Remove the excluded Grunt and LESS build sources, but keep legacy CSS, JavaScript, font, and renamed npm-manifest files present and unreferenced until the final compatibility cleanup.
+
+**Reason:** Phase 0 recorded those files as public URLs. Removing them during the shell redesign would violate URL parity even though the modern site no longer loads them.
+
+**Consequences:** The files are inert compatibility artifacts, not part of the active frontend. Phase 9 will decide whether to remove them and deliberately update the URL baseline.
+
 ## Decision template
 
 ### D-NNN — Title

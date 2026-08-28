@@ -1,34 +1,17 @@
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-wordmark" href="{{ '/' | relative_url }}" aria-label="There4.io home">
+      <span class="site-wordmark__symbol" aria-hidden="true">{{ site.brand_symbol }}</span>
+      <span class="site-wordmark__lockup">
+        <span class="site-wordmark__name">{{ site.brand_domain }}</span>
+        <span class="site-wordmark__byline">{{ site.author }}</span>
+      </span>
+    </a>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
-                </li>
-                <li>
-                    <a href="http://photos.there4.io/">Photos</a>
-                </li>
-                {% for page in site.pages %}{% if page.title %}{% if page.url != '/pete/' %}{% if page.url != '/404.html' %}{% unless page.url contains 'tags' %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-                {% endunless %}{% endif %}{% endif %}{% endif %}{% endfor %}
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <a href="{{ '/posts/' | relative_url }}"{% if page.url == '/posts/' or page.url contains '/tags/' %} aria-current="page"{% endif %}>Writing</a>
+      <a href="{{ '/projects/' | relative_url }}"{% if page.url == '/projects/' %} aria-current="page"{% endif %}>Projects</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+    </nav>
+  </div>
+</header>

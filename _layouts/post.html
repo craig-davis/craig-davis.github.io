@@ -15,60 +15,44 @@ layout: default
     {% assign tags_content = '' %}
 {% endif %}
 
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
-                        <h1>{{ page.title }}</h1>
-                        {% if page.subtitle %}
-                        <h2 class="subheading">{{ page.subtitle }}</h2>
-                        {% endif %}
-                        {% if page.author %}
-                        <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-        </div>
+{% assign masthead_image = page.header-img | default: site.header-img %}
+<header class="post-masthead">
+  <div class="post-masthead__copy">
+    {% if page.tags and page.tags.size > 0 %}
+      <p class="eyebrow">{{ page.tags | first | replace: '-', ' ' }}</p>
+    {% else %}
+      <p class="eyebrow">Writing</p>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="post-masthead__deck">{{ page.subtitle }}</p>{% endif %}
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ page.author | default: site.author }}</span>
     </div>
+  </div>
+  {% if masthead_image %}
+    <div class="post-masthead__media" style="background-image: url('{{ masthead_image | relative_url }}')"></div>
+  {% endif %}
 </header>
+<article class="article-shell">
+  {% if tags_content != '' %}<p class="article-tags">{{ tags_content }}</p>{% endif %}
+  <div class="article-content prose">
+    {{ content }}
+  </div>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p id="post-meta">{{ tags_content }}</p>
-            </div>
-        </div>
-
-        <div class="row main-content">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-                {{ content }}
-
-                <hr>
-
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-
-            </div>
-        </div>
-    </div>
+  {% if page.previous.url or page.next.url %}
+  <nav class="post-navigation" aria-label="Adjacent articles">
+    {% if page.previous.url %}
+      <a class="post-navigation__previous" href="{{ page.previous.url | relative_url }}">
+        <span>Previous</span>{{ page.previous.title }}
+      </a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="post-navigation__next" href="{{ page.next.url | relative_url }}">
+        <span>Next</span>{{ page.next.title }}
+      </a>
+    {% endif %}
+  </nav>
+  {% endif %}
 </article>
-
-<hr>
