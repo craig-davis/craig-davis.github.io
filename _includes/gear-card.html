@@ -10,7 +10,7 @@
     <div class="gear-card__links">
       <a href="{{ gear.article | relative_url }}">Read the field notes</a>
       {% for destination in gear.destinations %}
-        <a href="{{ destination.url }}">{{ destination.label }}{% if destination.affiliate %} <span>(affiliate)</span>{% endif %}</a>
+        <a href="{{ destination.url }}"{% if destination.affiliate %} rel="sponsored"{% endif %}>{{ destination.label }}{% if destination.affiliate %} <span>(affiliate)</span>{% endif %}</a>
       {% endfor %}
     </div>
   </div>
