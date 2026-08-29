@@ -110,6 +110,22 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Reason:** A deterministic rule keeps the homepage current without adding a manual curation chore. Editorial pinning can be introduced later if the automatic choice proves limiting.
 
+## D-015 — Derive intrinsic image metadata during the build
+
+**Status:** Accepted
+
+**Decision:** Read intrinsic JPEG, PNG, and GIF dimensions from local assets during Jekyll rendering and add missing width, height, decoding, and loading attributes to generated image markup. Treat legacy images that lack authored alt text as presentational only when the surrounding caption or article text already supplies their context.
+
+**Reason:** Hundreds of historical images use several Markdown and raw-HTML forms. A build-time compatibility layer provides consistent layout stability and loading behavior without a risky mass rewrite, while new and selectively migrated figures can carry richer authored metadata.
+
+## D-016 — Generate responsive derivatives where they matter most
+
+**Status:** Accepted
+
+**Decision:** Provide 640px and 1280px WebP variants for all editorial header images and for rendered post images at least 500 KB in their original form. Keep original assets as durable fallbacks and link targets.
+
+**Reason:** Headers affect initial rendering across the entire site, while the largest inline originals account for the clearest remaining bandwidth risk. Targeted derivatives deliver most of the value without duplicating the complete 215 MB historical image archive.
+
 ## Decision template
 
 ### D-NNN — Title

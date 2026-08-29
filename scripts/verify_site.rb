@@ -33,6 +33,8 @@ class SiteAudit
       "h1_count_not_one" => [],
       "images_missing_alt" => [],
       "images_missing_dimensions" => [],
+      "images_missing_loading" => [],
+      "images_missing_decoding" => [],
       "broken_internal_references" => []
     }
 
@@ -56,6 +58,8 @@ class SiteAudit
         unless tag.match?(/\bwidth\s*=/i) && tag.match?(/\bheight\s*=/i)
           report["images_missing_dimensions"] << image
         end
+        report["images_missing_loading"] << image unless tag.match?(/\bloading\s*=/i)
+        report["images_missing_decoding"] << image unless tag.match?(/\bdecoding\s*=/i)
       end
 
       referenced_urls(html).each do |reference|
@@ -214,6 +218,13 @@ when "verify"
     next if new_entries.empty?
 
     failures << "#{check} has #{new_entries.length} new issue(s):\n  #{new_entries.map(&:inspect).join("\n  ")}"
+  end
+
+  %w[images_missing_alt images_missing_dimensions images_missing_loading images_missing_decoding].each do |check|
+    entries = current_quality.fetch(check)
+    next if entries.empty?
+
+    failures << "#{check} must remain empty after the Phase 5 image migration:\n  #{entries.map(&:inspect).join("\n  ")}"
   end
 
   if failures.empty?

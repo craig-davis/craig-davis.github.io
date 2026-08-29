@@ -25,6 +25,9 @@
     </div>
   </div>
   {% if masthead_image %}
-    <div class="post-masthead__media" style="background-image: url('{{ masthead_image | relative_url }}')"></div>
+    <figure class="post-masthead__media">
+      <img src="{{ masthead_image | relative_url }}" alt="{{ page.header-alt | default: '' | escape }}" data-responsive="header" data-eager>
+      {% if page.header-caption %}<figcaption>{{ page.header-caption }}</figcaption>{% endif %}
+    </figure>
   {% endif %}
 </header>

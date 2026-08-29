@@ -150,7 +150,7 @@ Completion evidence:
 
 ### 5. Images, accessibility, and performance
 
-**Status:** Not started
+**Status:** Complete
 
 Scope:
 
@@ -163,6 +163,15 @@ Exit criteria:
 
 - Every published image has intentional alternative-text treatment.
 - Representative pages pass agreed performance and layout-shift checks.
+
+Completion evidence:
+
+- Every generated image has alt, width, height, loading, and decoding attributes; verification now fails if any of these regress.
+- Authored alternative text is preserved. Previously unlabeled legacy product-list images are explicitly presentational because nearby captions and article text provide their context.
+- Page and article heroes are real eager, high-priority images rather than CSS backgrounds; repeated cards and article media load lazily.
+- All 80 editorial headers have 640px and 1280px WebP derivatives, as do the 27 rendered inline originals that exceeded 500 KB.
+- Responsive `srcset` and `sizes` are emitted when derivatives exist, while original URLs remain fallback sources and link destinations.
+- `bin/verify` preserves all 705 baseline URLs, generates 925 current files, and reports no new HTML quality regressions.
 
 ### 6. Products and Gear
 

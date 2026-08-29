@@ -4,7 +4,7 @@
 {% assign card_topic = site.data.topics[card_topic_key] %}
 <article class="post-card">
   {% if card_post.header-img %}
-    <a class="post-card__image" href="{{ card_post.url | relative_url }}" tabindex="-1" aria-hidden="true" style="background-image: url('{{ card_post.header-img | relative_url }}')"></a>
+    <a class="post-card__image" href="{{ card_post.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ card_post.header-img | relative_url }}" alt="" data-responsive="header"></a>
   {% endif %}
   <div class="post-card__body">
     <p class="eyebrow">{{ card_topic.name | default: 'Writing' }} · {{ card_post.date | date: "%Y" }}</p>
