@@ -9,3 +9,4 @@ ruby scripts/verify_search.rb public
 ruby scripts/verify_reading_state.rb public
 ruby scripts/editorial_suggestions.rb --check
 ruby scripts/verify_archive.rb
+ruby scripts/verify_archive_topic.rb software public

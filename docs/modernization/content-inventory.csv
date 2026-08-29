@@ -1,43 +1,43 @@
 path,title,current_tags,primary_topic,new_layout,description,headings,images_alt,callouts,related_posts,products,links,qa,status
-_posts/2011-08-23-google-event-tracking-from-php.markdown,Google Event Tracking from PHP,php,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2011-11-03-ios-html-application-configuration.md,iOS HTML Application Configuration,ux,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-02-09-mysql-list-of-privileges-for-a-database.markdown,MySQL list of privileges for a database,mysql,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-03-10-qunit-rules-for-jshint.md,QUnit rules for JSHint,javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-05-02-google-chart-color-list.md,Google Chart Color List,css|ux,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-06-22-get-more-exercise-during-the-programming-workday.md,Get more exercise during the programming workday,"",Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-07-29-handlebars-helpers-for-debugging-and-pluralization.md,Handlebars Helpers for Debugging and Pluralization,javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-08-23-dotfiles-for-puppet-installation.markdown,Dotfiles for Puppet Installation,"",Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-09-10-fogbugz-geckoboard-widgets.md,FogBugz GeckoBoard Widgets,"",Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-09-17-fogbugz-command-line-client.md,FogBugz Command Line Client,php,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-09-18-amd-javascript-parse-url.markdown,AMD Javascript Parse URL,javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-09-27-php-pake-to-build-a-readme-file.markdown,PHP Pake to build a README file,php,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2012-10-16-pchart-updated-with-image-maps.markdown,pChart updated with image maps,php,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2011-08-23-google-event-tracking-from-php.markdown,Google Event Tracking from PHP,php,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2011-11-03-ios-html-application-configuration.md,iOS HTML Application Configuration,ux,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-02-09-mysql-list-of-privileges-for-a-database.markdown,MySQL list of privileges for a database,mysql,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-03-10-qunit-rules-for-jshint.md,QUnit rules for JSHint,javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-05-02-google-chart-color-list.md,Google Chart Color List,css|ux,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-06-22-get-more-exercise-during-the-programming-workday.md,Get more exercise during the programming workday,"",Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-07-29-handlebars-helpers-for-debugging-and-pluralization.md,Handlebars Helpers for Debugging and Pluralization,javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-08-23-dotfiles-for-puppet-installation.markdown,Dotfiles for Puppet Installation,"",Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-09-10-fogbugz-geckoboard-widgets.md,FogBugz GeckoBoard Widgets,"",Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-09-17-fogbugz-command-line-client.md,FogBugz Command Line Client,php,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-09-18-amd-javascript-parse-url.markdown,AMD Javascript Parse URL,javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-09-27-php-pake-to-build-a-readme-file.markdown,PHP Pake to build a README file,php,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2012-10-16-pchart-updated-with-image-maps.markdown,pChart updated with image maps,php,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2012-12-05-html-minifier-and-handlebars-compiler-for-jst-and-backbonejs.markdown,HTML Minifier and Handlebars compiler for JST and BackboneJS,javascript,Software,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,excluded_unpublished,excluded
-_posts/2012-12-31-markdown-resume-builder.markdown,Markdown Resume Builder,php,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2013-01-03-jquery-animated-borders.markdown,jQuery Animated Border: jquery.animatedborders.js,javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2013-01-05-generating-jsonp-with-hifi-cms.markdown,Generating JSONP with HiFi CMS,javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2013-01-16-introducing-campfire-chat-on-the-command-line.markdown,"Introducing TermCamp, a Campfire command line client",javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2013-03-29-partial-api-mocking-in-backbone-javascript.markdown,Partial API Mocking in Backbone JavaScript,javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2013-10-13-unit-testing-slim-framework-applications-with-phpunit.markdown,Unit Testing Slim PHP Framework applications with PHPUnit,php,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2014-03-25-twitter-feeds-for-javascript-and-php.markdown,Twitter Feeds for JavaScript and PHP,php|javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2015-04-18-help-scout-command-line-client.markdown,Help Scout Command Line Client,php,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2015-05-05-enable-mysql-logging-for-debugging.markdown,Enable MySQL logging for Debugging at Runtime,mysql,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2015-06-10-refactoring-with-guard-clauses-php-javascript.markdown,Reducing Complexity by Refactoring with Guard Clauses,php|javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2012-12-31-markdown-resume-builder.markdown,Markdown Resume Builder,php,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2013-01-03-jquery-animated-borders.markdown,jQuery Animated Border: jquery.animatedborders.js,javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2013-01-05-generating-jsonp-with-hifi-cms.markdown,Generating JSONP with HiFi CMS,javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2013-01-16-introducing-campfire-chat-on-the-command-line.markdown,"Introducing TermCamp, a Campfire command line client",javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2013-03-29-partial-api-mocking-in-backbone-javascript.markdown,Partial API Mocking in Backbone JavaScript,javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2013-10-13-unit-testing-slim-framework-applications-with-phpunit.markdown,Unit Testing Slim PHP Framework applications with PHPUnit,php,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2014-03-25-twitter-feeds-for-javascript-and-php.markdown,Twitter Feeds for JavaScript and PHP,php|javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2015-04-18-help-scout-command-line-client.markdown,Help Scout Command Line Client,php,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2015-05-05-enable-mysql-logging-for-debugging.markdown,Enable MySQL logging for Debugging at Runtime,mysql,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2015-06-10-refactoring-with-guard-clauses-php-javascript.markdown,Reducing Complexity by Refactoring with Guard Clauses,php|javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2015-06-29-rule-31-essential-bike-tool-kit.markdown,The Essential Bike Tool Kit,bike,Machines,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2015-08-17-miter-saw-workbench.markdown,A Miter Saw Workbench,woodworking,Making,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2015-08-18-jekyll-instruction-layout.markdown,Jekyll Layout for Tutorial Pages,ux,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2015-09-03-osx-media-keys-filco-mechanical-keyboard.md,OSX Media Keys for Filco Mechanical Keyboards,"",Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2015-11-20-maintaining-your-bash-history.markdown,Maintaining and Using Your Bash History,"",Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2015-08-18-jekyll-instruction-layout.markdown,Jekyll Layout for Tutorial Pages,ux,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2015-09-03-osx-media-keys-filco-mechanical-keyboard.md,OSX Media Keys for Filco Mechanical Keyboards,"",Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2015-11-20-maintaining-your-bash-history.markdown,Maintaining and Using Your Bash History,"",Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2015-12-13-a-snowy-day-with-riley.markdown,A Snowy Day with Riley,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2015-12-20-beginning-woodworking-tools.markdown,Beginning Woodworking Tools,woodworking,Making,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2016-02-23-white-mesa-snow-ride.markdown,A snowy ride at White Mesa,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2016-03-26-my-favorite-popular-science-books.markdown,Reading List: Popular Science Books,reading,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2016-03-28-A-Simple-Complexity-Test.markdown,A Simple Complexity Test,php|javascript,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2016-03-28-A-Simple-Complexity-Test.markdown,A Simple Complexity Test,php|javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2016-04-02-sheep-shearing-in-new-mexico.markdown,Sheep Shearing in New Mexico,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2016-04-03-interesting-single-topic-history-books.markdown,Reading List: Single Topic History Books,reading,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2016-07-10-summer-science-fiction-reading.markdown,Reading List: Summer Science Fiction Books,reading,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2016-07-25-My-Favorite-Margarita-Recipe-for-a-Backyard-Barbecue.markdown,My Favorite Margarita Recipe for a Backyard Barbecue,recipes,Making,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2016-10-1-hs100-home-automation-menubar.markdown,HS100 Home Automation Menu Bar App,python,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2016-10-1-hs100-home-automation-menubar.markdown,HS100 Home Automation Menu Bar App,python,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2017-04-09-Chaco-Culture-National-Historical-Park.markdown,Chaco Culture National Historical Park,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2017-04-09-Trinity-Test-Site.markdown,Trinity Test Site,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2017-10-02-Photos-from-Barcelona.markdown,Photos from Barcelona,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
@@ -59,7 +59,7 @@ _posts/2019-07-17-Jeep-XJ-Transmission-Cooler-Line-Ugrade.markdown,Jeep XJ Trans
 _posts/2020-01-14-Jeep-XJ-Boostwerks-Comp-Mount-Hidden-Winch-Installation.markdown,Jeep XJ Boostwerks Comp Mount Hidden Winch Installation,jeep,Machines,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2020-01-15-Quick-and-Easy-Weeknight-Pizza.markdown,Quick and Easy Weeknight Pizza,recipes,Making,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2020-01-16-Cantilevered-Plywood-Garage-Shelves.markdown,Cantilevered Plywood Garage Shelves,woodworking,Making,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2020-03-31-writing-for-code-review.markdown,Writing for Code Review,php,Software,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2020-03-31-writing-for-code-review.markdown,Writing for Code Review,php,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2020-06-30-Marble-Machine-Parts-List-and-Motors.markdown,Marble Machine Parts List and Motors,"",Making,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2020-07-03-Tacoma-WA-Road-Bike-Routes.markdown,Tacoma WA Road Bike Routes,bike,Machines,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
 _posts/2020-08-12-Shop-Tools-I-Wish-Id-Bought-Sooner.markdown,Shop Tools I Wish I'd Bought Sooner,woodworking,Making,complete,complete,pending,complete,pending,pending,pending,pending,pending,active

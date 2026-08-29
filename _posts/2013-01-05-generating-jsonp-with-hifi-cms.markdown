@@ -2,7 +2,7 @@
 layout: post
 title: "Generating JSONP with HiFi CMS"
 subtitle: "Using HiFi CMS as a remote data source"
-description: "Using HiFi CMS as a remote data source"
+description: "Configuring HiFi CMS as a remote data source and consuming its cross-origin response through JSONP."
 date: 2013-01-05 09:13
 comments: true
 tags: [javascript]
@@ -100,7 +100,6 @@ while allowing us to continue to host the content on the primary site as well.
 [gh]: http://pages.github.com/
 [twig]: http://twig.sensiolabs.org/
 [bb]: http://backbonejs.org/
-
 
 
 

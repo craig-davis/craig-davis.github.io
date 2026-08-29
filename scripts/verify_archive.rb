@@ -28,12 +28,20 @@ Dir.glob("_posts/*").sort.each do |path|
   description = data["description"].to_s.strip
   failures << "#{path} needs an explicit description" if description.empty?
   failures << "#{path} description exceeds 180 characters" if description.length > 180
+  failures << "#{path} must self-host code instead of embedding a Gist" if source.include?("{% gist")
 end
 
 inventory = CSV.read("docs/modernization/content-inventory.csv", headers: true)
 inventory_paths = inventory.map { |row| row["path"] }
 missing_inventory = published - inventory_paths
 failures << "published posts missing from inventory: #{missing_inventory.join(', ')}" unless missing_inventory.empty?
+
+inventory.select { |row| row["status"] == "complete" }.each do |row|
+  %w[new_layout description headings images_alt callouts related_posts products qa].each do |field|
+    failures << "completed inventory row has unfinished #{field}: #{row['path']}" unless row[field] == "complete"
+  end
+  failures << "completed inventory row has unreviewed links: #{row['path']}" unless row["links"] == "reviewed"
+end
 
 CALCULATORS.each do |path|
   row = inventory.find { |candidate| candidate["path"] == path }

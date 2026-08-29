@@ -156,6 +156,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** `/flat-trim/` and `/running-calculator/` remain unchanged. Their redesign and any subdomain move stay deferred until explicitly authorized.
 
+## D-020 — Self-host article code and highlight at build time
+
+**Status:** Accepted
+
+**Decision:** Replace remote Gist embeds with repository-owned snippets rendered by Jekyll and Rouge. Do not add a browser-side syntax-highlighting library.
+
+**Reason:** Code is part of the article and should remain readable without a third-party request or live Gist. Rouge is already present in Jekyll, produces static semantic markup, and adds no runtime JavaScript or privacy dependency.
+
+**Consequences:** Nine Software articles now carry their snippets locally, Gist build warnings are eliminated, and the unused `jekyll-gist` dependency is removed. Verification rejects future Gist tags in published posts.
+
 ## Decision template
 
 ### D-NNN — Title

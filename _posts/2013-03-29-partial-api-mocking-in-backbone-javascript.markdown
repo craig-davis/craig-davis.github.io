@@ -2,7 +2,7 @@
 layout:     post
 title:      "Partial API Mocking in Backbone JavaScript"
 subtitle:   "Faster development with JSON contracts"
-description: "Faster development with JSON contracts"
+description: "Using partial API mocks and shared JSON contracts to develop a Backbone application before every endpoint is available."
 date:       2013-03-29 07:34
 tags:       [javascript]
 topic: software

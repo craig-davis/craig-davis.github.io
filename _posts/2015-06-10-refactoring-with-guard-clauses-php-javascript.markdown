@@ -2,7 +2,7 @@
 layout:     post
 title:      "Reducing Complexity by Refactoring with Guard Clauses"
 subtitle:   "Else is a code smell in PHP and JavaScript"
-description: "Else is a code smell in PHP and JavaScript"
+description: "Reducing nested conditionals and cognitive complexity by refactoring PHP and JavaScript toward early returns and guard clauses."
 date:       2015-06-10
 tags:       [php, javascript]
 topic: software

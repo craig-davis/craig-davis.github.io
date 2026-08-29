@@ -1,0 +1,23 @@
+{% highlight bash %}
+#!/bin/bash
+
+RANDOM=$$$(date +%s)
+COUNT=$((RANDOM % 15 + 5))
+
+EXERCISES=(
+  "push ups"
+  "crunches"
+  "burpees"
+  "curls"
+  "upright rows"
+  "russian twist"
+  "leg raises"
+  "dips"
+  "superman"
+  "calf raises"
+  "squat"
+)
+EXERCISE=${EXERCISES[$RANDOM % ${#EXERCISES[@]} ]}
+
+echo -e "Commit reward: \e[01;34m $COUNT $EXERCISE \e[00m"
+{% endhighlight %}

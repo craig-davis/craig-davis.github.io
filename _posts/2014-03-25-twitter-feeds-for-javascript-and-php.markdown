@@ -2,7 +2,7 @@
 layout:     post
 title:      "Twitter Feeds for JavaScript and PHP"
 subtitle:   "Using Yahoo Pipes to Combine and Filter SS Feeds"
-description: "Using Yahoo Pipes to Combine and Filter SS Feeds"
+description: "Combining and filtering Twitter feeds with Yahoo Pipes, then consuming the resulting data from JavaScript and PHP."
 date:       2014-03-25 09:36
 tags:       [php, javascript]
 topic: software

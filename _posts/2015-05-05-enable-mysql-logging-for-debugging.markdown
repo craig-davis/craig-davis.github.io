@@ -44,4 +44,4 @@ I've wrapped up this into [an easy to use command](https://gist.github.com/craig
 
 In addition, if you have a `.grc.sql.conf` file and `grc` installed from [garabik/grc](https://github.com/garabik/grc) the log will be colorized.
 
-{% gist 48be6978d55122677dec mytail %}
+{% include snippets/mytail.html %}

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Markdown Resume Builder"
 subtitle:   "A tidy resume built with Markdown tools"
-description: "A tidy resume built with Markdown tools"
+description: "Building and publishing a consistently formatted résumé from Markdown using a small PHP-based toolchain."
 date:       2012-12-31 16:39
 tags:       [php]
 topic: software
@@ -53,4 +53,3 @@ You can view the project on it's
 [wkhtmltopdf]: https://code.google.com/p/wkhtmltopdf
 [pdf_installer]: https://github.com/pdfkit/pdfkit/wiki/Installing-WKHTMLTOPDF
 [brew]: http://mxcl.github.com/homebrew
-

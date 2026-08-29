@@ -2,7 +2,7 @@
 layout:     post
 title:      "Unit Testing Slim PHP Framework applications with PHPUnit"
 subtitle:   "Integration testing Slim without a webserver"
-description: "Integration testing Slim without a webserver"
+description: "Integration-testing a Slim PHP application with PHPUnit by constructing requests directly, without running a web server."
 date:       2013-10-13 11:45
 tags:       [php]
 topic: software

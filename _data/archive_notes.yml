@@ -1,0 +1,44 @@
+"/2011/08/23/google-event-tracking-from-php/": >-
+  This field note targets the Google Analytics measurement approach available in 2011. Treat the PHP example as historical implementation context, not current Analytics integration guidance.
+"/2011/11/03/ios-html-application-configuration/": >-
+  This captures the home-screen web-app metadata supported by early iOS releases. Modern Safari and installable web apps use a broader set of manifest and platform conventions.
+"/2012/02/09/mysql-list-of-privileges-for-a-database/": >-
+  MySQL privilege tables and administrative syntax vary by server version. Verify the queries and required access against the version you operate before using this as an audit procedure.
+"/2012/03/10/qunit-rules-for-jshint/": >-
+  This configuration was written for the QUnit and JSHint conventions used in 2012. Current JavaScript projects generally use newer linting tools and module-aware test environments.
+"/2012/05/02/google-chart-color-list/": >-
+  The palette remains useful, but the charting examples and Google API conventions reflect their 2012 versions.
+"/2012/08/23/dotfiles-for-puppet-installation/": >-
+  This describes a 2012 Vagrant and Puppet workstation setup. The underlying idea—keeping a portable, reviewable environment configuration—outlasted the exact provisioning stack.
+"/2012/09/10/fogbugz-geckoboard-widgets/": >-
+  This integration reflects the FogBugz, Geckoboard, and hosting APIs available in 2012. It is preserved as an example of turning project data into an operational dashboard.
+"/2012/09/17/fogbugz-command-line-client/": >-
+  The command-line workflow is preserved, but its FogBugz API assumptions and package dependencies may no longer match current services.
+"/2012/09/18/amd-javascript-parse-url/": >-
+  The browser URL-parsing technique is historical. Modern JavaScript provides the standard URL interface and rarely needs an AMD wrapper for this task.
+"/2012/09/27/php-pake-to-build-a-readme-file/": >-
+  This build step uses the PHP Pake tooling available in 2012. Keep the documentation-generation idea; choose a maintained task runner for a new project.
+"/2012/10/16/pchart-updated-with-image-maps/": >-
+  This note points to a version-specific pChart patch from 2012. It is retained for provenance and may not apply to later forks or releases.
+"/2012/12/31/markdown-resume-builder/": >-
+  The publishing workflow is preserved as a historical project. Its PHP packages, hosted assets, and deployment assumptions should be reviewed before reuse.
+"/2013/01/03/jquery-animated-borders/": >-
+  This plugin was designed for the jQuery-era browser stack used in 2013. Modern CSS can produce similar emphasis without a JavaScript animation plugin.
+"/2013/01/05/generating-jsonp-with-hifi-cms/": >-
+  This article depends on HiFi CMS and JSONP-era cross-origin techniques. Prefer maintained APIs, CORS, and standard JSON for new integrations.
+"/2013/01/16/introducing-campfire-chat-on-the-command-line/": >-
+  TermCamp reflects the Campfire API and desktop-notification environment available in 2013. The project is presented as an archived command-line application.
+"/2013/03/29/partial-api-mocking-in-backbone-javascript/": >-
+  The contract-first testing idea remains useful; the Backbone, RequireJS, and mocking details reflect the JavaScript stack used in 2013.
+"/2013/10/13/unit-testing-slim-framework-applications-with-phpunit/": >-
+  The testing approach targets the Slim and PHPUnit releases available in 2013. Current versions have different APIs, bootstrap conventions, and PHP requirements.
+"/2014/03/25/twitter-feeds-for-javascript-and-php/": >-
+  Yahoo Pipes was discontinued and Twitter's APIs have changed substantially. This article remains as a record of a once-useful feed-composition technique.
+"/2015/04/18/help-scout-command-line-client/": >-
+  This client reflects Help Scout's 2015 API and authentication model. Confirm current endpoints and credentials before adapting the command-line workflow.
+"/2015/08/18/jekyll-instruction-layout/": >-
+  This layout was built for an earlier version of There4 and Jekyll. The content-modeling approach remains relevant, while the exact template and CSS no longer represent this site's implementation.
+"/2015/09/03/osx-media-keys-filco-mechanical-keyboard/": >-
+  The keyboard remains in the Gear archive, but the Karabiner configuration shown here targets an older macOS and application format.
+"/2016/10/01/hs100-home-automation-menubar/": >-
+  This application targets the HS100 protocol, Python packages, and macOS menu-bar APIs available in 2016. Review current device firmware and dependencies before attempting to run it.

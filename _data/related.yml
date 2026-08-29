@@ -1,0 +1,116 @@
+"/2011/08/23/google-event-tracking-from-php/":
+  - /2014/03/25/twitter-feeds-for-javascript-and-php/
+  - /2015/05/05/enable-mysql-logging-for-debugging/
+  - /2013/10/13/unit-testing-slim-framework-applications-with-phpunit/
+"/2011/11/03/ios-html-application-configuration/":
+  - /2015/08/18/jekyll-instruction-layout/
+  - /2013/01/03/jquery-animated-borders/
+  - /2012/05/02/google-chart-color-list/
+"/2012/02/09/mysql-list-of-privileges-for-a-database/":
+  - /2015/05/05/enable-mysql-logging-for-debugging/
+  - /2013/10/13/unit-testing-slim-framework-applications-with-phpunit/
+  - /2016/03/28/A-Simple-Complexity-Test/
+"/2012/03/10/qunit-rules-for-jshint/":
+  - /2015/06/10/refactoring-with-guard-clauses-php-javascript/
+  - /2013/03/29/partial-api-mocking-in-backbone-javascript/
+  - /2016/03/28/A-Simple-Complexity-Test/
+"/2012/05/02/google-chart-color-list/":
+  - /2012/09/10/fogbugz-geckoboard-widgets/
+  - /2013/01/03/jquery-animated-borders/
+  - /2011/11/03/ios-html-application-configuration/
+"/2012/06/22/get-more-exercise-during-the-programming-workday/":
+  - /2015/11/20/maintaining-your-bash-history/
+  - /2020/03/31/writing-for-code-review/
+  - /2016/03/28/A-Simple-Complexity-Test/
+"/2012/07/29/handlebars-helpers-for-debugging-and-pluralization/":
+  - /2013/03/29/partial-api-mocking-in-backbone-javascript/
+  - /2012/09/18/amd-javascript-parse-url/
+  - /2015/06/10/refactoring-with-guard-clauses-php-javascript/
+"/2012/08/23/dotfiles-for-puppet-installation/":
+  - /2015/11/20/maintaining-your-bash-history/
+  - /2012/12/31/markdown-resume-builder/
+  - /2013/01/16/introducing-campfire-chat-on-the-command-line/
+"/2012/09/10/fogbugz-geckoboard-widgets/":
+  - /2012/09/17/fogbugz-command-line-client/
+  - /2012/05/02/google-chart-color-list/
+  - /2011/08/23/google-event-tracking-from-php/
+"/2012/09/17/fogbugz-command-line-client/":
+  - /2012/09/10/fogbugz-geckoboard-widgets/
+  - /2015/04/18/help-scout-command-line-client/
+  - /2013/01/16/introducing-campfire-chat-on-the-command-line/
+"/2012/09/18/amd-javascript-parse-url/":
+  - /2012/07/29/handlebars-helpers-for-debugging-and-pluralization/
+  - /2013/03/29/partial-api-mocking-in-backbone-javascript/
+  - /2013/01/03/jquery-animated-borders/
+"/2012/09/27/php-pake-to-build-a-readme-file/":
+  - /2012/12/31/markdown-resume-builder/
+  - /2015/08/18/jekyll-instruction-layout/
+  - /2015/11/20/maintaining-your-bash-history/
+"/2012/10/16/pchart-updated-with-image-maps/":
+  - /2012/05/02/google-chart-color-list/
+  - /2012/09/10/fogbugz-geckoboard-widgets/
+  - /2011/08/23/google-event-tracking-from-php/
+"/2012/12/31/markdown-resume-builder/":
+  - /2012/09/27/php-pake-to-build-a-readme-file/
+  - /2015/08/18/jekyll-instruction-layout/
+  - /2012/08/23/dotfiles-for-puppet-installation/
+"/2013/01/03/jquery-animated-borders/":
+  - /2012/05/02/google-chart-color-list/
+  - /2011/11/03/ios-html-application-configuration/
+  - /2012/09/18/amd-javascript-parse-url/
+"/2013/01/05/generating-jsonp-with-hifi-cms/":
+  - /2014/03/25/twitter-feeds-for-javascript-and-php/
+  - /2013/03/29/partial-api-mocking-in-backbone-javascript/
+  - /2011/08/23/google-event-tracking-from-php/
+"/2013/01/16/introducing-campfire-chat-on-the-command-line/":
+  - /2012/09/17/fogbugz-command-line-client/
+  - /2015/04/18/help-scout-command-line-client/
+  - /2012/08/23/dotfiles-for-puppet-installation/
+"/2013/03/29/partial-api-mocking-in-backbone-javascript/":
+  - /2013/10/13/unit-testing-slim-framework-applications-with-phpunit/
+  - /2012/03/10/qunit-rules-for-jshint/
+  - /2015/06/10/refactoring-with-guard-clauses-php-javascript/
+"/2013/10/13/unit-testing-slim-framework-applications-with-phpunit/":
+  - /2013/03/29/partial-api-mocking-in-backbone-javascript/
+  - /2015/06/10/refactoring-with-guard-clauses-php-javascript/
+  - /2016/03/28/A-Simple-Complexity-Test/
+"/2014/03/25/twitter-feeds-for-javascript-and-php/":
+  - /2013/01/05/generating-jsonp-with-hifi-cms/
+  - /2011/08/23/google-event-tracking-from-php/
+  - /2012/09/10/fogbugz-geckoboard-widgets/
+"/2015/04/18/help-scout-command-line-client/":
+  - /2012/09/17/fogbugz-command-line-client/
+  - /2013/01/16/introducing-campfire-chat-on-the-command-line/
+  - /2020/03/31/writing-for-code-review/
+"/2015/05/05/enable-mysql-logging-for-debugging/":
+  - /2012/02/09/mysql-list-of-privileges-for-a-database/
+  - /2013/10/13/unit-testing-slim-framework-applications-with-phpunit/
+  - /2016/03/28/A-Simple-Complexity-Test/
+"/2015/06/10/refactoring-with-guard-clauses-php-javascript/":
+  - /2016/03/28/A-Simple-Complexity-Test/
+  - /2020/03/31/writing-for-code-review/
+  - /2013/10/13/unit-testing-slim-framework-applications-with-phpunit/
+"/2015/08/18/jekyll-instruction-layout/":
+  - /2012/12/31/markdown-resume-builder/
+  - /2012/09/27/php-pake-to-build-a-readme-file/
+  - /2011/11/03/ios-html-application-configuration/
+"/2015/09/03/osx-media-keys-filco-mechanical-keyboard/":
+  - /2016/10/01/hs100-home-automation-menubar/
+  - /2015/11/20/maintaining-your-bash-history/
+  - /2012/08/23/dotfiles-for-puppet-installation/
+"/2015/11/20/maintaining-your-bash-history/":
+  - /2012/08/23/dotfiles-for-puppet-installation/
+  - /2020/03/31/writing-for-code-review/
+  - /2016/03/28/A-Simple-Complexity-Test/
+"/2016/03/28/A-Simple-Complexity-Test/":
+  - /2015/06/10/refactoring-with-guard-clauses-php-javascript/
+  - /2020/03/31/writing-for-code-review/
+  - /2013/10/13/unit-testing-slim-framework-applications-with-phpunit/
+"/2016/10/01/hs100-home-automation-menubar/":
+  - /2015/09/03/osx-media-keys-filco-mechanical-keyboard/
+  - /2012/08/23/dotfiles-for-puppet-installation/
+  - /2013/01/16/introducing-campfire-chat-on-the-command-line/
+"/2020/03/31/writing-for-code-review/":
+  - /2015/06/10/refactoring-with-guard-clauses-php-javascript/
+  - /2016/03/28/A-Simple-Complexity-Test/
+  - /2015/11/20/maintaining-your-bash-history/

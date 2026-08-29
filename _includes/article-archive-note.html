@@ -1,0 +1,4 @@
+{% assign archive_note = site.data.archive_notes[page.url] %}
+{% if archive_note %}
+  {% include callout.html type="update" title="Archive note" content=archive_note %}
+{% endif %}

@@ -6,6 +6,7 @@ require "optparse"
 require "yaml"
 
 options = { output: nil, check: false }
+related_data = YAML.safe_load(File.read("_data/related.yml")) || {}
 OptionParser.new do |parser|
   parser.banner = "Usage: ruby scripts/editorial_suggestions.rb [--output FILE] [--check]"
   parser.on("--output FILE", "Write review queue as CSV") { |value| options[:output] = value }
@@ -25,13 +26,17 @@ posts = Dir.glob("_posts/*").sort.map do |path|
   next if data["published"] == false
 
   tags = Array(data["tags"]).map(&:to_s)
+  filename = File.basename(path).sub(/\.(?:md|markdown|html)\z/, "")
+  date_prefix, slug = filename.match(/\A(\d{4}-\d{1,2}-\d{1,2})-(.+)\z/).captures
+  published_date = data["date"] ? Date.parse(data["date"].to_s) : Date.parse(date_prefix)
+  url = "/#{published_date.strftime('%Y/%m/%d')}/#{slug}/"
   {
     path: path,
     title: data["title"].to_s.strip,
     description: (data["description"] || data["subtitle"]).to_s.strip,
     topic: data["topic"].to_s.strip,
     tags: tags,
-    related: Array(data["related"]).map(&:to_s)
+    related: Array(data["related"]).map(&:to_s) + Array(related_data[url]).map(&:to_s)
   }
 end.compact
 
