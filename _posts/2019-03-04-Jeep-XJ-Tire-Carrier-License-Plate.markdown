@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ Tire Carrier License Plate"
 subtitle:   "Adding wiring for a license plate light on a tire carrier"
+description: "Adding wiring for a license plate light on a tire carrier"
 date:       2019-03-04
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-license-plate-light.jpg"
 ---

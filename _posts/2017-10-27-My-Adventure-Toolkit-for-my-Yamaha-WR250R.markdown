@@ -2,8 +2,10 @@
 layout:     post
 title:      "My Adventure Toolkit for my Yamaha WR250R"
 subtitle:   "This is my everyday carry toolkit for my dual sport motorcycle. This is a compact toolkit for a WR250R."
+description: "This is my everyday carry toolkit for my dual sport motorcycle. This is a compact toolkit for a WR250R."
 date:       2017-10-27
 tags:       [tools, motorcycles]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/adventure-motorcycle.jpg"
 gear: [motion-pro-combo-levers]

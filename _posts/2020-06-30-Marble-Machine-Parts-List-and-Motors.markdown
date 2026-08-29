@@ -3,6 +3,7 @@ layout:     post
 title:      "Marble Machine Parts List and Motors"
 topic:      making
 subtitle:   "Tips, tricks, and a parts list for building a marble roller coaster"
+description: "Tips, tricks, and a parts list for building a marble roller coaster"
 date:       2020-06-30
 tags:       []
 author:     "Craig Davis"

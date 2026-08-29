@@ -227,19 +227,25 @@ Completion evidence:
 
 ### 8. Complete archive migration
 
-**Status:** Not started
+**Status:** Active
 
 Scope:
 
 - Review and modernize every post and standalone page in controlled batches.
 - Add topics, descriptions, callouts, related items, image metadata, and corrected headings and links.
-- Modernize both calculators visually while leaving their URLs and standalone behavior intact.
+- Preserve both calculators byte-for-byte; their redesign and possible subdomain move remain deferred.
 
 Exit criteria:
 
-- Every row in `content-inventory.csv` is marked complete.
+- Every editorial row in `content-inventory.csv` is marked complete; both calculator rows remain explicitly preserved.
 - No visibly legacy layouts remain.
 - All archive-wide automated and manual QA passes.
+
+Progress evidence:
+
+- All 76 published articles now declare an explicit primary topic and durable meta description; the inventory records the shared-layout and image-accessibility work already completed in earlier phases.
+- The two calculator source files are checksum-protected and marked `preserved`; the unpublished historical article is explicitly excluded rather than treated as published work.
+- Phase 8 batching, editorial rules, and calculator checksums are recorded in `ARCHIVE-MIGRATION.md`.
 
 ### 9. Final QA and launch
 
@@ -258,4 +264,4 @@ Exit criteria:
 
 ## Deferred work
 
-- Move the calculators to a subdomain or another tools-oriented URL structure. Until that decision is made, preserve `/flat-trim/` and `/running-calculator/` exactly.
+- Redesign the calculators and potentially move them to a subdomain or another tools-oriented URL structure. Until that decision is made, preserve `/flat-trim/` and `/running-calculator/` byte-for-byte at their current URLs.

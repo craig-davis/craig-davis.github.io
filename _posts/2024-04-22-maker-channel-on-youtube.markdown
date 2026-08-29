@@ -2,8 +2,10 @@
 layout:     post
 title:      "Maker channels on Youtube"
 subtitle:   "Woodworking, car building, and maker videos on Youtube"
+description: "Woodworking, car building, and maker videos on Youtube"
 date:       2024-06-25
 tags:       [woodworking]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/youtube-maker-channels.jpg"
 ---

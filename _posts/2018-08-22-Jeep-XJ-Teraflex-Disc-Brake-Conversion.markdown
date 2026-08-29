@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ Teraflex Disc Brake Conversion"
 subtitle:   "Converting from drum brakes to modern disc brakes"
+description: "Converting from drum brakes to modern disc brakes"
 date:       2018-08-22
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-brake-upgrade.jpg"
 ---

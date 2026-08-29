@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Dotfiles for Puppet Installation"
+description: "Using a small dotfiles repository and Puppet manifests to make a freshly installed development machine familiar again."
 topic:      software
 sustitle:   "Take your bash preferences with you!"
 tags:       []

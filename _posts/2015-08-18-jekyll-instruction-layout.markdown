@@ -5,6 +5,7 @@ subtitle:    "Using Liquid and front matter to make a tutorial page"
 description: "Make a Jekyll blog post with a simple tutorial format"
 date:        2015-08-18
 tags:        [ux]
+topic: software
 author:      "Craig Davis"
 header-img:  "img/headers/lake-sammish.jpg"
 ---

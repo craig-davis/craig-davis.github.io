@@ -2,8 +2,10 @@
 layout:     post
 title:      "WEN 4214 Drill Press Unboxing and Review"
 subtitle:   "A great choice for a home workshop"
+description: "A firsthand review of the WEN 4214 variable-speed drill press after assembling and using it in a home workshop."
 date:       2020-11-22
 tags:       [woodworking, tools]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/wen-drill-press.jpg"
 gear: [wen-4214-drill-press]

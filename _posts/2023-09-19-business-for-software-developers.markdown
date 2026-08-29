@@ -2,8 +2,10 @@
 layout:     books
 title:      "Business and Growth for Software Developers"
 subtitle:   "Modern software development business practices and growth mindset"
+description: "Modern software development business practices and growth mindset"
 date:       2023-09-19
 tags:       [reading]
+topic: reading-life
 author:     "Craig Davis"
 header-img: "img/headers/software-books.jpg"
 img-folder: software-engineering

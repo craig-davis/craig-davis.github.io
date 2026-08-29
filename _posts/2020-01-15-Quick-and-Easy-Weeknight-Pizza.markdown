@@ -2,8 +2,10 @@
 layout:     post
 title:      "Quick and Easy Weeknight Pizza"
 subtitle:   "A quick solution for dinner, and a great way to use leftovers"
+description: "A quick solution for dinner, and a great way to use leftovers"
 date:       2020-01-15
 tags:       [recipes]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/pizza.jpg"
 ---

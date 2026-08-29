@@ -2,8 +2,10 @@
 layout:     instructable
 title:      "Jeep XJ Illuminated Extended Idle Switch"
 subtitle:   "Making a look alike ext idle switch with a fog light switch and a relay"
+description: "Making a look alike ext idle switch with a fog light switch and a relay"
 date:       2018-10-31
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-illuminated-extended-idle.jpg"
 permalinkXDC:

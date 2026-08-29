@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ Overhead Console Compass Calibration"
 subtitle:   "Finding your true north in a Jeep Cherokee"
+description: "Finding your true north in a Jeep Cherokee"
 date:       2019-03-08
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/compass.png"
 ---

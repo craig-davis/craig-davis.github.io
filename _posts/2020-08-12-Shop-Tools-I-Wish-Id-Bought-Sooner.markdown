@@ -2,8 +2,10 @@
 layout:     post
 title:      "Shop Tools I Wish I'd Bought Sooner"
 subtitle:   "Useful Gifts for Woodworkers and Makers"
+description: "Useful Gifts for Woodworkers and Makers"
 date:       2020-08-12
 tags:       [woodworking]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/woodworking-gifts.jpg"
 gear: [fastcap-glu-bot, silicone-glue-brush, fractional-dial-calipers, fastcap-lefty-righty]

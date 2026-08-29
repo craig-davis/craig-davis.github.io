@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ Transmission Cooler Line Ugrade"
 subtitle:   "Converting Jeep Cherokee transmission cooler lines to flexible stainless steel"
+description: "Converting Jeep Cherokee transmission cooler lines to flexible stainless steel"
 date:       2019-07-17
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/transmission-cooler-lines.jpg"
 ---

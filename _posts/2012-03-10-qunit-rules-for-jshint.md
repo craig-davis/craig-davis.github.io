@@ -2,7 +2,9 @@
 layout:     post
 title:      "QUnit rules for JSHint"
 subtitle:   "Exclusions for QUnit variable and function names"
+description: "Exclusions for QUnit variable and function names"
 tags:       [javascript]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/frog.jpg"
 ---

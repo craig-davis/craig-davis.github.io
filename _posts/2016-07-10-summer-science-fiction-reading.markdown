@@ -2,8 +2,10 @@
 layout:     post
 title:      "Reading List: Summer Science Fiction Books"
 subtitle:   "Take these to a sunny beach with you this summer"
+description: "Take these to a sunny beach with you this summer"
 date:       2016-07-10
 tags:       [reading]
+topic: reading-life
 author:     "Craig Davis"
 header-img: "img/headers/science-fiction.jpg"
 books:

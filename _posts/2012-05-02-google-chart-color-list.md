@@ -2,7 +2,9 @@
 layout:     post
 title:      "Google Chart Color List"
 subtitle:   "Carefully curated and complimentary colors fo charting"
+description: "Carefully curated and complimentary colors fo charting"
 tags:       [css, ux]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/butterflies.jpg"
 ---

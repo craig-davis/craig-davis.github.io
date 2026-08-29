@@ -2,8 +2,10 @@
 layout:     post
 title:      "Reducing Complexity by Refactoring with Guard Clauses"
 subtitle:   "Else is a code smell in PHP and JavaScript"
+description: "Else is a code smell in PHP and JavaScript"
 date:       2015-06-10
 tags:       [php, javascript]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/paper-clock.jpg"
 ---

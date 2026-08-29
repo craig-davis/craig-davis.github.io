@@ -2,7 +2,9 @@
 layout:     post
 title:      "MySQL list of privileges for a database"
 subtitle:   "Security auditing a MySQL database"
+description: "Auditing MySQL database privileges by querying grants and information-schema tables from the command line."
 tags:       [mysql]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/iowa-river.jpg"
 ---

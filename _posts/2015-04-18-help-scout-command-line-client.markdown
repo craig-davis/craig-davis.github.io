@@ -2,8 +2,10 @@
 layout:     post
 title:      "Help Scout Command Line Client"
 subtitle:   "Reading conversations from the command line"
+description: "Reading conversations from the command line"
 date:       2015-04-18
 tags:       [php]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/gravel.jpg"
 ---

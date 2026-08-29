@@ -2,8 +2,10 @@
 layout:     post
 title:      "Bosch 4100 Router Table Insert"
 subtitle:   "Adding a router to a Bosch table saw"
+description: "Adding a router to a Bosch table saw"
 date:       2022-06-05
 tags:       [woodworking]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/bosch-4100-router-table.jpg"
 ---

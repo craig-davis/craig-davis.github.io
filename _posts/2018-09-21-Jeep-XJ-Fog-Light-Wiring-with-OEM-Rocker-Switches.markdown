@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ Fog Light Wiring with OEM Rocker Switches"
 subtitle:   "A five switch panel with new old stock switches and working backlighting"
+description: "A five switch panel with new old stock switches and working backlighting"
 date:       2018-09-21
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-switch-panel.jpg"
 redirect_from:

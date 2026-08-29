@@ -2,8 +2,10 @@
 layout:     post
 title:      "HS100 Home Automation Menu Bar App"
 subtitle:   "Writing a home automation menu bar app with Python and Rumps"
+description: "Writing a home automation menu bar app with Python and Rumps"
 date:       2016-10-01
 tags:       ["python"]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/beach-sunrise.jpg"
 ---
