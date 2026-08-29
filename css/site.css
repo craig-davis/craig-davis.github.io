@@ -326,8 +326,13 @@ main {
 }
 
 .home-topic__symbol {
-  color: var(--rust);
-  font: 1.65rem/1 var(--serif);
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.home-topic__symbol img {
+  width: 100%;
+  height: 100%;
 }
 
 .home-topic strong,
@@ -682,9 +687,14 @@ main {
   text-decoration: none;
 }
 
-.archive-topic-grid a > span {
-  color: var(--rust);
-  font-size: 1.5rem;
+.archive-topic__symbol {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.archive-topic__symbol img {
+  width: 100%;
+  height: 100%;
 }
 
 .archive-topic-grid strong {

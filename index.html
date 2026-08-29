@@ -14,7 +14,7 @@ sitemap:
     {% assign topic_key = topic_pair[0] %}
     {% assign topic = topic_pair[1] %}
     <a class="home-topic" href="{{ '/topics/' | append: topic_key | append: '/' | relative_url }}">
-      <span class="home-topic__symbol" aria-hidden="true">{{ topic.symbol }}</span>
+      <span class="home-topic__symbol" aria-hidden="true"><img src="{{ topic.icon | relative_url }}" width="28" height="28" alt=""></span>
       <span><strong>{{ topic.name }}</strong><small>{{ topic.description }}</small></span>
     </a>
   {% endfor %}
