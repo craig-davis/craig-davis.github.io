@@ -40,6 +40,7 @@ Each content batch reviews headings, optional curated navigation, figures and ca
 - Two articles corrected to remove H1-to-H3 heading jumps
 - Nine remote Gist embeds replaced by locally rendered Rouge snippets
 - `jekyll-gist` and its unused API dependencies removed
+- Hack's four subset web-font styles self-hosted for code, with a warm high-contrast Rouge palette approved against representative SQL and PHP articles
 
 ## Editorial rules
 

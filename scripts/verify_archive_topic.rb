@@ -22,6 +22,15 @@ failures = []
 related_links = 0
 rendered_notes = 0
 
+if topic_key == "software"
+  %w[regular bold italic bolditalic].each do |style|
+    font_path = "fonts/hack-#{style}-subset.woff2"
+    failures << "missing self-hosted Hack font: #{font_path}" unless File.file?(font_path) && File.size(font_path).positive?
+  end
+  syntax_css = File.read("css/syntax.css")
+  failures << "syntax CSS does not declare Hack" unless syntax_css.include?("font-family: \"Hack\"")
+end
+
 articles.each do |article|
   url = article.fetch("url")
   description_length = article.fetch("description").strip.length
