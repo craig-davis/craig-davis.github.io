@@ -14,7 +14,10 @@ layout: default
     {% if page.subtitle %}<p class="page-masthead__deck">{{ page.subtitle }}</p>{% endif %}
   </div>
   {% if masthead_image %}
-    <div class="page-masthead__media" style="background-image: url('{{ masthead_image | relative_url }}')"></div>
+    <figure class="page-masthead__media">
+      <img src="{{ masthead_image | relative_url }}" alt="{{ page.header-alt | default: '' | escape }}" data-responsive="header" data-eager>
+      {% if page.header-caption %}<figcaption>{{ page.header-caption }}</figcaption>{% endif %}
+    </figure>
   {% endif %}
 </header>
 <div class="page-content prose{% if page.url == '/' %} page-content--home{% endif %}{% if page.layout == 'topic' or page.layout == 'blog_by_tag' or page.url == '/posts/' or paginator %} page-content--listing{% endif %}">

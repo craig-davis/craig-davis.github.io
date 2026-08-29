@@ -24,7 +24,7 @@ sitemap:
 <section class="home-section home-featured" aria-labelledby="featured-title">
   <div class="section-heading"><h2 id="featured-title">Featured</h2></div>
   <article class="feature-card">
-    {% if featured.header-img %}<a class="feature-card__image" href="{{ featured.url | relative_url }}" style="background-image: url('{{ featured.header-img | relative_url }}')" aria-label="Read {{ featured.title | escape }}"></a>{% endif %}
+    {% if featured.header-img %}<a class="feature-card__image" href="{{ featured.url | relative_url }}" aria-label="Read {{ featured.title | escape }}"><img src="{{ featured.header-img | relative_url }}" alt="" data-responsive="header"></a>{% endif %}
     <div class="feature-card__body">
       {% assign featured_tag = featured.tags | first %}
       {% assign featured_topic_key = featured.topic | default: site.data.tags[featured_tag].topic %}
