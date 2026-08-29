@@ -60,7 +60,7 @@ I was far too fiddly with marking this out. The Comp Mount covers this entire ar
 
 In the photo above, you can see the two hose lines in front of the balancer. These are transmission cooler lines, and later in this project I found that they fouled on the winch. I could have relocated them with some simple cutting and flaring and re-routing only a section of one of them. But, I chose to [completely replace them with flexible hoses](/2019/07/17/Jeep-XJ-Transmission-Cooler-Line-Ugrade/).
 
-After making the cuts, I removed all of the rough edges, sanded the entire area, and then applied a coat of [POR-15](por15).
+After making the cuts, I removed all of the rough edges, sanded the entire area, and then applied a coat of [POR-15][por15].
 
 [![POR15 Rust Proofing](/img/posts/xj-hidden-winch/small/crossmember-painted.jpg)](/img/posts/xj-hidden-winch/crossmember-painted.jpg)
 
@@ -94,7 +94,7 @@ The hole for the fairlead was first cut with a [2-&frac14; hole saw][hole-saw]. 
 
 [![Jeep XJ Winch](/img/posts/xj-hidden-winch/small/fairlead-lines.jpg)](/img/posts/xj-hidden-winch/fairlead-lines.jpg)
 
-With the cuts made, it was time to clean up the edges with a file and [deburring tool](deburring-tool) and then painting. These areas are completely hidden, and so I used [POR15][por15].
+With the cuts made, it was time to clean up the edges with a file and [deburring tool][deburring-tool] and then painting. These areas are completely hidden, and so I used [POR15][por15].
 
 During final fitting of the bumper, I did find that I had to shave down the plastic inner fairlead to make some clearance for the bumper. I took about &#8539;inch off of the back of it. The plastic material works well with woodworking tools and a simple block plane made it thinner and sandpaper set flat on my workbench made it flat.
 

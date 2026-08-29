@@ -27,7 +27,7 @@ The calculators remain byte-for-byte unchanged during Phase 8:
 3. Machines articles — complete
 4. Making articles — complete
 5. Reading & Life articles — complete
-6. Standalone editorial-page spot review and final inventory reconciliation
+6. Standalone editorial-page spot review and final inventory reconciliation — complete
 
 Each content batch reviews headings, optional curated navigation, figures and captions, callouts, disclosures, related writing, links, and rendered QA. Batch commits may be released independently while Phase 8 remains active.
 
@@ -66,6 +66,15 @@ Each content batch reviews headings, optional curated navigation, figures and ca
 - 39 deliberate related-writing destinations across shop projects, tools, recipes, and practical builds
 - 11 focused archive, availability, electrical, structural, or machine-safety notes; timeless recipes remain free of unnecessary warnings
 - All generated heading hierarchies reviewed without a level jump
+
+## Final reconciliation evidence
+
+- All 76 published articles are marked complete, the unpublished historical source remains explicitly excluded, and both calculators remain checksum-protected and marked preserved
+- Standalone pages, tag archives, topic archives, the complete archive, search, gear, homepage pagination, and the 404 page now emit route-appropriate `WebPage` or `CollectionPage` structured data
+- The three intentionally minimal compatibility routes are classified as redirects: `/pete/` forwards to the photo archive, while `/xj-ext-idle/` and `/xj-switches/` preserve historical article aliases
+- Five real internal-reference defects were corrected: a missing URL scheme, three malformed reference-style links, and one image link with the wrong extension
+- All 114 generated HTML files pass the reconciled audit with no metadata, semantic-layout, structured-data, link, image-attribute, or rendered oversized-asset findings
+- Large original images remain at their durable URLs while browser-facing images continue to use responsive WebP sources
 
 ## Editorial rules
 

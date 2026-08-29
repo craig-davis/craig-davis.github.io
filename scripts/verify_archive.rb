@@ -35,6 +35,15 @@ inventory = CSV.read("docs/modernization/content-inventory.csv", headers: true)
 inventory_paths = inventory.map { |row| row["path"] }
 missing_inventory = published - inventory_paths
 failures << "published posts missing from inventory: #{missing_inventory.join(', ')}" unless missing_inventory.empty?
+failures << "expected 76 published posts, found #{published.length}" unless published.length == 76
+
+published.each do |path|
+  row = inventory.find { |candidate| candidate["path"] == path }
+  failures << "published inventory row must be complete: #{path}" unless row && row["status"] == "complete"
+end
+
+excluded = inventory.select { |row| row["status"] == "excluded" }
+failures << "expected one explicitly excluded historical source, found #{excluded.length}" unless excluded.length == 1
 
 inventory.select { |row| row["status"] == "complete" }.each do |row|
   %w[new_layout description headings images_alt callouts related_posts products qa].each do |field|
