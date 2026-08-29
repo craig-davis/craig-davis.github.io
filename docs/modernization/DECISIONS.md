@@ -196,6 +196,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** Product and safety context remains concise and article-specific. Original construction details and firsthand recommendations stay intact, and related writing can cross topic boundaries when that is genuinely useful.
 
+## D-024 — Treat structured archive entries as complete editorial forms
+
+**Status:** Accepted
+
+**Decision:** Review photo, podcast, and books entries through their structured front matter and rendered specialized layouts rather than requiring conventional Markdown bodies. Add archival context only when changing editions or recommendations materially affect interpretation.
+
+**Reason:** A photo-essay gateway, podcast appearance, or structured book list is not incomplete merely because its Markdown body is short or empty. Its durable content lives in different fields and needs purpose-built presentation.
+
+**Consequences:** Specialized entries remain concise and useful. Reading lists disclose their dated recommendation context, while travel photography, family photos, podcast links, and reflective essays avoid generic warning language.
+
 ## Decision template
 
 ### D-NNN — Title

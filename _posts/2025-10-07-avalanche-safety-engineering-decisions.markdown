@@ -3,7 +3,7 @@ layout:     post
 title:      "Skiing, Snow, and Software"
 topic:      reading-life
 subtitle:   "What Avalanche Safety Can Teach Us About Engineering Decisions"
-description: "What Avalanche Safety Can Teach Us About Engineering Decisions"
+description: "Lessons from avalanche education about uncertainty, group dynamics, checklists, terrain choices, and making safer engineering decisions."
 date:       2025-10-07
 tags:       []
 author:     "Craig Davis"

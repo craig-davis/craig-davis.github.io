@@ -243,3 +243,59 @@
   - /2020/06/30/Marble-Machine-Parts-List-and-Motors/
   - /2020/08/12/Shop-Tools-I-Wish-Id-Bought-Sooner/
   - /2015/12/20/beginning-woodworking-tools/
+"/2015/12/13/a-snowy-day-with-riley/":
+  - /2016/02/23/white-mesa-snow-ride/
+  - /2016/04/02/sheep-shearing-in-new-mexico/
+  - /2017/10/02/Photos-from-Barcelona/
+"/2016/02/23/white-mesa-snow-ride/":
+  - /2015/12/13/a-snowy-day-with-riley/
+  - /2017/04/09/Chaco-Culture-National-Historical-Park/
+  - /2017/04/09/Trinity-Test-Site/
+"/2016/03/26/my-favorite-popular-science-books/":
+  - /2016/04/03/interesting-single-topic-history-books/
+  - /2016/07/10/summer-science-fiction-reading/
+  - /2023/10/09/Books-for-Software-Engineering-Continuing-Education/
+"/2016/04/02/sheep-shearing-in-new-mexico/":
+  - /2015/12/13/a-snowy-day-with-riley/
+  - /2017/04/09/Chaco-Culture-National-Historical-Park/
+  - /2017/10/02/Photos-from-Barcelona/
+"/2016/04/03/interesting-single-topic-history-books/":
+  - /2016/03/26/my-favorite-popular-science-books/
+  - /2016/07/10/summer-science-fiction-reading/
+  - /2023/09/19/business-for-software-developers/
+"/2016/07/10/summer-science-fiction-reading/":
+  - /2016/03/26/my-favorite-popular-science-books/
+  - /2016/04/03/interesting-single-topic-history-books/
+  - /2023/10/09/Books-for-Software-Engineering-Continuing-Education/
+"/2017/04/09/Chaco-Culture-National-Historical-Park/":
+  - /2017/04/09/Trinity-Test-Site/
+  - /2017/10/02/Photos-from-Barcelona/
+  - /2016/02/23/white-mesa-snow-ride/
+"/2017/04/09/Trinity-Test-Site/":
+  - /2017/04/09/Chaco-Culture-National-Historical-Park/
+  - /2017/10/02/Photos-from-Barcelona/
+  - /2016/02/23/white-mesa-snow-ride/
+"/2017/10/02/Photos-from-Barcelona/":
+  - /2017/04/09/Chaco-Culture-National-Historical-Park/
+  - /2017/04/09/Trinity-Test-Site/
+  - /2016/04/02/sheep-shearing-in-new-mexico/
+"/2017/10/18/source-control-as-conversation/":
+  - /2019/07/11/code-talk-podcast/
+  - /2020/03/31/writing-for-code-review/
+  - /2016/03/28/A-Simple-Complexity-Test/
+"/2019/07/11/code-talk-podcast/":
+  - /2017/10/18/source-control-as-conversation/
+  - /2020/03/31/writing-for-code-review/
+  - /2015/11/20/maintaining-your-bash-history/
+"/2023/09/19/business-for-software-developers/":
+  - /2023/10/09/Books-for-Software-Engineering-Continuing-Education/
+  - /2016/04/03/interesting-single-topic-history-books/
+  - /2016/03/26/my-favorite-popular-science-books/
+"/2023/10/09/Books-for-Software-Engineering-Continuing-Education/":
+  - /2023/09/19/business-for-software-developers/
+  - /2016/03/26/my-favorite-popular-science-books/
+  - /2016/07/10/summer-science-fiction-reading/
+"/2025/10/07/avalanche-safety-engineering-decisions/":
+  - /2019/01/25/Beginning-Mountain-Biking-in-2019/
+  - /2018/11/10/The-Legend-of-the-Aged-Shredder/
+  - /2020/03/31/writing-for-code-review/

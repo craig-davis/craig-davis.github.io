@@ -2,7 +2,7 @@
 layout:     post
 title:      "Reading List: Summer Science Fiction Books"
 subtitle:   "Take these to a sunny beach with you this summer"
-description: "Take these to a sunny beach with you this summer"
+description: "A summer reading list of science-fiction novels selected for inventive ideas, strong storytelling, and easy vacation reading."
 date:       2016-07-10
 tags:       [reading]
 topic: reading-life
