@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require "fileutils"
+require "cgi"
 require "json"
 require "optparse"
 require "pathname"
@@ -9,6 +10,7 @@ require "uri"
 
 class SiteAudit
   IGNORABLE_SCHEMES = %w[data http https javascript mailto tel].freeze
+  PRESERVED_HTML = %w[/flat-trim/index.html /running-calculator/index.html].freeze
 
   attr_reader :site_dir
 
@@ -48,13 +50,15 @@ class SiteAudit
     html_files.each do |path|
       source = public_path(path)
       html = File.read(path, encoding: "UTF-8", invalid: :replace, undef: :replace)
+      compatibility_page = PRESERVED_HTML.include?(source) || redirect_page?(html)
+      article_page = html.match?(/<meta\b[^>]*\bproperty\s*=\s*["']og:type["'][^>]*\bcontent\s*=\s*["']article["']/i)
 
-      report["missing_main"] << source unless html.match?(/<main\b/i)
-      report["missing_article"] << source unless html.match?(/<article\b/i)
-      report["missing_description"] << source unless html.match?(/<meta\b[^>]*\bname\s*=\s*["']description["']/i)
-      report["missing_canonical"] << source unless html.match?(/<link\b[^>]*\brel\s*=\s*["']canonical["']/i)
-      report["missing_open_graph_title"] << source unless html.match?(/<meta\b[^>]*\bproperty\s*=\s*["']og:title["']/i)
-      report["missing_json_ld"] << source unless html.match?(/<script\b[^>]*\btype\s*=\s*["']application\/ld\+json["']/i)
+      report["missing_main"] << source unless compatibility_page || html.match?(/<main\b/i)
+      report["missing_article"] << source if article_page && !html.match?(/<article\b/i)
+      report["missing_description"] << source unless compatibility_page || html.match?(/<meta\b[^>]*\bname\s*=\s*["']description["']/i)
+      report["missing_canonical"] << source unless compatibility_page || html.match?(/<link\b[^>]*\brel\s*=\s*["']canonical["']/i)
+      report["missing_open_graph_title"] << source unless compatibility_page || html.match?(/<meta\b[^>]*\bproperty\s*=\s*["']og:title["']/i)
+      report["missing_json_ld"] << source unless compatibility_page || html.match?(/<script\b[^>]*\btype\s*=\s*["']application\/ld\+json["']/i)
 
       title = html[/<title\b[^>]*>(.*?)<\/title>/im, 1].to_s.gsub(/<[^>]+>/, "").strip
       description_tag = html[/<meta\b[^>]*\bname\s*=\s*["']description["'][^>]*>/i]
@@ -65,7 +69,7 @@ class SiteAudit
       report["long_title"] << { "source" => source, "length" => title.length } if title.length > 70
       report["empty_description"] << source if description_tag && description.empty?
       report["long_description"] << { "source" => source, "length" => description.length } if description && description.length > 180
-      if canonical_tag && !canonical.match?(%r{\Ahttps://there4\.io/})
+      if canonical_tag && !redirect_page?(html) && !canonical.match?(%r{\Ahttps://there4\.io/})
         report["invalid_canonical"] << { "source" => source, "canonical" => canonical }
       end
 
@@ -88,6 +92,8 @@ class SiteAudit
         report["images_missing_decoding"] << image unless tag.match?(/\bdecoding\s*=/i)
       end
 
+      next if compatibility_page
+
       referenced_urls(html).each do |reference|
         next if reference_resolves?(path, reference["target"])
 
@@ -103,6 +109,7 @@ class SiteAudit
     files.each do |path|
       next if html_files.include?(path)
       next unless File.size(path) > 1_500_000
+      next unless rendered_without_responsive_source?(path)
 
       report["oversized_assets"] << { "source" => public_path(path), "bytes" => File.size(path) }
     end
@@ -148,7 +155,7 @@ class SiteAudit
     }.each do |element, attributes|
       html.scan(/<#{element}\b[^>]*>/i).each do |tag|
         attributes.each do |attribute_name|
-          target = attribute(tag, attribute_name)
+          target = CGI.unescapeHTML(attribute(tag, attribute_name).to_s)
           next if target.nil? || target.empty? || ignorable_reference?(target)
 
           references << {
@@ -162,6 +169,24 @@ class SiteAudit
     references
   end
 
+  def redirect_page?(html)
+    html.match?(/<meta\b[^>]*\bname=["']robots["'][^>]*\bcontent=["']noindex["']/i) &&
+      html.match?(/<meta\b[^>]*\bhttp-equiv=["']refresh["']/i)
+  end
+
+  def rendered_without_responsive_source?(asset_path)
+    html_files.any? do |html_path|
+      html = File.read(html_path, encoding: "UTF-8", invalid: :replace, undef: :replace)
+      html.scan(/<img\b[^>]*>/i).any? do |tag|
+        source = CGI.unescapeHTML(attribute(tag, "src").to_s)
+        next false if source.empty?
+
+        resolved = resolve_reference(html_path, source)
+        resolved == asset_path && !tag.match?(/\bsrcset\s*=/i)
+      end
+    end
+  end
+
   def ignorable_reference?(target)
     return true if target.start_with?("#", "//")
 
@@ -173,11 +198,7 @@ class SiteAudit
 
   def reference_resolves?(source_file, target)
     clean_target = URI::DEFAULT_PARSER.unescape(target.split(/[?#]/, 2).first)
-    candidate = if clean_target.start_with?("/")
-                  File.join(site_dir, clean_target.sub(%r{\A/+}, ""))
-                else
-                  File.expand_path(clean_target, File.dirname(source_file))
-                end
+    candidate = resolve_reference(source_file, clean_target)
 
     return false unless within_site?(candidate)
     return true if File.file?(candidate)
@@ -186,6 +207,15 @@ class SiteAudit
     File.file?(File.join(candidate, "index.html"))
   rescue ArgumentError
     false
+  end
+
+  def resolve_reference(source_file, target)
+    clean_target = target.split(/[?#]/, 2).first
+    if clean_target.start_with?("/")
+      File.join(site_dir, clean_target.sub(%r{\A/+}, ""))
+    else
+      File.expand_path(clean_target, File.dirname(source_file))
+    end
   end
 
   def within_site?(candidate)

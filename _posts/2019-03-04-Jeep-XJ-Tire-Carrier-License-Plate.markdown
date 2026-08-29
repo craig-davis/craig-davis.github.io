@@ -56,7 +56,7 @@ In this photo, you can see a new trailer light extension wired into the running 
 %}
 We'll tap into the right rear running light for power and ground. When we're done, we'll have a trailer light plug grafted into the factory harness and we'll run a wire from that new plug out to the new license plate light.
 
-We can tap into our factory wires in two ways, we can either solder or we can use [wire taps](https://amzn.to/2XB3SdI). For soldering, you simply need to clip the wires and strip both sides back a bit, slide on heat shrink tubing, solder all three wires together and then slide the heat shrink tubing over it and shrink it down. I prefer to shrink tubing with a heat gun, and I like this [heat gun from Wagner](https://amzn.to/2SIaPpJ). Using wire taps is a little simpler, but the [factory service manual says to solder](/img/posts/xj-tire-carrier-license-plate/fsm-wiring-repair.jpg) and this Jeep is a hobby. With wire taps, you'll need to find the right size for the factory wires and follow the instructions provided with them.
+We can tap into our factory wires in two ways, we can either solder or we can use [wire taps](https://amzn.to/2XB3SdI). For soldering, you simply need to clip the wires and strip both sides back a bit, slide on heat shrink tubing, solder all three wires together and then slide the heat shrink tubing over it and shrink it down. I prefer to shrink tubing with a heat gun, and I like this [heat gun from Wagner](https://amzn.to/2SIaPpJ). Using wire taps is a little simpler, but the [factory service manual says to solder](/img/posts/xj-tire-carrier-license-plate/fsm-wiring-repair.png) and this Jeep is a hobby. With wire taps, you'll need to find the right size for the factory wires and follow the instructions provided with them.
 
 
 {% include figure.html
@@ -102,4 +102,3 @@ If you've got questions, please feel free to reach out and send me an {% include
 
 
 {% include disclosure.html %}
-

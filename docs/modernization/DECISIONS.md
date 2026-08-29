@@ -206,6 +206,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** Specialized entries remain concise and useful. Reading lists disclose their dated recommendation context, while travel photography, family photos, podcast links, and reflective essays avoid generic warning language.
 
+## D-025 — Audit generated routes according to their purpose
+
+**Status:** Accepted
+
+**Decision:** Apply full semantic, metadata, and structured-data requirements to modern content routes; require `<article>` only for article pages; classify generated compatibility redirects separately; and preserve the calculators outside modernization checks while continuing to enforce their checksums. Report an oversized asset only when it is rendered without responsive sources, not when a durable original is retained as a download or full-resolution link.
+
+**Reason:** A redirect is not a deficient article, a listing page does not need an `<article>` wrapper, and a linked archival original does not create the same performance cost as an unoptimized rendered image. Route-aware checks turn the audit into an actionable gate instead of a catalog of intentional exceptions.
+
+**Consequences:** The Phase 8 baseline can be clean without deleting durable assets or modifying protected tools. Future modern pages must ship complete metadata and structured data, article routes must retain article semantics, and browser-facing large images must keep responsive delivery.
+
 ## Decision template
 
 ### D-NNN — Title

@@ -227,7 +227,7 @@ Completion evidence:
 
 ### 8. Complete archive migration
 
-**Status:** Active
+**Status:** Complete
 
 Scope:
 
@@ -250,6 +250,8 @@ Progress evidence:
 - The Machines batch is complete: 19 articles have refined descriptions, reviewed structure and links, 57 curated related-writing destinations, and 17 focused archive or safety notes for fitment, mechanical, route, and protective-equipment context.
 - The Making batch is complete: 14 articles have refined descriptions, reviewed structure and links, 39 curated related-writing destinations, and 11 focused notes for product availability, electrical work, structural loading, and machine safety.
 - The Reading & Life batch is complete: 14 articles have refined descriptions, reviewed specialized layouts and links, 42 curated related-writing destinations, and five edition-aware notes on reading lists without burdening photo or reflective work.
+- Final reconciliation is complete: all 114 generated HTML files pass the route-aware quality audit with no findings, all modern standalone and collection routes emit structured data, and intentional redirects and checksum-protected calculators remain outside modern-page requirements.
+- Five genuine internal-reference defects were corrected without changing public article URLs; large original images remain available while rendered images are verified for responsive delivery.
 
 ### 9. Final QA and launch
 

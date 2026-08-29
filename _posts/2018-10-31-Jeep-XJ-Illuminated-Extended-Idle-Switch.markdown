@@ -154,7 +154,7 @@ With that out of way, we can continue with this project.
 
 ## Collect the Supplies
 
-* __An Air On Board [Extended idle toggle switch](aob-switch)__
+* __An Air On Board [Extended idle toggle switch][aob-switch]__
   This is the "fake" switch. It's a three wire switch, and we only need the face plate.
 * __OEM factory fog light switch__
   These are available on eBay. Save one from a junkyard if at all possible.
@@ -200,7 +200,6 @@ I have [a fairly cheap benchtop power supply](https://amzn.to/2qkX1pB) that I re
 [aob-switch]: https://www.aironboard.com/online/ext-idle-3c34-tj-jeep-rocker-switch.html
 [gctent]: https://www.shapeways.com/shops/gctent
 [forum]: https://www.cherokeeforum.com/f2/making-ext-idle-switch-242355/
-
 
 
 
