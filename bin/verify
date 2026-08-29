@@ -5,3 +5,6 @@ set -eu
 bundle exec jekyll build -d ./public
 ruby scripts/verify_site.rb verify --site public
 ruby scripts/verify_gear.rb
+ruby scripts/verify_search.rb public
+ruby scripts/verify_reading_state.rb public
+ruby scripts/editorial_suggestions.rb --check

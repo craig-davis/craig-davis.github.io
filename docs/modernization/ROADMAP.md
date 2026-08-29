@@ -201,7 +201,7 @@ Completion evidence:
 
 ### 7. Search and automation
 
-**Status:** Not started
+**Status:** Complete
 
 Scope:
 
@@ -215,6 +215,15 @@ Exit criteria:
 - Search covers the intended archive and requires minimal client JavaScript.
 - Sidebar table-of-contents tracking works with keyboard navigation, respects reduced-motion preferences, and leaves the no-JavaScript reading experience intact.
 - Quality checks run reproducibly and fail usefully.
+
+Completion evidence:
+
+- `/search/` searches a generated index of all 76 published articles by title, description, primary topic, tag, and year without sending queries to an external service.
+- The search interface uses semantic form and status markup, keeps query state in a shareable `?q=` parameter, limits rendering to 50 ranked results, and retains a no-JavaScript path to the complete writing archive.
+- Curated article tables of contents now mark the current section with `aria-current="location"`, a bold treatment, the There4 `∴` marker, and visually hidden current-section text; all original anchor navigation remains intact without JavaScript.
+- `scripts/editorial_suggestions.rb` analyzes every published post and emits an optional CSV review queue for missing metadata and related-writing candidates without changing content.
+- The generated-site audit now tracks empty or long titles and descriptions, malformed canonical URLs and JSON-LD, broken links, heading structure, image attributes, and assets over 1.5 MB as regression-protected quality debt.
+- Dedicated search and reading-state verifiers check all 76 indexed destinations and all seven curated section links; `bin/verify` preserves all 705 baseline URLs and reports no new generated quality regressions.
 
 ### 8. Complete archive migration
 
