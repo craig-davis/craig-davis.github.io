@@ -2,14 +2,21 @@
 
 site_dir = File.expand_path(ARGV.fetch(0, "public"))
 failures = []
-articles = 0
+toc_articles = 0
+reading_estimates = 0
 links = 0
 
 Dir.glob(File.join(site_dir, "**", "*.html")).sort.each do |path|
   html = File.read(path, encoding: "UTF-8", invalid: :replace, undef: :replace)
+  if html.match?(/<meta\b[^>]*\bproperty=["']og:type["'][^>]*\bcontent=["']article["']/i)
+    reading_estimates += 1
+    source = path.delete_prefix(site_dir)
+    failures << "#{source} lacks a reading-time estimate" unless html.match?(/class="post-meta__reading-time">[1-9]\d* min read</)
+  end
+
   next unless html.include?("class=\"article-toc\"")
 
-  articles += 1
+  toc_articles += 1
   source = path.delete_prefix(site_dir)
   failures << "#{source} does not load article-toc.js with defer" unless html.match?(%r{<script[^>]+src="/js/article-toc\.js"[^>]+defer})
   failures << "#{source} lacks accessible current-section text" unless html.include?("data-toc-current")
@@ -21,11 +28,13 @@ Dir.glob(File.join(site_dir, "**", "*.html")).sort.each do |path|
   end
 end
 
-failures << "no generated articles exercise reading-state navigation" if articles.zero?
+failures << "no generated articles include reading-time estimates" if reading_estimates.zero?
+failures << "no generated articles exercise reading-state navigation" if toc_articles.zero?
 
 if failures.empty?
   puts "Reading-state verification passed."
-  puts "  Articles with curated navigation: #{articles}"
+  puts "  Articles with reading-time estimates: #{reading_estimates}"
+  puts "  Articles with curated navigation: #{toc_articles}"
   puts "  Valid section destinations: #{links}"
 else
   warn "Reading-state verification failed:\n  #{failures.join("\n  ")}"
