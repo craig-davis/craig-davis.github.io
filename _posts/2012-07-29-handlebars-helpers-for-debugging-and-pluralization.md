@@ -2,7 +2,9 @@
 layout:     post
 title:      "Handlebars Helpers for Debugging and Pluralization"
 subtitle:   "Template scope debugging made easy"
+description: "Two Handlebars helpers for inspecting template context and choosing singular or plural labels while rendering."
 tags:       [javascript]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/hinterglemm.jpg"
 ---

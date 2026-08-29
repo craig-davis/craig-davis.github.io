@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ Heated Side Mirror Upgrade"
 subtitle:   "A direct plug-in upgrade for Jeep Cherokees, usually."
+description: "A direct plug-in upgrade for Jeep Cherokees, usually."
 date:       2021-02-08
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-heated-mirrors.jpg"
 ---

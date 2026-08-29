@@ -2,8 +2,10 @@
 layout:     post
 title:      "Tacoma WA Road Bike Routes"
 subtitle:   "Safe and scenic road rides in Tacoma"
+description: "Safe and scenic road rides in Tacoma"
 date:       2020-07-03
 tags:       [bike]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/tacoma-narrows.jpg"
 ---

@@ -1,0 +1,40 @@
+# Archive Migration
+
+Phase 8 reviews the editorial archive in controlled, independently verifiable batches. A row is complete only after its metadata, structure, media treatment, related writing, links, generated output, and representative visual presentation have been reviewed.
+
+## Scope
+
+- 76 published articles
+- One unpublished historical article retained in source but excluded from generated-site review
+- A final spot review of standalone editorial pages already modernized in earlier phases
+- No calculator redesign
+
+## Protected calculators
+
+The calculators remain byte-for-byte unchanged during Phase 8:
+
+| Path | SHA-256 at Phase 8 start |
+| --- | --- |
+| `flat-trim/index.html` | `f9959988cd057900598cbd7dd502bd67bd6e48dbf0e4d40bcbfee11528c23a50` |
+| `running-calculator/index.html` | `edc1ba7e03658536e8cb5a06c3d22b68e0c4c7cc058bfc0ec5fe6b21e3379178` |
+
+`scripts/verify_archive.rb` enforces these checksums as well as the protected URLs.
+
+## Batches
+
+1. Archive-wide explicit topics and descriptions
+2. Software articles
+3. Machines articles
+4. Making articles
+5. Reading & Life articles
+6. Standalone editorial-page spot review and final inventory reconciliation
+
+Each content batch reviews headings, optional curated navigation, figures and captions, callouts, disclosures, related writing, links, and rendered QA. Batch commits may be released independently while Phase 8 remains active.
+
+## Editorial rules
+
+- Preserve publication dates, durable URLs, and the historical meaning of the article.
+- Correct clear spelling, markup, accessibility, and dead-link defects without pretending old tools or services are current.
+- Use an update or archival note when age materially changes how a reader should interpret instructions.
+- Related writing is selected for reader value, not simply because two posts share a tag.
+- Do not silently replace Craig's claims or firsthand voice with generated editorial assertions.

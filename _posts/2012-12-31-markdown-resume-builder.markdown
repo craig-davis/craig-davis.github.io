@@ -2,8 +2,10 @@
 layout:     post
 title:      "Markdown Resume Builder"
 subtitle:   "A tidy resume built with Markdown tools"
+description: "A tidy resume built with Markdown tools"
 date:       2012-12-31 16:39
 tags:       [php]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/placitas.jpg"
 ---

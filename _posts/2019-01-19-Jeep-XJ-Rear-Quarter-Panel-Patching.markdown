@@ -2,8 +2,10 @@
 layout:     instructable
 title:      "Jeep XJ Rear Quarter Panel Patching"
 subtitle:   "Removing the rear trim and patching the holes left behind"
+description: "Removing the rear trim and patching the holes left behind"
 date:       2019-01-19
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-body-supplies.jpg"
 steps:

@@ -2,8 +2,10 @@
 layout:     post
 title:      "PHP Pake to build a README file"
 subtitle:   "Add command line help output to a README"
+description: "Add command line help output to a README"
 date:       2012-09-27 15:51
 tags:       [php]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/deck.jpg"
 ---

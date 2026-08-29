@@ -8,3 +8,4 @@ ruby scripts/verify_gear.rb
 ruby scripts/verify_search.rb public
 ruby scripts/verify_reading_state.rb public
 ruby scripts/editorial_suggestions.rb --check
+ruby scripts/verify_archive.rb

@@ -2,8 +2,10 @@
 layout:     post
 title:      "KLX250S Performance Mods and Basic Upgrades"
 subtitle:   "Upgrading a 2006 KLX205s for dual sport adventures"
+description: "Upgrading a 2006 KLX205s for dual sport adventures"
 date:       2019-07-16
 tags:       [motorcycles]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/klx250s.jpg"
 ---

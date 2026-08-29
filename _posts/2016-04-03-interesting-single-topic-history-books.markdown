@@ -2,8 +2,10 @@
 layout:     post
 title:      "Reading List: Single Topic History Books"
 subtitle:   "History through the lens of a single subject"
+description: "History through the lens of a single subject"
 date:       2016-04-03
 tags:       [reading]
+topic: reading-life
 author:     "Craig Davis"
 header-img: "img/headers/old-truck.jpg"
 books:

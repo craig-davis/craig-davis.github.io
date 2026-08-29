@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ Boostwerks Comp Mount Hidden Winch Installation"
 subtitle:   "Installing a hidden Warn M8-S in my Jeep Cherokee"
+description: "Installing a hidden Warn M8-S in my Jeep Cherokee"
 date:       2020-01-14
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/jeep-xj-hidden-winch.jpg"
 ---

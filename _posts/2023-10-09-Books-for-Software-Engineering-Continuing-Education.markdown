@@ -2,8 +2,10 @@
 layout:     books
 title:      "Books for Software Engineering Continuing Education"
 subtitle:   "Perfecting our craft and sharpening our skills"
+description: "Perfecting our craft and sharpening our skills"
 date:       2023-10-09
 tags:       [reading]
+topic: reading-life
 author:     "Craig Davis"
 header-img: "img/headers/continuing-education.jpg"
 img-folder: continuing-education

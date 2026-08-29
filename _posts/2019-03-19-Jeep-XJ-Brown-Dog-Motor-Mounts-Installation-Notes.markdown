@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ Brown Dog Motor Mounts Installation Notes"
 subtitle:   "Replacing tired OEM motor mounts for improved rubber bushings"
+description: "Replacing tired OEM motor mounts for improved rubber bushings"
 date:       2019-03-19
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-motor-mounts.jpg"
 ---

@@ -2,8 +2,10 @@
 layout:     post
 title:      "Enable MySQL logging for Debugging at Runtime"
 subtitle:   "Tail the MySQL query log"
+description: "Enabling and tailing the MySQL general query log at runtime while debugging an application."
 date:       2015-05-05
 tags:       [mysql]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/dodge.jpg"
 ---

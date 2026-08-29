@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ 62mm Throttle Body Upgrade"
 subtitle:   "Getting better throttle response with a DW Designs 62mm throttle body"
+description: "Getting better throttle response with a DW Designs 62mm throttle body"
 date:       2019-03-11
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-throttle-body-upgrade.jpg"
 ---

@@ -2,8 +2,10 @@
 layout:     post
 title:      "Introducing TermCamp, a Campfire command line client"
 subtitle:   "Campfire in your terminal with bells and notifiers"
+description: "Campfire in your terminal with bells and notifiers"
 date:       2013-01-16 20:47
 tags:       [javascript]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/shuksan.jpg"
 ---

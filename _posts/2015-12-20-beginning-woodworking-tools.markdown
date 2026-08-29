@@ -2,8 +2,10 @@
 layout:     post
 title:      "Beginning Woodworking Tools"
 subtitle:   "From DIY Beginner to Garage Building"
+description: "From DIY Beginner to Garage Building"
 date:       2015-12-20
 tags:       [woodworking]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/diy-tools.jpg"
 ---

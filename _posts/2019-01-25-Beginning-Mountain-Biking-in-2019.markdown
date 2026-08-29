@@ -2,8 +2,10 @@
 layout:     post
 title:      "Beginning Mountain Biking in 2019"
 subtitle:   "Bike selection and gear for a novice rider"
+description: "Bike selection and gear for a novice rider"
 date:       2019-01-25
 tags:       [bike]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/getting-started-mountain-biking.jpg"
 ---

@@ -2,7 +2,9 @@
 layout:     post
 title:      "AMD Javascript Parse URL"
 subtitle:   "Using the DOM to parse a url with JavaScript"
+description: "Using the DOM to parse a url with JavaScript"
 tags:       [javascript]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/vienna.jpg"
 ---

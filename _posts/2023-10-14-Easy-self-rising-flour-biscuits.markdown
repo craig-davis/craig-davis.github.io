@@ -2,8 +2,10 @@
 layout:     post
 title:      "Easy Self Rising Flour Biscuits"
 subtitle:   "Quick biscuits for Saturday mornings"
+description: "Quick biscuits for Saturday mornings"
 date:       2023-10-14
 tags:       [recipes]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/easy-biscuits.jpg"
 ---

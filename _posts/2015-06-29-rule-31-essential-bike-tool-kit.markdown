@@ -5,6 +5,7 @@ subtitle:    "Rule 31 - All tools must fit in your jersey pocket"
 description: "This is the ultimate bike tool kit for fixing flats and trailside repairs."
 date:        2015-06-29
 tags:        [bike]
+topic: machines
 author:      "Craig Davis"
 header-img:  "img/headers/rule-31.jpg"
 gear:        [crank-brothers-m17]

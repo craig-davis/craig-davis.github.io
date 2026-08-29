@@ -2,8 +2,10 @@
 layout:     post
 title:      "Google Event Tracking from PHP"
 subtitle:   "Charting downloads from PHP"
+description: "Sending Google Analytics event-tracking requests from PHP to count downloads that bypass browser-side JavaScript."
 date:       2011-08-23 07:43
 tags:       [php]
+topic: software
 author:     "Craig Davis"
 header-img: "img/headers/mushroom.jpg"
 ---

@@ -2,8 +2,10 @@
 layout:     post
 title:      "Jeep XJ PSC Power Steering Replacement"
 subtitle:   "Installing a smaller power steering pulley and correct belt length"
+description: "Installing a smaller power steering pulley and correct belt length"
 date:       2023-10-31
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-psc-power-steering-pulley.jpg"
 toc:

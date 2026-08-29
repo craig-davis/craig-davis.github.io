@@ -2,8 +2,10 @@
 layout:     post
 title:      "Delta Unisaw Shark Guard"
 subtitle:   "Upgrading an older saw with new safety equipment"
+description: "Upgrading an older saw with new safety equipment"
 date:       2022-04-20
 tags:       [woodworking]
+topic: making
 author:     "Craig Davis"
 header-img: "img/headers/delta-unisaw-riving-knife.jpg"
 ---

@@ -146,6 +146,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** Search covers published articles and gracefully falls back to the complete archive without JavaScript. Phase 8 can consume the suggestion queue in controlled batches while the generated-site checks prevent new quality debt.
 
+## D-019 — Preserve calculators during archive migration
+
+**Status:** Accepted
+
+**Decision:** Exclude both calculators from Phase 8 redesign and protect their current files byte-for-byte in addition to preserving their public URLs.
+
+**Reason:** The calculators are standalone applications with a separate future design and hosting decision. Editorial archive work should not accidentally change their behavior or presentation.
+
+**Consequences:** `/flat-trim/` and `/running-calculator/` remain unchanged. Their redesign and any subdomain move stay deferred until explicitly authorized.
+
 ## Decision template
 
 ### D-NNN — Title

@@ -2,8 +2,10 @@
 layout:     post
 title:      "Rebuilding a Jeep XJ Transmission Mount Exhaust Hanger"
 subtitle:   "Repairing and rebuilding a discontinued part with a replacement bushing"
+description: "Repairing and rebuilding a discontinued part with a replacement bushing"
 date:       2021-07-26
 tags:       [jeep]
+topic: machines
 author:     "Craig Davis"
 header-img: "img/headers/xj-crossmember-exhaust-hangar.jpg"
 ---
