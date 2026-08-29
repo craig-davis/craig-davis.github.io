@@ -2,7 +2,7 @@
 layout:     post
 title:      "Tacoma WA Road Bike Routes"
 subtitle:   "Safe and scenic road rides in Tacoma"
-description: "Safe and scenic road rides in Tacoma"
+description: "A local rider's notes on scenic Tacoma-area road-bicycle routes, including distance, climbing, traffic, and connection options."
 date:       2020-07-03
 tags:       [bike]
 topic: machines

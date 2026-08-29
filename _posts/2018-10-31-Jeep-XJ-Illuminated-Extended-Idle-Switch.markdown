@@ -2,7 +2,7 @@
 layout:     instructable
 title:      "Jeep XJ Illuminated Extended Idle Switch"
 subtitle:   "Making a look alike ext idle switch with a fog light switch and a relay"
-description: "Making a look alike ext idle switch with a fog light switch and a relay"
+description: "Building an illuminated Jeep XJ extended-idle control from an OEM-style fog-light switch, custom labeling, and a relay."
 date:       2018-10-31
 tags:       [jeep]
 topic: machines
@@ -200,7 +200,6 @@ I have [a fairly cheap benchtop power supply](https://amzn.to/2qkX1pB) that I re
 [aob-switch]: https://www.aironboard.com/online/ext-idle-3c34-tj-jeep-rocker-switch.html
 [gctent]: https://www.shapeways.com/shops/gctent
 [forum]: https://www.cherokeeforum.com/f2/making-ext-idle-switch-242355/
-
 
 
 

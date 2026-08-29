@@ -247,6 +247,7 @@ Progress evidence:
 - The two calculator source files are checksum-protected and marked `preserved`; the unpublished historical article is explicitly excluded rather than treated as published work.
 - Phase 8 batching, editorial rules, and calculator checksums are recorded in `ARCHIVE-MIGRATION.md`.
 - The Software batch is complete: 29 articles have refined descriptions, reviewed headings and links, 87 curated related-writing destinations, 22 contextual archive notes, and local syntax-highlighted replacements for all nine former Gist embeds.
+- The Machines batch is complete: 19 articles have refined descriptions, reviewed structure and links, 57 curated related-writing destinations, and 17 focused archive or safety notes for fitment, mechanical, route, and protective-equipment context.
 
 ### 9. Final QA and launch
 

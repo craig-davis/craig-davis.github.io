@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Jeep XJ Transmission Cooler Line Ugrade"
+title:      "Jeep XJ Transmission Cooler Line Upgrade"
 subtitle:   "Converting Jeep Cherokee transmission cooler lines to flexible stainless steel"
-description: "Converting Jeep Cherokee transmission cooler lines to flexible stainless steel"
+description: "Replacing leaking Jeep XJ transmission-cooler hard lines with routed stainless-braided hose and serviceable AN fittings."
 date:       2019-07-17
 tags:       [jeep]
 topic: machines

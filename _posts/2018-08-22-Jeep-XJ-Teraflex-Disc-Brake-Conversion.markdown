@@ -2,7 +2,7 @@
 layout:     post
 title:      "Jeep XJ Teraflex Disc Brake Conversion"
 subtitle:   "Converting from drum brakes to modern disc brakes"
-description: "Converting from drum brakes to modern disc brakes"
+description: "Converting a Jeep XJ rear axle from drum brakes to a Teraflex disc-brake kit, including fitment and installation notes."
 date:       2018-08-22
 tags:       [jeep]
 topic: machines
@@ -60,4 +60,3 @@ noticed any bias problems. I will know more after I get to do some low traction
 braking in snow or gravel. I have not done any high speed panic stops yet. 
 Overall, I'm pleased with the conversion. I can't say that I have significantly 
 improved braking, but I'm certain I have simplified maintenance.
-

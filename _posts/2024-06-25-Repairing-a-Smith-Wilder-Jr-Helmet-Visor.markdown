@@ -2,7 +2,7 @@
 layout:     post
 title:      "Repairing a Smith Wilder Jr Helmet Visor"
 subtitle:   "Fixing a kids helmet with simple parts"
-description: "Fixing a kids helmet with simple parts"
+description: "Repairing the removable visor attachment on a Smith Wilder Jr bicycle helmet with simple replacement hardware and hand tools."
 date:       2024-06-25
 tags:       [bike]
 topic: machines

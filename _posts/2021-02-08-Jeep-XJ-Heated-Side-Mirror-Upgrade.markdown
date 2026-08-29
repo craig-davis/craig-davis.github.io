@@ -2,7 +2,7 @@
 layout:     post
 title:      "Jeep XJ Heated Side Mirror Upgrade"
 subtitle:   "A direct plug-in upgrade for Jeep Cherokees, usually."
-description: "A direct plug-in upgrade for Jeep Cherokees, usually."
+description: "Retrofitting heated side mirrors on a Jeep XJ using compatible factory wiring, replacement glass, and model-year-specific connectors."
 date:       2021-02-08
 tags:       [jeep]
 topic: machines

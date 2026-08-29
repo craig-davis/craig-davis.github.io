@@ -2,7 +2,7 @@
 layout:     post
 title:      "KLX250S Performance Mods and Basic Upgrades"
 subtitle:   "Upgrading a 2006 KLX205s for dual sport adventures"
-description: "Upgrading a 2006 KLX205s for dual sport adventures"
+description: "Upgrading a 2006 Kawasaki KLX250S for dual-sport travel with practical performance, protection, luggage, and comfort modifications."
 date:       2019-07-16
 tags:       [motorcycles]
 topic: machines
