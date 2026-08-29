@@ -2,7 +2,7 @@
 layout:     post
 title:      "Rebuilding a Jeep XJ Transmission Mount Exhaust Hanger"
 subtitle:   "Repairing and rebuilding a discontinued part with a replacement bushing"
-description: "Repairing and rebuilding a discontinued part with a replacement bushing"
+description: "Rebuilding a discontinued Jeep XJ transmission-mount exhaust hanger with a reusable bracket and a replaceable rubber bushing."
 date:       2021-07-26
 tags:       [jeep]
 topic: machines

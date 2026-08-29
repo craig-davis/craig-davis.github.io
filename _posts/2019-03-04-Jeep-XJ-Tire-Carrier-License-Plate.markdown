@@ -2,7 +2,7 @@
 layout:     post
 title:      "Jeep XJ Tire Carrier License Plate"
 subtitle:   "Adding wiring for a license plate light on a tire carrier"
-description: "Adding wiring for a license plate light on a tire carrier"
+description: "Relocating a Jeep XJ license plate to an aftermarket tire carrier and wiring a durable illuminated mounting bracket."
 date:       2019-03-04
 tags:       [jeep]
 topic: machines
@@ -102,5 +102,4 @@ If you've got questions, please feel free to reach out and send me an {% include
 
 
 {% include disclosure.html %}
-
 

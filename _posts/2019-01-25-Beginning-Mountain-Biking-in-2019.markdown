@@ -2,7 +2,7 @@
 layout:     post
 title:      "Beginning Mountain Biking in 2019"
 subtitle:   "Bike selection and gear for a novice rider"
-description: "Bike selection and gear for a novice rider"
+description: "Firsthand guidance for new mountain bikers choosing a bike, essential gear, clothing, tools, and early riding habits."
 date:       2019-01-25
 tags:       [bike]
 topic: machines

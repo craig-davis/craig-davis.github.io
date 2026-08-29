@@ -2,7 +2,7 @@
 layout:     post
 title:      "Jeep XJ Overhead Console Compass Calibration"
 subtitle:   "Finding your true north in a Jeep Cherokee"
-description: "Finding your true north in a Jeep Cherokee"
+description: "Calibrating the compass and setting the geographic variance zone on a Jeep XJ overhead information console."
 date:       2019-03-08
 tags:       [jeep]
 topic: machines

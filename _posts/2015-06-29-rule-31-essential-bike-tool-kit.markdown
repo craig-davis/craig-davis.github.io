@@ -2,7 +2,7 @@
 layout:      post
 title:       "The Essential Bike Tool Kit"
 subtitle:    "Rule 31 - All tools must fit in your jersey pocket"
-description: "This is the ultimate bike tool kit for fixing flats and trailside repairs."
+description: "A compact, firsthand bicycle tool kit for repairing flats and handling common roadside or trailside mechanical problems."
 date:        2015-06-29
 tags:        [bike]
 topic: machines

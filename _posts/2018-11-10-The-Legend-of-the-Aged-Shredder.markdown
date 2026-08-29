@@ -3,7 +3,7 @@ layout:     post
 title:      "The Legend of the Aged Shredder"
 topic:      machines
 subtitle:   "A lesson of living well and growing old"
-description: "A lesson of living well and growing old"
+description: "A mountain-bike encounter with an older rider whose strength, skill, and generosity offered a memorable lesson in aging well."
 date:       2018-11-10
 tags:       []
 author:     "Craig Davis"

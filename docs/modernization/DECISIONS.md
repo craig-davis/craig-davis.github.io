@@ -176,6 +176,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** Browsers request Hack only when monospace content is rendered and only fetch styles the page uses. Prose typography is unchanged, font loading uses `swap`, ligatures are disabled in code blocks, and no font CDN is introduced.
 
+## D-022 — Distinguish firsthand machine notes from current safety guidance
+
+**Status:** Accepted
+
+**Decision:** Preserve vehicle, motorcycle, bicycle, and route articles as firsthand field notes while adding focused context wherever current fitment, service information, traffic conditions, regulations, or safety procedures must take precedence.
+
+**Reason:** Historical mechanical experience remains useful, but readers should not mistake a single installation or route report for current manufacturer instructions, professional inspection, or live road conditions.
+
+**Consequences:** Safety notes are specific to the risk and remain visually subordinate to the article. They do not turn ordinary narrative posts into warning pages or erase Craig's original observations.
+
 ## Decision template
 
 ### D-NNN — Title

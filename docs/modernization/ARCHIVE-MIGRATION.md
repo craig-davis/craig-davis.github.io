@@ -24,7 +24,7 @@ The calculators remain byte-for-byte unchanged during Phase 8:
 
 1. Archive-wide explicit topics and descriptions — complete
 2. Software articles — complete
-3. Machines articles
+3. Machines articles — complete
 4. Making articles
 5. Reading & Life articles
 6. Standalone editorial-page spot review and final inventory reconciliation
@@ -41,6 +41,15 @@ Each content batch reviews headings, optional curated navigation, figures and ca
 - Nine remote Gist embeds replaced by locally rendered Rouge snippets
 - `jekyll-gist` and its unused API dependencies removed
 - Hack's four subset web-font styles self-hosted for code, with a warm high-contrast Rouge palette approved against representative SQL and PHP articles
+
+## Machines batch evidence
+
+- 19 published articles reviewed
+- 19 descriptions refined to 50–180 characters
+- 57 deliberate related-writing destinations across Jeep, motorcycle, and bicycle field notes
+- 17 article-specific archive and safety notes where fitment, traffic, product availability, or mechanical risk materially affects current use
+- All generated heading hierarchies reviewed without a level jump
+- The visible “Ugrade” title typo corrected while preserving its historical public URL
 
 ## Editorial rules
 

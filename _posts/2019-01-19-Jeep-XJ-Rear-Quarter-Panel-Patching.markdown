@@ -2,7 +2,7 @@
 layout:     instructable
 title:      "Jeep XJ Rear Quarter Panel Patching"
 subtitle:   "Removing the rear trim and patching the holes left behind"
-description: "Removing the rear trim and patching the holes left behind"
+description: "Removing damaged Jeep XJ rear-quarter trim, fabricating small sheet-metal patches, and sealing the mounting holes left behind."
 date:       2019-01-19
 tags:       [jeep]
 topic: machines
@@ -179,4 +179,3 @@ The links below are Amazon Affiliate links. I've only linked to the products tha
 * [Duplicolor Top Coat](https://amzn.to/2DmJvZS)
 
 ## Follow Along with the Video!
-
