@@ -94,6 +94,22 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** Existing articles gain the modern frame immediately. Detailed callout, figure, product, and metadata migration remains incremental, and image-dimension work remains in Phase 5.
 
+## D-013 — Add four primary editorial topics above legacy tags
+
+**Status:** Accepted
+
+**Decision:** Organize the archive into Machines, Making, Software, and Reading & Life. Resolve a post's primary topic from an explicit `topic` value when present, otherwise from the topic assigned to its first legacy tag. Preserve all existing tags and `/tags/` URLs.
+
+**Reason:** Four stable areas make the breadth of the site understandable without discarding the specific vocabulary readers already use. Explicit overrides cover cross-disciplinary and historically untagged posts without forcing artificial tags.
+
+## D-014 — Keep homepage selection deterministic
+
+**Status:** Accepted
+
+**Decision:** Feature the newest published post, then show the next seven posts as recent writing. Link the four primary topics, complete archive, and existing tools/gear tag directly from the homepage. Keep paginated archive URLs and render their original chronological slices.
+
+**Reason:** A deterministic rule keeps the homepage current without adding a manual curation chore. Editorial pinning can be introduced later if the automatic choice proves limiting.
+
 ## Decision template
 
 ### D-NNN — Title

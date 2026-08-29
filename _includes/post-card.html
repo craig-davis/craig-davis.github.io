@@ -1,0 +1,14 @@
+{% assign card_post = include.post %}
+{% assign card_tag = card_post.tags | first %}
+{% assign card_topic_key = card_post.topic | default: site.data.tags[card_tag].topic %}
+{% assign card_topic = site.data.topics[card_topic_key] %}
+<article class="post-card">
+  {% if card_post.header-img %}
+    <a class="post-card__image" href="{{ card_post.url | relative_url }}" tabindex="-1" aria-hidden="true" style="background-image: url('{{ card_post.header-img | relative_url }}')"></a>
+  {% endif %}
+  <div class="post-card__body">
+    <p class="eyebrow">{{ card_topic.name | default: 'Writing' }} · {{ card_post.date | date: "%Y" }}</p>
+    <h3><a href="{{ card_post.url | relative_url }}">{{ card_post.title }}</a></h3>
+    {% if card_post.subtitle %}<p>{{ card_post.subtitle }}</p>{% endif %}
+  </div>
+</article>

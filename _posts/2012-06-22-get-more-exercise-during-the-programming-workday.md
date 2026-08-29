@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "Get more exercise during the programming workday"
+topic:      software
 subtitle:   "If sitting kills, surely this will help"
 tags:       []
 author:     "Craig Davis"

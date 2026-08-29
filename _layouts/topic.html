@@ -1,0 +1,27 @@
+---
+layout: page
+---
+{% assign topic_data = site.data.topics[page.topic] %}
+<section class="listing-section" aria-labelledby="topic-latest-title">
+  <div class="section-heading">
+    <h2 id="topic-latest-title">Latest in {{ topic_data.name }}</h2>
+    <a href="{{ '/posts/' | relative_url }}">Complete archive</a>
+  </div>
+  <div class="post-card-grid">
+    {% assign topic_count = 0 %}
+    {% for post in site.posts %}
+      {% assign first_tag = post.tags | first %}
+      {% assign post_topic = post.topic | default: site.data.tags[first_tag].topic %}
+      {% if post_topic == page.topic %}
+        {% include post-card.html post=post %}
+        {% assign topic_count = topic_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% if topic_count == 0 %}<p>No articles have been assigned to this topic yet.</p>{% endif %}
+</section>
+
+<nav class="topic-tags" aria-label="Tags in {{ topic_data.name }}">
+  <span>Explore tags</span>
+  {% for tag in site.data.tags %}{% if tag[1].topic == page.topic %}<a href="{{ '/tags/' | append: tag[0] | append: '/' | relative_url }}">{{ tag[1].name }}</a>{% endif %}{% endfor %}
+</nav>

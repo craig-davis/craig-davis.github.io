@@ -1,6 +1,7 @@
 ---
 layout:      post
 title:       "OSX Media Keys for Filco Mechanical Keyboards"
+topic:       software
 subtitle:    "Using Karabiner to setup media control keys"
 description: "Configuring media keys on a new mechanical keyboard"
 date:        2015-09-03

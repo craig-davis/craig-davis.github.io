@@ -1,17 +1,21 @@
 ---
-layout: post
+layout: page
 ---
 
 {{ content }}
 
-<div>
+<section class="listing-section" aria-labelledby="tag-articles-title">
+    <div class="section-heading">
+      <h2 id="tag-articles-title">Articles tagged {{ page.title }}</h2>
+      <a href="{{ '/posts/' | relative_url }}">Complete archive</a>
+    </div>
     {% if site.tags[page.tag] %}
-        <ul>
+        <div class="post-card-grid">
         {% for post in site.tags[page.tag] %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% include post-card.html post=post %}
         {% endfor %}
-        </ul>
+        </div>
     {% else %}
         <p>There are no posts for this tag.</p>
     {% endif %}
-</div>
+</section>

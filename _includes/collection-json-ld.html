@@ -1,0 +1,15 @@
+{% assign collection_description = page.description | default: page.subtitle | default: site.description | strip_html | normalize_whitespace %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ page.title | jsonify }},
+  "description": {{ collection_description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.title | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }}
+  }
+}
+</script>

@@ -2,11 +2,12 @@
 <header class="post-masthead">
   <div class="post-masthead__copy">
     {% if page.topic %}
-      <p class="eyebrow">{{ page.topic }}</p>
+      <p class="eyebrow">{{ site.data.topics[page.topic].name | default: page.topic }}</p>
     {% elsif page.tags and page.tags.size > 0 %}
       {% assign primary_tag = page.tags | first %}
       {% assign primary_tag_data = site.data.tags[primary_tag] %}
-      <p class="eyebrow">{{ primary_tag_data.name | default: primary_tag | replace: '-', ' ' }}</p>
+      {% assign primary_topic = site.data.topics[primary_tag_data.topic] %}
+      <p class="eyebrow">{{ primary_topic.name | default: primary_tag_data.name | default: primary_tag | replace: '-', ' ' }}</p>
     {% else %}
       <p class="eyebrow">Writing</p>
     {% endif %}

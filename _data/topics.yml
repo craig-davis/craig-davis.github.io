@@ -1,0 +1,20 @@
+machines:
+  name: Machines
+  symbol: "◇"
+  description: Jeeps, motorcycles, bicycles, and the work required to keep them moving.
+  header-img: img/headers/jeep-xj.jpg
+making:
+  name: Making
+  symbol: "△"
+  description: Woodworking, shop projects, practical repairs, tools, and things built by hand.
+  header-img: img/headers/miter-saw.jpg
+software:
+  name: Software
+  symbol: "□"
+  description: Engineering, code, systems, developer practice, and lessons from a career in software.
+  header-img: img/headers/frog.jpg
+reading-life:
+  name: Reading & Life
+  symbol: "○"
+  description: Books, photography, podcasts, travel, outdoor judgment, and the rest of a considered life.
+  header-img: img/headers/old-clock.jpg

@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "FogBugz GeckoBoard Widgets"
+topic:      software
 subtitle:   "Charting current projects and critical cases"
 tags:       []
 author:     "Craig Davis"
