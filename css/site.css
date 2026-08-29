@@ -471,6 +471,128 @@ main {
   font-family: var(--sans);
 }
 
+.gear-intro {
+  width: min(100%, var(--reading));
+  margin: 0 auto var(--space-6);
+}
+
+.gear-categories {
+  margin-bottom: var(--space-7);
+  padding: var(--space-4) 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans);
+}
+
+.gear-categories a {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--rule);
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.gear-section + .gear-section {
+  margin-top: var(--space-7);
+}
+
+.gear-section > .section-heading {
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--rule);
+}
+
+.gear-section > .section-heading .eyebrow {
+  margin-bottom: var(--space-2);
+}
+
+.gear-section__description {
+  max-width: 42rem;
+  color: var(--muted);
+  font-family: var(--sans);
+}
+
+.gear-grid {
+  margin-top: var(--space-5);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5);
+}
+
+.gear-card {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(9rem, 0.72fr) minmax(0, 1.28fr);
+  border: 1px solid var(--rule);
+  background: var(--paper-light);
+}
+
+.gear-card__image {
+  min-height: 18rem;
+  padding: var(--space-3);
+  display: grid;
+  place-items: center;
+  background: #ebe8e0;
+}
+
+.gear-card__image img {
+  width: 100%;
+  max-height: 17rem;
+  object-fit: contain;
+}
+
+.gear-card__body {
+  padding: var(--space-4);
+  font-family: var(--sans);
+}
+
+.gear-card__body h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  line-height: 1.1;
+}
+
+.gear-card__maker {
+  margin: var(--space-1) 0 0;
+  color: var(--rust);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gear-card__experience {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.gear-card__links {
+  padding-top: var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-3);
+  border-top: 1px solid var(--rule);
+}
+
+.gear-card__links a {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.gear-card__links span {
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .archive-topic-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1077,6 +1199,60 @@ main {
   border-top: 1px solid var(--rule);
 }
 
+.article-gear {
+  width: min(100%, var(--reading));
+  margin: var(--space-7) auto 0;
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--rule);
+}
+
+.article-gear__grid {
+  margin-top: var(--space-4);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.article-gear-card {
+  min-width: 0;
+  padding: var(--space-3);
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  align-items: center;
+  gap: var(--space-3);
+  border: 1px solid var(--rule);
+  background: var(--paper-light);
+  color: var(--ink);
+  font-family: var(--sans);
+  text-decoration: none;
+}
+
+.article-gear-card:hover {
+  color: var(--rust);
+}
+
+.article-gear-card img {
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: contain;
+}
+
+.article-gear-card strong,
+.article-gear-card small {
+  display: block;
+}
+
+.article-gear-card strong {
+  font-size: 0.8rem;
+}
+
+.article-gear-card small {
+  margin-top: var(--space-1);
+  color: var(--muted);
+  font-size: 0.65rem;
+  line-height: 1.4;
+}
+
 .section-heading {
   display: flex;
   align-items: baseline;
@@ -1223,6 +1399,10 @@ main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .gear-grid {
+    grid-template-columns: 1fr;
+  }
+
   .page-masthead,
   .post-masthead {
     grid-template-columns: 1fr;
@@ -1286,6 +1466,14 @@ main {
   .home-gear {
     align-items: start;
     flex-direction: column;
+  }
+
+  .gear-card {
+    grid-template-columns: 1fr;
+  }
+
+  .article-gear__grid {
+    grid-template-columns: 1fr;
   }
 
   .archive-year-list li {

@@ -6,6 +6,7 @@ date:       2020-11-22
 tags:       [woodworking, tools]
 author:     "Craig Davis"
 header-img: "img/headers/wen-drill-press.jpg"
+gear: [wen-4214-drill-press]
 ---
 
 I recently purchased a [WEN 4214 drill press][amazon] for home workshop use. This drill press will be used for both metalworking for my [Jeep projects](/tags/jeep/) and with [woodworking](/tags/woodworking/) projects. I thought I'd share some photos of the unboxing and initial setup of the drill press. The link above is an affiliate link, and I will recieve a small payment if you choose to purchase through it. This review is not in any way influenced by the affiliate program. I needed a drill press, and this is the one I chose.

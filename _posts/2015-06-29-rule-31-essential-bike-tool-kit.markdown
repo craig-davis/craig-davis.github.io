@@ -7,6 +7,7 @@ date:        2015-06-29
 tags:        [bike]
 author:      "Craig Davis"
 header-img:  "img/headers/rule-31.jpg"
+gear:        [crank-brothers-m17]
 ---
 
 <style>

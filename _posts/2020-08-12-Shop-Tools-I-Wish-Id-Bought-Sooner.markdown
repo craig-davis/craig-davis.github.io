@@ -6,6 +6,7 @@ date:       2020-08-12
 tags:       [woodworking]
 author:     "Craig Davis"
 header-img: "img/headers/woodworking-gifts.jpg"
+gear: [fastcap-glu-bot, silicone-glue-brush, fractional-dial-calipers, fastcap-lefty-righty]
 ---
 
 During the pandemic downtime I've dug into some projects and I've been using some new tools around the shop. I thought I'd share a few that I wish I'd bought years ago! I've included some Amazon affiliate links in case you'd like to try any of them. If you purchase any of them, I get a small fee - which I immediately reinvest into more tools that I promise to review.

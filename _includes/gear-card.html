@@ -1,0 +1,17 @@
+{% assign gear = include.gear %}
+<article class="gear-card" id="{{ gear.id }}">
+  <div class="gear-card__image"><img src="{{ gear.image | relative_url }}" alt="{{ gear.image_alt | escape }}"></div>
+  <div class="gear-card__body">
+    <p class="eyebrow">{{ gear.recommendation }} · Documented since {{ gear.documented_since }}</p>
+    <h3>{{ gear.name }}</h3>
+    {% if gear.maker %}<p class="gear-card__maker">{{ gear.maker }}</p>{% endif %}
+    <p>{{ gear.summary }}</p>
+    <p class="gear-card__experience"><strong>Why it earned a place:</strong> {{ gear.experience }}</p>
+    <div class="gear-card__links">
+      <a href="{{ gear.article | relative_url }}">Read the field notes</a>
+      {% for destination in gear.destinations %}
+        <a href="{{ destination.url }}">{{ destination.label }}{% if destination.affiliate %} <span>(affiliate)</span>{% endif %}</a>
+      {% endfor %}
+    </div>
+  </div>
+</article>

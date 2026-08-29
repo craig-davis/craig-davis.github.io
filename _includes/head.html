@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="{{ '/css/site.css' | relative_url }}">
   {% if page.date %}
     {% include article-json-ld.html %}
-  {% elsif page.layout == 'topic' %}
+  {% elsif page.layout == 'topic' or page.schema_type == 'collection' %}
     {% include collection-json-ld.html %}
   {% endif %}
 </head>

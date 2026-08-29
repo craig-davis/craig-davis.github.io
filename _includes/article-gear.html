@@ -1,0 +1,19 @@
+{% if page.gear and page.gear.size > 0 %}
+<aside class="article-gear" aria-labelledby="article-gear-title">
+  <div class="section-heading">
+    <h2 id="article-gear-title">Gear from this article</h2>
+    <a href="{{ '/gear/' | relative_url }}">All gear</a>
+  </div>
+  <div class="article-gear__grid">
+  {% for gear_id in page.gear %}
+    {% assign matching_gear = site.data.gear.items | where: 'id', gear_id | first %}
+    {% if matching_gear %}
+    <a class="article-gear-card" href="{{ '/gear/#' | append: matching_gear.id | relative_url }}">
+      <img src="{{ matching_gear.image | relative_url }}" alt="">
+      <span><strong>{{ matching_gear.name }}</strong><small>{{ matching_gear.recommendation }} · documented since {{ matching_gear.documented_since }}</small></span>
+    </a>
+    {% endif %}
+  {% endfor %}
+  </div>
+</aside>
+{% endif %}
