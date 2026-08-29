@@ -2,7 +2,7 @@
 
 ## Release state
 
-Phase 9 is a release candidate. Local and current-production checks pass, but the phase remains active until the Phase 9 merge has deployed and the post-deploy smoke test succeeds.
+Phase 9 is complete. Merge commit `64d1cf7` deployed successfully, and the post-deploy smoke test passed against the canonical production domain.
 
 ## Verified locally
 
@@ -34,12 +34,19 @@ Checked against `https://there4.io` on August 29, 2026:
 - Phase 8 structured data is present in production
 - CSS is gzip-compressed and CDN-cached
 
-## Open before completion
+## Post-deploy verification
 
-1. Merge and deploy the Phase 9 release candidate.
-2. Repeat production route, feed, sitemap, robots, redirect, calculator, and 404 smoke tests.
-3. Decide whether to add `www.there4.io`; it currently has no DNS record. If added, redirect it permanently to `https://there4.io/`.
-4. Configure HSTS and common defensive response headers in DigitalOcean or the CDN, where production headers are controlled.
+- Representative primary, archive, topic, tag, article, redirect, calculator, and machine-readable routes return HTTP 200
+- An unknown route returns HTTP 404
+- Plain HTTP returns 301 to `https://there4.io/`
+- RSS contains ten items, the sitemap contains 108 locations, and robots advertises the sitemap
+- `/flat-trim/` matches SHA-256 `f9959988cd057900598cbd7dd502bd67bd6e48dbf0e4d40bcbfee11528c23a50`
+- `/running-calculator/` matches SHA-256 `edc1ba7e03658536e8cb5a06c3d22b68e0c4c7cc058bfc0ec5fe6b21e3379178`
+
+## Infrastructure follow-ups
+
+1. Decide whether to add `www.there4.io`; it currently has no DNS record. If added, redirect it permanently to `https://there4.io/`.
+2. Configure HSTS and common defensive response headers in DigitalOcean or the CDN, where production headers are controlled.
 
 ## Intentional deferrals
 
