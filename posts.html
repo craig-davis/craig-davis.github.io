@@ -11,7 +11,7 @@ header-img:  "img/headers/skiers.jpg"
 <div class="archive-topic-grid">
 {% for topic_pair in site.data.topics %}
   <a href="{{ '/topics/' | append: topic_pair[0] | append: '/' | relative_url }}">
-    <span class="archive-topic__symbol" aria-hidden="true"><img src="{{ topic_pair[1].icon | relative_url }}" width="28" height="28" alt=""></span>
+    <span class="archive-topic__symbol" aria-hidden="true"><img src="{{ topic_pair[1].icon | relative_url }}" width="32" height="32" alt=""></span>
     <strong>{{ topic_pair[1].name }}</strong>
     <small>{{ topic_pair[1].description }}</small>
   </a>
