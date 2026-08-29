@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign masthead_image = page.header-img | default: site.header-img %}
-<header class="page-masthead{% if page.url == '/' %} page-masthead--home{% endif %}">
+<header class="page-masthead{% if page.url == '/' %} page-masthead--home{% endif %}{% if page.search_page %} page-masthead--search{% endif %}">
   <div class="page-masthead__copy">
     {% if page.url == '/' %}
       <p class="eyebrow">Field notes by {{ site.author }}</p>
@@ -13,7 +13,7 @@ layout: default
     {% endif %}
     {% if page.subtitle %}<p class="page-masthead__deck">{{ page.subtitle }}</p>{% endif %}
   </div>
-  {% if masthead_image %}
+  {% if masthead_image and page.search_page != true %}
     <figure class="page-masthead__media">
       <img src="{{ masthead_image | relative_url }}" alt="{{ page.header-alt | default: '' | escape }}" data-responsive="header" data-eager>
       {% if page.header-caption %}<figcaption>{{ page.header-caption }}</figcaption>{% endif %}
