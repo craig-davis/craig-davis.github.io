@@ -30,12 +30,19 @@ class SiteAudit
       "missing_canonical" => [],
       "missing_open_graph_title" => [],
       "missing_json_ld" => [],
+      "empty_title" => [],
+      "long_title" => [],
+      "empty_description" => [],
+      "long_description" => [],
+      "invalid_canonical" => [],
+      "invalid_json_ld" => [],
       "h1_count_not_one" => [],
       "images_missing_alt" => [],
       "images_missing_dimensions" => [],
       "images_missing_loading" => [],
       "images_missing_decoding" => [],
-      "broken_internal_references" => []
+      "broken_internal_references" => [],
+      "oversized_assets" => []
     }
 
     html_files.each do |path|
@@ -48,6 +55,25 @@ class SiteAudit
       report["missing_canonical"] << source unless html.match?(/<link\b[^>]*\brel\s*=\s*["']canonical["']/i)
       report["missing_open_graph_title"] << source unless html.match?(/<meta\b[^>]*\bproperty\s*=\s*["']og:title["']/i)
       report["missing_json_ld"] << source unless html.match?(/<script\b[^>]*\btype\s*=\s*["']application\/ld\+json["']/i)
+
+      title = html[/<title\b[^>]*>(.*?)<\/title>/im, 1].to_s.gsub(/<[^>]+>/, "").strip
+      description_tag = html[/<meta\b[^>]*\bname\s*=\s*["']description["'][^>]*>/i]
+      description = description_tag && attribute(description_tag, "content").to_s.strip
+      canonical_tag = html[/<link\b[^>]*\brel\s*=\s*["']canonical["'][^>]*>/i]
+      canonical = canonical_tag && attribute(canonical_tag, "href").to_s.strip
+      report["empty_title"] << source if title.empty?
+      report["long_title"] << { "source" => source, "length" => title.length } if title.length > 70
+      report["empty_description"] << source if description_tag && description.empty?
+      report["long_description"] << { "source" => source, "length" => description.length } if description && description.length > 180
+      if canonical_tag && !canonical.match?(%r{\Ahttps://there4\.io/})
+        report["invalid_canonical"] << { "source" => source, "canonical" => canonical }
+      end
+
+      html.scan(/<script\b[^>]*\btype\s*=\s*["']application\/ld\+json["'][^>]*>(.*?)<\/script>/im).each_with_index do |match, index|
+        JSON.parse(match.first)
+      rescue JSON::ParserError => error
+        report["invalid_json_ld"] << { "source" => source, "index" => index + 1, "error" => error.message }
+      end
 
       h1_count = html.scan(/<h1\b/i).length
       report["h1_count_not_one"] << { "source" => source, "count" => h1_count } unless h1_count == 1
@@ -72,6 +98,13 @@ class SiteAudit
           "target" => reference["target"]
         }
       end
+    end
+
+    files.each do |path|
+      next if html_files.include?(path)
+      next unless File.size(path) > 1_500_000
+
+      report["oversized_assets"] << { "source" => public_path(path), "bytes" => File.size(path) }
     end
 
     report.each_value do |value|
@@ -168,13 +201,15 @@ end
 
 options = {
   site: "public",
-  baseline_dir: "test/baseline"
+  baseline_dir: "test/baseline",
+  quality_only: false
 }
 
 parser = OptionParser.new do |opts|
   opts.banner = "Usage: ruby scripts/verify_site.rb snapshot|verify [options]"
   opts.on("--site DIR", "Generated site directory (default: public)") { |value| options[:site] = value }
   opts.on("--baseline-dir DIR", "Baseline directory (default: test/baseline)") { |value| options[:baseline_dir] = value }
+  opts.on("--quality-only", "Refresh quality debt without changing protected URLs") { options[:quality_only] = true }
 end
 
 command = ARGV.shift
@@ -189,9 +224,9 @@ quality_path = File.join(baseline_dir, "quality-report.json")
 case command
 when "snapshot"
   FileUtils.mkdir_p(baseline_dir)
-  File.write(url_path, "#{audit.public_urls.join("\n")}\n")
+  File.write(url_path, "#{audit.public_urls.join("\n")}\n") unless options[:quality_only]
   write_json(quality_path, audit.quality_report)
-  puts "Captured #{audit.public_urls.length} public file URLs in #{url_path}"
+  puts "Captured #{audit.public_urls.length} public file URLs in #{url_path}" unless options[:quality_only]
   puts "Captured generated HTML quality debt in #{quality_path}"
 when "verify"
   abort("Missing URL baseline: #{url_path}") unless File.file?(url_path)

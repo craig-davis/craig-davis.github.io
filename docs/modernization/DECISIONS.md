@@ -136,6 +136,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** Historical affiliate links remain in their original prose. Gear curation is selective and can grow only when an article supports the recommendation; “documented since” does not imply current availability or unchanged specifications.
 
+## D-018 — Keep search local and editorial automation review-only
+
+**Status:** Accepted
+
+**Decision:** Generate a compact search index at build time and search it with dependency-free browser JavaScript. Generate metadata and related-writing candidates as a review queue; never modify article content automatically.
+
+**Reason:** Static local search preserves the site's privacy, deployment model, and no-service maintenance profile. Editorial relationships and descriptions require judgment, so automation should surface useful work without publishing machine choices as Craig's voice.
+
+**Consequences:** Search covers published articles and gracefully falls back to the complete archive without JavaScript. Phase 8 can consume the suggestion queue in controlled batches while the generated-site checks prevent new quality debt.
+
 ## Decision template
 
 ### D-NNN — Title

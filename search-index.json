@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /search-index.json
+---
+[
+{% for post in site.posts %}
+  {% assign primary_tag = post.tags | first %}
+  {% assign topic_key = post.topic | default: site.data.tags[primary_tag].topic | default: "reading-life" %}
+  {
+    "title": {{ post.title | strip_html | jsonify }},
+    "description": {{ post.description | default: post.subtitle | default: post.excerpt | strip_html | normalize_whitespace | truncate: 240 | jsonify }},
+    "url": {{ post.url | relative_url | jsonify }},
+    "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+    "year": {{ post.date | date: "%Y" | jsonify }},
+    "topic": {{ site.data.topics[topic_key].name | default: "Writing" | jsonify }},
+    "tags": {{ post.tags | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
