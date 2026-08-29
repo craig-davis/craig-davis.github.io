@@ -8,6 +8,7 @@ date:        2015-09-03
 tags:        []
 author:      "Craig Davis"
 header-img:  "img/headers/filco-keyboard.jpg"
+gear:        [filco-keyboard]
 ---
 
 I really enjoy my [Filco mechanical keyboard](http://amzn.to/1nXfUuA "Amazon Affliate Link"), and highly recommend one to anyone with a desk. However, moving from an Apple keyboard can take a little getting used to. In particular, you may miss your dedicated media keys.

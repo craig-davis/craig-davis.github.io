@@ -126,6 +126,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Reason:** Headers affect initial rendering across the entire site, while the largest inline originals account for the clearest remaining bandwidth risk. Targeted derivatives deliver most of the value without duplicating the complete 215 MB historical image archive.
 
+## D-017 — Separate Gear recommendations from merchant links
+
+**Status:** Accepted
+
+**Decision:** Store curated gear as merchant-neutral records with firsthand-use evidence, a documented-since date, recommendation context, a supporting There4 article, and zero or more explicitly affiliated merchant destinations. Do not store prices.
+
+**Reason:** The durable editorial claim is that an item earned a place through use. Retailers, availability, product revisions, and prices change independently and should remain subordinate optional destinations.
+
+**Consequences:** Historical affiliate links remain in their original prose. Gear curation is selective and can grow only when an article supports the recommendation; “documented since” does not imply current availability or unchanged specifications.
+
 ## Decision template
 
 ### D-NNN — Title

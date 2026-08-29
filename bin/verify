@@ -4,3 +4,4 @@ set -eu
 
 bundle exec jekyll build -d ./public
 ruby scripts/verify_site.rb verify --site public
+ruby scripts/verify_gear.rb

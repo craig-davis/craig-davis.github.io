@@ -6,6 +6,7 @@ date:       2017-10-27
 tags:       [tools, motorcycles]
 author:     "Craig Davis"
 header-img: "img/headers/adventure-motorcycle.jpg"
+gear: [motion-pro-combo-levers]
 ---
 
 <style>

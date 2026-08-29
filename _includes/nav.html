@@ -11,6 +11,7 @@
     <nav class="primary-nav" aria-label="Primary navigation">
       <a href="{{ '/posts/' | relative_url }}"{% if page.url == '/posts/' or page.url contains '/tags/' %} aria-current="page"{% endif %}>Writing</a>
       <a href="{{ '/projects/' | relative_url }}"{% if page.url == '/projects/' %} aria-current="page"{% endif %}>Projects</a>
+      <a href="{{ '/gear/' | relative_url }}"{% if page.url == '/gear/' %} aria-current="page"{% endif %}>Gear</a>
       <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
     </nav>
   </div>

@@ -175,7 +175,7 @@ Completion evidence:
 
 ### 6. Products and Gear
 
-**Status:** Not started
+**Status:** Complete
 
 Scope:
 
@@ -188,6 +188,16 @@ Exit criteria:
 
 - Product components support multiple merchants and firsthand-use metadata.
 - Affiliate UI remains visually subordinate to editorial content.
+
+Completion evidence:
+
+- `/gear/` curates eight evidence-backed records across Shop, Bikes & Outdoors, Machines, and Computing, with a permanent header navigation entry and homepage path.
+- Each record includes firsthand experience, a conservative documented-since date, recommendation context, a supporting There4 article, and optional explicitly labeled merchant destinations.
+- Five product-heavy articles link back to their relevant Gear records without inserting merchant calls to action into the article body.
+- The model supports multiple merchants, prohibits stored prices, and presents internal field notes before purchase destinations.
+- The concise sitewide and full Gear-page disclosures explain affiliate treatment without overwhelming editorial content.
+- `scripts/verify_gear.rb` enforces model integrity and runs in `bin/verify`; all eight records and article references pass.
+- `bin/verify` preserves all 705 baseline public URLs, generates 926 current files, and reports no new HTML quality regressions.
 
 ### 7. Search and automation
 

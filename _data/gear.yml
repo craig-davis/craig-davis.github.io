@@ -1,0 +1,146 @@
+categories:
+  shop:
+    name: Shop
+    description: Measuring, assembly, and stationary tools used for woodworking and repair projects.
+  bikes-outdoors:
+    name: Bikes & Outdoors
+    description: Compact tools carried for road, trail, and dual-sport repairs.
+  machines:
+    name: Machines
+    description: Tools and parts used to maintain vehicles and larger shop equipment.
+  computing:
+    name: Computing
+    description: Durable desk equipment used for software work.
+
+items:
+  - id: fastcap-glu-bot
+    name: FastCap Glu-Bot
+    maker: FastCap
+    category: shop
+    image: /img/posts/woodworking-gifts/glubot.png
+    image_alt: FastCap Glu-Bot glue bottle
+    summary: A bottom-feeding glue bottle that stays ready on the bench without shaking.
+    experience: Used for complicated glue-ups including 53 drawer boxes, then given as a gift to other woodworkers.
+    documented_since: 2020
+    recommendation: Long-term pick
+    article: /2020/08/12/Shop-Tools-I-Wish-Id-Bought-Sooner/
+    destinations:
+      - label: Amazon
+        url: https://amzn.to/2PLHfk7
+        affiliate: true
+
+  - id: silicone-glue-brush
+    name: Silicone Glue Brush
+    category: shop
+    image: /img/posts/woodworking-gifts/titebrush.jpg
+    image_alt: Reusable silicone glue brush
+    summary: A reusable angled brush for spreading consistent glue layers into rabbets and dados.
+    experience: Replaced fingers and scrap wood for routine glue spreading; dried glue peels away for reuse.
+    documented_since: 2020
+    recommendation: Shop staple
+    article: /2020/08/12/Shop-Tools-I-Wish-Id-Bought-Sooner/
+    destinations:
+      - label: Amazon
+        url: https://amzn.to/2PKH2O2
+        affiliate: true
+
+  - id: fractional-dial-calipers
+    name: Fractional Dial Calipers
+    category: shop
+    image: /img/posts/woodworking-gifts/calipers.jpg
+    image_alt: Fractional dial calipers
+    summary: Direct-reading fractional calipers for thickness, depth, inside measurements, and machine setup.
+    experience: Used for joinery and table-saw setup where a tape measure is too coarse or awkward.
+    documented_since: 2020
+    recommendation: Precision pick
+    article: /2020/08/12/Shop-Tools-I-Wish-Id-Bought-Sooner/
+    destinations:
+      - label: Amazon
+        url: https://amzn.to/3aix93L
+        affiliate: true
+
+  - id: fastcap-lefty-righty
+    name: FastCap Lefty/Righty Tape Measure
+    maker: FastCap
+    category: shop
+    image: /img/posts/woodworking-gifts/tape.jpg
+    image_alt: FastCap fractional tape measure
+    summary: A compact tape with labeled fractions, left/right readability, and a writable note area.
+    experience: Used for assembly and given to friends; the labeled fractions reduce avoidable measuring mistakes.
+    documented_since: 2015
+    recommendation: Everyday measuring
+    article: /2015/12/20/beginning-woodworking-tools/
+    destinations:
+      - label: Amazon
+        url: https://amzn.to/33W3wUG
+        affiliate: true
+
+  - id: wen-4214-drill-press
+    name: WEN 4214 Drill Press
+    maker: WEN
+    category: machines
+    image: /img/posts/wen-4214-drill-press/thumbnails/0129-glamor-shot.small.jpg
+    image_alt: WEN 4214 benchtop drill press
+    summary: A variable-speed benchtop press selected for mixed wood and light-metal work in a home shop.
+    experience: Documented drilling softwood with a one-inch spade bit and 3/16-inch steel with a step bit.
+    documented_since: 2020
+    recommendation: Historical review
+    article: /2020/11/22/WEN-4214-Drill-Press-Unboxing-and-Review/
+    destinations:
+      - label: WEN
+        url: https://wenproducts.com/products/12-inch-variable-speed-drill-press-4214
+        affiliate: false
+      - label: Amazon
+        url: https://amzn.to/3kVM5IT
+        affiliate: true
+
+  - id: crank-brothers-m17
+    name: Crankbrothers M17 Multi-Tool
+    maker: Crankbrothers
+    category: bikes-outdoors
+    image: /img/posts/rule-31/best-bike-toolkit.jpg
+    image_alt: Compact bike repair kit containing a Crankbrothers M17
+    summary: A compact multi-tool with a chain breaker and the common drivers needed for trailside repairs.
+    experience: Carried as the core of a single-jersey-pocket repair kit refined over years of riding.
+    documented_since: 2015
+    recommendation: Ride-kit core
+    article: /2015/06/29/rule-31-essential-bike-tool-kit/
+    destinations:
+      - label: Amazon
+        url: http://amzn.to/1nXgMPW
+        affiliate: true
+
+  - id: motion-pro-combo-levers
+    name: Motion Pro Combo Tire Levers
+    maker: Motion Pro
+    category: bikes-outdoors
+    image: /img/posts/adventure-motorcycle-tools/dual-sport-tools.jpg
+    image_alt: Compact tools for a Yamaha WR250R including Motion Pro tire levers
+    summary: Axle-wrench and tire-spoon combinations that reduce the size of a dual-sport repair kit.
+    experience: Carried with a WR250R toolkit designed around maintenance practice and remote tire repair.
+    documented_since: 2017
+    recommendation: Dual-sport kit
+    article: /2017/10/27/My-Adventure-Toolkit-for-my-Yamaha-WR250R/
+    destinations:
+      - label: 27 mm lever on Amazon
+        url: http://amzn.to/2zUhMfc
+        affiliate: true
+      - label: 22 mm lever on Amazon
+        url: http://amzn.to/2zUIMeH
+        affiliate: true
+
+  - id: filco-keyboard
+    name: Filco Mechanical Keyboard
+    maker: Filco
+    category: computing
+    image: /img/headers/filco-keyboard.jpg
+    image_alt: Filco mechanical keyboard on a desk
+    summary: A durable full-size mechanical keyboard configured with custom macOS media-key mappings.
+    experience: Used for software work and documented with a custom Karabiner configuration.
+    documented_since: 2015
+    recommendation: Desk hardware
+    article: /2015/09/03/osx-media-keys-filco-mechanical-keyboard/
+    destinations:
+      - label: Amazon
+        url: http://amzn.to/1nXfUuA
+        affiliate: true
