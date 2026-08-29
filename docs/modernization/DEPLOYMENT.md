@@ -11,20 +11,26 @@
 - Ruby: 3.4.7, pinned in `.ruby-version` and `Gemfile`
 - Jekyll: 4.4.1
 
-## Still to verify in DigitalOcean
+## Confirmed DigitalOcean behavior
 
-- Connected repository and deployment branch.
-- Output/publish directory is explicitly `public`.
-- Automatic deployment behavior.
-- Any DigitalOcean environment variables that override repository runtime selection.
-- Custom-domain configuration for `there4.io` and `www.there4.io`.
-- Redirect and error-document settings supplied outside Jekyll.
+- The app deploys `master` automatically from `craig-davis/craig-davis.github.io`.
+- The static-site build publishes `public` and the production response reports the DigitalOcean app origin behind Cloudflare.
+- The production stack is Ubuntu 22.04 with the current Ruby buildpack.
+- `http://there4.io/` redirects to `https://there4.io/` and the apex HTTPS domain serves the generated site.
+- Unknown routes return the custom 404 response.
+- Historical Jekyll redirect pages and both preserved calculators remain reachable at their durable paths.
 
-## Required DigitalOcean stack upgrade
+## Remaining DigitalOcean launch work
+
+- Decide whether `www.there4.io` should resolve and redirect to the canonical apex domain. It has no DNS record as of the Phase 9 review.
+- Add response headers at the platform or CDN layer: `Strict-Transport-Security`, `X-Content-Type-Options: nosniff`, a conservative `Referrer-Policy`, and an appropriate `Permissions-Policy`.
+- Repeat the production smoke test after the Phase 9 release deploys.
+
+## Completed DigitalOcean stack upgrade
 
 The first Phase 1 deployment revealed that the app still uses DigitalOcean's legacy Ubuntu 18.04 stack with `heroku/ruby` buildpack v1.244.3 and Bundler 2.3.10. The immediate Gemfile parser failure was caused by an unnecessary Windows-only dependency and has been removed.
 
-Ruby 3.4.7 should be deployed on DigitalOcean's Ubuntu-22 Ruby buildpack. Upgrade the app stack before treating the production runtime as aligned with local development and GitHub Actions.
+Ruby 3.4.7 now deploys on DigitalOcean's Ubuntu-22 Ruby buildpack, aligning production with local development and GitHub Actions.
 
 ## Local production-equivalent build
 
