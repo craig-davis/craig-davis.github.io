@@ -38,6 +38,8 @@ class SiteAudit
       "long_description" => [],
       "invalid_canonical" => [],
       "invalid_json_ld" => [],
+      "article_author_missing_url" => [],
+      "affiliate_links_missing_sponsored" => [],
       "h1_count_not_one" => [],
       "images_missing_alt" => [],
       "images_missing_dimensions" => [],
@@ -74,9 +76,20 @@ class SiteAudit
       end
 
       html.scan(/<script\b[^>]*\btype\s*=\s*["']application\/ld\+json["'][^>]*>(.*?)<\/script>/im).each_with_index do |match, index|
-        JSON.parse(match.first)
+        structured_data = JSON.parse(match.first)
+        if article_page && structured_data["@type"] == "BlogPosting" && structured_data.dig("author", "url") != "https://there4.io/about/"
+          report["article_author_missing_url"] << { "source" => source, "index" => index + 1 }
+        end
       rescue JSON::ParserError => error
         report["invalid_json_ld"] << { "source" => source, "index" => index + 1, "error" => error.message }
+      end
+
+      html.scan(/<a\b[^>]*>/i).each_with_index do |tag, index|
+        href = CGI.unescapeHTML(attribute(tag, "href").to_s)
+        next unless affiliate_link?(href)
+
+        rel = attribute(tag, "rel").to_s.split
+        report["affiliate_links_missing_sponsored"] << { "source" => source, "index" => index + 1, "href" => href } unless rel.include?("sponsored")
       end
 
       h1_count = html.scan(/<h1\b/i).length
@@ -172,6 +185,17 @@ class SiteAudit
   def redirect_page?(html)
     html.match?(/<meta\b[^>]*\bname=["']robots["'][^>]*\bcontent=["']noindex["']/i) &&
       html.match?(/<meta\b[^>]*\bhttp-equiv=["']refresh["']/i)
+  end
+
+  def affiliate_link?(target)
+    uri = URI.parse(target)
+    host = uri.host.to_s.downcase.sub(/\Awww\./, "")
+    return true if host == "amzn.to"
+    return false unless host == "amazon.com" || host.end_with?(".amazon.com")
+
+    URI.decode_www_form(uri.query.to_s).any? { |name, _value| name.casecmp?("tag") }
+  rescue URI::InvalidURIError, ArgumentError
+    false
   end
 
   def rendered_without_responsive_source?(asset_path)
@@ -290,6 +314,13 @@ when "verify"
     next if entries.empty?
 
     failures << "#{check} must remain empty after the Phase 5 image migration:\n  #{entries.map(&:inspect).join("\n  ")}"
+  end
+
+  %w[article_author_missing_url affiliate_links_missing_sponsored].each do |check|
+    entries = current_quality.fetch(check)
+    next if entries.empty?
+
+    failures << "#{check} must remain empty:\n  #{entries.map(&:inspect).join("\n  ")}"
   end
 
   if failures.empty?

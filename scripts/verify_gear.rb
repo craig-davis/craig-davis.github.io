@@ -43,8 +43,12 @@ end
 
 gear_page = File.join(site, "gear", "index.html")
 if File.file?(gear_page)
-  rendered_cards = File.read(gear_page).scan(/class="gear-card"/).length
+  gear_html = File.read(gear_page)
+  rendered_cards = gear_html.scan(/class="gear-card"/).length
   failures << "Gear page rendered #{rendered_cards} cards for #{items.length} data items" unless rendered_cards == items.length
+  affiliate_destinations = items.sum { |item| Array(item["destinations"]).count { |destination| destination["affiliate"] } }
+  sponsored_destinations = gear_html.scan(/<a\b[^>]*\brel="[^"]*\bsponsored\b[^"]*"[^>]*>[^<]*(?:<span>\(affiliate\)<\/span>)?/i).length
+  failures << "Gear page rendered #{sponsored_destinations} sponsored destinations for #{affiliate_destinations} affiliate destinations" unless sponsored_destinations == affiliate_destinations
 else
   failures << "Gear page was not generated"
 end
