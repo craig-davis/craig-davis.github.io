@@ -25,7 +25,7 @@ The calculators remain byte-for-byte unchanged during Phase 8:
 1. Archive-wide explicit topics and descriptions — complete
 2. Software articles — complete
 3. Machines articles — complete
-4. Making articles
+4. Making articles — complete
 5. Reading & Life articles
 6. Standalone editorial-page spot review and final inventory reconciliation
 
@@ -50,6 +50,14 @@ Each content batch reviews headings, optional curated navigation, figures and ca
 - 17 article-specific archive and safety notes where fitment, traffic, product availability, or mechanical risk materially affects current use
 - All generated heading hierarchies reviewed without a level jump
 - The visible “Ugrade” title typo corrected while preserving its historical public URL
+
+## Making batch evidence
+
+- 14 published articles reviewed
+- 14 descriptions refined to 50–180 characters
+- 39 deliberate related-writing destinations across shop projects, tools, recipes, and practical builds
+- 11 focused archive, availability, electrical, structural, or machine-safety notes; timeless recipes remain free of unnecessary warnings
+- All generated heading hierarchies reviewed without a level jump
 
 ## Editorial rules
 

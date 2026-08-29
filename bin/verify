@@ -11,3 +11,4 @@ ruby scripts/editorial_suggestions.rb --check
 ruby scripts/verify_archive.rb
 ruby scripts/verify_archive_topic.rb software public
 ruby scripts/verify_archive_topic.rb machines public
+ruby scripts/verify_archive_topic.rb making public

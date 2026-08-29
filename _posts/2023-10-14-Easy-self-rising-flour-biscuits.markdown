@@ -2,7 +2,7 @@
 layout:     post
 title:      "Easy Self Rising Flour Biscuits"
 subtitle:   "Quick biscuits for Saturday mornings"
-description: "Quick biscuits for Saturday mornings"
+description: "A quick self-rising-flour biscuit recipe with a short ingredient list, folding method, and practical notes for tender layers."
 date:       2023-10-14
 tags:       [recipes]
 topic: making

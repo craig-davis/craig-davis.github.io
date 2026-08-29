@@ -2,7 +2,7 @@
 layout:     post
 title:      "My Favorite Margarita Recipe for a Backyard Barbecue"
 subtitle:   "Summertime in New Mexico isn't complete without a pitcher of Margaritas"
-description: "Summertime in New Mexico isn't complete without a pitcher of Margaritas"
+description: "A balanced pitcher margarita recipe with fresh citrus, tequila, orange liqueur, and proportions suited to a backyard barbecue."
 date:       2016-07-25
 tags:       [recipes]
 topic: making
@@ -46,5 +46,4 @@ I believe that the Margarita is really a mixed drink. Mixed drinks by the pitche
 Enjoy!
 
 {% include disclosure.html %}
-
 

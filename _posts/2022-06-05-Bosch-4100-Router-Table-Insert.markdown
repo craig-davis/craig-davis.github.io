@@ -2,7 +2,7 @@
 layout:     post
 title:      "Bosch 4100 Router Table Insert"
 subtitle:   "Adding a router to a Bosch table saw"
-description: "Adding a router to a Bosch table saw"
+description: "Building a removable router-table insert for a Bosch 4100 table saw, including plate support, fence alignment, and dust collection."
 date:       2022-06-05
 tags:       [woodworking]
 topic: making
