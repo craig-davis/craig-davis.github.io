@@ -46,13 +46,27 @@ sitemap:
   </div>
 </section>
 
-<aside class="home-gear">
-  <div>
+<aside class="home-gear" aria-labelledby="home-gear-title">
+  <div class="home-gear__grid">
+    <div class="home-gear__intro">
     <p class="eyebrow">Gear I actually use</p>
-    <h2>Tools, parts, and equipment that earned their place.</h2>
+    <h2 id="home-gear-title">Tools, parts, and equipment that earned their place.</h2>
     <p>Long-term notes on shop tools, trail equipment, and practical gear—not a generic storefront.</p>
+    <a class="button-link" href="{{ '/gear/' | relative_url }}">Explore all gear <span aria-hidden="true">→</span></a>
+    </div>
+    {% assign featured_gear = site.data.gear.items | where: 'featured', true %}
+    {% for gear in featured_gear limit: 3 %}
+    <a class="home-gear-card" href="{{ gear.article | relative_url }}">
+      <span class="home-gear-card__image"><img src="{{ gear.image | relative_url }}" alt="{{ gear.image_alt | escape }}"></span>
+      <span class="home-gear-card__body">
+        <span class="eyebrow">{{ gear.recommendation }}</span>
+        <strong>{{ gear.name }}</strong>
+        <small>{{ gear.summary }}</small>
+        <span class="text-link">View field notes <span aria-hidden="true">→</span></span>
+      </span>
+    </a>
+    {% endfor %}
   </div>
-  <a class="button-link" href="{{ '/gear/' | relative_url }}">Explore gear and tools <span aria-hidden="true">→</span></a>
 </aside>
 {% else %}
 <section class="home-section" aria-labelledby="pagination-title">
