@@ -70,4 +70,4 @@ Suggestions are a review queue, never automatic edits. Shared topics and tags pr
 
 ## Continuous integration
 
-Repository-hosted CI is deferred until Phase 1 pins a supported Ruby/Jekyll toolchain. DigitalOcean remains the deployment builder during Phase 0. Adding a new workflow around the current Ruby 2.7/Jekyll 3.6 stack would introduce a second legacy runtime problem before the upgrade it is meant to protect.
+GitHub Actions runs `bin/verify` for every pull request and push to `master` on Ubuntu 22.04 with the repository-pinned Ruby toolchain. The same command builds the site and runs URL, metadata, structured-data, image, archive, search, reading-state, feed, sitemap, and robots checks.

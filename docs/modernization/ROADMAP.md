@@ -255,7 +255,7 @@ Progress evidence:
 
 ### 9. Final QA and launch
 
-**Status:** Not started
+**Status:** Active — release candidate
 
 Scope:
 
@@ -267,6 +267,17 @@ Exit criteria:
 
 - Production deployment passes smoke tests and URL checks.
 - Launch decisions and remaining follow-up work are recorded.
+
+Release-candidate evidence:
+
+- The full build and verification suite passes, including a new launch-artifact gate for a ten-item RSS feed, 108 unique sitemap locations, sitemap exclusions, and the robots sitemap declaration.
+- Production smoke tests pass on `https://there4.io` for the homepage, archives, a representative article, compatibility redirects, both calculators, feed, sitemap, robots, HTTPS enforcement, and the custom 404 response.
+- Representative homepage, archive, article, and search routes were reviewed at 1440-pixel desktop, 820-pixel tablet, and 390-pixel phone widths with no horizontal overflow, broken images, landmark/H1 failures, or console errors.
+- Search query state and results, article table-of-contents reading state, reduced-motion support, canonical metadata, social cards, and structured data were checked in rendered output.
+- Production CSS is served gzip-compressed through the CDN; the shared CSS payload is about 32 KB uncompressed, and page-specific JavaScript remains small and conditional.
+- No analytics is included. Search stays local to the browser, and the site sends no first-party visitor telemetry.
+- Unreferenced legacy CSS, JavaScript, and Glyphicon files remain as unloaded compatibility assets because their public paths are part of the protected URL baseline; removal is deferred until an explicit asset-retirement policy is accepted.
+- Post-deploy smoke testing, the unresolved `www` hostname decision, and platform-level defensive response headers remain open before Phase 9 can be marked complete.
 
 ## Deferred work
 

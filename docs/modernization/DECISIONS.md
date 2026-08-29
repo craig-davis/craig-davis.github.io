@@ -216,6 +216,26 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** The Phase 8 baseline can be clean without deleting durable assets or modifying protected tools. Future modern pages must ship complete metadata and structured data, article routes must retain article semantics, and browser-facing large images must keep responsive delivery.
 
+## D-026 — Launch without visitor analytics
+
+**Status:** Accepted
+
+**Decision:** Do not add visitor analytics during modernization. Keep archive search entirely local to the browser and ship no first-party tracking script.
+
+**Reason:** The blog does not currently have a stated measurement question that justifies additional JavaScript, cookies, or visitor telemetry. A deliberate absence is preferable to restoring obsolete Universal Analytics code or adding a vendor by default.
+
+**Consequences:** Launch has no analytics dashboard or behavioral events. If a concrete measurement need emerges, select a privacy, retention, and performance policy before choosing an implementation.
+
+## D-027 — Retain unloaded legacy assets through launch
+
+**Status:** Accepted
+
+**Decision:** Keep the old Bootstrap, Clean Blog, There4, jQuery, and Glyphicon files during launch even though modern templates no longer reference them. Do not load them from modern pages.
+
+**Reason:** Their paths are included in the protected Phase 0 public-URL contract, while leaving unreachable static files on the server has no browser runtime cost. Deleting them during final QA would combine launch validation with an unrelated URL-retirement decision.
+
+**Consequences:** The deployed artifact remains larger than the active site requires, but page performance is unaffected. A later cleanup can remove these files only after reviewing external references and intentionally updating the URL baseline.
+
 ## Decision template
 
 ### D-NNN — Title
