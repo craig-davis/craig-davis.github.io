@@ -42,7 +42,7 @@ if File.file?(page_path)
   failures << "search page is missing its form" unless page.include?("data-search-form")
   failures << "search page is missing its result status" unless page.include?("aria-live=\"polite\"")
   failures << "search page is missing its no-JavaScript archive path" unless page.include?("<noscript>")
-  failures << "search script is not loaded with defer" unless page.match?(%r{<script[^>]+src="/js/search\.js"[^>]+defer})
+  failures << "search script is not loaded with defer" unless page.match?(%r{<script[^>]+src="/js/search\.js(?:\?[^\"]*)?"[^>]+defer})
 else
   failures << "missing /search/ page"
 end

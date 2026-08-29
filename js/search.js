@@ -9,6 +9,8 @@
   var status = root.querySelector("[data-search-status]");
   var results = root.querySelector("[data-search-results]");
   var index = [];
+  var indexReady = false;
+  var pendingQuery = "";
 
   function normalize(value) {
     return String(value || "").toLocaleLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
@@ -81,6 +83,11 @@
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
+    if (!indexReady) {
+      pendingQuery = input.value;
+      status.textContent = "Loading the archive…";
+      return;
+    }
     runSearch(input.value, true);
   });
 
@@ -92,9 +99,15 @@
       item._searchable = searchable(item);
       return item;
     });
+    indexReady = true;
     var initialQuery = new URLSearchParams(window.location.search).get("q") || "";
-    input.value = initialQuery;
-    if (initialQuery) runSearch(initialQuery, false);
+    if (initialQuery) {
+      input.value = initialQuery;
+      runSearch(initialQuery, false);
+    } else if (pendingQuery) {
+      input.value = pendingQuery;
+      runSearch(pendingQuery, true);
+    }
   }).catch(function () {
     status.textContent = "Search is temporarily unavailable. Browse the writing archive instead.";
   });

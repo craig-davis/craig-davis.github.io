@@ -191,6 +191,22 @@ a:hover {
   color: var(--rust);
 }
 
+.primary-nav__search {
+  display: inline-grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.primary-nav__search svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+
 main {
   min-height: 55vh;
 }
@@ -261,6 +277,25 @@ main {
   padding-top: var(--space-2);
   color: var(--muted);
   font: 0.75rem/1.45 var(--sans);
+}
+
+.page-masthead--search {
+  margin-top: clamp(2rem, 4vw, 3.75rem);
+  margin-bottom: var(--space-5);
+  display: block;
+}
+
+.page-masthead--search .page-masthead__copy {
+  width: min(100%, 58rem);
+  margin-inline: auto;
+}
+
+.page-masthead--search h1 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+}
+
+.page-masthead--search .page-masthead__deck {
+  margin-top: var(--space-2);
 }
 
 
@@ -896,9 +931,9 @@ main {
 }
 
 .search-form {
-  padding: var(--space-5);
-  border: 1px solid var(--rule);
-  background: var(--paper-light);
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
 }
 
 .search-form > label {
@@ -918,7 +953,7 @@ main {
 
 .search-form input,
 .search-form button {
-  min-height: 3.25rem;
+  min-height: 3.75rem;
   border: 1px solid var(--ink);
   border-radius: 0;
   font: 1rem/1.4 var(--sans);
@@ -927,8 +962,9 @@ main {
 .search-form input {
   min-width: 0;
   padding: 0 var(--space-3);
-  background: var(--paper);
+  background: var(--paper-light);
   color: var(--ink);
+  font-size: 1.1rem;
 }
 
 .search-form button {
@@ -954,7 +990,7 @@ main {
 }
 
 .search-results {
-  margin-top: var(--space-6);
+  margin-top: var(--space-5);
 }
 
 .search-results .section-heading {
@@ -1682,7 +1718,7 @@ main {
   }
 
   .search-form {
-    padding: var(--space-3);
+    padding: var(--space-3) 0;
   }
 
   .search-form__controls {
