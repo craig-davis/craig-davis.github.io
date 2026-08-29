@@ -9,7 +9,7 @@
   --code-bg: #ebe7df;
   --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --serif: Georgia, Cambria, "Times New Roman", Times, serif;
-  --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --mono: "Hack", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --shell: 90rem;
   --reading: 46rem;
   --space-1: 0.35rem;
@@ -1037,11 +1037,12 @@ main {
   max-width: 100%;
   overflow-x: auto;
   padding: var(--space-4);
-  background: #22231f;
+  background: #20211e;
   border: 0;
   border-radius: 0;
-  color: #f3f0e8;
-  font: 0.82rem/1.6 var(--mono);
+  color: #e8e5dc;
+  font: 0.86rem/1.65 var(--mono);
+  font-variant-ligatures: none;
 }
 
 .prose pre code,

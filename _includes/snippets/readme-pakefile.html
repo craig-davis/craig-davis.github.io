@@ -1,0 +1,21 @@
+{% highlight php %}
+<?php
+pake_desc('Update the README with the latest command output');
+pake_task('readme');
+
+function run_readme()
+{
+    pake_echo_comment('Updating README documentation');
+
+    $startPoint = '## Help';
+    $endPoint   = '## Examples';
+    $readme     = file_get_contents('README.md');
+    $help       = shell_exec('php ./md2resume_dev.php list --no-interaction');
+    $output     = preg_replace(
+        '/('.preg_quote($startPoint).')(.*)('.preg_quote($endPoint).')/si',
+        "$1\n```\n" . $help . "\n```\n$3",
+        $readme
+    );
+    file_put_contents('README.md', $output);
+}
+{% endhighlight %}

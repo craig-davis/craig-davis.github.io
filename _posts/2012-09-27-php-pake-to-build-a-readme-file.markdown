@@ -2,7 +2,7 @@
 layout:     post
 title:      "PHP Pake to build a README file"
 subtitle:   "Add command line help output to a README"
-description: "Add command line help output to a README"
+description: "Using a PHP Pake build task to capture command-line help and keep a project's README documentation synchronized."
 date:       2012-09-27 15:51
 tags:       [php]
 topic: software
@@ -19,4 +19,4 @@ the README. It trims out everything from the Help heading to the following
 heading, and places the output of the command in it's place. It's hackish, but
 it keeps the readme up to date.
 
-{% gist 3796563 readme_pakefile.php %}
+{% include snippets/readme-pakefile.html %}

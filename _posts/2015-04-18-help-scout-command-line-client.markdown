@@ -2,7 +2,7 @@
 layout:     post
 title:      "Help Scout Command Line Client"
 subtitle:   "Reading conversations from the command line"
-description: "Reading conversations from the command line"
+description: "A command-line Help Scout client for listing mailboxes, reviewing conversations, and reading customer-support threads."
 date:       2015-04-18
 tags:       [php]
 topic: software
@@ -56,5 +56,4 @@ I've started on a new toy project - a [command line client for Help Scout](https
      [85]       Help Scout                     help@helpscout.net
      [2641]     Developer Support              developer@helpscout.net
      [20512]    Customer Success               coach@helpscout.com
-
 

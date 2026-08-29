@@ -3,7 +3,7 @@ layout:      post
 title:       "Maintaining and Using Your Bash History"
 topic:       software
 subtitle:    "Tips and tricks for using your bash history more productively"
-description: "Tips and tricks for using your bash history more productively"
+description: "Practical Bash settings and shortcuts for retaining more command history and finding useful commands quickly."
 date:        2015-11-20
 tags:        []
 author:      "Craig Davis"

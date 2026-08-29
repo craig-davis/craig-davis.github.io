@@ -2,7 +2,7 @@
 layout:     post
 title:      "QUnit rules for JSHint"
 subtitle:   "Exclusions for QUnit variable and function names"
-description: "Exclusions for QUnit variable and function names"
+description: "Configuring JSHint to accept the global names QUnit exposes in browser-based JavaScript tests."
 tags:       [javascript]
 topic: software
 author:     "Craig Davis"
@@ -13,7 +13,7 @@ While updating the [Uni-Form CSS][uniform] project to use [Grunt][grunt], I chan
 
 Here's the final lint rules that I added to the test files, I hope they may be useful to someone else:
 
-{% gist 2154156 jslint-config-for-qunit.js %}
+{% include snippets/jslint-config-for-qunit.html %}
 
 [uniform]: http://sprawsm.com/uni-form/
 [grunt]: https://github.com/cowboy/grunt

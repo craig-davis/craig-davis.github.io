@@ -16,4 +16,4 @@ strategy ourselves.
 In addition, this sets paths for all of the Apple icons used for startup
 and application icons.
 
-{% gist 1413696 mobile-meta-links.html %}
+{% include snippets/mobile-meta-links.html %}

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Google Chart Color List"
 subtitle:   "Carefully curated and complimentary colors fo charting"
-description: "Carefully curated and complimentary colors fo charting"
+description: "A reusable set of complementary chart colors, with JavaScript helpers for generating stable Google Chart palettes."
 tags:       [css, ux]
 topic: software
 author:     "Craig Davis"
@@ -66,6 +66,6 @@ charts and graphs.
 
 ## Plain Text
 
-{% gist 2579834 chart_colors.txt %}
+{% include snippets/chart-colors.html %}
 
 [glc]: https://developers.google.com/chart/

@@ -2,7 +2,7 @@
 layout:     post
 title:      "jQuery Animated Border: jquery.animatedborders.js"
 subtitle:   "Draw attention to an element with a lightweight effect"
-description: "Draw attention to an element with a lightweight effect"
+description: "A lightweight jQuery plugin for drawing attention to an interface element with an animated border effect."
 date:       2013-01-03 18:11
 tags:       [javascript]
 topic: software

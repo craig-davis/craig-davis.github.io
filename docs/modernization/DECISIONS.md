@@ -156,6 +156,26 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** `/flat-trim/` and `/running-calculator/` remain unchanged. Their redesign and any subdomain move stay deferred until explicitly authorized.
 
+## D-020 — Self-host article code and highlight at build time
+
+**Status:** Accepted
+
+**Decision:** Replace remote Gist embeds with repository-owned snippets rendered by Jekyll and Rouge. Do not add a browser-side syntax-highlighting library.
+
+**Reason:** Code is part of the article and should remain readable without a third-party request or live Gist. Rouge is already present in Jekyll, produces static semantic markup, and adds no runtime JavaScript or privacy dependency.
+
+**Consequences:** Nine Software articles now carry their snippets locally, Gist build warnings are eliminated, and the unused `jekyll-gist` dependency is removed. Verification rejects future Gist tags in published posts.
+
+## D-021 — Use self-hosted Hack and a restrained dark code palette
+
+**Status:** Accepted
+
+**Decision:** Use Hack for inline and block code, serving the official regular, bold, italic, and bold-italic subset WOFF2 files locally. Apply a warm dark Rouge palette with no token color below a 6.67:1 contrast ratio against the code background.
+
+**Reason:** Hack is purpose-built for source code, while local font files preserve the site's privacy and deployment independence. The former light-theme token colors became muddy and overly saturated on There4's dark code panels.
+
+**Consequences:** Browsers request Hack only when monospace content is rendered and only fetch styles the page uses. Prose typography is unchanged, font loading uses `swap`, ligatures are disabled in code blocks, and no font CDN is introduced.
+
 ## Decision template
 
 ### D-NNN — Title

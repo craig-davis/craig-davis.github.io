@@ -2,7 +2,7 @@
 layout:     post
 title:      "A Simple Complexity Test"
 subtitle:   "Quickly understanding a new code project and planning refactoring"
-description: "Quickly understanding a new code project and planning refactoring"
+description: "A simple method for identifying codebase complexity, understanding an unfamiliar project, and prioritizing refactoring work."
 date:       2016-03-28
 tags:       [php, javascript]
 topic: software

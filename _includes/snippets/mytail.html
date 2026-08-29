@@ -1,0 +1,72 @@
+{% highlight bash %}
+#!/bin/bash
+# mytail: Enable and tail the MySQL general log
+
+me=$(basename "$0")
+requirements="tail"
+colorizer="~/.grc.sql.conf"
+args=$(echo "$@" | sed "s/ \-\- .*//g")
+
+_getarg(){
+  local arg_exist=$(echo "$args" | grep -e "-$1" && echo 1)
+  local lastarg=""
+  if [ "$arg_exist" ]; then
+    for arg in $args; do
+      local match=$(echo "$arg" | grep "\-$1" && echo 1)
+      if [ "$match" ]; then
+        local arg_has_value=$(echo "$arg" | grep -e "-$1[=| ][A-Za-z0-9]" && echo 1)
+        if [ ! "$arg_has_value" ]; then echo "1"; return 0; else
+          local assign=$(echo "$arg" | sed "s/.*=//g" 2>/dev/null)
+          if [ ${#assign} == 0 ]; then echo "$lastarg"; return 0;
+          else echo "$assign"; return 0; fi
+        fi
+        lastarg="$arg"
+      fi
+    done
+  fi
+  return 1
+}
+
+mysql_log(){
+  dbuser=$(_getarg "user")
+  dbpass=$(_getarg "password")
+
+  if [ -z $dbuser ]; then
+    echo "Enable MySQL general log and tail output."
+    echo "usage: mytail --user=root --password=somepassword"
+    exit 1
+  fi
+
+  if [ -z $dbpass ]; then
+    read -s -p "Enter password: " dbpass
+  fi
+
+  mysql -u$dbuser -p$dbpass -e"SET GLOBAL general_log = 'ON';" || exit 1
+  loginfo=$(mysql -u$dbuser -p$dbpass -e"show variables like 'general\_log\_file';")
+  loginfo=${loginfo:37}
+  trap _mysql_log_shutdown SIGINT
+
+  if [ ! -f $colorizer ]; then
+    sudo tail -f $loginfo
+  else
+    sudo grc -c $colorizer tail -f $loginfo
+  fi
+}
+
+_mysql_log_shutdown()
+{
+  mysql -u$dbuser -p$dbpass -e"SET GLOBAL general_log = 'OFF';"
+  return $?
+}
+
+checkrequirements(){
+  for req in $requirements; do
+    hash "$req" 2>&-
+    if [ $? == 1 ]; then echo "You need to install '$req'"; exit; fi
+  done
+}
+
+checkrequirements
+mysql_log
+exit 0
+{% endhighlight %}

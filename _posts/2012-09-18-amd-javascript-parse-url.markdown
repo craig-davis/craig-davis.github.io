@@ -2,7 +2,7 @@
 layout:     post
 title:      "AMD Javascript Parse URL"
 subtitle:   "Using the DOM to parse a url with JavaScript"
-description: "Using the DOM to parse a url with JavaScript"
+description: "Parsing URLs with the browser DOM and packaging the helper as an AMD-compatible JavaScript module."
 tags:       [javascript]
 topic: software
 author:     "Craig Davis"
@@ -17,7 +17,7 @@ Here's a slightly altered version of the much copied DOM approach to parsing a u
 This version has been edited for AMD [Require.js][require], and caches the anchor
 element.
 
-{% gist 3706510 parse_url.js %}
+{% include snippets/parse-url.html %}
 
 [bb]: http://backbonejs.org/
 [require]: http://requirejs.org/

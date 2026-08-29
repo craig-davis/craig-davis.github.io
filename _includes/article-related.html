@@ -1,23 +1,37 @@
 {% assign primary_tag = page.tags | first %}
+{% assign curated_related = site.data.related[page.url] %}
 {% assign related_posts = site.tags[primary_tag] %}
-{% if related_posts and related_posts.size > 1 %}
+{% if curated_related or related_posts and related_posts.size > 1 %}
 <aside class="related-posts" aria-labelledby="related-posts-title">
   <div class="section-heading">
     <h2 id="related-posts-title">Related writing</h2>
     {% if primary_tag %}<a href="{{ '/tags/' | append: primary_tag | append: '/' | relative_url }}">More {{ site.data.tags[primary_tag].name | default: primary_tag }}</a>{% endif %}
   </div>
   <div class="related-posts__grid">
-    {% assign related_count = 0 %}
-    {% for related in related_posts %}
-      {% if related.url != page.url and related_count < 3 %}
+    {% if curated_related %}
+      {% for related_url in curated_related %}
+        {% assign related = site.posts | where: "url", related_url | first %}
+        {% if related %}
         <article class="related-card">
           <p class="eyebrow">{{ related.date | date: "%Y" }}</p>
           <h3><a href="{{ related.url | relative_url }}">{{ related.title }}</a></h3>
           {% if related.subtitle %}<p>{{ related.subtitle }}</p>{% endif %}
         </article>
-        {% assign related_count = related_count | plus: 1 %}
-      {% endif %}
-    {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% assign related_count = 0 %}
+      {% for related in related_posts %}
+        {% if related.url != page.url and related_count < 3 %}
+          <article class="related-card">
+            <p class="eyebrow">{{ related.date | date: "%Y" }}</p>
+            <h3><a href="{{ related.url | relative_url }}">{{ related.title }}</a></h3>
+            {% if related.subtitle %}<p>{{ related.subtitle }}</p>{% endif %}
+          </article>
+          {% assign related_count = related_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   </div>
 </aside>
 {% endif %}

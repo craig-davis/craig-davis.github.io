@@ -3,7 +3,7 @@ layout:     post
 title:      "Get more exercise during the programming workday"
 topic:      software
 subtitle:   "If sitting kills, surely this will help"
-description: "If sitting kills, surely this will help"
+description: "A small Chrome extension and reminder workflow designed to interrupt long programming sessions with regular movement."
 tags:       []
 author:     "Craig Davis"
 header-img: "img/headers/tent-rocks.jpg"
@@ -16,7 +16,7 @@ workday.
 I've added a global [Mercurial][hg] [commit hook][hook] that suggests exercise every time I make
 a mercurial commit. Here's the code:
 
-{% gist 2972827 exercise.sh %}
+{% include snippets/exercise.html %}
 
 I added it to my global .hgrc file as a hook, and now I get a recommendation
 for an exercise eat time I commit.

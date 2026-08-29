@@ -22,14 +22,25 @@ The calculators remain byte-for-byte unchanged during Phase 8:
 
 ## Batches
 
-1. Archive-wide explicit topics and descriptions
-2. Software articles
+1. Archive-wide explicit topics and descriptions — complete
+2. Software articles — complete
 3. Machines articles
 4. Making articles
 5. Reading & Life articles
 6. Standalone editorial-page spot review and final inventory reconciliation
 
 Each content batch reviews headings, optional curated navigation, figures and captions, callouts, disclosures, related writing, links, and rendered QA. Batch commits may be released independently while Phase 8 remains active.
+
+## Software batch evidence
+
+- 29 published articles reviewed
+- 29 descriptions refined to 50–180 characters
+- 87 deliberate related-writing destinations
+- 22 article-specific archive notes for materially dated platforms and APIs
+- Two articles corrected to remove H1-to-H3 heading jumps
+- Nine remote Gist embeds replaced by locally rendered Rouge snippets
+- `jekyll-gist` and its unused API dependencies removed
+- Hack's four subset web-font styles self-hosted for code, with a warm high-contrast Rouge palette approved against representative SQL and PHP articles
 
 ## Editorial rules
 

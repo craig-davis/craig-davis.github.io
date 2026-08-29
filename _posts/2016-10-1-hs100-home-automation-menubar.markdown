@@ -2,7 +2,7 @@
 layout:     post
 title:      "HS100 Home Automation Menu Bar App"
 subtitle:   "Writing a home automation menu bar app with Python and Rumps"
-description: "Writing a home automation menu bar app with Python and Rumps"
+description: "Building a macOS menu-bar application in Python and Rumps to discover and control TP-Link HS100 smart plugs."
 date:       2016-10-01
 tags:       ["python"]
 topic: software

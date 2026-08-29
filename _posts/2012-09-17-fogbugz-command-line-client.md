@@ -2,7 +2,7 @@
 layout:     post
 title:      "FogBugz Command Line Client"
 subtitle:   "Time tracking and case updating from the terminal"
-description: "Time tracking and case updating from the terminal"
+description: "A command-line FogBugz client for tracking time, reviewing cases, and updating work without leaving the terminal."
 tags:       [php]
 topic: software
 author:     "Craig Davis"

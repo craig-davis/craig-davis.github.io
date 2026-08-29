@@ -246,6 +246,7 @@ Progress evidence:
 - All 76 published articles now declare an explicit primary topic and durable meta description; the inventory records the shared-layout and image-accessibility work already completed in earlier phases.
 - The two calculator source files are checksum-protected and marked `preserved`; the unpublished historical article is explicitly excluded rather than treated as published work.
 - Phase 8 batching, editorial rules, and calculator checksums are recorded in `ARCHIVE-MIGRATION.md`.
+- The Software batch is complete: 29 articles have refined descriptions, reviewed headings and links, 87 curated related-writing destinations, 22 contextual archive notes, and local syntax-highlighted replacements for all nine former Gist embeds.
 
 ### 9. Final QA and launch
 

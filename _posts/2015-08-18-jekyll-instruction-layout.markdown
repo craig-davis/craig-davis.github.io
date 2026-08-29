@@ -2,7 +2,7 @@
 layout:      post
 title:       "Jekyll Layout for Tutorial Pages"
 subtitle:    "Using Liquid and front matter to make a tutorial page"
-description: "Make a Jekyll blog post with a simple tutorial format"
+description: "Building a reusable Jekyll tutorial layout from Liquid templates, structured front matter, figures, and numbered steps."
 date:        2015-08-18
 tags:        [ux]
 topic: software
@@ -12,7 +12,7 @@ header-img:  "img/headers/lake-sammish.jpg"
 
 Liquid is uniquely perfect for making an Instructable style page without writing html. In this blog post, I'll show you how to create a tutorial page with steps, where each step is simply a list in the front matter without any html markup. We'll create a nicely formatted tutorial page with a new `_layout` file.
 
-### 1. Create a new layout for the tutorial page
+## 1. Create a new layout for the tutorial page
 
 Create `_layouts/tutorial.html` in your [Jekyll](http://jekyllrb.com/) site. This tutorial will be placed into the `post` parent layout. We will pull our tutorial items from an array in the `_posts` file. An array named `steps` will be located in the front matter and will be available to the layout as `page.steps`. Each tutorial step has several elements:
 
@@ -54,7 +54,7 @@ layout: post
 {% endraw %}
 {% endhighlight %}
 
-### 2. Use this layout in a new post
+## 2. Use this layout in a new post
 
 Update the front matter of a post to use this new template:
 {% highlight liquid %}
@@ -65,7 +65,7 @@ layout: tutorial
 {% endraw %}
 {% endhighlight %}
 
-### 3. Add the new tutorial to the front matter
+## 3. Add the new tutorial to the front matter
 
 You can see [a full example in my Miter Saw post](https://raw.githubusercontent.com/craig-davis/craig-davis.github.io/master/_posts/2015-08-17-miter-saw-workbench.markdown). Note that in the second array element, the `>` operator allows us to make a multi-line assignment.
 
@@ -84,7 +84,7 @@ steps:
 {% endraw %}
 {% endhighlight %}
 
-### 4. Add some new styles to format the tutorial
+## 4. Add some new styles to format the tutorial
 
 We've used the `figure` element and we'll style it to float according to a media query so that it's to the left on large screens and above the instruction on small screens.
 
@@ -120,7 +120,6 @@ figure figcaption {
 
 {% endhighlight %}
 
-### 5. Publish some tutorials!
+## 5. Publish some tutorials!
 
 Go forth and publish tutorials.
-

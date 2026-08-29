@@ -2,7 +2,7 @@
 layout:     post
 title:      "Introducing TermCamp, a Campfire command line client"
 subtitle:   "Campfire in your terminal with bells and notifiers"
-description: "Campfire in your terminal with bells and notifiers"
+description: "Introducing TermCamp, a command-line Campfire client with room navigation, notifications, and terminal alerts."
 date:       2013-01-16 20:47
 tags:       [javascript]
 topic: software
