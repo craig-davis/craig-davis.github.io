@@ -255,7 +255,7 @@ Progress evidence:
 
 ### 9. Final QA and launch
 
-**Status:** Active — release candidate
+**Status:** Complete
 
 Scope:
 
@@ -277,7 +277,8 @@ Release-candidate evidence:
 - Production CSS is served gzip-compressed through the CDN; the shared CSS payload is about 32 KB uncompressed, and page-specific JavaScript remains small and conditional.
 - No analytics is included. Search stays local to the browser, and the site sends no first-party visitor telemetry.
 - Unreferenced legacy CSS, JavaScript, and Glyphicon files remain as unloaded compatibility assets because their public paths are part of the protected URL baseline; removal is deferred until an explicit asset-retirement policy is accepted.
-- Post-deploy smoke testing, the unresolved `www` hostname decision, and platform-level defensive response headers remain open before Phase 9 can be marked complete.
+- The merged Phase 9 release deployed successfully. Post-deploy checks confirmed all representative routes, the HTTPS redirect, custom 404, ten-entry feed, 108-location sitemap, robots declaration, compatibility redirects, and byte-identical calculator files.
+- The unresolved `www` hostname decision and platform-level defensive response headers remain recorded infrastructure follow-ups; neither changes the verified canonical apex release.
 
 ## Deferred work
 
