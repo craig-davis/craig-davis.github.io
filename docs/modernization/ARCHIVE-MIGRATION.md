@@ -26,7 +26,7 @@ The calculators remain byte-for-byte unchanged during Phase 8:
 2. Software articles — complete
 3. Machines articles — complete
 4. Making articles — complete
-5. Reading & Life articles
+5. Reading & Life articles — complete
 6. Standalone editorial-page spot review and final inventory reconciliation
 
 Each content batch reviews headings, optional curated navigation, figures and captions, callouts, disclosures, related writing, links, and rendered QA. Batch commits may be released independently while Phase 8 remains active.
@@ -50,6 +50,14 @@ Each content batch reviews headings, optional curated navigation, figures and ca
 - 17 article-specific archive and safety notes where fitment, traffic, product availability, or mechanical risk materially affects current use
 - All generated heading hierarchies reviewed without a level jump
 - The visible “Ugrade” title typo corrected while preserving its historical public URL
+
+## Reading & Life batch evidence
+
+- 14 published articles reviewed across photo essays, reading lists, podcasts, professional development, and reflective writing
+- 14 descriptions refined to 50–180 characters
+- 42 deliberate related-writing destinations, including useful connections back to Software and Machines
+- Five edition-aware archive notes on reading lists; photo, travel, podcast, and reflective entries remain free of unnecessary warnings
+- Specialized photo, podcast, and books layouts reviewed as structured content rather than mistaken for empty article bodies
 
 ## Making batch evidence
 

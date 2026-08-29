@@ -2,7 +2,7 @@
 layout:     post
 title:      "Reading List: Popular Science Books"
 subtitle:   "A collection of thought provoking and interesting science books for casual reading."
-description: "A collection of thought provoking and interesting science books for casual reading."
+description: "A reading list of approachable, thought-provoking popular-science books about medicine, physics, biology, exploration, and discovery."
 date:       2016-03-26
 tags:       [reading]
 topic: reading-life

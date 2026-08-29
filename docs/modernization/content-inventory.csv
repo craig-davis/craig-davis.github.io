@@ -28,20 +28,20 @@ _posts/2015-08-17-miter-saw-workbench.markdown,A Miter Saw Workbench,woodworking
 _posts/2015-08-18-jekyll-instruction-layout.markdown,Jekyll Layout for Tutorial Pages,ux,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2015-09-03-osx-media-keys-filco-mechanical-keyboard.md,OSX Media Keys for Filco Mechanical Keyboards,"",Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2015-11-20-maintaining-your-bash-history.markdown,Maintaining and Using Your Bash History,"",Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
-_posts/2015-12-13-a-snowy-day-with-riley.markdown,A Snowy Day with Riley,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2015-12-13-a-snowy-day-with-riley.markdown,A Snowy Day with Riley,photos,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2015-12-20-beginning-woodworking-tools.markdown,Beginning Woodworking Tools,woodworking,Making,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
-_posts/2016-02-23-white-mesa-snow-ride.markdown,A snowy ride at White Mesa,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2016-03-26-my-favorite-popular-science-books.markdown,Reading List: Popular Science Books,reading,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2016-02-23-white-mesa-snow-ride.markdown,A snowy ride at White Mesa,photos,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2016-03-26-my-favorite-popular-science-books.markdown,Reading List: Popular Science Books,reading,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2016-03-28-A-Simple-Complexity-Test.markdown,A Simple Complexity Test,php|javascript,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
-_posts/2016-04-02-sheep-shearing-in-new-mexico.markdown,Sheep Shearing in New Mexico,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2016-04-03-interesting-single-topic-history-books.markdown,Reading List: Single Topic History Books,reading,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2016-07-10-summer-science-fiction-reading.markdown,Reading List: Summer Science Fiction Books,reading,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2016-04-02-sheep-shearing-in-new-mexico.markdown,Sheep Shearing in New Mexico,photos,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2016-04-03-interesting-single-topic-history-books.markdown,Reading List: Single Topic History Books,reading,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2016-07-10-summer-science-fiction-reading.markdown,Reading List: Summer Science Fiction Books,reading,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2016-07-25-My-Favorite-Margarita-Recipe-for-a-Backyard-Barbecue.markdown,My Favorite Margarita Recipe for a Backyard Barbecue,recipes,Making,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2016-10-1-hs100-home-automation-menubar.markdown,HS100 Home Automation Menu Bar App,python,Software,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
-_posts/2017-04-09-Chaco-Culture-National-Historical-Park.markdown,Chaco Culture National Historical Park,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2017-04-09-Trinity-Test-Site.markdown,Trinity Test Site,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2017-10-02-Photos-from-Barcelona.markdown,Photos from Barcelona,photos,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2017-10-18-source-control-as-conversation.html,Code Talk: Source Control as Conversation,podcast,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2017-04-09-Chaco-Culture-National-Historical-Park.markdown,Chaco Culture National Historical Park,photos,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2017-04-09-Trinity-Test-Site.markdown,Trinity Test Site,photos,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2017-10-02-Photos-from-Barcelona.markdown,Photos from Barcelona,photos,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2017-10-18-source-control-as-conversation.html,Code Talk: Source Control as Conversation,podcast,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2017-10-27-My-Adventure-Toolkit-for-my-Yamaha-WR250R.markdown,My Adventure Toolkit for my Yamaha WR250R,tools|motorcycles,Making,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2018-08-22-Jeep-XJ-Teraflex-Disc-Brake-Conversion.markdown,Jeep XJ Teraflex Disc Brake Conversion,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2018-09-21-Jeep-XJ-Fog-Light-Wiring-with-OEM-Rocker-Switches.markdown,Jeep XJ Fog Light Wiring with OEM Rocker Switches,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
@@ -53,7 +53,7 @@ _posts/2019-03-04-Jeep-XJ-Tire-Carrier-License-Plate.markdown,Jeep XJ Tire Carri
 _posts/2019-03-08-Jeep-XJ-Overhead-Console-Compass-Calibration.markdown,Jeep XJ Overhead Console Compass Calibration,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2019-03-11-Jeep-XJ-62mm-Throttle-Body-Upgrade.markdown,Jeep XJ 62mm Throttle Body Upgrade,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2019-03-19-Jeep-XJ-Brown-Dog-Motor-Mounts-Installation-Notes.markdown,Jeep XJ Brown Dog Motor Mounts Installation Notes,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
-_posts/2019-07-11-code-talk-podcast.markdown,"Code Talk: Broken Computers, Booting new computers, Digital photo storage, Tin foil hats",podcast,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2019-07-11-code-talk-podcast.markdown,"Code Talk: Broken Computers, Booting new computers, Digital photo storage, Tin foil hats",podcast,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2019-07-16-KLX250S-Performance-Mods-and-Basic-Upgrades.markdown,KLX250S Performance Mods and Basic Upgrades,motorcycles,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2019-07-17-Jeep-XJ-Transmission-Cooler-Line-Ugrade.markdown,Jeep XJ Transmission Cooler Line Upgrade,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2020-01-14-Jeep-XJ-Boostwerks-Comp-Mount-Hidden-Winch-Installation.markdown,Jeep XJ Boostwerks Comp Mount Hidden Winch Installation,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
@@ -69,12 +69,12 @@ _posts/2021-03-22-Adding-a-remote-switch-to-a-webcam-light.markdown,Adding a Rem
 _posts/2021-07-26-Jeep-XJ-Crossmember-Exhaust-Hanger.markdown,Rebuilding a Jeep XJ Transmission Mount Exhaust Hanger,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2022-04-20-Delta-Unisaw-Shark-Guard.markdown,Delta Unisaw Shark Guard,woodworking,Making,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2022-06-05-Bosch-4100-Router-Table-Insert.markdown,Bosch 4100 Router Table Insert,woodworking,Making,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
-_posts/2023-09-19-business-for-software-developers.markdown,Business and Growth for Software Developers,reading,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
-_posts/2023-10-09-Books-for-Software-Engineering-Continuing-Education.markdown,Books for Software Engineering Continuing Education,reading,Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2023-09-19-business-for-software-developers.markdown,Business and Growth for Software Developers,reading,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
+_posts/2023-10-09-Books-for-Software-Engineering-Continuing-Education.markdown,Books for Software Engineering Continuing Education,reading,Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2023-10-14-Easy-self-rising-flour-biscuits.markdown,Easy Self Rising Flour Biscuits,recipes,Making,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2023-10-31-Jeep-XJ-PSC-Power-Steering-Replacement.markdown,Jeep XJ PSC Power Steering Replacement,jeep,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2024-04-22-maker-channel-on-youtube.markdown,Maker channels on Youtube,woodworking,Making,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 _posts/2024-06-25-Repairing-a-Smith-Wilder-Jr-Helmet-Visor.markdown,Repairing a Smith Wilder Jr Helmet Visor,bike,Machines,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
-_posts/2025-10-07-avalanche-safety-engineering-decisions.markdown,"Skiing, Snow, and Software","",Reading & Life,complete,complete,pending,complete,pending,pending,pending,pending,pending,active
+_posts/2025-10-07-avalanche-safety-engineering-decisions.markdown,"Skiing, Snow, and Software","",Reading & Life,complete,complete,complete,complete,complete,complete,complete,reviewed,complete,complete
 flat-trim/index.html,Craftsman Flat Trim Calculator,"",Tools,preserved,n/a,n/a,n/a,n/a,n/a,n/a,preserved,checksum_locked,preserved
 running-calculator/index.html,Running Length Calculator,"",Tools,preserved,n/a,n/a,n/a,n/a,n/a,n/a,preserved,checksum_locked,preserved

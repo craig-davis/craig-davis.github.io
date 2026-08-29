@@ -2,7 +2,7 @@
 layout:     books
 title:      "Books for Software Engineering Continuing Education"
 subtitle:   "Perfecting our craft and sharpening our skills"
-description: "Perfecting our craft and sharpening our skills"
+description: "A continuing-education reading list for software engineers covering architecture, delivery, design, operations, testing, and professional practice."
 date:       2023-10-09
 tags:       [reading]
 topic: reading-life

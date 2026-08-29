@@ -2,7 +2,7 @@
 layout:     post
 title:      "Reading List: Single Topic History Books"
 subtitle:   "History through the lens of a single subject"
-description: "History through the lens of a single subject"
+description: "A reading list of narrative history books that explain broader cultures and eras through salt, cod, maps, food, and other focused subjects."
 date:       2016-04-03
 tags:       [reading]
 topic: reading-life

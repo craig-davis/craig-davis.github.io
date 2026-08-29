@@ -2,7 +2,7 @@
 layout:     books
 title:      "Business and Growth for Software Developers"
 subtitle:   "Modern software development business practices and growth mindset"
-description: "Modern software development business practices and growth mindset"
+description: "A reading list for software developers building practical knowledge of business, leadership, motivation, management, focus, and career growth."
 date:       2023-09-19
 tags:       [reading]
 topic: reading-life
@@ -118,4 +118,3 @@ Technical skills are the backbone of software development. However, in today's w
 Business vocabulary and viewpoints can help you have smoother communication with non-technical stakeholders. Moreover, a business-oriented perspective can help you make strategic decisions, align software projects with organizational goals, and even explore entrepreneurial opportunities.
 
 With this in mind, I'm sharing a collection of books that I've accumulated over the years. Each of these books was recommended to me by managers and members of leadership at my previous and current employers - there are no sponsorships here.
-
