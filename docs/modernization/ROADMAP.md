@@ -196,12 +196,14 @@ Exit criteria:
 Scope:
 
 - Add static site search.
+- Add lightweight article reading-state behavior: as a section enters view, emphasize its matching desktop sidebar table-of-contents link and expose the current section accessibly.
 - Add reviewed related-post and metadata suggestion workflows.
 - Automate checks for titles, descriptions, headings, canonicals, structured data, links, images, and oversized assets.
 
 Exit criteria:
 
 - Search covers the intended archive and requires minimal client JavaScript.
+- Sidebar table-of-contents tracking works with keyboard navigation, respects reduced-motion preferences, and leaves the no-JavaScript reading experience intact.
 - Quality checks run reproducibly and fail usefully.
 
 ### 8. Complete archive migration
