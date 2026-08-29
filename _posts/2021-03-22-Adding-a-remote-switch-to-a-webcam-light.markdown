@@ -3,7 +3,7 @@ layout:     post
 title:      "Adding a Remote Switch to a Webcam Ring Light"
 topic:      making
 subtitle:   "Improve your video conferencing and streaming with a light switch"
-description: "Improve your video conferencing and streaming with a light switch"
+description: "Adding a convenient remote switch to a webcam ring light for faster, more consistent video-conference and streaming setup."
 date:       2021-03-22
 tags:       []
 author:     "Craig Davis"

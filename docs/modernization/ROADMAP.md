@@ -248,6 +248,7 @@ Progress evidence:
 - Phase 8 batching, editorial rules, and calculator checksums are recorded in `ARCHIVE-MIGRATION.md`.
 - The Software batch is complete: 29 articles have refined descriptions, reviewed headings and links, 87 curated related-writing destinations, 22 contextual archive notes, and local syntax-highlighted replacements for all nine former Gist embeds.
 - The Machines batch is complete: 19 articles have refined descriptions, reviewed structure and links, 57 curated related-writing destinations, and 17 focused archive or safety notes for fitment, mechanical, route, and protective-equipment context.
+- The Making batch is complete: 14 articles have refined descriptions, reviewed structure and links, 39 curated related-writing destinations, and 11 focused notes for product availability, electrical work, structural loading, and machine safety.
 
 ### 9. Final QA and launch
 

@@ -186,6 +186,16 @@ Record decisions that materially affect architecture, content, design, deploymen
 
 **Consequences:** Safety notes are specific to the risk and remain visually subordinate to the article. They do not turn ordinary narrative posts into warning pages or erase Craig's original observations.
 
+## D-023 — Apply risk context selectively to Making articles
+
+**Status:** Accepted
+
+**Decision:** Add current context to shop fixtures, powered machinery, electrical controls, and product-dependent projects while leaving recipes and low-risk narrative material free of generic archive warnings.
+
+**Reason:** A table-saw modification or load-bearing shelf needs a different editorial treatment from a biscuit recipe. Risk-specific notes help readers without making the entire archive feel hazardous or obsolete.
+
+**Consequences:** Product and safety context remains concise and article-specific. Original construction details and firsthand recommendations stay intact, and related writing can cross topic boundaries when that is genuinely useful.
+
 ## Decision template
 
 ### D-NNN — Title

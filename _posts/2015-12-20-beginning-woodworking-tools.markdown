@@ -2,7 +2,7 @@
 layout:     post
 title:      "Beginning Woodworking Tools"
 subtitle:   "From DIY Beginner to Garage Building"
-description: "From DIY Beginner to Garage Building"
+description: "A practical progression of woodworking tools for moving from basic household projects toward a capable home workshop."
 date:       2015-12-20
 tags:       [woodworking]
 topic: making

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Cantilevered Plywood Garage Shelves"
 subtitle:   "Shelves from a single sheet of OSB plywood and three 2x4 studs"
-description: "Shelves from a single sheet of OSB plywood and three 2x4 studs"
+description: "Building cantilevered garage shelves from one sheet of OSB and three studs, with open floor space beneath for rolling equipment."
 date:       2020-01-16
 tags:       [woodworking]
 topic: making

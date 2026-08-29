@@ -2,7 +2,7 @@
 layout:     post
 title:      "Quick and Easy Weeknight Pizza"
 subtitle:   "A quick solution for dinner, and a great way to use leftovers"
-description: "A quick solution for dinner, and a great way to use leftovers"
+description: "A flexible weeknight pizza method using prepared dough, a hot oven, and whatever vegetables, meat, and cheese need using up."
 date:       2020-01-15
 tags:       [recipes]
 topic: making

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Shop Tools I Wish I'd Bought Sooner"
 subtitle:   "Useful Gifts for Woodworkers and Makers"
-description: "Useful Gifts for Woodworkers and Makers"
+description: "Firsthand recommendations for small woodworking and shop tools that made measuring, marking, glue-ups, and daily work easier."
 date:       2020-08-12
 tags:       [woodworking]
 topic: making

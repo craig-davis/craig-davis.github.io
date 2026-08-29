@@ -2,7 +2,7 @@
 layout:      instructable
 title:       "A Miter Saw Workbench"
 subtitle:    "Plywood workbench for a miter saw"
-description: "Inspired by the Paulk workbench but with only scrap, I've built a stable and flat work surface."
+description: "Building a flat, portable miter-saw workbench from scrap plywood, inspired by the torsion-box construction of the Paulk bench."
 date:        2015-08-17
 tags:        [woodworking]
 topic: making
