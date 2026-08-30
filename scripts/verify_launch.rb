@@ -43,6 +43,19 @@ if sitemap
     failures << "sitemap must exclude #{route}" if locations.include?("https://there4.io#{route}")
   end
 
+  historical_redirects = {
+    "/2018/10/31/Jeep-XJ-Illuminated-Extended-Idle-Switch/aob-switch" => "/2018/10/31/Jeep-XJ-Illuminated-Extended-Idle-Switch/",
+    "/2017/10/27/My-Adventure-" => "/2017/10/27/My-Adventure-Toolkit-for-my-Yamaha-WR250R/"
+  }
+  historical_redirects.each do |route, destination|
+    redirect_file = File.join(site_dir, route.delete_prefix("/"))
+    redirect_file = "#{redirect_file}.html" unless File.extname(redirect_file) == ".html"
+    unless File.file?(redirect_file) && File.read(redirect_file).include?("url=https://there4.io#{destination}")
+      failures << "historical redirect #{route} does not point to #{destination}"
+    end
+    failures << "sitemap must exclude #{route}" if locations.include?("https://there4.io#{route}")
+  end
+
   locations.each do |location|
     uri = URI.parse(location)
     failures << "sitemap contains a non-production URL: #{location}" unless uri.scheme == "https" && uri.host == "there4.io"
