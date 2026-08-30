@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+set -eu
+
+port="${1:-4001}"
+
+case "$port" in
+  *[!0-9]*|'')
+    echo "Usage: bin/serve [port]" >&2
+    exit 1
+    ;;
+esac
+
+bundle exec jekyll serve --host 127.0.0.1 --port "$port" --livereload

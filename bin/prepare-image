@@ -1,0 +1,87 @@
+#!/usr/bin/env sh
+
+set -eu
+
+quality="${WEBP_QUALITY:-82}"
+force="${FORCE:-0}"
+
+usage() {
+  echo "Usage: bin/prepare-image IMAGE [IMAGE ...]" >&2
+  echo "Creates 640px and 1280px WebP variants beside each original." >&2
+  echo "Set FORCE=1 to replace existing variants or WEBP_QUALITY to change quality." >&2
+}
+
+if [ "$#" -eq 0 ]; then
+  usage
+  exit 1
+fi
+
+if ! command -v magick >/dev/null 2>&1; then
+  echo "ImageMagick is required. On macOS: brew install imagemagick" >&2
+  exit 1
+fi
+
+case "$quality" in
+  *[!0-9]*|'')
+    echo "WEBP_QUALITY must be an integer from 1 through 100." >&2
+    exit 1
+    ;;
+esac
+
+if [ "$quality" -lt 1 ] || [ "$quality" -gt 100 ]; then
+  echo "WEBP_QUALITY must be an integer from 1 through 100." >&2
+  exit 1
+fi
+
+for source in "$@"; do
+  if [ ! -f "$source" ]; then
+    echo "Image does not exist: $source" >&2
+    exit 1
+  fi
+
+  case "$source" in
+    *.640.webp|*.1280.webp)
+      echo "Pass the original image, not an existing derivative: $source" >&2
+      exit 1
+      ;;
+  esac
+
+  stem="${source%.*}"
+  width="$(magick identify -format '%w' "${source}[0]")"
+
+  case "$width" in
+    *[!0-9]*|'')
+      echo "Could not read image width: $source" >&2
+      exit 1
+      ;;
+  esac
+
+  for target_width in 640 1280; do
+    destination="${stem}.${target_width}.webp"
+
+    if [ "$width" -lt "$target_width" ]; then
+      echo "Skipping ${destination}; original is only ${width}px wide."
+      continue
+    fi
+
+    if [ -f "$destination" ] && [ "$force" != "1" ]; then
+      echo "Keeping existing ${destination}; use FORCE=1 to replace it."
+      continue
+    fi
+
+    magick "${source}[0]" \
+      -auto-orient \
+      -resize "${target_width}x>" \
+      -strip \
+      -quality "$quality" \
+      "$destination"
+
+    actual_width="$(magick identify -format '%w' "${destination}[0]")"
+    if [ "$actual_width" -ne "$target_width" ]; then
+      echo "Unexpected width for ${destination}: ${actual_width}px" >&2
+      exit 1
+    fi
+
+    echo "Created ${destination}"
+  done
+done
