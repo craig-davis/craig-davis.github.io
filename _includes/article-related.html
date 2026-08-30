@@ -13,6 +13,7 @@
         {% assign related = site.posts | where: "url", related_url | first %}
         {% if related %}
         <article class="related-card">
+          {% if related.header-img %}<a class="related-card__image" href="{{ related.url | relative_url }}" aria-label="Read {{ related.title | escape }}"><img src="{{ related.header-img | relative_url }}" alt="" loading="lazy" data-responsive="card"></a>{% endif %}
           <p class="eyebrow">{{ related.date | date: "%Y" }}</p>
           <h3><a href="{{ related.url | relative_url }}">{{ related.title }}</a></h3>
           {% if related.subtitle %}<p>{{ related.subtitle }}</p>{% endif %}
@@ -24,6 +25,7 @@
       {% for related in related_posts %}
         {% if related.url != page.url and related_count < 3 %}
           <article class="related-card">
+            {% if related.header-img %}<a class="related-card__image" href="{{ related.url | relative_url }}" aria-label="Read {{ related.title | escape }}"><img src="{{ related.header-img | relative_url }}" alt="" loading="lazy" data-responsive="card"></a>{% endif %}
             <p class="eyebrow">{{ related.date | date: "%Y" }}</p>
             <h3><a href="{{ related.url | relative_url }}">{{ related.title }}</a></h3>
             {% if related.subtitle %}<p>{{ related.subtitle }}</p>{% endif %}

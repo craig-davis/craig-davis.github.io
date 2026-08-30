@@ -13,9 +13,6 @@
     {% endif %}
     <h1>{{ page.title }}</h1>
     {% if page.deck or page.subtitle %}<p class="post-masthead__deck">{{ page.deck | default: page.subtitle }}</p>{% endif %}
-    {% assign article_word_count = content | strip_html | number_of_words %}
-    {% assign reading_minutes = article_word_count | plus: 224 | divided_by: 225 %}
-    {% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
       {% assign updated_date = page.last_modified_at | default: page.lastmod %}
@@ -23,10 +20,6 @@
         <span aria-hidden="true">·</span>
         <span>Updated <time datetime="{{ updated_date | date_to_xmlschema }}">{{ updated_date | date: "%B %-d, %Y" }}</time></span>
       {% endif %}
-      <span aria-hidden="true">·</span>
-      <span class="post-meta__reading-time">{{ reading_minutes }} min read</span>
-      <span aria-hidden="true">·</span>
-      <span>{{ page.author | default: site.author }}</span>
     </div>
   </div>
   {% if masthead_image %}
