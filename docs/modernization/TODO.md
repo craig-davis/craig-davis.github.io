@@ -39,8 +39,8 @@ This is the concise handoff list for work remaining after the main modernization
 - [ ] Propose and prioritize the next group of existing-article updates.
 - [ ] Propose and prioritize the next group of new articles.
 - [ ] Decide publication-date policy for articles based on older work: publish with the current date, backdate, or show separate event/work and publication dates.
-- [ ] Add an accessible Return to top link or control to long pages.
-- [ ] Create a There4 voice-and-tone document to guide new articles, archive updates, calls to action, and AI-assisted editing.
+- [x] Add an accessible Return to top link or control to long pages.
+- [x] Create a There4 voice-and-tone document to guide new articles, archive updates, calls to action, and AI-assisted editing.
 
 ## Search and editorial opportunities
 
