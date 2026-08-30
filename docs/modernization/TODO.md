@@ -6,7 +6,7 @@ This is the concise handoff list for work remaining after the main modernization
 
 ## Next session
 
-- [ ] Merge and deploy PR #30, which qualifies affiliate links, adds the structured-data author URL, and repairs two historical 404s.
+- [ ] Confirm the merged PR #31 deploys successfully; it repairs two historical 404s and records the post-modernization handoff.
 - [ ] Confirm the production build succeeds and smoke-test both repaired URLs.
 - [ ] In Google Search Console, validate the 404 fix after Google sees the deployment.
 - [ ] Use URL Inspection and request indexing for these substantial articles:
@@ -15,6 +15,32 @@ This is the concise handoff list for work remaining after the main modernization
   - Reducing Complexity by Refactoring with Guard Clauses
   - Beginning Mountain Biking in 2019
 - [ ] Export page-filtered query reports for the WEN 4214 review and other priority landing pages before rewriting titles or descriptions.
+
+## New article backlog
+
+- [ ] Debugging Like a Doctor.
+- [ ] Garbage Can Wheels.
+- [ ] History of Northfork Mountain Biking, with photos; decide whether it should be a single feature or a series.
+- [ ] Podcast from Periodic Sources.
+- [ ] Smith sunglasses and other glasses; shape this as a firsthand review or comparison.
+- [ ] Small carpentry essentials: pencil, flat bar, notebook, bit holder, shims, pliers, and beater chisel.
+- [ ] Door-hinge tool and other weird or specialized tools; refine the angle and title.
+- [ ] Is AI an Exoskeleton or a Coworker?
+
+## Article updates and new reviews
+
+- [ ] Update the keyboard-binding article with the new implementation that does not require Karabiner.
+- [ ] Update the motorcycle-tools article for the new tool bag.
+- [ ] Write a motorcycle dry-bags review.
+- [ ] Write a carpenter tool-bag review.
+
+## Editorial planning and site enhancements
+
+- [ ] Propose and prioritize the next group of existing-article updates.
+- [ ] Propose and prioritize the next group of new articles.
+- [ ] Decide publication-date policy for articles based on older work: publish with the current date, backdate, or show separate event/work and publication dates.
+- [ ] Add an accessible Return to top link or control to long pages.
+- [ ] Create a There4 voice-and-tone document to guide new articles, archive updates, calls to action, and AI-assisted editing.
 
 ## Search and editorial opportunities
 
@@ -31,6 +57,7 @@ This is the concise handoff list for work remaining after the main modernization
 
 - [ ] Craig: enroll in the additional affiliate programs and record approved merchant destinations.
 - [ ] Add merchant-neutral product callouts only after approved destinations exist.
+- [ ] Design a visually distinctive product callout for carefully selected, firsthand Amazon recommendations; keep it subordinate to the article, clearly label it as affiliate content, and make it feel more intentional than an ordinary product link.
 - [ ] Prioritize commercial-intent articles that already receive search traffic; keep editorial field notes primary.
 - [ ] Confirm affiliate disclosures and `rel="sponsored"` remain correct whenever a new merchant is added.
 
