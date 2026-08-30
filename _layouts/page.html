@@ -13,6 +13,7 @@ layout: default
       <h1>{{ page.title | default: site.title }}</h1>
     {% endif %}
     {% if page.subtitle %}<p class="page-masthead__deck">{{ page.subtitle }}</p>{% endif %}
+    {% if page.url == '/' %}<a class="button-link page-masthead__cta" href="{{ '/posts/' | relative_url }}">Browse the archive</a>{% endif %}
   </div>
   {% if masthead_image and page.search_page != true %}
     <figure class="page-masthead__media">
@@ -21,6 +22,6 @@ layout: default
     </figure>
   {% endif %}
 </header>
-<div class="page-content prose{% if page.url == '/' %} page-content--home{% endif %}{% if page.layout == 'topic' or page.layout == 'blog_by_tag' or page.url == '/posts/' or page.url == '/gear/' or page.url == '/search/' or paginator %} page-content--listing{% endif %}">
+<div class="page-content{% unless page.url == '/' %} prose{% endunless %}{% if page.url == '/' %} page-content--home{% endif %}{% if page.layout == 'topic' or page.layout == 'blog_by_tag' or page.url == '/posts/' or page.url == '/gear/' or page.url == '/search/' or paginator %} page-content--listing{% endif %}">
   {{ content }}
 </div>
