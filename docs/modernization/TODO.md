@@ -31,6 +31,7 @@ This is the concise handoff list for work remaining after the main modernization
 
 - [ ] Craig: enroll in the additional affiliate programs and record approved merchant destinations.
 - [ ] Add merchant-neutral product callouts only after approved destinations exist.
+- [ ] Design a visually distinctive product callout for carefully selected, firsthand Amazon recommendations; keep it subordinate to the article, clearly label it as affiliate content, and make it feel more intentional than an ordinary product link.
 - [ ] Prioritize commercial-intent articles that already receive search traffic; keep editorial field notes primary.
 - [ ] Confirm affiliate disclosures and `rel="sponsored"` remain correct whenever a new merchant is added.
 
