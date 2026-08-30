@@ -650,7 +650,15 @@ main {
   font: 0.78rem/1.55 var(--sans);
 }
 
-.home-gear__intro .text-link { margin-top: auto; }
+.home-gear__intro .text-link {
+  margin-top: auto;
+  color: #df8a67;
+  text-decoration-color: currentColor;
+}
+
+.home-gear__intro .text-link:hover {
+  color: var(--paper-light);
+}
 
 .home-gear-card {
   min-width: 0;
