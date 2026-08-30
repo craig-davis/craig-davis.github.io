@@ -6,7 +6,7 @@ This is the concise handoff list for work remaining after the main modernization
 
 ## Next session
 
-- [ ] Merge and deploy PR #31, which repairs two historical 404s and records the post-modernization handoff. PR #30, containing the affiliate-link and structured-data fixes, is already merged.
+- [ ] Confirm the merged PR #31 deploys successfully; it repairs two historical 404s and records the post-modernization handoff.
 - [ ] Confirm the production build succeeds and smoke-test both repaired URLs.
 - [ ] In Google Search Console, validate the 404 fix after Google sees the deployment.
 - [ ] Use URL Inspection and request indexing for these substantial articles:
