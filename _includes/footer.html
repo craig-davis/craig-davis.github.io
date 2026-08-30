@@ -1,15 +1,19 @@
 <footer class="site-footer">
   <div class="site-footer__inner">
-    <div class="site-footer__brand" aria-label="There4">
+    <a class="site-footer__brand" href="{{ '/' | relative_url }}" aria-label="There4.io home">
       <span aria-hidden="true">{{ site.brand_symbol }}</span> {{ site.brand_domain }}
-    </div>
+    </a>
     <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="{{ '/posts/' | relative_url }}">Writing</a>
+      <a href="{{ '/gear/' | relative_url }}">Gear</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/search/' | relative_url }}">Search</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">GitHub</a>{% endif %}
+      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" rel="me">GitHub</a>{% endif %}
       <a href="mailto:{{ site.email | encode_email }}">Email</a>
     </nav>
     <p class="site-footer__note">
-      &copy; {{ site.time | date: '%Y' }} {{ site.author }}. There4 may earn a commission from qualifying links. <a href="{{ '/about/#amazon-affiliate-links' | relative_url }}">Details</a>.
+      &copy; {{ site.time | date: '%Y' }} {{ site.author }}. There4 may earn a commission from qualifying links. <a href="{{ '/about/#amazon-affiliate-links' | relative_url }}">Affiliate disclosure</a>.
     </p>
   </div>
 </footer>
