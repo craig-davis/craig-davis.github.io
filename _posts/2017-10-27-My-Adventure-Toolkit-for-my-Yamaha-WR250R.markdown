@@ -9,6 +9,8 @@ topic: making
 author:     "Craig Davis"
 header-img: "img/headers/adventure-motorcycle.jpg"
 gear: [motion-pro-combo-levers]
+redirect_from:
+  - /2017/10/27/My-Adventure-
 ---
 
 <style>

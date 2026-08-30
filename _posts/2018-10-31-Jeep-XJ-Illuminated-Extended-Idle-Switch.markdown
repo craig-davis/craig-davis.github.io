@@ -11,6 +11,7 @@ header-img: "img/headers/xj-illuminated-extended-idle.jpg"
 permalinkXDC:
 redirect_from:
   - /xj-ext-idle/
+  - /2018/10/31/Jeep-XJ-Illuminated-Extended-Idle-Switch/aob-switch
 steps:
   - title: The Goal
     img: /img/posts/xj-extended-idle/0287-final-product.jpg
@@ -200,7 +201,6 @@ I have [a fairly cheap benchtop power supply](https://amzn.to/2qkX1pB) that I re
 [aob-switch]: https://www.aironboard.com/online/ext-idle-3c34-tj-jeep-rocker-switch.html
 [gctent]: https://www.shapeways.com/shops/gctent
 [forum]: https://www.cherokeeforum.com/f2/making-ext-idle-switch-242355/
-
 
 
 
