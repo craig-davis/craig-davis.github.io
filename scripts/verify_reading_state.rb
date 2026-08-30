@@ -4,6 +4,7 @@ site_dir = File.expand_path(ARGV.fetch(0, "public"))
 failures = []
 toc_articles = 0
 reading_estimates = 0
+return_links = 0
 links = 0
 
 Dir.glob(File.join(site_dir, "**", "*.html")).sort.each do |path|
@@ -12,6 +13,11 @@ Dir.glob(File.join(site_dir, "**", "*.html")).sort.each do |path|
     reading_estimates += 1
     source = path.delete_prefix(site_dir)
     failures << "#{source} lacks a reading-time estimate" unless html.match?(/class="post-meta__reading-time">[1-9]\d* min read</)
+    if html.match?(/class="return-to-top"[^>]*>\s*<a href="#top">Return to top/m) && html.match?(/<body\b[^>]*\bid="top"/)
+      return_links += 1
+    else
+      failures << "#{source} lacks a working Return to top link"
+    end
   end
 
   next unless html.include?("class=\"article-toc\"")
@@ -34,6 +40,7 @@ failures << "no generated articles exercise reading-state navigation" if toc_art
 if failures.empty?
   puts "Reading-state verification passed."
   puts "  Articles with reading-time estimates: #{reading_estimates}"
+  puts "  Articles with Return to top links: #{return_links}"
   puts "  Articles with curated navigation: #{toc_articles}"
   puts "  Valid section destinations: #{links}"
 else
