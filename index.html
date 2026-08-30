@@ -1,7 +1,7 @@
 ---
 layout: page
 subtitle: "Notes from the shop, the trail, and the keyboard. Firsthand experience, hard-earned lessons, and the things I actually use and recommend."
-header-img: img/headers/craig-ranier.jpg
+hide_masthead_image: true
 sitemap:
     priority: 1
     changefreq: 'weekly'
@@ -10,14 +10,11 @@ sitemap:
 
 {% if paginator.page == 1 %}
 <nav class="home-topics" aria-label="Browse by topic">
-  {% for topic_pair in site.data.topics %}
-    {% assign topic_key = topic_pair[0] %}
-    {% assign topic = topic_pair[1] %}
-    <a class="home-topic" href="{{ '/topics/' | append: topic_key | append: '/' | relative_url }}">
-      <span class="home-topic__symbol" aria-hidden="true"><img src="{{ topic.icon | relative_url }}" width="32" height="32" alt=""></span>
-      <span><strong>{{ topic.name }}</strong><small>{{ topic.description }}</small></span>
-    </a>
-  {% endfor %}
+  <a class="home-topic" href="{{ '/topics/software/' | relative_url }}">Software</a>
+  <a class="home-topic" href="{{ '/topics/machines/' | relative_url }}">Machines</a>
+  <a class="home-topic" href="{{ '/topics/making/' | relative_url }}">Making</a>
+  <a class="home-topic" href="{{ '/topics/outdoors/' | relative_url }}">Outdoors</a>
+  <a class="home-topic" href="{{ '/topics/reading-life/' | relative_url }}">Life</a>
 </nav>
 
 {% assign featured = site.posts | first %}
@@ -41,19 +38,41 @@ sitemap:
     <h2 id="recent-title">Recent writing</h2>
     <a href="{{ '/posts/' | relative_url }}">Complete archive</a>
   </div>
-  <div class="post-card-grid post-card-grid--compact">
-    {% for post in site.posts limit: 7 offset: 1 %}{% include post-card.html post=post %}{% endfor %}
-  </div>
+  <ol class="recent-writing">
+    {% for post in site.posts limit: 5 offset: 1 %}
+      {% assign primary_tag = post.tags | first %}
+      {% assign topic_key = post.topic | default: site.data.tags[primary_tag].topic %}
+      <li>
+        <p class="eyebrow">{{ site.data.topics[topic_key].name | default: "Writing" }}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        {% if post.subtitle %}<p>{{ post.subtitle }}</p>{% endif %}
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      </li>
+    {% endfor %}
+  </ol>
 </section>
 
-<aside class="home-gear" aria-labelledby="home-gear-title">
+{% assign archive_feature = site.posts | where: "title", "The Legend of the Aged Shredder" | first %}
+{% if archive_feature %}
+<section class="home-section archive-feature" aria-labelledby="archive-feature-title">
+  <a class="archive-feature__image" href="{{ archive_feature.url | relative_url }}" aria-label="Read {{ archive_feature.title | escape }}">
+    <img src="{{ archive_feature.header-img | relative_url }}" alt="" data-responsive="header">
+  </a>
+  <div class="archive-feature__body">
+    <p class="eyebrow">From the archive · {{ archive_feature.date | date: "%Y" }}</p>
+    <h2 id="archive-feature-title"><a href="{{ archive_feature.url | relative_url }}">{{ archive_feature.title }}</a></h2>
+    <p>{{ archive_feature.description | default: archive_feature.subtitle }}</p>
+    <a class="text-link" href="{{ archive_feature.url | relative_url }}">Read from the archive <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+{% endif %}
+
+<section class="home-section home-gear" aria-labelledby="home-gear-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">Gear I actually use</p><h2 id="home-gear-title">A few things that earned their place</h2></div>
+    <a href="{{ '/gear/' | relative_url }}">See all gear</a>
+  </div>
   <div class="home-gear__grid">
-    <div class="home-gear__intro">
-    <p class="eyebrow">Gear I actually use</p>
-    <h2 id="home-gear-title">Tools, parts, and equipment that earned their place.</h2>
-    <p>Long-term notes on shop tools, trail equipment, and practical gear—not a generic storefront.</p>
-    <a class="button-link" href="{{ '/gear/' | relative_url }}">Explore all gear <span aria-hidden="true">→</span></a>
-    </div>
     {% assign featured_gear = site.data.gear.items | where: 'featured', true %}
     {% for gear in featured_gear limit: 3 %}
     <a class="home-gear-card" href="{{ gear.article | relative_url }}">
@@ -62,12 +81,11 @@ sitemap:
         <span class="eyebrow">{{ gear.recommendation }}</span>
         <strong>{{ gear.name }}</strong>
         <small>{{ gear.summary }}</small>
-        <span class="text-link">View field notes <span aria-hidden="true">→</span></span>
       </span>
     </a>
     {% endfor %}
   </div>
-</aside>
+</section>
 {% else %}
 <section class="home-section" aria-labelledby="pagination-title">
   <div class="section-heading">

@@ -3,7 +3,6 @@ layout: default
 ---
 {% include article-header.html %}
 <article class="article-shell">
-  {% include article-tags.html %}
   <div class="article-layout{% unless page.toc and page.toc.size > 0 %} article-layout--without-rail{% endunless %}">
     {% if page.toc and page.toc.size > 0 %}
       <aside class="article-layout__rail">
@@ -16,6 +15,7 @@ layout: default
     </div>
   </div>
 
+  {% include article-tags.html %}
   {% include article-gear.html %}
   {% include article-related.html %}
 

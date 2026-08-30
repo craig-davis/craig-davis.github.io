@@ -3,16 +3,16 @@
 site_dir = File.expand_path(ARGV.fetch(0, "public"))
 failures = []
 toc_articles = 0
-reading_estimates = 0
+articles = 0
 return_links = 0
 links = 0
 
 Dir.glob(File.join(site_dir, "**", "*.html")).sort.each do |path|
   html = File.read(path, encoding: "UTF-8", invalid: :replace, undef: :replace)
   if html.match?(/<meta\b[^>]*\bproperty=["']og:type["'][^>]*\bcontent=["']article["']/i)
-    reading_estimates += 1
+    articles += 1
     source = path.delete_prefix(site_dir)
-    failures << "#{source} lacks a reading-time estimate" unless html.match?(/class="post-meta__reading-time">[1-9]\d* min read</)
+    failures << "#{source} exposes deprecated reading-time metadata" if html.match?(/class="post-meta__reading-time"/) || html.match?(/\bmin read\b/i)
     if html.match?(/class="return-to-top"[^>]*>\s*<a href="#top">Return to top/m) && html.match?(/<body\b[^>]*\bid="top"/)
       return_links += 1
     else
@@ -34,12 +34,12 @@ Dir.glob(File.join(site_dir, "**", "*.html")).sort.each do |path|
   end
 end
 
-failures << "no generated articles include reading-time estimates" if reading_estimates.zero?
+failures << "no generated articles found" if articles.zero?
 failures << "no generated articles exercise reading-state navigation" if toc_articles.zero?
 
 if failures.empty?
   puts "Reading-state verification passed."
-  puts "  Articles with reading-time estimates: #{reading_estimates}"
+  puts "  Articles with restrained visible metadata: #{articles}"
   puts "  Articles with Return to top links: #{return_links}"
   puts "  Articles with curated navigation: #{toc_articles}"
   puts "  Valid section destinations: #{links}"

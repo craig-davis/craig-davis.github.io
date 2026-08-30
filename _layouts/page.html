@@ -2,6 +2,7 @@
 layout: default
 ---
 {% assign masthead_image = page.header-img | default: site.header-img %}
+{% if page.hide_masthead_image %}{% assign masthead_image = nil %}{% endif %}
 <header class="page-masthead{% if page.url == '/' %} page-masthead--home{% endif %}{% if page.search_page %} page-masthead--search{% endif %}">
   <div class="page-masthead__copy">
     {% if page.url == '/' %}
