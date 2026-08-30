@@ -10,11 +10,14 @@ sitemap:
 
 {% if paginator.page == 1 %}
 <nav class="home-topics" aria-label="Browse by topic">
-  <a class="home-topic" href="{{ '/topics/software/' | relative_url }}">Software</a>
-  <a class="home-topic" href="{{ '/topics/machines/' | relative_url }}">Machines</a>
-  <a class="home-topic" href="{{ '/topics/making/' | relative_url }}">Making</a>
-  <a class="home-topic" href="{{ '/topics/outdoors/' | relative_url }}">Outdoors</a>
-  <a class="home-topic" href="{{ '/topics/reading-life/' | relative_url }}">Life</a>
+  {% for topic_pair in site.data.topics %}
+    {% assign topic_key = topic_pair[0] %}
+    {% assign topic = topic_pair[1] %}
+    <a class="home-topic" href="{{ '/topics/' | append: topic_key | append: '/' | relative_url }}">
+      <span class="home-topic__symbol" aria-hidden="true"><img src="{{ topic.icon | relative_url }}" width="32" height="32" alt=""></span>
+      <span><strong>{{ topic.name }}</strong><small>{{ topic.description }}</small></span>
+    </a>
+  {% endfor %}
 </nav>
 
 {% assign featured = site.posts | first %}
