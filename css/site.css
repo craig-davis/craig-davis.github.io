@@ -436,14 +436,14 @@ main {
   text-decoration: none;
 }
 
-.recent-writing {
+.prose .recent-writing {
   margin: 0;
   padding: 0;
   border-top: 1px solid var(--rule);
   list-style: none;
 }
 
-.recent-writing li {
+.prose .recent-writing li {
   padding: var(--space-3) 0;
   display: grid;
   grid-template-columns: 7rem minmax(15rem, 1.2fr) minmax(13rem, 1fr) 8rem;
@@ -452,13 +452,17 @@ main {
   border-bottom: 1px solid var(--rule);
 }
 
-.recent-writing .eyebrow,
-.recent-writing h3,
-.recent-writing p {
+.prose .recent-writing li + li {
+  margin-top: 0;
+}
+
+.prose .recent-writing .eyebrow,
+.prose .recent-writing h3,
+.prose .recent-writing p {
   margin: 0;
 }
 
-.recent-writing h3 {
+.prose .recent-writing h3 {
   font-size: clamp(1.15rem, 2vw, 1.55rem);
   line-height: 1.15;
 }
