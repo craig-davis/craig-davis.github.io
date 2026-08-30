@@ -650,7 +650,15 @@ main {
   font: 0.78rem/1.55 var(--sans);
 }
 
-.home-gear__intro .text-link { margin-top: auto; }
+.home-gear__intro .text-link {
+  margin-top: auto;
+  color: #df8a67;
+  text-decoration-color: currentColor;
+}
+
+.home-gear__intro .text-link:hover {
+  color: var(--paper-light);
+}
 
 .home-gear-card {
   min-width: 0;
@@ -1725,8 +1733,10 @@ main {
 }
 
 .site-footer__brand {
+  color: var(--ink);
   font: 800 0.8rem/1 var(--sans);
   letter-spacing: 0.16em;
+  text-decoration: none;
 }
 
 .site-footer__brand span {
@@ -1736,7 +1746,9 @@ main {
 }
 
 .footer-nav {
+  flex-wrap: wrap;
   justify-content: end;
+  row-gap: 0.75rem;
 }
 
 .site-footer__note {
