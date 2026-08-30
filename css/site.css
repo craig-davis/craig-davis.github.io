@@ -1631,6 +1631,24 @@ main {
   margin-top: var(--space-6);
 }
 
+.return-to-top {
+  width: min(100%, var(--reading));
+  margin: var(--space-5) auto 0;
+  text-align: right;
+  font: 700 0.7rem/1.4 var(--sans);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.return-to-top a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.return-to-top a:hover {
+  color: var(--rust);
+}
+
 @media (max-width: 72rem) {
   .home-gear__grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
